@@ -315,21 +315,33 @@ Om resursen endast har en identifikator, ange bandtyp om det bedöms viktigt fö
 
 NB-praxis: Från och med juni 2016 anger NB bandtyper med mer detaljerade termer, anpassade utifrån den standard som används av den svenska förlagsbranschen. Det innebär att fler bandtyper än ovan nämnda anges i posterna. Andra bibliotek som vill använda termerna kan göra det. Nedan följer de bandtyper som används:
 
-inbunden
-board book
-halvfranskt band
-halvklotband
-kartonnage
-klotband
-häftad
-danskt band
-flipback-bok
-flexband
-pocket
-storpocket
-spiralhäftad
-spiralbunden
+* inbunden
+  
+  * board book
+  
+  * halvfranskt band
+  
+  * halvklotband
+  
+  * kartonnage
+  
+  * klotband
 
+* häftad
+  
+  * danskt band
+  
+  * flipback-bok
+  
+  * flexband
+  
+  * pocket
+  
+  * storpocket
+
+* spiralhäftad
+  
+  * spiralbunden
 
 Kommentar: Vid osäkerhet om bandtyp välj det överordnade begreppet, t.ex. vid osäkerhet om ett band är ett halvfranskt band välj då istället inbunden.
 
@@ -392,41 +404,43 @@ Anmärkning: 3.-4. Tryckningen`
 
 Om resursen består av två eller flera delar och det finns en identifikator för resursen som helhet liksom för resursens individuella delar, är Librispraxis att ange identifikatorn för hela resursen och för de enskilda delarna (det vill säga att tillämpa det valfria tillägget, RDA 2.15.1.5). Ange den identifikator som hör till instansen/manifestationen som katalogiseras som giltig, och den andra som ogiltig (det vill säga felaktig/ogiltig/icke hörande till instansen/manifestationen). 
 
-# Maia
-
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
-'Värde: 9789197841214
-Anmärkning: inbunden'
+`Värde: 9789197841214
+Anmärkning: inbunden`
 **ISBN** (ogiltigt, tillhörande hela resursen) 
-'Värde: 9789197841207
-Anmärkning: del 1-2'
+`Värde: 9789197841207
+Anmärkning: del 1-2`
 
 För resurser med enbart gemensamt ISBN läggs det gemensamma numret i alla delarna i fältet för ogiltigt ISBN. Lägg till en bestämning i Anmärkning.
 
 **ISBN** (ogiltigt, tillhörande hela resursen)
-'Värde: 9140635422
-Anmärkning: tillsammans med 3 andra böcker'
+`Värde: 9140635422
+Anmärkning: tillsammans med 3 andra böcker`
 
 ## ISBN på inklistrad etikett
 Det finns två olika fall av ISBN på inklistrad etikett:  
 
 1. När ISBN endast finns på en inklistrad etikett (och inte tryckt i resursen) anges ISBN som korrekt. Komplettera med en Anmärkning.
+
 **ISBN**
-'Värde: 9789163915871
-Anmärkning: kartonnage'
+`Värde: 9789163915871
+Anmärkning: kartonnage`
+
 **Anmärkning**
-'Benämning: ISBN på inklistrad etikett'
+`Benämning: ISBN på inklistrad etikett`
 
 2. När ett ISBN på en inklistrad etikett är avsett att ersätta manifestationens ursprungliga ISBN, till exempel när en restupplaga har köpts upp av annat förlag och det förlaget har klistrat på en etikett med ett nytt ISBN, ange detta ISBN i ett nytt fält för ogiltigt ISBN i posten för den ursprungliga manifestationen. Lägg till eventuella utgivningsuppgifter från etiketten som bestämning. Gör också en Anmärkning, till exempel:
 
 **ISBN**
-'Värde: 9789170053900
-Anmärkning: häftad'
+`Värde: 9789170053900
+Anmärkning: häftad`
+
 **ISBN** (ogiltigt)
-'Värde: 978918251005
-Anmärkning: ID föslag'
+`Värde: 978918251005
+Anmärkning: ID föslag`
+
 **Anmärkning**
-'Benämning: Senare tilldelat ISBN från annat förlag, på inklistrad etikett: ISBN 9789198251005'
+`Benämning: Senare tilldelat ISBN från annat förlag, på inklistrad etikett: ISBN 9789198251005`
 
 ## Förpackningar och ISBN
 
@@ -442,13 +456,15 @@ Om ingen av dessa termer är tillämplig kan annan term användas.
 Använd samma term i bestämningen och i övriga berörda fält i posten, t.ex. i fältet för mått. 
 
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
-'Värde: 9789129687705
-Anmärkning: inbunden'
+`Värde: 9789129687705
+Anmärkning: inbunden`
+
 **ISBN** (ogiltigt, tillhörande förpackningen)
-'Värde: 9789129686685
-Anmärkning: tillsammans med tygkatt i låda'
+`Värde: 9789129686685
+Anmärkning: tillsammans med tygkatt i låda`
+
 **Mått**
-'Benämning: 24 cm i låda 25 x 20 x 7 cm'
+`Benämning: 24 cm i låda 25 x 20 x 7 cm`
 
 Om lådan/skyddskasetten har en egen titel, redovisa denna titel som en Varianttitel.
 
@@ -459,38 +475,48 @@ Ibland händer det att en redan katalogiserad manifestation ges ut på nytt sät
 Anmärkningen i fält 500 kan se olika ut i olika fall, beroende på vad som behöver förklaras:
 
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
-'Värde: 9789174056976
-Anmärkning: inbunden'
+`Värde: 9789174056976
+Anmärkning: inbunden`
+
 **ISBN** (ogiltigt, tillhörande förpackningen)
-'Värde: 9789129689884
-Anmärkning: tillsammans med 3 plastfigurer i låda'
+`Värde: 9789129689884
+Anmärkning: tillsammans med 3 plastfigurer i låda`
 
 ## Utgivning
+
 **Plats**
-'Benämning: Stockholm'
+`Benämning: Stockholm`
+
 **Agent**
-'Benämning: Rabén & Sjögren'
+`Benämning: Rabén & Sjögren`
+
 **Datum**
-'2009'
+`2009`
+
 **Anmärkning**
-'Benämning: 5. tr., 2013 utgiven med 3 plastfigurer i låda'
+`Benämning: 5. tr., 2013 utgiven med 3 plastfigurer i låda`
 
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
-'Värde: 9789174056976
-Anmärkning: inbunden'
+`Värde: 9789174056976
+Anmärkning: inbunden`
+
 **ISBN** (ogiltigt, tillhörande förpackningen)
-'Värde: 9789174058567
-Anmärkning: tillsammans med 2 andra böcker i skyddskasett'
+`Värde: 9789174058567
+Anmärkning: tillsammans med 2 andra böcker i skyddskasett`
 
 **Utgivning**
+
 **Plats**
-'Benämning: Malmö'
+`Benämning: Malmö`
+
 **Agent**
-'Benämning: Egmont Kärnan'
+`Benämning: Egmont Kärnan`
+
 **Datum**
-'2012'
+`2012`
+
 **Anmärkning**
-'Benämning: Skyddskasett, med titel: Sunes bästisar! :presentbox med tre Suneböcker, utgiven 2013 av Egmont Kids media.'
+`Benämning: Skyddskasett, med titel: Sunes bästisar! :presentbox med tre Suneböcker, utgiven 2013 av Egmont Kids media.`
 
 ## Andra identifikatorer för manifestationen än ISBN
 
@@ -505,12 +531,14 @@ Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga u
 Återge inte en uppgift som är relaterad till tryckning eller antal exemplar av en viss upplaga som upplageuppgift. Då det är tveksamt om en uppgift är att betrakta som upplageuppgift, ska ord som utgåva, upplaga, nummer, version (eller deras motsvarigheter på andra språk) uppfattas som tecken på att uppgiften är en upplageuppgift, och då behandlas som en sådan. Ta inte med uppgift om oförändrad tryckning som står tillsammans med upplageuppgiften såvida inte uppgiften om tryckning är en oskiljaktig del av upplageuppgiften, d.v.s. är grammatikaliskt sammanbunden.
 
 Om en resurs saknar upplageuppgift men det är känt att betydliga ändringar från tidigare upplagor gjorts, tillämpa det valfria tillägget och lägg till en upplageuppgift, om det är viktigt för identifikation och åtkomst, RDA 2.5.1.2. Ange uppgiften inom klammer på huvudtitelns språk. För resurser med huvudtitel på svenska, följ Svenska skrivreglers rekommendation och använd termen “upplaga” för förändrat innehåll.
-
-'[Utökad upplaga]'
+`[Utökad upplaga]`
 
 ## Upplagebeteckning
 
-Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
+Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): 
+1. samma källa som huvudtiteln
+2. en annan källa inom resursen
+3. en annan av de källor som specificeras i RDA 2.2.4
 
 'Ny udgave'
 
