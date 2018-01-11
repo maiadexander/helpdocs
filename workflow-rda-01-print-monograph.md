@@ -52,14 +52,14 @@ _Arbetsflödet är under arbete._
 Alla titlar som är en del av den beskrivna resursens samlas i en gruppen kallad hasTitle (Har titel).
 
 Under huvudelementet Title (Titel) kan flera titeltyper anges:
-#Huvudtitel
-#Deltitel
-#Delbeteckning
-#Övrig titelinformation
+* Huvudtitel
+* Deltitel
+* Delbeteckning
+* Övrig titelinformation
 
-Huvudtitel och Övrig titelinformation är förvalda i mallen ”Tryckt monografi – RDA”.
+Huvudtitel och Övrig titelinformation är förvalda i mallen _Tryckt monografi – RDA_.
 
-### Huvudtitel (RDA 2.3.2)
+## Huvudtitel (RDA 2.3.2)
 
 Huvudtitel är ett kärnelement. 
 
@@ -78,10 +78,10 @@ Inkludera en alternativtitel som är en del av huvudtiteln.
 Rätta inte felaktigheter. Om en korrekt form av huvudtiteln är viktig för identifikation och åtkomst anges den i titeltypen Varianttitel (RDA 1.7.9).
 
 **Titel**
-'Huvudtitel: Heirarchy in organizations'
+`Huvudtitel: Heirarchy in organizations`
 
 **Varianttitel**
-'Benämning?: Titel felstavad, korrekt titel: Hierarchy in organizations'
+`Benämning?: Titel felstavad, korrekt titel: Hierarchy in organizations`
 
 Den rättstavade titeln anges vanligen som Föredragen titel för verket under Instans av verk.
 
@@ -90,9 +90,9 @@ Den rättstavade titeln anges vanligen som Föredragen titel för verket under I
 Om en huvudtitel innehåller namn som normalt skulle behandlas som en del av upphovsuppgiften eller utgivaruppgiften etc. och namnet utgör en integrerad del av huvudtiteln, ange hela huvudtiteln i titeltypen Huvudtitel och allt utom i namnet i titeltypen Del av huvudtiteln (RDA 2.3.1.5).
 
 **Titel**
-'Huvudtitel: Disney’s 102 dalmatiner'
+`Huvudtitel: Disney’s 102 dalmatiner`
 **Del av huvudtitel**
-'Benämning?: 102 dalmatiner'
+`Benämning?: 102 dalmatiner`
 
 Genitivformen "Disney's" inleder huvudtiteln. Upphovsuppgift ska inte anges såvida den inte förekommer som en separat uppgift i resursen. 
 
@@ -103,9 +103,9 @@ Genitivformen "Disney's" inleder huvudtiteln. Upphovsuppgift ska inte anges såv
 Librispraxis: Tillämpa det valfria alternativet och ange hela huvudtiteln i titeltypen Även med titel.
 
 **Titel**
-'Huvudtitel: Törnrosa'
+`Huvudtitel: Törnrosa`
 **Även med titel**
-'Benämning?: Disney presenterar Törnrosa'
+`Benämning?: Disney presenterar Törnrosa`
 
 ## Varianttitlar
 
