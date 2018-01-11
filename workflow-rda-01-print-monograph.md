@@ -15,13 +15,7 @@ _Arbetsflödet är under arbete._
 
 [Extern länk till MARC21-anpassad information](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/)
 
-**Administrativ metadata**
-
-* Katalogiseringsregler
-* Katalogiserande instans
-* Beskrivningens språk
-
-**För generella riktlinjer om hur man återger element som de förekommer i källan, se ”Transcription” – RDA 1.7.**
+För generella riktlinjer om hur man återger element som de förekommer i källan, se ”Transcription” – RDA 1.7.
 
 ---
 
