@@ -540,32 +540,31 @@ Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor
 2. en annan källa inom resursen
 3. en annan av de källor som specificeras i RDA 2.2.4
 
-'Ny udgave'
+`Ny udgave`
 
-'*** ed.'
+`*** ed.`
 
-'1st ed.'
+`1st ed.`
 
-'Svensk utgåva [när uppgiften utgör upplageuppgift]'
+`Svensk utgåva [när uppgiften utgör upplageuppgift]`
 
-'Första upplagans första tryckning'
+`Första upplagans första tryckning`
 
-Uppl. 1
+`Uppl. 1`
 
-men:
-'Upplaga 1'
-I källan: Upplaga 1:1
+Men:
 
-'First edition'
+I källan: Upplaga 1:1 
+`Upplaga 1`
+
 I källan: First edition, first printing
+`First edition`
 
 Om upplageuppgiften består av en bokstav eller bokstäver och/eller en siffra eller siffror utan påföljande ord, tilläggs tillämpligt ord, RDA 2.5.2.3.
-
-'3 [upplagan]'
+`3 [upplagan]`
 
 Återge tal angivna med siffror eller med bokstäver som de återfinns i resursen. Eftersom upplageuppgift inte är med i listan i RDA 1.8.1 gäller inte specialreglerna i RDA 1.8.2-1.8.5. Även romerska siffror återges alltså som de återfinns i resursen.
-
-'Version IV'
+`Version IV`
 
 ### Upplagebeteckning på mer än ett språk eller i mer än en skriftart
 
@@ -574,10 +573,8 @@ Om upplagebeteckningen förekommer i källan på mer än ett språk eller i mer 
 ### Upplagebeteckning som är en del av huvudtitel, etc.
 
 Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformation eller upphovsuppgift, eller grammatiskt sammanhängande med något av dessa element ska anges tillsammans med det element som det är en del av. Ange det inte igen som en upplagebeteckning, RDA 2.5.2.6.
-
-'Tenth anniversary edition of Economic justice for all'
-
-'The compact edition of the Oxford English Dictionary'
+`Tenth anniversary edition of Economic justice for all`
+`The compact edition of the Oxford English Dictionary`
 
 Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformation eller upphovsuppgift, eller grammatiskt sammanhängande med något av dessa element ska anges tillsammans med det element som det är en del av.
 
@@ -588,54 +585,67 @@ NB-praxis: Obligatoriskt att ange upplagespecifik upphovsuppgift (RDA 2.5.4).
 
 Upplagespecifika upphovsuppgifter består av en upplagebeteckning och en upphovsuppgift som båda finns i samma källa och relaterar till just den upplagan. Det är endast bidragsgivare (aldrig skapare) som kan vara upplagespecifika. Hämta alltid upplagespecifika upphovsuppgifter från samma källa som upplagebeteckningen.
 
-'Tredje upplagan / reviderad och korrigerad av Maja Lindblad'
 I källan, på insidan av bakre omslag: ”Tredje upplagan, reviderad och korrigerad av Maja Lindblad”
+`Tredje upplagan / reviderad och korrigerad av Maja Lindblad`
 
 ## Påföljande upplagebeteckning
 _Påföljande upplagebeteckning är ett kärnelement._
 
 Om en resurs betecknas som en återutgivning som innehåller förändringar i förhållande till en viss upplaga, anges denna uppgift efter upplagebeteckningen, RDA 2.5.6.3. Hämta påföljande upplagebeteckning från följande källor (i denna ordning): samma källa som upplagebeteckningen, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
-
-'250 #a 6. upplagan, rättad och reviderad'
+`250 #a 6. upplagan, rättad och reviderad`
 
 ### Påföljande upplagebeteckning på mer än ett språk eller i mer än en skriftart
 
 Om påföljande upplagebeteckning förekommer i källan på mer än ett språk eller i mer än en skriftart, återge den uppgift som är på huvudtitelns språk eller i dess skriftart. Om detta kriterium inte går att tillämpa, återge den påföljande upplagebeteckning som kommer först i källan, RDA 2.5.6.4.
 
-Upphovsuppgifter som hänför sig till påföljande upplagebeteckning
-Ej kärnelement. NB-praxis: Obligatoriskt att ange upphovsuppgifter som hänför sig till påföljande upplagebeteckning (RDA 2.5.8).
+### Upphovsuppgifter som hänför sig till påföljande upplagebeteckning
+_Ej kärnelement._
 
-Utgivning (RDA 2.8)
-Utgivningsort, utgivare och är kärnelement. RDA har separata element för 
-utgivnings-, distributions- och tillverkningsuppgifter och dessa anges i separata fält. Om uppgifterna hämtas utanför resursen ska varje element klamras för sig, RDA Appendix D. 1.
-Plats
-Benämning: [Storstad]
-Agent
-Benämning:[Förlaget]
-Datum
-[1989]
+NB-praxis: Obligatoriskt att ange upphovsuppgifter som hänför sig till påföljande upplagebeteckning (RDA 2.5.8).
 
-Utgivningsort (utgivningsplats?)
+## Utgivning (RDA 2.8)
+_Utgivningsort, utgivare och är kärnelement._ 
+
+RDA har separata element för utgivnings-, distributions- och tillverkningsuppgifter och dessa anges i separata fält. Om uppgifterna hämtas utanför resursen ska varje element klamras för sig, RDA Appendix D. 1.
+
+**Plats**
+`Benämning: [Storstad]`
+
+**Agent**
+`Benämning:[Förlaget]`
+**Datum**
+`[1989]`
+
+## Utgivningsort
+
 Hämta uppgift om utgivningsort från följande källor (i denna ordning): samma källa som utgivarens namn, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
+
 Ange utgivningsort som den förekommer i källan, följ de generella riktlinjerna i dokumentet ”Transcription" - RDA 1.7.
+
 Librispraxis är att följa det andra valfria tillägget i RDA 2.8.2.3, d.v.s. att lägga till namn på land, delstat, provins etc. om det behövs för identifiering eller åtkomst. Om uppgiften hämtas utanför resursen ska den klamras. Använd svensk namnform om sådan finns, annars den officiella inhemska formen. Använd förkortningarna av namn på delstater, provinser och territorier etc. i Australien, Förenta staterna och Kanada enligt RDA Appendix B.11. Förkorta inte namn på länder (se dokumentet Appendix i RDA).
-Plats
-Benämning: Tolworth, England
+
+**Plats**
 Ortnamn och land förekommer i resursen
-Plats
-Benämning: Cambridge, Mass.
+`Benämning: Tolworth, England`
+
+**Plats**
 Ortnamn och delstat förekommer i resursen
-Plats
-Benämning: Santiago [Chile]
+`Benämning: Cambridge, Mass.`
+
+**Plats**
 Enbart ortnamnet förekommer i resursen
-Plats
-Benämning: Kiruna
+`Benämning: Santiago [Chile]`
+
+**Plats**
 Enbart ortnamnet förekommer i resursen
+`Benämning: Kiruna`
+
 Om fler än en utgivningsort förekommer i källan är endast den första kärnelement enligt RDA. Librispraxis är att om en utgivare har avdelningar på flera orter, och dessa redovisas i resursen, ska den först nämnda anges. Utöver det anges därpå följande ort som särskilt framhålls genom källans layout eller typografi. Om den först nämnda orten och den särskilt framhävda orten inte är svensk, anges även den första av alla därpå följande svenska orter. Om en resurs har flera utgivare återges den först nämnda utgivarens ort. Dessutom anges påföljande utgivares orter (om de avviker från den redan nämnda orten):
-•	när en påföljande institution klart framhävs som huvudagent (huvudutgivare) genom layout eller typografi, anges även orten för den särskild framhävda utgivaren
-•	när påföljande utgivare är svensk men inte den först nämnda
-•	I de fall då utgivaren har ett svenskt ISBN (978-91-
-) men endast en utländsk ort står i publikationen anges även den svenska utgivningsorten inom klammer (söks fram via Svenska ISBN-registret).
+
+* När en påföljande institution klart framhävs som huvudagent (huvudutgivare) genom layout eller typografi, anges även orten för den särskild framhävda utgivaren.
+* När påföljande utgivare är svensk men inte den först nämnda.
+* I de fall då utgivaren har ett svenskt ISBN (978-91-) men endast en utländsk ort står i publikationen anges även den svenska utgivningsorten inom klammer (söks fram via Svenska ISBN-registret).
+
 Plats
 Benämning: Stockholm 
 Plats
