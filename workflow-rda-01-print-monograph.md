@@ -17,9 +17,9 @@ _Arbetsflödet är under arbete._
 
 **Administrativ metadata**
 
-*Katalogiseringsregler
-*Katalogiserande instans
-*Beskrivningens språk
+* Katalogiseringsregler
+* Katalogiserande instans
+* Beskrivningens språk
 
 **För generella riktlinjer om hur man återger element som de förekommer i källan, se ”Transcription” – RDA 1.7.**
 
@@ -71,7 +71,7 @@ Librispraxis: Generellt förkortas aldrig en huvudtitel (se valfritt alternativ 
 Inkludera en alternativtitel som är en del av huvudtiteln.
 
 **Titel**
-'Huvudtitel: Bilbo eller En Hobs äventyr'
+`Huvudtitel: Bilbo eller En Hobs äventyr`
 
 ### Felaktigheter
 
@@ -171,7 +171,7 @@ Om det finns flera undertitlar anges de i den ordning som markeras av ordningsf�
 'Huvudtitel: En arbetsdag i skriftsamhället
 Övrig titelinformation: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet'
 
-##Parallell huvudtitel (RDA 2.3.3)
+## Parallell huvudtitel (RDA 2.3.3)
 
 Parallell huvudtitel är huvudtiteln på ett annat språk eller i en annan skriftart. Parallell huvudtitel är inte ett kärnelement men enligt Librispraxis är den första parallella huvudtiteln i den föredragna källan obligatorisk. Därutöver redovisas en påföljande parallell huvudtitel på svenska. Övriga parallella huvudtitlar är valfria. 
 
