@@ -315,20 +315,21 @@ Om resursen endast har en identifikator, ange bandtyp om det bedöms viktigt fö
 
 NB-praxis: Från och med juni 2016 anger NB bandtyper med mer detaljerade termer, anpassade utifrån den standard som används av den svenska förlagsbranschen. Det innebär att fler bandtyper än ovan nämnda anges i posterna. Andra bibliotek som vill använda termerna kan göra det. Nedan följer de bandtyper som används:
 
-*inbunden
-..* board book
-..* halvfranskt band
-..* halvklotband
-..* kartonnage
-..* klotband
-* häftad
-..* danskt band
-..* flipback-bok
-..* flexband
-..* pocket
-..* storpocket
-* spiralhäftad
-..* spiralbunden
+inbunden
+board book
+halvfranskt band
+halvklotband
+kartonnage
+klotband
+häftad
+danskt band
+flipback-bok
+flexband
+pocket
+storpocket
+spiralhäftad
+spiralbunden
+
 
 Kommentar: Vid osäkerhet om bandtyp välj det överordnade begreppet, t.ex. vid osäkerhet om ett band är ett halvfranskt band välj då istället inbunden.
 
