@@ -1,5 +1,3 @@
-**_Se över samtliga #_**
-
 ---
 section: Arbetsflöden
 title: Tryckt monografi RDA
@@ -493,65 +491,82 @@ Anmärkning: tillsammans med 2 andra böcker i skyddskasett'
 
 Om det inte finns ett ISBN, ange någon annan identifikator från valfri källa. Föredra identifikatorer från internationellt erkända system. Sådana identifikatorer kan även anges utöver ISBN om det bedöms viktigt för identifikation eller åtkomst. Följ instruktionerna i RDA 2.15. 
 
-Upplageuppgift, RDA 2.5
+## Upplageuppgift, RDA 2.5
+
 Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga underelement är valfria. Samtliga underelement anges i fältet för upplageuppgift med lämplig ISBD-interpunktion.
+
 Återge upplageuppgiften så som den förekommer i resursen, dock inte nödvändigtvis när det gäller stora och små bokstäver eller interpunktion, se dokumentet ”Transcription” - RDA 1.7. Förkortningar används endast om de förekommer i källan som uppgiften hämtas från.
+
 Återge inte en uppgift som är relaterad till tryckning eller antal exemplar av en viss upplaga som upplageuppgift. Då det är tveksamt om en uppgift är att betrakta som upplageuppgift, ska ord som utgåva, upplaga, nummer, version (eller deras motsvarigheter på andra språk) uppfattas som tecken på att uppgiften är en upplageuppgift, och då behandlas som en sådan. Ta inte med uppgift om oförändrad tryckning som står tillsammans med upplageuppgiften såvida inte uppgiften om tryckning är en oskiljaktig del av upplageuppgiften, d.v.s. är grammatikaliskt sammanbunden.
+
 Om en resurs saknar upplageuppgift men det är känt att betydliga ändringar från tidigare upplagor gjorts, tillämpa det valfria tillägget och lägg till en upplageuppgift, om det är viktigt för identifikation och åtkomst, RDA 2.5.1.2. Ange uppgiften inom klammer på huvudtitelns språk. För resurser med huvudtitel på svenska, följ Svenska skrivreglers rekommendation och använd termen “upplaga” för förändrat innehåll.
-[Utökad upplaga]
-Upplagebeteckning
-TODO: editionEnumeration? Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
-Ny udgave
 
-*** ed.
+'[Utökad upplaga]'
 
-1st ed.
+## Upplagebeteckning
 
-Svensk utgåva [när uppgiften utgör upplageuppgift]
+Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
 
-Första upplagans första tryckning
+'Ny udgave'
+
+'*** ed.'
+
+'1st ed.'
+
+'Svensk utgåva [när uppgiften utgör upplageuppgift]'
+
+'Första upplagans första tryckning'
 
 Uppl. 1
-men
-Upplaga 1
-I källan: Upplaga 1:1
-First edition
-I källan: First edition, first printing
-Om upplageuppgiften består av en bokstav eller bokstäver och/eller en siffra eller siffror utan påföljande ord, tilläggs tillämpligt ord, RDA 2.5.2.3.
-3 [upplagan]
-Återge tal angivna med siffror eller med bokstäver som de återfinns i resursen. Eftersom upplageuppgift inte är med i listan i RDA 1.8.1 gäller inte specialreglerna i RDA 1.8.2-1.8.5. Även romerska siffror återges alltså som de återfinns i resursen.
-Version IV
 
-Upplagebeteckning på mer än ett språk eller i mer än en skriftart
+men:
+'Upplaga 1'
+I källan: Upplaga 1:1
+
+'First edition'
+I källan: First edition, first printing
+
+Om upplageuppgiften består av en bokstav eller bokstäver och/eller en siffra eller siffror utan påföljande ord, tilläggs tillämpligt ord, RDA 2.5.2.3.
+
+'3 [upplagan]'
+
+Återge tal angivna med siffror eller med bokstäver som de återfinns i resursen. Eftersom upplageuppgift inte är med i listan i RDA 1.8.1 gäller inte specialreglerna i RDA 1.8.2-1.8.5. Även romerska siffror återges alltså som de återfinns i resursen.
+
+'Version IV'
+
+### Upplagebeteckning på mer än ett språk eller i mer än en skriftart
+
 Om upplagebeteckningen förekommer i källan på mer än ett språk eller i mer än en skriftart, återge den uppgift som är på huvudtitelns språk eller i dess skriftart. Om detta kriterium inte går att tillämpa, återge den upplagebeteckning som kommer först i källan, RDA 2.5.2.4.
 
-Upplagebeteckning som är en del av huvudtitel, etc.
-Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformation eller upphovsuppgift, eller grammatiskt sammanhängande med något av dessa element ska anges tillsammans med det element som det är en del av. Ange det inte igen som en upplagebeteckning, RDA 2.5.2.6.
-Tenth anniversary edition of Economic justice for all
+### Upplagebeteckning som är en del av huvudtitel, etc.
 
-The compact edition of the Oxford English Dictionary
+Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformation eller upphovsuppgift, eller grammatiskt sammanhängande med något av dessa element ska anges tillsammans med det element som det är en del av. Ange det inte igen som en upplagebeteckning, RDA 2.5.2.6.
+
+'Tenth anniversary edition of Economic justice for all'
+
+'The compact edition of the Oxford English Dictionary'
+
 Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformation eller upphovsuppgift, eller grammatiskt sammanhängande med något av dessa element ska anges tillsammans med det element som det är en del av.
 
-Upplagespecifik upphovsuppgift
-Ej kärnelement.
+## Upplagespecifik upphovsuppgift
+_Ej kärnelement._
+
 NB-praxis: Obligatoriskt att ange upplagespecifik upphovsuppgift (RDA 2.5.4).
-TODO:LibrisXL element
 
 Upplagespecifika upphovsuppgifter består av en upplagebeteckning och en upphovsuppgift som båda finns i samma källa och relaterar till just den upplagan. Det är endast bidragsgivare (aldrig skapare) som kan vara upplagespecifika. Hämta alltid upplagespecifika upphovsuppgifter från samma källa som upplagebeteckningen.
-Tredje upplagan / reviderad och korrigerad av Maja Lindblad
+
+'Tredje upplagan / reviderad och korrigerad av Maja Lindblad'
 I källan, på insidan av bakre omslag: ”Tredje upplagan, reviderad och korrigerad av Maja Lindblad”
 
+## Påföljande upplagebeteckning
+_Påföljande upplagebeteckning är ett kärnelement._
 
-Påföljande upplagebeteckning
-TODO: anvisningar
-
-Påföljande upplagebeteckning är ett kärnelement.
 Om en resurs betecknas som en återutgivning som innehåller förändringar i förhållande till en viss upplaga, anges denna uppgift efter upplagebeteckningen, RDA 2.5.6.3. Hämta påföljande upplagebeteckning från följande källor (i denna ordning): samma källa som upplagebeteckningen, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
-TODO: example
-250            #a 6. upplagan, rättad och reviderad
 
+'250 #a 6. upplagan, rättad och reviderad'
 
-Påföljande upplagebeteckning på mer än ett språk eller i mer än en skriftart
+### Påföljande upplagebeteckning på mer än ett språk eller i mer än en skriftart
+
 Om påföljande upplagebeteckning förekommer i källan på mer än ett språk eller i mer än en skriftart, återge den uppgift som är på huvudtitelns språk eller i dess skriftart. Om detta kriterium inte går att tillämpa, återge den påföljande upplagebeteckning som kommer först i källan, RDA 2.5.6.4.
 
 Upphovsuppgifter som hänför sig till påföljande upplagebeteckning
