@@ -1,3 +1,7 @@
+# Testar
+
+### Punktlista
+
 * inbunden
   
   * board book
@@ -25,3 +29,10 @@
 * spiralhäftad
   
   * spiralbunden
+
+### Numrerad lista 
+
+Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): 
+1. samma källa som huvudtiteln
+2. en annan källa inom resursen
+3. en annan av de källor som specificeras i RDA 2.2.4
