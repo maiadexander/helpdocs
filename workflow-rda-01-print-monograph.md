@@ -89,9 +89,10 @@ Den rättstavade titeln anges vanligen som Föredragen titel för verket under I
 
 Om en huvudtitel innehåller namn som normalt skulle behandlas som en del av upphovsuppgiften eller utgivaruppgiften etc. och namnet utgör en integrerad del av huvudtiteln, ange hela huvudtiteln i titeltypen Huvudtitel och allt utom i namnet i titeltypen Del av huvudtiteln (RDA 2.3.1.5).
 
-**Titel**
-`Huvudtitel: Disney’s 102 dalmatiner`
-**Del av huvudtitel**
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner` 
+
+**Del av huvudtitel** 
 `Benämning?: 102 dalmatiner`
 
 Genitivformen "Disney's" inleder huvudtiteln. Upphovsuppgift ska inte anges såvida den inte förekommer som en separat uppgift i resursen. 
@@ -104,6 +105,7 @@ Librispraxis: Tillämpa det valfria alternativet och ange hela huvudtiteln i tit
 
 **Titel**
 `Huvudtitel: Törnrosa`
+
 **Även med titel**
 `Benämning?: Disney presenterar Törnrosa`
 
@@ -112,14 +114,15 @@ Librispraxis: Tillämpa det valfria alternativet och ange hela huvudtiteln i tit
 Ange varianttitlar om det bedöms viktigt för identifikation eller åtkomst, se RDA 2.3.6.3. 
 
 **Titel**
-'Huvudtitel: Sanvikens IF 75 år'
+`Huvudtitel: Sanvikens IF 75 år`
+
 **Omslagstitel**
-'Benämning?: Sandvikens IF 1918-1993'
+`Benämning?: Sandvikens IF 1918-1993`
 
 Varianttitel hämtad från källa som inte kan anges med hjälp av andraindikatorn. 
 
 **Varianttitel**
-'Benämning?: Titel på spikblad: Between humans and things : #b an interactionistic analysis of collecting'
+`Benämning?: Titel på spikblad: Between humans and things : #b an interactionistic analysis of collecting`
 
 ## Flera titlar i olika former
 
@@ -133,7 +136,7 @@ Om resursen saknar titel men titeln kan hämtas från en källa utanför resurse
 Om det inte går att fastställa en huvudtitel, konstruera en huvudtitel på svenska enligt anvisningarna i RDA 2.3.2.10. En konstruerad huvudtitel anges inom klammer. Ange i en anmärkning att huvudtiteln är konstruerad (RDA 2.17.2.3).
 
 **Anmärkning**
-'Benämning: Titel konstruerad av katalogisatör'
+`Benämning: Titel konstruerad av katalogisatör`
 
 ## Titlar på delar, sektioner eller supplement
 
@@ -142,34 +145,37 @@ Om titeln på delen, sektionen eller supplementet förekommer i källan utan den
 Om titeln på delen, sektionen eller supplementet förekommer i källan tillsammans med den titel som är gemensam för alla delar och denna titel inte räcker till för att identifiera resursen, återges den gemensamma titeln som huvudtitel. Titeln på delen anges i titeltypen Deltitel och/eller Delbeteckning (RDA 2.3.1.7.1)
 
 **Titel**
-*Huvudtitel: Favorit matematik
+`Huvudtitel: Favorit matematik
 Deltitel: Tankenötter
-Delbeteckning: 1A'
+Delbeteckning: 1A`
 
 Om titeln på delen, sektionen eller supplementet förekommer i källan tillsammans med den titel som är gemensam för alla delar och denna titel är tillräcklig för att identifiera resursen, återge titeln på delen etc. som huvudtitel (RDA 2.3.1.7.2).
 
 **Titel**
-'Huvudtitel: Fadershuset'
+`Huvudtitel: Fadershuset`
+
 **Serieuppgift**
-'Nordisk kvinnolitteraturhistoria ; band 2'
+`Nordisk kvinnolitteraturhistoria ; band 2`
 
 ## Övrig titelinformation (RDA 2.3.4)
 
 Övrig titelinformation är inte ett kärnelement men obligatorisk enligt Librispraxis. 
+
 Hämta övrig titelinformation från samma källa som huvudtiteln, RDA 2.3.4.2.
+
 Librispraxis: Övrig titelinformation som återfinns i annan källa än huvudtiteln anges endast om den tillför ytterligare information och inte är reklam, slogans etc. Ord och fraser som sammanfaller med genre/formterm redovisas ej som Övrig titelinformation, men andra ord och fraser ska redovisas, t.ex. "spänningsroman", "dokumentärroman". Ange alltid källan som den hämtas från.
 
 **Titel**
-'Huvudtitel: Bergens väktare
-Övrig titelinformation: Djingis Khan – historiens förste erövrare'
+`Huvudtitel: Bergens väktare
+Övrig titelinformation: Djingis Khan – historiens förste erövrare`
 
 Om övrig titelinformation förekommer på mer än ett språk eller i mer än en skriftart anges den övriga titelinformation som är på huvudtitelns språk eller i dess skriftart, RDA 2.3.4.4.
 
 Om det finns flera undertitlar anges de i den ordning som markeras av ordningsföljd, layout och typografi i källan, RDA 2.3.4.3. Eftersom titeltypen Övrig titelinformation inte är repeterbar anges alla undertitlar i samma fält åtskilda med kolon. 
 
 **Titel**
-'Huvudtitel: En arbetsdag i skriftsamhället
-Övrig titelinformation: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet'
+`Huvudtitel: En arbetsdag i skriftsamhället
+Övrig titelinformation: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet`
 
 ## Parallell huvudtitel (RDA 2.3.3)
 
@@ -182,9 +188,9 @@ En parallell huvudtitel får hämtas från hela resursen, RDA 2.3.3.2. Om huvudt
 Parallell huvudtitel anges i titeltyp _Parallelltitel_.
 
 **Parallelltitel**
-'Huvudtitel: Finishing of dairy steers
+`Huvudtitel: Finishing of dairy steers`
 
-Titeltypen _Parallelltitel_ är repeterbar.'
+Titeltypen _Parallelltitel_ är repeterbar.
 
 ## Upphovsuppgift (RDA 2.4)
 
@@ -198,30 +204,25 @@ Hämta upphovsuppgift som hänför sig till huvudtiteln från följande källor 
 Endast upphovsuppgifter som hämtas från en källa utanför resursen ska klamras.
 
 Återge upphovsuppgiften som den förekommer i källan, RDA 2.4.1.4. Åtskilj varje enskild upphovsuppgift med ISBD-interpunktion.
-
-'Conn Iggulden ; översättning av Lennart Johansson'
+`Conn Iggulden ; översättning av Lennart Johansson`
 
 I RDA 2.4.1.4 finns en valfri uteslutning som gör det möjligt att förkorta omfångsrika upphovsuppgifter men bara om det kan göras utan att värdefull information förloras. Librispraxis är att generellt inte förkorta upphovsuppgifter.
+`Kiki Lundberg och Carina Trägårdh Tornhill ; faktagranskare: Eva Skoog, leg. dietist, Lisa Lundmark, leg. dietist och Elisabeth Nilsson, leg. sjuksköterska ; fotografi: Helén Sahlstrand, Härlig hälsa, Istock, Shutterstock`
 
-'Kiki Lundberg och Carina Trägårdh Tornhill ; faktagranskare: Eva Skoog, leg. dietist, Lisa Lundmark, leg. dietist och Elisabeth Nilsson, leg. sjuksköterska ; fotografi: Helén Sahlstrand, Härlig hälsa, Istock, Shutterstock'
-
-## Upphovsuppgift med fler än en namngiven agent
+### Upphovsuppgift med fler än en namngiven agent
 
 Återge varje enskild upphovsuppgift som ett element oavsett om två eller flera personer etc. agenter som omnämns har samma eller olika funktioner, RDA 2.4.1.5.
-
-'Helena Rosén Andersson, Eva-Maj Mühlenbock, Henrik Willquist, Natalie Svensson'
+`Helena Rosén Andersson, Eva-Maj Mühlenbock, Henrik Willquist, Natalie Svensson`
 
 Valfri uteslutning: Om en enskild upphovsuppgift namnger fler än tre agenter, uteslut alla utom den första. Uteslutningen markeras med en klamrad summering av vad som uteslutits.
-
-'Helena Rosén Andersson [och tre andra]'
+`Helena Rosén Andersson [och tre andra]`
 
 Librispraxis: Katalogisatören avgör om den valfria uteslutningen ska tillämpas. 
 
 NB-praxis: Generellt, tillämpa inte den valfria uteslutningen.
 
 När kunskap finns, ska summeringen vara på resursens språk.
-
-'Knut Sydsæter [and three others]'
+`Knut Sydsæter [and three others]`
 
 ## Mer än en upphovsuppgift
 
@@ -232,13 +233,12 @@ NB-praxis: Ta alltid med uppgifter om skapare (se RDA 19.2) och de upphovsuppgif
 Uppgifterna återges i den ordning som markeras av ordningsföljd, layout eller typografi i källan. Om detta är oklart, återge dem i den ordning som framstår som rimligast, RDA 2.4.1.6. 
 
 Ibland finns uppgift om upphov endast angivet i copyrightuppgiften. En copyrightuppgift är inte en upphovsuppgift men om man kan belägga att copyrightinnehavaren också har upphovsansvar kan uppgiften från copyrightuppgiften läggas till inom klammer. Uppgiften behöver inte återges exakt som den förekommer i källan. Om man lägger till flera upphovsuppgifter från copyrightuppgiften ska varje upphovsuppgift klamras för sig.
-
-'[text & koncept: Smriti Prasadam-Halls] ; [illustrationer: Emily Bolam] ; översättning: Marie Helleday Ekwurtzel'
+`[text & koncept: Smriti Prasadam-Halls] ; [illustrationer: Emily Bolam] ; översättning: Marie Helleday Ekwurtzel`
 
 På bakre omslag:
-'text & koncept ©Smriti Prasadam-Halls
+`text & koncept ©Smriti Prasadam-Halls
 illustrationer ©Emily Bolam 2010
-översättning Marie Helleday Ekwurtzel'
+översättning Marie Helleday Ekwurtzel`
 
 Om inte alla upphovsuppgifter tas med ska förtur ges åt dem som identifierar skaparna av det intellektuella eller konstnärliga innehållet, RDA 2.4.2.3.
 
@@ -247,23 +247,19 @@ Antalet agenter man tar med i upphovsuppgiften behöver inte motsvara antalet re
 ## Klargörande av roll
 
 Om sambandet mellan titeln och den(de) agenter som nämns i upphovsuppgiften är oklart, lägg till ett ord eller en kort fras inom klammer, RDA 2.4.1.7.
-
-'[sammanställda av] Said Mahmoudi'
+`[sammanställda av] Said Mahmoudi`
 
 ## Substantivfraser som förekommer tillsammans med en upphovsuppgift
 
 Om ordning, layout eller typografi i källan indikerar att ett substantiv eller en substantivfras är en del av upphovsuppgiften och substantivfrasen talar om vilken roll agenten i upphovsuppgiften har, behandla den som en del av upphovsuppgiften, RDA 2.4.1.8.
-
-'maps by Rand McNally ; photographs by Davis Muench'
+`maps by Rand McNally ; photographs by Davis Muench`
 
 ## Ingen namngiven agent i upphovsuppgiften
 
 Återge en upphovsuppgift även om ingen person etc. är namngiven i uppgiften, RDA 2.4.1.9
-
-'av en mellanstadieklass i Sigtuna'
+`av en mellanstadieklass i Sigtuna`
 
 ### Upphovsuppgift som hänför sig till huvudtiteln på mer än ett språk eller i mer än en skriftart
-
 
 Om en upphovsuppgift som hänför sig till huvudtiteln förekommer på mer än ett språk eller i mer än en skriftart återges den upphovsuppgift som är på huvudtitelns språk eller i dess skriftart (RDA 2.4.2.4).
 
@@ -280,36 +276,38 @@ Ange varje ISBN som finns i resursen. Ange ISBN som är giltiga och hör till ma
 ISBN anges utan bindestreck. Om numret slutar med ett litet ”x” anges det med ett stort ”X”. Om både trettonsiffrigt och tiosiffrigt ISBN finns i resursen anges enbart det trettonsiffriga. Numret kan sökas på båda sätten i Libris, oavsett hur det är registrerat i den bibliografiska posten och behöver inte dubbleras.
 
 **ISBN**
-'Värde: 9789113069753 
-Anmärkning: inbunden'
+`Värde: 9789113069753 
+Anmärkning: inbunden`
 
 Om ISBN hämtas från en källa utanför resursen, komplettera gärna med en anmärkning:
 
 **Anmärkning**
-'Benämning: ISBN ej angivet i publikationen'
+`Benämning: ISBN ej angivet i publikationen`
 
 Vanligen anges endast ett giltigt ISBN, men i de fall när separata poster inte skulle göras (när en manifestation ges ut av flera utgivare tillsammans och ett ISBN för varje utgivare finns i manifestationen) anges båda utgivarnas ISBN som giltiga (RDA 2.15.1.6). Lägg till respektive utgivare som bestämning i Anmärkning. 
 
 **ISBN** (giltigt, utgivare 1)
-'Värde: 9172092556
-Anmärkning: Riksantikvarieämbetet'
+`Värde: 9172092556
+Anmärkning: Riksantikvarieämbetet`
 **ISBN** (giltigt, utgivare 2)
-'Värde: 9152007073
-Anmärkning: Svenska Institutet'
+`Värde: 9152007073
+Anmärkning: Svenska Institutet`
 
 ## Bestämningar
 
 Om mer än ett ISBN finns i resursen (till exempel ISBN för andra instanser/manifestationer) anges en kort bestämning för varje ISBN i Anmärkning. 
+
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
-'Värde: 9789188185174 
-Anmärkning: häftad'
+`Värde: 9789188185174 
+Anmärkning: häftad`
 **ISBN** (ogiltigt, tillhörande annan instans/manifestation av samma verk)
-'Värde: 9789188185181 
-Anmärkning: e-bok'
+`Värde: 9789188185181 
+Anmärkning: e-bok`
 
 ## Bandtyper
 
 Om resursen endast har en identifikator, ange bandtyp om det bedöms viktigt för identifikation. Bandtyp kan anges med en överordnad eller en mer detaljerad term. Överordnade termer, med definition:
+
 * inbunden: skrift med hårda pärmar, oavsett om den är limmad eller trådhäftad. Pärmarna ska vara styva och alltså inte gå att böja.
 * häftad: skrift med mjuka pärmar, med till exempel limmad eller klammerhäftad rygg (till exempel broschyrer). Normalt anges inte bandtypen för dessa. När andra ISBN förekommer i posten bör häftad läggas till som en bestämning.
 * spiralbunden: skrift med spiralrygg och hårda pärmar. En skrift med spiralrygg och hårda pärmar betraktas som spiralbunden även om spiralen är synlig.
@@ -337,7 +335,7 @@ Kommentar: Vid osäkerhet om bandtyp välj det överordnade begreppet, t.ex. vid
 Om katalogisatören bedömer det viktigt att ange bandtyp, och resursen inte har ett ISBN, ska uppgiften om bandtyp anges i en Anmärkning. 
 
 **Anmärkning**
-'Benämning: I ringpärm'
+`Benämning: I ringpärm`
 
 Ange bestämningar som hämtas från resursen i den form de har där och bestämningar som hämtas utanför resursen i utskriven form. Ange till exempel kart. om det står så i resursen, och annars den utskrivna formen kartonnage.
 
@@ -346,48 +344,54 @@ Ange bestämningar som hämtas från resursen i den form de har där och bestäm
 Ange ISBN i fältet för ogiltigt ISBN om det är ogiltigt eller om det representerar en annan manifestation än den resurs som katalogiseras och den manifestationen skulle kräva en egen post. Texten "ogiltigt nummer/annan version" genereras då automatiskt i Libris. Exempel är ISBN som hör till en version i storstil, en e-bok eller en utgåva på ett annat språk:
 
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
-'Värde: 9789171008466
-Anmärkning: inbunden'
-**ISBN** (ogiltigt, tillhörande annan version)
-'Värde: 9789171008473 
-Anmärkning: utgåva på engelska'
+`Värde: 9789171008466
+Anmärkning: inbunden`
 
-Hur anges ISBN som är felaktigt/ogiltigt/icke hörande till instansen/manifestationen?
+**ISBN** (ogiltigt, tillhörande annan version)
+`Värde: 9789171008473 
+Anmärkning: utgåva på engelska`
+
 Om både ett giltigt och ett ogiltigt ISBN finns i resursen och båda avser samma manifestation/format anges båda ISBN men endast det giltiga ska ha en bestämning. 
 
 **ISBN** (giltigt)
-'Värde: 9113245227
-Anmärkning: inbunden'
+`Värde: 9113245227
+Anmärkning: inbunden`
+
 **ISBN** (ogiltigt)
-'Värde: 91123457'
+`Värde: 91123457`
 
 Om endast ett ogiltigt nummer finns i resursen och ett giltigt ISBN kan hämtas utanför resursen, lägg till bestämningen korrigerat följt av bandtyp om det behövs. 
 
 **ISBN** (giltigt)
-'Värde: 9789186589646
+`Värde: 9789186589646
 Anmärkning: korrigerat
-Anmärkning: inbunden'
+Anmärkning: inbunden`
+
 **ISBN** (ogiltigt)
-'Värde: 9789186592646'
+`Värde: 9789186592646`
 
 Om endast ett ogiltigt nummer finns i resursen och ett giltigt ISBN inte kan hämtas utanför resursen anges endast det ogiltiga ISBN, med en bestämning om så önskas.
 
 **ISBN** (ogiltigt)
-'Värde: 9789173538459
-Anmärkning: inbunden'
+`Värde: 9789173538459
+Anmärkning: inbunden`
  
 Om en ny tryckning av en manifestation med ett tiosiffrigt ISBN har ett ogiltigt trettonsiffrigt ISBN, ange det korrigerade trettonsiffriga numret i ett nytt fält med bestämningen korrigerat. I fältet för ogiltigt ISBN läggs det ogiltiga numret, med angivande av vilken/vilka tryckningar det avser som bestämning.
 
-**ISBN* (giltigt, tiosiffrigt)
-'Värde: 9163840383'
+**ISBN** (giltigt, tiosiffrigt)
+`Värde: 9163840383`
+
 **ISBN** (giltigt, trettonsiffrigt, korrigerat)
-'Värde: 9789163840388
-Anmärkning: korrigerat'
+`Värde: 9789163840388
+Anmärkning: korrigerat`
+
 **ISBN** (ogiltigt)
-'Värde: 9789163840368
-Anmärkning: 3.-4. Tryckningen'
+`Värde: 9789163840368
+Anmärkning: 3.-4. Tryckningen`
 
 Om resursen består av två eller flera delar och det finns en identifikator för resursen som helhet liksom för resursens individuella delar, är Librispraxis att ange identifikatorn för hela resursen och för de enskilda delarna (det vill säga att tillämpa det valfria tillägget, RDA 2.15.1.5). Ange den identifikator som hör till instansen/manifestationen som katalogiseras som giltig, och den andra som ogiltig (det vill säga felaktig/ogiltig/icke hörande till instansen/manifestationen). 
+
+# Maia
 
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
 'Värde: 9789197841214
