@@ -1,6 +1,6 @@
 #Test Innehållsförteckning
 
-# Table of Contents
+## Table of Contents
 1. [Punktlista](#punktlista)
 2. [Numrerad lista](#numrerad)
 3. [Highlight](#highlight)
