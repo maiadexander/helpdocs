@@ -68,3 +68,131 @@ Inkludera en alternativtitel som är en del av huvudtiteln.
 **Del av huvudtitel** 
 
 `Benämning: 102 dalmatiner`
+
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+`Benämning: 102 dalmatiner`
+
+---
+
+**Titel** 
+
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+
+`Benämning: 102 dalmatiner`
+
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+`Benämning: 102 dalmatiner`
+
+---
+
+**Titel** 
+
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+
+`Benämning: 102 dalmatiner`
+
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+`Benämning: 102 dalmatiner`
+
+---
+
+**Titel** 
+
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+
+`Benämning: 102 dalmatiner`
+
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+`Benämning: 102 dalmatiner`
+
+---
+
+**Titel** 
+
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+
+`Benämning: 102 dalmatiner`
+
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+`Benämning: 102 dalmatiner`
+
+---
+
+**Titel** 
+
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+
+`Benämning: 102 dalmatiner`
+
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+`Benämning: 102 dalmatiner`
+
+---
+
+**Titel** 
+
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+
+`Benämning: 102 dalmatiner`
+
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+`Benämning: 102 dalmatiner`
+
+---
+
+**Titel** 
+
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+
+`Benämning: 102 dalmatiner`
+
+**Titel** 
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+`Benämning: 102 dalmatiner`
+
+---
+
+**Titel** 
+
+`Huvudtitel: Disney’s 102 dalmatiner`
+
+**Del av huvudtitel** 
+
+`Benämning: 102 dalmatiner`
