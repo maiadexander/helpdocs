@@ -651,115 +651,157 @@ Om fler än en utgivningsort förekommer i källan är endast den första kärne
 * När påföljande utgivare är svensk men inte den först nämnda.
 * I de fall då utgivaren har ett svenskt ISBN (978-91-) men endast en utländsk ort står i publikationen anges även den svenska utgivningsorten inom klammer (söks fram via Svenska ISBN-registret).
 
-Plats
-Benämning: Stockholm 
-Plats
-Benämning: Malmö
-Orten Malmö är framhävd genom källans layout
-Agent
-Benämning: Förlaget
-Datum
-[2008]
-Hur ska detta anges?
-Plats
-Benämning: Oslo
-Agent
-Benämning: Samlaget
-Plats
-Benämning: Stockholm
-Agent
-Benämning: Läsrörelsen
-Datum 
-[2008]
-Utgivningsland:	Norge
-		Sverige
-Påföljande utgivare är svensk men inte den först nämnda.	
-Hur ska detta anges? Idag anges koden för det primära utgivningslandet (dvs landet för den först angivna utgivaren i fält 264) i fält 008, samt kompletteras med fält 044.
+**Plats**
+`Benämning: Stockholm`
 
-Utgivningsort på mer än ett språk eller i mer än en skriftart
+**Plats**
+`Benämning: Malmö
+Orten Malmö är framhävd genom källans layout`
+
+**Agent**
+`Benämning: Förlaget`
+
+**Datum**
+`[2008]`
+
+**Plats**
+`Benämning: Oslo`
+
+**Agent**
+`Benämning: Samlaget`
+
+**Plats**
+`Benämning: Stockholm`
+
+**Agent**
+`Benämning: Läsrörelsen`
+
+**Datum**
+`[2008]`
+
+**Utgivningsland**
+Påföljande utgivare är svensk men inte den först nämnda.
+`Norge Sverige`	
+
+### Utgivningsort på mer än ett språk eller i mer än en skriftart
+
 Om namnet på utgivningsorten förekommer i källan på mer än ett språk eller i mer än en skriftart, ange den uppgift som är på huvudtitelns språk. Om detta kriterium inte kan tillämpas, återge den uppgift som kommer först i källan, RDA 2.8.2.5.
 
-Uppgift om utgivningsort saknas i resursen
+### Uppgift om utgivningsort saknas i resursen
+
 Om ingen utgivningsplats är angiven i resursen, RDA 2.8.2.6, lägg till utgivningsplatsen eller den troliga utgivningsplatsen inom klammer enligt följande prioritetsordning:
 
-a) Känd ort [Stockholm]
-b) Trolig ort [Stockholm?]
-c) Känt land, känd stat, provins etc. [Sverige]
-d) Troligt land, stat, provins etc. [Sverige?]
-e) Okänd ort [Utgivningsort okänd]
-Utgivarnamn
+1. Känd ort [Stockholm]
+2. Trolig ort [Stockholm?]
+3. Känt land, känd stat, provins etc. [Sverige]
+4. Troligt land, stat, provins etc. [Sverige?]
+5. Okänd ort [Utgivningsort okänd]
+
+## Utgivarnamn
+
 Hämta uppgift om utgivarens namn från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
+
 Om fler än en utgivare förekommer i källan är endast den första kärnelement i RDA. Librispraxis är att dessutom ange påföljande utgivare när en påföljande institution klart framhävs som huvudutgivare genom layout eller typografi eller när påföljande utgivare är svensk men inte den först nämnda.
 
 NB-praxis: Följ ovanstående Libris-praxis men ange även påföljande utgivare när denna (men inte den första utgivaren) utgörs av ett förlag som står i klartext i resursen. Påföljande utgivare kan vid behov anges även i andra fall. Katalogisatören avgör.  
-Återge utgivarens namn som det förekommer i källan, följ de generella riktlinjerna i dokumentet ”Transcription" - RDA 1.7. Om första och påföljande utgivare är förenade till en enda uppgift, ange dem så.
-Agent
-Benämning: Bonnier fakta i samarbete med Sjuan och TV4-gruppen
-Tillämpa generellt inte det valfria tillägget att lägga till en term som anger en utgivares funktion om det inte behövs en mer specifik funktionsuppgift än den som redan angetts i fält 264, andra indikatorn.
-Tillämpa generellt inte den valfria uteslutningen i RDA 2.8.4.3, att utesluta hierarkiska nivåer i utgivarens organisation.
-Agent
-Benämning: Avdelningen för forskning och utbildning i modern svenska, Institutionen för nordiska språk, Uppsala universitet
 
-Utgivarens) namn på mer än ett språk eller i mer än en skriftart
+Återge utgivarens namn som det förekommer i källan, följ de generella riktlinjerna i dokumentet ”Transcription" - RDA 1.7. Om första och påföljande utgivare är förenade till en enda uppgift, ange dem så.
+
+**Agent**
+`Benämning: Bonnier fakta i samarbete med Sjuan och TV4-gruppen`
+
+Tillämpa generellt inte det valfria tillägget att lägga till en term som anger en utgivares funktion om det inte behövs en mer specifik funktionsuppgift än den som redan angetts i fält 264, andra indikatorn.
+
+Tillämpa generellt inte den valfria uteslutningen i RDA 2.8.4.3, att utesluta hierarkiska nivåer i utgivarens organisation.
+
+**Agent**
+`Benämning: Avdelningen för forskning och utbildning i modern svenska, Institutionen för nordiska språk, Uppsala universitet`
+
+### Utgivarens) namn på mer än ett språk eller i mer än en skriftart
+
 Om namnet på utgivaren förekommer i källan på mer än ett språk eller i mer än en skriftart, ange det namn som är på huvudtitelns språk. Om detta kriterium inte kan tillämpas, återge den uppgift som kommer först i källan, RDA 2.8.4.6.
 
-Utgivarens namn felstavat på titelsidan
+### Utgivarens namn felstavat på titelsidan
 Titelsidan är föredragen källa för utgivarnamn. Om det finns en titelsida och utgivarens namn är felstavat där, återge utgivarnamnet som det förekommer på titelsidan och gör en anmärkning om det korrekta namnet, se Anmärkning om utgivningsuppgift.
 
-Uppgift om utgivare saknas i resursen
+### Uppgift om utgivare saknas i resursen
+
 Om uppgift om utgivare saknas i resursen och inte kan hämtas från någon annan källa ange [utgivare okänd], RDA 2.8.4.7.
 
-Utgivningstid
+## Utgivningstid
 Utgivningstid är ett kärnelement. Librispraxis är att tillämpa det valfria tillägget i RDA 2.8.6.3 om uppgiften inte är angiven enligt gregoriansk eller juliansk kalender.
+
 Hämta uppgift om utgivningstid från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
+
 Följ riktlinjerna i dokumenten Tal (siffror och bokstäver - RDA 1.8 och Tidsangivelser - RDA 1.9.
+
 Om utgivningstid inte kan identifieras, men distributionstid, tillverkningstid eller copyrightår finns angivet i resursen, är Librispraxis att hämta uppgiften om utgivningstid från någon av dessa och ange den inom klammer i elementet för utgivningstid. Välj i första hand distributionstiden, i andra hand tillverkningstiden och i tredje hand copyrightåret. När utgivningstiden hämtas från någon av dessa uppgifter ska distributionstid/tillverkningstid/copyrightår även anges i respektive element - distributionstid/tillverkningstid/copyrightår. 
+
 Om varken distributionstid/tillverkningstid/copyrightår kan identifieras, ange en ungefärlig utgivningstid enligt instruktionerna i RDA 1.9.2. Ange i sista hand [utgivningstid okänd].
-Utgivning
-Plats
-Benämning: Stockholm
-Agent
-Benämning: Brå
-Datum
-2015
-Tillverkning
-Datum
-2015
+
+### Utgivning
+
+**Plats**
+`Benämning: Stockholm`
+**Agent**
+`Benämning: Brå`
+**Datum**
+`2015`
+
+### Tillverkning
+
 Endast tillverkningstid finns i resursen. Den anges dels inom klammer i fältet för datum under utgivning och dels i fältet för datum under tillverkning.
-"Producerad år ..." i tryckta monografier betraktas som tillverkningstid.
 
-Fiktiv eller felaktig utgivningstid
-Om det är känt att utgivningstiden som är angiven i resursen är fiktiv eller felaktig, ange den utgivningstid som står i resursen fältet för datum och gör en anmärkning om den korrekta eller troliga utgivningstiden, RDA 2.8.6.3. Om korrekt uppgift om distributionstid/tillverkningstid/copyrightår finns i resursen anges denna i fältet för datum med tillämplig andraindikator. I fält 008? anges den korrekta utgivningstiden hämtad från anmärkning eller distributionstid/tillverkningstid/copyrightår. 
-Läs mer om hur man anger utgivningstid i fält 008 under Typ av utgivningsdatum och Årtal/tid.
-008/07-10	2017
-Utgivning
-Datum
-2007
-Anmärkning
-Benämning: Felaktigt utgivningsår i publikationen, skall vara 2017
+`Datum`
+**2015**
+
+_Producerad år ..._ i tryckta monografier betraktas som tillverkningstid.
+
+## Fiktiv eller felaktig utgivningstid
+
+Om det är känt att utgivningstiden som är angiven i resursen är fiktiv eller felaktig, ange den utgivningstid som står i resursen fältet för datum och gör en anmärkning om den korrekta eller troliga utgivningstiden, RDA 2.8.6.3. Om korrekt uppgift om distributionstid/tillverkningstid/copyrightår finns i resursen anges denna i fältet för datum med tillämplig andraindikator. I fält 008 anges den korrekta utgivningstiden hämtad från anmärkning eller distributionstid/tillverkningstid/copyrightår. 
+
+### Utgivning
+
+**Datum**
+`2007`
+
+**Anmärkning**
 Känt att utgivningsåret är felaktigt
+`Benämning: Felaktigt utgivningsår i publikationen, skall vara 2017`
 
-008/07-10	2016
-Utgivning
-Datum
-2006
-Tillverkning
-Datum
-2006
+### Utgivning
+
+**Datum**
+`2006`
+
+### Tillverkning
+
+**Datum**
 Korrekt tillverkningstid finns i resursen
+`2006`
 
-Distribution (RDA 2.9)
-Distributionsort
-Distributionsort är inte ett kärnelement. Librispraxis är att endast ange distributionsort om den framgår av resursen. Trolig eller [distributionsort okänd] anges inte.
+## Distribution (RDA 2.9)
+
+### Distributionsort
+
+_Distributionsort är inte ett kärnelement._ 
+
+Librispraxis är att endast ange distributionsort om den framgår av resursen. Trolig eller [distributionsort okänd] anges inte.
 För källor, se RDA 2.9.2.2.
 För instruktioner om hur man anger distributionort, se RDA 2.9.2.3.
 Tillämpa det andra valfria tillägget men inte det första.
 
-Distributörsnamn
-Distributörsnamn är inte ett kärnelement. Librispraxis är att endast ange distributörens namn om det framgår av resursen. Trolig eller [distributör okänd] anges ej.
+### Distributörsnamn
+
+_Distributörsnamn är inte ett kärnelement._ 
+
+Librispraxis är att endast ange distributörens namn om det framgår av resursen. Trolig eller [distributör okänd] anges ej.
 För val av källa, se RDA 2.9.2.2.
+
 För instruktioner om hur man anger distributörsnamn, se RDA 2.9.4.3. Tillämpa generellt inte den valfria uteslutningen.
 Tillämpa inte det valfria tillägget i RDA 2.9.4.4 om det inte behövs en mer specifik funktionsuppgift.
+
 Distribution
 Plats
 Benämning: Stockholm
