@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Punktlista](#punktlista)
-2. [Numrerad lista](#numrerad lista)
+2. [Numrerad](#numrerad)
 3. [Highlight](#highlight)
 4. [Exempel](#exempel)
 
@@ -36,7 +36,7 @@
   
   * spiralbunden
 
-## Numrerad lista
+## Numrerad
 
 Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): 
 1. samma källa som huvudtiteln
