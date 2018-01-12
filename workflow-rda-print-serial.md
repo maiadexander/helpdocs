@@ -16,8 +16,20 @@ _Arbetsflödet är under arbete._
 [Extern länk till MARC21-anpassad information](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-seriella-resurser/)
 
 För generella riktlinjer om hur man återger element som de förekommer i källan, se ”Transcription” – RDA 1.7.
- 
-Element tillhörande manifestationen
+
+
+## Innehåll
+
+* [Element tillhörande instans/manifestation](#paragraph1)
+    * [Föredragen källa (RDA 2.2)](#subparagraph1)
+    * [Utgivningssätt (RDA 2.13)](#subparagraph2)
+    * [Titelinformation](#subparagraph3)
+* [Huvudtitel (RDA 2.3.2)](#paragraph2)
+    * [Alternativtitel som är en del av huvudtiteln](#subparagraph4)
+    * [Felaktigheter](#subparagraph5)
+
+
+Element tillhörande manifestationen <a name="paragraph1"></a> 
 Källa för resursen som helhet
 Föredragen källa 
 Huvudtitel
