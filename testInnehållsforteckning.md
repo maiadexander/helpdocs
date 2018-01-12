@@ -4,7 +4,7 @@
 1. [Punktlista](#punktlista)
 2. [Numrerad lista](#numrerad)
 3. [Highlight](#highlight)
-4. [Exempel](#exampel)
+4. [Exempel](#exempel)
 
 ## Punktlista
 
