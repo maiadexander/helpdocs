@@ -198,3 +198,18 @@ This is a sub paragraph, formatted in heading 3 style
 
 ## Another paragraph <a name="paragraph2"></a>
 The second paragraph text
+
+---
+
+## Innehåll
+
+* [Element tillhörande instans/manifestation](#paragraph1)
+    * [Föredragen källa](#subparagraph1)
+    
+---
+
+## Element tillhörande instans/manifestation <a name="paragraph1"></a>
+
+### Föredragen källa (RDA 2.2) <a name="subparagraph1"></a>
+
+Börja med den information som finns på titelsidan (RDA 2.1.2.2 och RDA 2.2.2.2).
