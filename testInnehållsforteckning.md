@@ -36,7 +36,7 @@
   
   * spiralbunden
 
-## Numrerad lista
+## Numreradlista
 
 Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): 
 1. samma källa som huvudtiteln
