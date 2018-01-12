@@ -21,7 +21,9 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 ## Innehåll
 
 * [Element tillhörande instans/manifestation](#paragraph1)
-    * [Föredragen källa](#subparagraph1)
+    * [Föredragen källa (RDA 2.2)](#subparagraph1)
+    * [Utgivningssätt (RDA 2.13)](#subparagraph2)
+    * [Titelinformation](#subparagraph3)
     
 ---
 
@@ -41,11 +43,11 @@ Om det finns flera titelsidor eller olika källor med olika datum, använd i fö
 
 Om resursen saknar titelsida eller annan källa med information som är nödvändig för att identifiera resursen, använd information som finns på (i denna ordning): medföljande material som inte är en del av resursen själv, annan publicerad beskrivning av resursen, en förpackning, annan tillgänglig källa. Klamra information som hämtats utanför resursen (RDA 2.2.4).
 
-### Utgivningssätt (RDA 2.13)
+### Utgivningssätt (RDA 2.13) <a name="subparagraph2"></a>
 
 Ange utgivningssätt för den beskrivna resursen. För en tryckt monografi anges ”resurs bestående av en enhet”.
 
-### Titelinformation
+### Titelinformation <a name="subparagraph3"></a>
 
 _Arbetsflödet är under arbete._
 
