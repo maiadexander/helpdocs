@@ -24,9 +24,12 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
     * [Föredragen källa (RDA 2.2)](#subparagraph1)
     * [Utgivningssätt (RDA 2.13)](#subparagraph2)
     * [Titelinformation](#subparagraph3)
-    
+* [Huvudtitel (RDA 2.3.2)](#paragraph2)
+    * [Alternativtitel som är en del av huvudtiteln](#subparagraph4)
+    * [Felaktigheter](#subparagraph5)
 ---
 
+---
 ## Element tillhörande instans/manifestation <a name="paragraph1"></a>
 
 ### Föredragen källa (RDA 2.2) <a name="subparagraph1"></a>
@@ -61,21 +64,21 @@ Under huvudelementet Title (Titel) kan flera titeltyper anges:
 
 Huvudtitel och Övrig titelinformation är förvalda i mallen _Tryckt monografi – RDA_.
 
-## Huvudtitel (RDA 2.3.2)
+## Huvudtitel (RDA 2.3.2)  <a name="paragraph2"></a>
 
 Huvudtitel är ett kärnelement. 
 
 Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan (se RDA 1.7). 
 Librispraxis: Generellt förkortas aldrig en huvudtitel (se valfritt alternativ under RDA 2.3.1.4).
 
-### Alternativtitel som är en del av huvudtiteln
+### Alternativtitel som är en del av huvudtiteln <a name="subparagraph4"></a>
 
 Inkludera en alternativtitel som är en del av huvudtiteln.
 
 **Titel**
 `Huvudtitel: Bilbo eller En Hobs äventyr`
 
-### Felaktigheter
+### Felaktigheter <a name="subparagraph5"></a>
 
 Rätta inte felaktigheter. Om en korrekt form av huvudtiteln är viktig för identifikation och åtkomst anges den i titeltypen Varianttitel (RDA 1.7.9).
 
