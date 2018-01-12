@@ -17,11 +17,16 @@ _Arbetsflödet är under arbete._
 
 För generella riktlinjer om hur man återger element som de förekommer i källan, se ”Transcription” – RDA 1.7.
 
+## Innehåll
+
+1. [Element tillhörande instans/manifestation](#paragraph1)
+    1. [Föredragen källa](#subparagraph1)
+    
 ---
 
-## Element tillhörande instans/manifestation
+## Element tillhörande instans/manifestation <a name="paragraph1"></a>
 
-### Föredragen källa (RDA 2.2)
+### Föredragen källa (RDA 2.2) <a name="subparagraph1"></a>
 
 Börja med den information som finns på titelsidan (RDA 2.1.2.2 och RDA 2.2.2.2).
 
