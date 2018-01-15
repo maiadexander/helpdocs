@@ -1,28 +1,19 @@
 **Serieuppgift**
+
 `Umeå University medical dissertations, [0346-6612]`
 
-Ange underseries ISSN, om det förekommer i resursen. Librispraxis är att inte tillämpa den valfria uteslutningen i RDA 2.12.8.3, utan att även ange huvudseriens ISSN om båda finns i resursen. 
-
-Om en monografi innehållet ett ISSN som hör till en annan serie kan det citeras i en anmärkning.
-
 **Anmärkning**
+
 `Benämning: Titelbladets baksida: ”ISSN 2042-8057 (online)”`
 
-## Numrering inom serie
-
-Numrering inom serie är ett kärnelement (RDA 2.12.9). Uppgiften ska föregås av ISBD-interpunktion (mellanslag semikolon mellanslag).
-
 **Serieuppgift**
+
 `Tekniska nomenklaturcentralens publikationer, 0081-573X ; 67`
 
-Hämta i första hand uppgifter om numrering från seriens titelsida, i andra hand från annan källa i resursen (se RDA 2.2.2) och i sista hand från en av de andra källorna som specificeras i RDA 2.2.4.
-
-Ange siffor, bokstäver, andra tecken eller kombinationer av dessa med eller utan delord och/eller kronologisk beteckning som de förekommer i källan. Ange tal angivna med siffror eller bokstäver enligt de generella riktlinjerna i dokumentet Tal (siffror och bokstäver) - RDA 1.8. Återge andra bokstäver, tecken eller bokstavsgrupperingar och/eller teckengrupperingar som de förekommer i källan enligt de generella riktlinjerna i dokumentet "Transcription" - RDA 1.7. 
-
-Librispraxis är att ersätta romerska siffror med arabiska. Alternativ 1 och 2 i RDA 1.8.2 (att återge siffror i den form de förekommer i källan) tillämpas ej.
-
 **Serieuppgift**
+
 I källan: del III
+
 `... ; del 3`
 
 Librispraxis: Ersätt tal angivna med bokstäver med siffror (RDA 1.8.3).
