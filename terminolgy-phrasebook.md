@@ -14,7 +14,7 @@ _Arbetsflödet är under arbete._
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
 
 |**XL**|**Voyager**|**MARC21 (RDA)**|
-|------------- |------------- |----- |
+|:------------- |:------------- |:----- |
 |Verk |Verk, som i Verktitel |Verk, Uttryck |
 |Instans |- |Manifestation |
 |Medverkan |1XX/7XX | Skapare, Bidragsgivare? |
