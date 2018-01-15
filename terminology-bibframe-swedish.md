@@ -37,3 +37,6 @@ Vokabulären i BIBFRAME 2.0 består av klasser och egenskaper (properties) hämt
 
 Klasser innehåller tre kärnklasser, beskrivna ovan, men även kompletterande klasser, av vilka många är subklasser (underklasser), till kärnklasserna.
 Egenskaper beskriver såväl resursens karaktäristika som relationer mellan resurser. Till exempel: ett Verk kan vara en “översättning av” ett annat Verk, och en Instans kan vara en “instans av” ett specifikt Verk i BIBFRAME. Andra egenskaper utgör attribut till Verk och Instanser. Till exempel: egenskapen “ämne” i BIBFRAME utgör ett viktigt attribut till Verket (vad Verket handlar om), och egenskapen “omfång” (t.ex. 77 sidor, 2 CD) utgör ett attribut till en Instans.
+
+Informationen finns  även filmatiserad:
+[BIBFRAME Svensk terminologi](https://youtu.be/LmhsXICZ0MQ)
