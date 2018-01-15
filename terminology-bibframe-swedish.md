@@ -7,7 +7,8 @@ tags:
 - rda
 ---
 
-# BIBFRAME svensk terminologi
+# Terminologi
+## BIBFRAME svensk terminologi
 
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
 
