@@ -1216,32 +1216,43 @@ Librispraxis: Om en resurs sidor eller blad är onumrerade men sidantalet lätt 
 `Benämning: 8 onumrerade sidor, 155 sidor`
 
 ### Ändring av numrering inom en svit 
+
 Om numreringen ändras inom en svit (t.ex. från romerska till arabiska siffror), bortse från numreringen i svitens första del (RDA 3.4.5.4).
-Omfång
-Benämning: 176 sidor
+
+**Omfång
 Sidorna numrerade: i-xii, 13-176
+`Benämning: 176 sidor`
 
-Sidor etc. numrerade som del i en större svit 
+**Sidor etc. numrerade som del i en större svit**
 Om sidorna etc. numrerats som del i en större svit , ange sidornas etc. första och sista nummer, föregångna av lämplig term (RDA 3.4.5.7).
-Omfång
-Benämning: Sidorna 713-797
 
-Komplicerad och oregelbunden paginering
+**Omfång**
+`Benämning: Sidorna 713-797`
+
+### Komplicerad och oregelbunden paginering
+
 RDA 3.4.5.8 ger tre alternativ:
-a)	Ange det totala antalet sidor etc., följt av ”med varierande paginering/bladnumrering”
-b)	Ange den komplicerade pagineringen etc. exakt som den är
-c)	Ange 1 volym (varierande paginering)
-Librispraxis: Om en resurs paginering är komplicerad eller oregelbunden men sidantalet lätt kan fastställas tillämpa alternativ a). Om sidantalet inte lätt kan fastställas, tillämpa alternativ c).
+1. Ange det totala antalet sidor etc., följt av ”med varierande paginering/bladnumrering”
+2. Ange den komplicerade pagineringen etc. exakt som den är
+3. Ange 1 volym (varierande paginering)
+
+Librispraxis: Om en resurs paginering är komplicerad eller oregelbunden men sidantalet lätt kan fastställas tillämpa alternativ 1. Om sidantalet inte lätt kan fastställas, tillämpa alternativ 3.
+
 Onumrerade planschblad eller planschsidor (RDA 3.4.5.9)
+
 Ange omfånget för en onumrerad svit av planschblad eller planschsidor om:
-a)	den onumrerade sviten utgör en väsentlig del av resursen (Librispraxis: med väsentlig del av resursen avses mer än 25%), se även RDA 3.4.5.8,
+
+1. den onumrerade sviten utgör en väsentlig del av resursen (Librispraxis: med väsentlig del av resursen avses mer än 25%), se även RDA 3.4.5.8,
 eller
-b)	den onumrerade sviten inkluderar sidor etc. som det refereras till i en anmärkning.
-c)	Informationen är viktig för identifikation och urval.
+2. den onumrerade sviten inkluderar sidor etc. som det refereras till i en anmärkning.
+3. Informationen är viktig för identifikation och urval.
+
 När onumrerade sviter anges, uppge antingen:
-a)	det exakta antalet (om uppgiften är lätt åtkomlig) följt av ”onumrerade planschsidor/blad” etc.
-b)	ett uppskattat antal, föregånget av ”cirka” och följt av ”planschblad” etc.
-Librispraxis: Om en resurs har onumrerade planschsidor/blad men antalet lätt kan fastställas tillämpa alternativ a). Om sidantalet inte lätt kan fastställas, tillämpa alternativ b).
+
+1. det exakta antalet (om uppgiften är lätt åtkomlig) följt av ”onumrerade planschsidor/blad” etc.
+2. ett uppskattat antal, föregånget av ”cirka” och följt av ”planschblad” etc.
+
+Librispraxis: Om en resurs har onumrerade planschsidor/blad men antalet lätt kan fastställas tillämpa alternativ 1. Om sidantalet inte lätt kan fastställas, tillämpa alternativ 2.
 
 Planschblad eller planschsidor 
 Om planschbladen eller planschsidorna i en resurs inte ingår i numreringen av en eller flera sviter av blad eller sidor med text etc., ange antalet planschblad eller planschsidor sist i sviten av pagineringar. Ange antalet planschblad eller planschsidor efter de paginerade sviterna oavsett om planscherna återfinns samlade eller utspridda i resursen (RDA 3.4.5.9).
