@@ -789,7 +789,9 @@ _Distributionsort är inte ett kärnelement._
 
 Librispraxis är att endast ange distributionsort om den framgår av resursen. Trolig eller [distributionsort okänd] anges inte.
 För källor, se RDA 2.9.2.2.
+
 För instruktioner om hur man anger distributionort, se RDA 2.9.2.3.
+
 Tillämpa det andra valfria tillägget men inte det första.
 
 ### Distributörsnamn
@@ -904,75 +906,113 @@ Vid osäkerhet om en uppgift är en serieuppgift eller ej kan uppgiften citeras 
 Om varje titel i en serie verk inleds med samma fras (till exempel Lätta fakta om ..., Allt du behöver veta om ...) betraktas inte frasen som en serieuppgift såvida inte frasen även förekommer separat, som en serieuppgift, i en annan källa i resursen.
 `Benämning: ”An Evangelical Theological Society publication”`
 
-Huvudtitel till serie
-Huvudtitel till serie är ett kärnelement.
+## Huvudtitel till serie
+
+_Huvudtitel till serie är ett kärnelement._
+
 En alternativtitel behandlas som del av huvudtiteln.
+
 Hämta huvudtitel till serie från följande källor (i prioriteringsordning):
-•	titelsidan för serien
-•	annan källa i resursen (se RDA 2.2.2)
-•	en av de andra källorna som specificeras i RDA 2.2.4
+
+* titelsidan för serien
+* annan källa i resursen (se RDA 2.2.2)
+* en av de andra källorna som specificeras i RDA 2.2.4
+
 Det innebär att uppgift om huvudtitel till serie som hämtas från löst skyddsomslag inte behöver klamras (se RDA 2.2.2).
+
 NB-praxis: Hämta huvudtitel till serie från följande källor (i prioritetsordning):
-•	titelsidan för serien
-•	monografins titelsida
-•	annan källa i resursen (i prioriteringsordning):
-a) omslag, eller löst skyddsomslag utgivet med resursen
-b) övrig källa inom resursen. Föredrag källor där informationen är formellt presenterad
-•	en av de övriga källorna som specificeras i RDA 2.2.4
+
+* titelsidan för serien
+* monografins titelsida
+* Annan källa i resursen (i prioriteringsordning):
+   * omslag, eller löst skyddsomslag utgivet med resursen
+   * övrig källa inom resursen. Föredrag källor där informationen är formellt presenterad
+* en av de övriga källorna som specificeras i RDA 2.2.4
+
 Ange huvudtitel till serie genom att följa instruktionerna för att ange titlar i RDA 2.3.1, se även Huvudtitel ovan. Ta med inledande artiklar.
-Serieuppgift
-En kalasbok från Alfabeta
+
+**Serieuppgift**
+`En kalasbok från Alfabeta`
 
 Återge numrering eller tidsangivelser som är grammatisk sammanbundna med huvudtiteln till serien som en del av huvudtiteln (RDA 2.12.2.3).
 
 Återge en huvudtitel till serie som hämtats från en källa utanför resursen inom klammer (RDA 2.2.4).
+
 Om serietiteln i resursen anges på mer än ett språk eller i mer än en skriftart, välj som huvudtitel titeln på språket eller i skriftarten för huvuddelen av resursens innehåll.
 
-Parallell huvudtitel till serie
+## Parallell huvudtitel till serie
+
 Parallell huvudtitel till serie är huvudtiteln till serien på ett annat språk eller i en annan skriftart. Uppgift om parallell huvudtitel till serie hämtas från valfri källa i resursen (RDA 2.12.3.2).
+
 Parallell huvudtitel till serie är inte ett kärnelement. Om uppgiften anges, ska den föregås av ISBD-interpunktion (likhetstecken).
 Om parallella huvudtitlar anges och numreringen också förekommer på mer än ett språk eller i mer än en skriftart, anges numreringen efter respektive huvudtitel.
-Serieuppgift
-Schriften zum 100-jähringen Jubiläum der Eisenbahnfährlinie Sassnitz-Trelleborg ; 3 = Skrifter till 100-årsjubileum på tågfärjeleden Trelleborg-Sassnitz ; 3
+
+**Serieuppgift**
 Huvudtitel till serie ; Numrering inom serie = Parallell huvudtitel till serie ; Numrering inom serie 
+`Schriften zum 100-jähringen Jubiläum der Eisenbahnfährlinie Sassnitz-Trelleborg ; 3 = Skrifter till 100-årsjubileum på tågfärjeleden Trelleborg-Sassnitz ; 3`
+
 Om numreringen endast förekommer en gång, ange den efter den huvudtitel den hör till, eller efter den sista huvudtiteln om den hör till alla, mer än en eller till ingen av huvudtitlarna.
-Serieuppgift
-Helsingin kaupungin tietokeskuksen tutkimuksia, 0788-1533 = Helsinfors stads faktacentrals undersökningar = Studies published by the City of Helsinki Information Management Centre ; 1993:9
+
+**Serieuppgift**
 Huvudtitel till serie, ISSN till serie = Parallell huvudtitel till serie = Parallell huvudtitel till serie ; numrering inom serie
+`Helsingin kaupungin tietokeskuksen tutkimuksia, 0788-1533 = Helsinfors stads faktacentrals undersökningar = Studies published by the City of Helsinki Information Management Centre ; 1993:9`
 
-Övrig titelinformation för serie
+### Övrig titelinformation för serie
+
 Övrig titelinformation för serie är information som förekommer tillsammans med, och är underordnad, seriens huvudtitel.
-Övrig titelinformation för serie hämtas från samma källa som huvudtiteln till serien och anges endast om den är viktig för seriens identifikation.
-Uppgiften ska föregås av ISBD-interpunktion (mellanslag kolon mellanslag).
-Serieuppgift
-Statens offentliga utredningar : SOU, 0375-250X ; 2017:42
 
-Upphovsuppgift till serie
+Övrig titelinformation för serie hämtas från samma källa som huvudtiteln till serien och anges endast om den är viktig för seriens identifikation.
+
+Uppgiften ska föregås av ISBD-interpunktion (mellanslag kolon mellanslag).
+
+**Serieuppgift**
+`Statens offentliga utredningar : SOU, 0375-250X ; 2017:42`
+
+### Upphovsuppgift till serie
+
 Upphovsuppgift till serie hämtas från samma källa som huvudtiteln till serien och anges endast om den är viktig för seriens identifikation. 
+
 NB-praxis: Ange upphovsuppgifter som förekommer tillsammans med serietiteln, om de bedöms vara viktiga för seriens identifikation.
 Upphovsuppgift till serie ska föregås av ISBD-interpunktion (snedstreck).
-Serieuppgift
-Meddelande / Lövskogens vänner
 
-Series ISSN
-Enligt Librispraxis är uppgiften obligatorisk. Uppgiften ska föregås av ISBD-interpunktion (kommatecken). Ta med bindestrecket som skiljer de fyra första siffrorna från de fyra senare, men uteslut ordet "ISSN".
+**Serieuppgift**
+`Meddelande / Lövskogens vänner`
+
+## Series ISSN
+
+_Enligt Librispraxis är uppgiften obligatorisk._
+
+Uppgiften ska föregås av ISBD-interpunktion (kommatecken). Ta med bindestrecket som skiljer de fyra första siffrorna från de fyra senare, men uteslut ordet "ISSN".
+
 Hämta i första hand seriens ISSN från titelsidan, i andra hand från annan källa i resursen (se RDA 2.2.2) och i sista hand från en av de andra källorna som specificeras i RDA 2.2.4.
-Om ISSN hämtas från en källa utanför resursen ska uppgiften klamras. 
-Serieuppgift
-Umeå University medical dissertations, [0346-6612]
-Ange underseries ISSN, om det förekommer i resursen. Librispraxis är att inte tillämpa den valfria uteslutningen i RDA 2.12.8.3, utan att även ange huvudseriens ISSN om båda finns i resursen. 
-Om en monografi innehållet ett ISSN som hör till en annan serie kan det citeras i en anmärkning.
-Anmärkning
-Benämning: Titelbladets baksida: ”ISSN 2042-8057 (online)”
-Hur lägger man till detta fält?
 
-Numrering inom serie
+Om ISSN hämtas från en källa utanför resursen ska uppgiften klamras. 
+
+**Serieuppgift**
+`Umeå University medical dissertations, [0346-6612]`
+
+Ange underseries ISSN, om det förekommer i resursen. Librispraxis är att inte tillämpa den valfria uteslutningen i RDA 2.12.8.3, utan att även ange huvudseriens ISSN om båda finns i resursen. 
+
+Om en monografi innehållet ett ISSN som hör till en annan serie kan det citeras i en anmärkning.
+
+**Anmärkning**
+`Benämning: Titelbladets baksida: ”ISSN 2042-8057 (online)”`
+
+## Numrering inom serie
+
 Numrering inom serie är ett kärnelement (RDA 2.12.9). Uppgiften ska föregås av ISBD-interpunktion (mellanslag semikolon mellanslag).
-Serieuppgift
-Tekniska nomenklaturcentralens publikationer, 0081-573X ; 67
+
+**Serieuppgift**
+`Tekniska nomenklaturcentralens publikationer, 0081-573X ; 67`
+
 Hämta i första hand uppgifter om numrering från seriens titelsida, i andra hand från annan källa i resursen (se RDA 2.2.2) och i sista hand från en av de andra källorna som specificeras i RDA 2.2.4.
+
 Ange siffor, bokstäver, andra tecken eller kombinationer av dessa med eller utan delord och/eller kronologisk beteckning som de förekommer i källan. Ange tal angivna med siffror eller bokstäver enligt de generella riktlinjerna i dokumentet Tal (siffror och bokstäver) - RDA 1.8. Återge andra bokstäver, tecken eller bokstavsgrupperingar och/eller teckengrupperingar som de förekommer i källan enligt de generella riktlinjerna i dokumentet "Transcription" - RDA 1.7. 
+
 Librispraxis är att ersätta romerska siffror med arabiska. Alternativ 1 och 2 i RDA 1.8.2 (att återge siffror i den form de förekommer i källan) tillämpas ej.
+
+# Maia
+
 Serieuppgift
  ... ; del 3
 I källan: del III
