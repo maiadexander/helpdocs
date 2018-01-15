@@ -12,7 +12,7 @@ tags:
 
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
 
-`BIBFRAME (Bibliographic Framework) är ett initiativ från Library of Congress som anpassar bibliografiska beskrivningsstandarder till en modell för länkade data. Syftet med övergången till länkade data är att göra den bibliografiska informationen mer användbar och synlig. Det gynnar inte bara biblioteken och dess användare, utan även samhället i stort.´
+`BIBFRAME (Bibliographic Framework) är ett initiativ från Library of Congress som anpassar bibliografiska beskrivningsstandarder till en modell för länkade data. Syftet med övergången till länkade data är att göra den bibliografiska informationen mer användbar och synlig. Det gynnar inte bara biblioteken och dess användare, utan även samhället i stort.`
 
 Vid katalogisering av en resurs, till exempel en bok, beskrivs resursen med informationselement som författare, innehåll, utgåvor och exemplar.
 
