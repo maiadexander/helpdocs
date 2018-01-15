@@ -1,22 +1,4 @@
-# Test180111
-
-## Exempel 
-
-**Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
----
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
+# Test-diverse
 
 ### Punktlista
 
