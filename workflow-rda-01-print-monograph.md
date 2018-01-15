@@ -802,79 +802,107 @@ För val av källa, se RDA 2.9.2.2.
 För instruktioner om hur man anger distributörsnamn, se RDA 2.9.4.3. Tillämpa generellt inte den valfria uteslutningen.
 Tillämpa inte det valfria tillägget i RDA 2.9.4.4 om det inte behövs en mer specifik funktionsuppgift.
 
-Distribution
-Plats
-Benämning: Stockholm
-Agent
-Benämning: Avanco
+### Distribution
+**Plats**
+`Benämning: Stockholm`
+**Agent**
+`Benämning: Avanco`
 
-Distributionstid
-Distributionstid är inte ett kärnelement. Librispraxis är att hämta uppgift om utgivningstid från distributionstiden när denna finns angiven i resursen och utgivningstiden inte kan identifieras. Distributionstiden anges i dessa fall dels inom klammer i fältet för datum under utgivning, dels utan klammer i fältet för datum under distribution.
+### Distributionstid
+
+_Distributionstid är inte ett kärnelement._ 
+
+Librispraxis är att hämta uppgift om utgivningstid från distributionstiden när denna finns angiven i resursen och utgivningstiden inte kan identifieras. Distributionstiden anges i dessa fall dels inom klammer i fältet för datum under utgivning, dels utan klammer i fältet för datum under distribution.
+
 För val av källa, se RDA 2.9.6.2.
+
 För instruktioner om hur man anger distributionstid, se RDA 2.9.6.3. Följ även riktlinjerna i dokumentet: Tal (siffror och bokstäver) - RDA 1.8. Tillämpa det valfria tillägget.
+
 Om distributionstiden angivits i källan i form av ett kronogram, RDA 2.9.6.4, tillämpa alternativet och ange uppgiften med arabiska siffror enligt den gregorianska eller julianska kalendern. Klamra. Ange kronogrammet i en anmärkning om det är viktigt för identifiering.
 
+## Tillverkning (RDA 2.10)
 
-Tillverkning (RDA 2.10)
-Tillverkningsort
-Tillverkningsort är inte ett kärnelement och inte obligatoriskt enligt Librispraxis.
+### Tillverkningsort
+
+_Tillverkningsort är inte ett kärnelement och inte obligatoriskt enligt Librispraxis._
+
 NB-praxis: Obligatoriskt att ange tillverkningsort om svensk tillverkningsort och/eller svensk tillverkare finns i resursen. Följ vid behov anvisningarna i RDA 2.10.2.6 för att ange tillverkningsort.
 
 För val av källa, se RDA 2.10.2.2.
+
 För instruktioner om hur man anger tillverkningsort, se RDA 2.10.2.3. Tillämpa det andra valfria tillägget men inte det första.
 
-Tillverkarnamn
-Tillverkarnamn är inte ett kärnelement och inte obligatoriskt enligt Librispraxis.
+### Tillverkarnamn
+
+_Tillverkarnamn är inte ett kärnelement och inte obligatoriskt enligt Librispraxis._
+
 NB-praxis: Obligatoriskt att ange tillverkarnamn om svensk tillverkare och/eller svensk tillverkningsplats finns i resursen. Följ anvisningarna i RDA 2.10.4.7 och ange [tillverkare okänd] när enbart svensk tillverkningsplats finns i resursen.
+
 För val av källa, se RDA 2.10.4.2.
+
 För instruktioner om hur man anger tillverkarnamn, se RDA 2.10.4.3. Tillämpa generellt inte den valfria uteslutningen. Tillämpa inte det valfria tillägget i RDA 2.10.4.4 om det inte behövs en mer specifik funktionsuppgift.
+
 Att omslaget är tryckt av annat tryckeri än inlagan redovisas inte. Det är tryckeriet av inlagan som är leveransskyldigt.
 
-Tillverkningstid
-Tillverkningstid är inte ett kärnelement. Librispraxis är att hämta uppgift om utgivningstid från tillverkningstiden när denna finns angiven i resursen och utgivningstid eller distributionstid inte kan identifieras. Tillverkningstiden anges i dessa fall dels inom klammer i fältet för datum under utgivning, dels utan klammer i fältet för datum under tillverkning.
+### Tillverkningstid
+
+_Tillverkningstid är inte ett kärnelement._ 
+
+Librispraxis är att hämta uppgift om utgivningstid från tillverkningstiden när denna finns angiven i resursen och utgivningstid eller distributionstid inte kan identifieras. Tillverkningstiden anges i dessa fall dels inom klammer i fältet för datum under utgivning, dels utan klammer i fältet för datum under tillverkning.
+
 För val av källa, se RDA 2.10.6.2.
+
 För instruktioner om hur man anger tillverkningstid, se RDA 2.10.6.3. Följ även riktlinjerna i dokumentet: ”Tal (siffror och bokstäver) - RDA 1.8”. Tillämpa det valfria tillägget.
+
 Om tillverkningstiden angivits i källan i form av ett kronogram, RDA 2.10.6.4, tillämpa alternativet och ange uppgiften med arabiska siffror enligt den gregorianska eller julianska kalendern. Klamra. Ange kronogrammet i en anmärkning om det är viktigt för identifiering.
-Om både utgivningstid och tillverkningstid finns i resursen och åren skiljer sig från varandra anges båda, i fältet för datum under utgivning respektive i fältet för datum under tillverkning. Vanligen anges det högsta (senaste) årtalet i fält 008. Om utgivningsåret är felaktigt eller fiktivt anges istället tillverkningsåret i fält 008. 
 
-Copyrightår (RDA 2.11)
-Copyrightår är inte ett kärnelement.
+Om både utgivningstid och tillverkningstid finns i resursen och åren skiljer sig från varandra anges båda, i fältet för datum under utgivning respektive i fältet för datum under tillverkning. 
+
+### Copyrightår (RDA 2.11)
+_Copyrightår är inte ett kärnelement._
+
 Librispraxis är att ange copyrightår i fältet för datum under copyright när uppgift om utgivningstid, distributionstid och tillverkningstid saknas i resursen (eller när utgivningstiden i resursen är fiktiv/felaktig). Det gäller endast copyrightår som hör till den manifestation som katalogiseras. Om copyrightåret kan antas vara samma år som utgivningsåret anges copyrightåret inom klammer i fältet för datum under utgivning. I annat fall suppleras utgivningstid enligt anvisningarna i dokumentet Tidsangivelser - RDA 1.9.
+
 Copyrightår ska föregås av symbolen © eller fonogramsymbolen ?. Om symbolen inte kan återges ska tiden föregås av copyright eller phonogram copyright.
-Utgivning
-Datum
-[2015]
-Copyright
-Datum
-©2015
+
+### Utgivning
+**Datum**
+`[2015]`
+
+### Copyright
 Endast copyrightår finns i resursen
+**Datum**
+`©2015`
 
-Utgivning
-Datum
-[2015]
-Copyright
-Datum
-©2001
+### Utgivning
+**Datum**
+`[2015]`
+### Copyright
 Utgivningstiden är känd och suppleras enligt anvisningar i dokumentet Tidsangivelser – RDA 1.9. Copyrightår är det enda som finns i resursen.
+**Datum**
+`©2001`
 
-Serieuppgift (RDA 2.12)
+## Serieuppgift (RDA 2.12)
+
 En serieuppgift är en uppgift som identifierar serien till vilken resursen hör och numreringen av resursen i serien. 
 Elementet serieuppgift har ett antal underlement. Huvudtitel till serie, Numrering inom serie, Huvudtitel till underserie och Numrering inom underserie är kärnelement. Series ISSN och Underseries ISSN är obligatoriska element enligt Librispraxis. 
-Hur ska huvudtitel till underserie, numrering inom underserie och underseries ISSN anges?
-Om resursen ingår i en serie, återge serieuppgiften som den förekommer i källan (RDA 1.7). Lägg till tilllämplig ISBD-interpunktion för att separera de olika underelementen.
-Serieuppgift
-Basic readings in culture and aestetics, 2002-6463 ; 1
+
+Om resursen ingår i en serie, återge serieuppgiften som den förekommer i källan (RDA 1.7). 
+
+**Serieuppgift**
 Huvudtitel till serie, Series ISSN ; Numrering inom serie
-Serieuppgift
-Department of State publication ; 7846. Department and Foreign Service series ; 128
+`Basic readings in culture and aestetics, 2002-6463 ; 1`
+**Serieuppgift**
 Huvudtitel till serie ; Numrering inom serie. Huvudtitel till underserie ; Numrering inom underserie 
+`Department of State publication ; 7846. Department and Foreign Service series ; 128`
 
 Om resursen ingår i flera serier, återge serieuppgifterna i separata fält.
+
 Vid osäkerhet om en uppgift är en serieuppgift eller ej kan uppgiften citeras i en anmärkning:
-Anmärkning
-Benämning: ”An Evangelical Theological Society publication”
-Hur lägger man till detta fält?
+
+**Anmärkning**
 Om varje titel i en serie verk inleds med samma fras (till exempel Lätta fakta om ..., Allt du behöver veta om ...) betraktas inte frasen som en serieuppgift såvida inte frasen även förekommer separat, som en serieuppgift, i en annan källa i resursen.
+`Benämning: ”An Evangelical Theological Society publication”`
 
 Huvudtitel till serie
 Huvudtitel till serie är ett kärnelement.
