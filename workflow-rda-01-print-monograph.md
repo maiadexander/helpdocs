@@ -1011,156 +1011,211 @@ Ange siffor, bokstäver, andra tecken eller kombinationer av dessa med eller uta
 
 Librispraxis är att ersätta romerska siffror med arabiska. Alternativ 1 och 2 i RDA 1.8.2 (att återge siffror i den form de förekommer i källan) tillämpas ej.
 
-# Maia
-
-Serieuppgift
- ... ; del 3
+**Serieuppgift**
 I källan: del III
+`... ; del 3`
+
 Librispraxis: Ersätt tal angivna med bokstäver med siffror (RDA 1.8.3).
-Serieuppgift
- ... ; del 4
+
+**Serieuppgift**
 I källan: del fyra
+`... ; del 4`
+
 Ordningstal skrivs med siffror, enligt respektive språks regler (se exempel i RDA 1.8.5). Enligt Svenska skrivregler skrivs svenska ordningstal med siffror följda av kolon och ordningstalets sista bokstav, till exempel 1:a, 2:a, 3:e, 20:e numret. zvapp
-Serieuppgift
- ... ; 3:e delen
-I källan: tredje delen
+
+**Serieuppgift**
+I källan: tredje delen 
+`... ; 3:e delen`
+
 RDA skiljer sig från KRS genom att termer som är en del av seriens numrering alltid ska anges.
-Serieuppgift
- ... ; no. 1
+
+**Serieuppgift**
+ `... ; no. 1`
 
 För termer som är en del av seriens numrering, tillämpa riktlinjerna för stora och små bokstäver för det språk som termen är på, se RDA Appendix A och Appendix i RDA med anvisningar om tillämpning i Libris. Läs även om hur termer som är en del av seriens numrering ska anges i auktoriserade sökingångar i Del i serie.
+
 Återge andra ord och alfabetiska beteckningar som är en del av numreringen så som de ser ut i resursen. Finns förkortningar i källan, återge dem.
-Serieuppgift
- ... ; set 1
-Serieuppgift
- ... ; reel A-4
-Serieuppgift
- ... ; Bd. 8
+
+**Serieuppgift**
+`... ; set 1`
+
+**Serieuppgift**
+`... ; reel A-4`
+
+**Serieuppgift**
+`... ; Bd. 8`
 
 Om beteckningen består av ett år och en sifferbeteckning som utgör en del av ett år, ange året före siffran (RDA 2.12.9.3 och RDA 2.6.2.3).
-Serieuppgift
- ... ; 2000, no. 3
+
+**Serieuppgift**
+`... ; 2000, no. 3`
+
 Om numreringen utgörs av både en numerisk och/eller alfabetisk beteckning och en kronologisk beteckning, ange båda, med den kronologiska beteckningen inom parentes efter den numeriska (RDA 2.12.9.4 och RDA 2.6.3.3).
-Serieuppgift
-Årsbok för kristen humanism och samhällssyn, 1650-0113 ; 63(2001)
 
-Serieuppgift
- ... ; vol. 1, nr 1(juli/augusti 2005)
+**Serieuppgift**
+`Årsbok för kristen humanism och samhällssyn, 1650-0113 ; 63(2001)`
+
+**Serieuppgift**
+`... ; vol. 1, nr 1(juli/augusti 2005)`
+
 Om numreringen utgörs av mer än ett självständigt beteckningssystem, anges beteckningarna i den ordningsföljd de förekommer i primärkällan (RDA 2.12.9.7), åtskilda av mellanslag likhetstecken mellanslag.
-Serieuppgift
-Årsbok i svensk undervisniningshistoria, 0346-8461 ; 82(2002) = 198
-Om det är känt att numreringen som förekommer i källan är felaktig, återge den som den förekommer. Gör en anmärkning med den korrekta numreringen (RDA 2.17.11.4).
-Serieuppgift
-Moderna museets utställningskatalog ; 281
-Anmärkning
-Benämning: Numreringen skall vara: 202
-Hur lägger man till detta fält?
-Om resursen saknar numrering, men innehåller en förteckning över övriga resurser i serien och dessa är numrerade, anta i allmänhet att resursen utgör nästa nummer och klamra in uppgiften. Vid tvekan ange ingen numrering. 
-Inkludera ord som åtskiljer en nummersvit i serien från en annan.
-Serieuppgift
-... ; ny serie, nr 1
-Om det är känt att flera nummersviter i serien har samma numrering och resurser med numrering inom den nya nummersviten inte åtföljs av ord, till exempel ny serie, lägg till "ny serie" eller dylikt inom klammer.  
-Serieuppgift
-... ; [ny serie], nr 1
 
-Underserie (RDA 2.12.10-2.12.17)
+**Serieuppgift**
+`Årsbok i svensk undervisniningshistoria, 0346-8461 ; 82(2002) = 198`
+
+Om det är känt att numreringen som förekommer i källan är felaktig, återge den som den förekommer. Gör en anmärkning med den korrekta numreringen (RDA 2.17.11.4).
+
+**Serieuppgift**
+`Moderna museets utställningskatalog ; 281`
+
+**Anmärkning**
+`Benämning: Numreringen skall vara: 202`
+
+Om resursen saknar numrering, men innehåller en förteckning över övriga resurser i serien och dessa är numrerade, anta i allmänhet att resursen utgör nästa nummer och klamra in uppgiften. Vid tvekan ange ingen numrering. 
+
+Inkludera ord som åtskiljer en nummersvit i serien från en annan.
+
+**Serieuppgift**
+`... ; ny serie, nr 1`
+
+Om det är känt att flera nummersviter i serien har samma numrering och resurser med numrering inom den nya nummersviten inte åtföljs av ord, till exempel ny serie, lägg till "ny serie" eller dylikt inom klammer.  
+
+**Serieuppgift**
+`... ; [ny serie], nr 1`
+
+## Underserie (RDA 2.12.10-2.12.17)
+
+_Huvudtitel till underserie och numrering inom underserie är kärnelement._
+
 Hämta i första hand uppgifterna om underserie från seriens titelsida.
-Huvudtitel till underserie och numrering inom underserie är kärnelement. 
 
 Underseries ISSN är obligatorisk uppgift enligt Librispraxis. 
+
 Tillämpa inte den valfria uteslutningen i RDA 2.12.16.3, dvs ange även huvudseriens ISSN om båda finns i resursen.
 Övriga uppgifter som hör till underserie är inte obligatoriska enligt Librispraxis.
-Underserier anges i Libris ett nytt 490-fält under huvudseriens 490-fält.
-Serieuppgift
-Acta Wexionensia, 1404-4307 ; 31. Pedagogik
-Serieuppgift
-Progress in monecular and subcellular biology, 0079-6484 ; 46. Marine molecular biotechnology, 1611-6119
 
-Medietyp (RDA 3.2)
+**Serieuppgift**
+`Acta Wexionensia, 1404-4307 ; 31. Pedagogik`
+
+**Serieuppgift**
+`Progress in monecular and subcellular biology, 0079-6484 ; 46. Marine molecular biotechnology, 1611-6119`
+
+## Medietyp (RDA 3.2)
+
 Obligatoriskt enligt Librispraxis.
-Medietyp anger vilken typ av enhet som behövs för att se, spela eller visa innehållet i resursen.
-TODO: info om listan
 
 Källor för beskrivningen av medietyp är resursen, medföljande material eller förpackning/behållare. Uppgifter kan även hämtas utanför resursen.
 Om ingen av termerna i listan är lämplig, välj “annan” (x). Om medietypen/medietyperna inte lätt kan bestämmas, välj “ospecificerad” (z).
+
 Om resursen består av mer än en medietyp är Librispraxis att ange den medietyp som är tillämplig på den huvudsakliga delen av resursen. Ange inte medietyp för medföljande material av uppenbart underordnad karaktär.
+
 Om resursen består av flera likvärdiga delar (kombinerat material) ange medietyp för alla delarna.
 
-Bärartyp (RDA 3.3)
-Bärartyp är ett kärnelement.
+## Bärartyp (RDA 3.3)
+
+_Bärartyp är ett kärnelement._
+
 Källor för beskrivningen av bärare är resursen, medföljande material eller förpackning/behållare. Uppgifter kan även hämtas utanför resursen.
-TODO: info om listan
 
 Om ingen av termerna i listan är lämplig, välj “annan” (nz). Om bärartypen/bärartyperna inte lätt kan bestämmas, välj “ospecificerad” (zu).
+
 Om resursen består av mer än en bärartyp är Librispraxis att ange den bärartyp som är tillämplig på den huvudsakliga delen av resursen. Ange inte bärartyp för medföljande material av uppenbart underordnad karaktär.
+
 Valfritt tillägg: Om bärarna ligger i en behållare/förpackning, namnge behållaren och dess mått.
+
 Librispraxis: Katalogisatören avgör om det valfria tillägget ska tillämpas.
+
 NB-praxis: Tillämpa det valfria tillägget.
 
-Omfång (RDA 3.4)
+## Omfång (RDA 3.4)
+
 Omfång är ett kärnelement om resursen är komplett eller om det totala antalet fysiska enheter är känt.
+
 Omfång är antalet och typen av enheter (t.ex. volym) och underenheter (t.ex. sidor) en resurs består av.
+
 Använd hela resursen (eller medföljande material eller behållare) som källa. Om det behövs kan kompletterande information hämtas utanför resursen.
+
 Ange resursens omfång genom att ange antalet och typen av enheter den består av. För typen kan en passande term från listan för bärartyper i RDA 3.3.1.3 (bärartyperna på svenska) användas. Alternativ: Använd en vanligt förekommande term (inklusive varumärken, om det är tillämpligt):
-a)	om bäraren inte finns i listan 
+
+1. om bäraren inte finns i listan 
 eller
-b)	som ett alternativ till en term i listan
-Librispraxis: Tillämpa alternativ a) och använd en vanligt förekommande term om bäraren inte finns i listan. För fysiska digitala resurser ska alternativ b) tillämpas. Använd t.ex. CD, CD-ROM, DVD, DVD-ROM och diskett i stället för term från listan.
+2. som ett alternativ till en term i listan
+
+Librispraxis: Tillämpa alternativ a) och använd en vanligt förekommande term om bäraren inte finns i listan. För fysiska digitala resurser ska alternativ 2.) tillämpas. Använd t.ex. CD, CD-ROM, DVD, DVD-ROM och diskett i stället för term från listan.
 RDA har särskilda instruktioner för bland annat textresurser, se RDA 3.4.5 och nästa stycke.
 
-Omfång för text (RDA 3.4.5)
+## Omfång för text (RDA 3.4.5)
+
 Riktlinjerna är uppdelade på resurser som består av en enhet och resurser som består av flera enheter. 
 Texten nedan gäller för resurser som består av en enhet.
 
-Enstaka volym med numrerade sidor, blad eller spalter 
-För en resurs som består av en volym, ange omfång i antal sidor, blad eller spalter i enlighet med de numeriska eller alfabetiska sviterna i volymen (RDA 3.4.5.2). 
-Tillämpa följande generella riktlinjer:
-a)	Om volymen är numrerad i termer av sidor, ange antal sidor.
-b)	Om volymen är numrerad i termer av blad, ange antal blad.
-c)	Om volymen består av sidor med mer än en spalt per sida och spalterna är numrerade, ange antal spalter.
-d)	Om volymen består av sviter av blad och sidor eller sidor och numrerade spalter, eller blad och numrerade spalter, ange varje svit för sig.
-Om volymen är numrerad som blad men har text på båda sidor, se RDA 3.4.5.5 eller förklara i en anmärkning, se RDA 3.21.2.11.
-Omfång
-Benämning: 48 blad, det vill säga 96 sidor
-eller
-Omfång
-Benämning: 48 blad
-Anmärkning
-Benämning: Numrerade blad med tryck på båda sidor
-Hur lägger man till detta fält?
-Vissa undantag från regeln finns. För lösbladspublikationer som uppdateras, ange 1 volym, följt av lösblad inom parentes:
-Omfång
-Benämning: 1 volym (lösblad)
+## Enstaka volym med numrerade sidor, blad eller spalter 
 
-Enstaka volym med onumrerade sidor, blad eller spalter 
+För en resurs som består av en volym, ange omfång i antal sidor, blad eller spalter i enlighet med de numeriska eller alfabetiska sviterna i volymen (RDA 3.4.5.2). 
+
+Tillämpa följande generella riktlinjer:
+* Om volymen är numrerad i termer av sidor, ange antal sidor.
+* Om volymen är numrerad i termer av blad, ange antal blad.
+* Om volymen består av sidor med mer än en spalt per sida och spalterna är numrerade, ange antal spalter.
+* Om volymen består av sviter av blad och sidor eller sidor och numrerade spalter, eller blad och numrerade spalter, ange varje svit för sig.
+
+Om volymen är numrerad som blad men har text på båda sidor, se RDA 3.4.5.5 eller förklara i en anmärkning, se RDA 3.21.2.11.
+
+**Omfång**
+`Benämning: 48 blad, det vill säga 96 sidor`
+
+eller
+
+**Omfång**
+`Benämning: 48 blad`
+
+**Anmärkning**
+`Benämning: Numrerade blad med tryck på båda sidor`
+
+Vissa undantag från regeln finns. För lösbladspublikationer som uppdateras, _ange 1 volym_, följt av lösblad inom parentes:
+
+**Omfång**
+`Benämning: 1 volym (lösblad)`
+
+###Enstaka volym med onumrerade sidor, blad eller spalter 
+
 RDA 3.4.5.3 ger tre alternativ:
-a)	Räkna alla sidor, blad, spalter och ange t.ex. ”8 onumrerade sidor”. Använd ”blad” om de har tryck endast  på ena sidan.
-b)	Ange ett uppskattat antal: ”cirka 400 sidor”. Använd ”blad” om de har tryck endast  på ena sidan.
-c)	Ange t.ex. ”1 volym (opaginerad)”. 
+* Räkna alla sidor, blad, spalter och ange t.ex. ”8 onumrerade sidor”. Använd ”blad” om de har tryck endast  på ena sidan.
+* Ange ett uppskattat antal: ”cirka 400 sidor”. Använd ”blad” om de har tryck endast  på ena sidan.
+* Ange t.ex. ”1 volym (opaginerad)”. 
+
 Librispraxis: Om antalet sidor, blad eller spalter lätt kan fastställas, tillämpa alternativ a). Om antalet inte lätt kan fastställas, tillämpa alternativ b) eller c). Katalogisatören avgör.
+
 NB-praxis: Vid primärkatalogisering, tillämpa alternativ a) för resurser under 100 sidor. För resurser över 99 sidor tillämpa c).
 
-Enstaka volym med numrerade och onumrerade sviter 
+### Enstaka volym med numrerade och onumrerade sviter 
+
 Om resursen består av både numrerade och onumrerade sviter av sidor, blad eller spalter, bortse från de onumrerade utom när:
-a)	den onumrerade sviten utgör en väsentlig del av resursen (Librispraxis: med väsentlig del av resursen avses mer än 25%), se även RDA 3.4.5.8,
+
+* den onumrerade sviten utgör en väsentlig del av resursen (Librispraxis: med väsentlig del av resursen avses mer än 25%), se även RDA 3.4.5.8,
 eller
-b)	den onumrerade sviten inkluderar sidor etc. som det refereras till i en anmärkning.
+* den onumrerade sviten inkluderar sidor etc. som det refereras till i en anmärkning.
 (RDA 3.4.5.3.1)
 När onumrerade sviter anges, uppge antingen:
-a)	det exakta antalet följt av ”onumrerade sidor/blad” etc.
-b)	ett uppskattat antal, föregånget av ”cirka”
-c)	”onumrerad svit av sidor/blad” etc.
-Librispraxis: Om en resurs sidor eller blad är onumrerade men sidantalet lätt kan fastställas tillämpa alternativ a). Om sidantalet inte lätt kan fastställas, tillämpa alternativ b).
-Omfång
-Benämning: 33 blad, 31 onumrerade blad
-Omfång
-Benämning: 8, vii, cirka 300, 73 sidor
-Omfång
-Benämning: 27 sidor, onumrerad svit av blad
-Omfång
-Benämning: 8 onumrerade sidor, 155 sidor
+* det exakta antalet följt av ”onumrerade sidor/blad” etc.
+* ett uppskattat antal, föregånget av ”cirka”
+* ”onumrerad svit av sidor/blad” etc.
 
-Ändring av numrering inom en svit 
+Librispraxis: Om en resurs sidor eller blad är onumrerade men sidantalet lätt kan fastställas tillämpa alternativ a). Om sidantalet inte lätt kan fastställas, tillämpa alternativ b).
+
+**Omfång**
+`Benämning: 33 blad, 31 onumrerade blad`
+
+**Omfång**
+`Benämning: 8, vii, cirka 300, 73 sidor`
+
+**Omfång**
+`Benämning: 27 sidor, onumrerad svit av blad`
+
+**Omfång**
+`Benämning: 8 onumrerade sidor, 155 sidor`
+
+### Ändring av numrering inom en svit 
 Om numreringen ändras inom en svit (t.ex. från romerska till arabiska siffror), bortse från numreringen i svitens första del (RDA 3.4.5.4).
 Omfång
 Benämning: 176 sidor
@@ -1225,39 +1280,52 @@ Benämning: 21 x 37 cm
 Mått
 Benämning: 27 cm i skyddskassett 28 x 25 x 5 cm
 
-
 Anmärkningar om instansen/manifestationen (RDA 2.17)
-Anmärkningar om manifestationen är inte ett kärnelement.
+
+_Anmärkningar om manifestationen är inte ett kärnelement._
+
 Gör anmärkning när det bedöms viktigt för identifikation, urval eller åtkomst.
 
 Citat (RDA 1.10.3)
+
 Ange källhänvisning för citat ur resursen, såvida det inte är hämtat från den föredragna källan. Citatet ska anges inom citationstecken. Librispraxis är att ange källan före citatet.
+
 Anmärkning
 Benämning: Omslag: ”Tryck, lyssna och sjung med”
 
 Anmärkning om titel (RDA 2.17.2)
+
 Gör en anmärkning om källan för huvudtiteln om den inte tagits från någon av dessa källor (för resurs som består av flera sidor, blad, ark eller kort (eller en bild av dessa)): 
 titelsidan, titelblad eller titelkort (eller en bild av dessa).
+
 Om resursen bara har en titel och titeln förekommer i resursen, behöver inte anmärkning om titelns källa anges (Librispraxis är att tillämpa den valfria uteslutningen).
+
 Anmärkning
 Benämning: Titel från rygg
+
 Anmärkning
 Benämning: Titel från omslag
+
 Anmärkning
 Benämning: Titel från kolofon
+
 Anmärkning
 Benämning: Titel konstruerad av katalogisatör
+
 Om det bedöms viktigt för identifikation eller åtkomst, gör en anmärkning om källan för varianttitel (se RDA 2.3.6.3). Ange källan med hjälp av andraindikator eller anmärkningstext i fält 246, tillsammans med varianttiteln.
+
 Titel
 Huvudtitel: Sanvikens IF 75 år
 Omslagstitel
 Benämning?: Sandvikens IF 1918-1993
+
 Anmärkning om upphovsuppgift (RDA 2.17.3)
+
 Gör vid behov anmärkningar om upphovsuppgiften. En anmärkning kan innehålla information om att en person, familj/släkt eller institution som inte nämns i upphovsuppgiften tillskrivs ansvaret för det intellektuella eller konstnärliga innehållet i resursen, om olika namnformer som förekommer i resursen eller andra detaljer som rör upphovsansvaret. Zvapp!
 
 Teckengrad (RDA 3.13)
+
 För resurser med typsnitt anpassat för personer med synnedsättning, ange storleken på typsnittet med termen stor stil.
-TODO: example
 
 Katalogisatören avgör om det valfria tillägget att ange storleken på typsnittet i antal punkter inom parentes ska tillämpas.
 
