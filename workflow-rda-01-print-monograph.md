@@ -36,8 +36,8 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Bärartyp](#paragraph16)
 * [Omfång](#paragraph17)
 * [Mått](#paragraph18)
-* [Teckengrad](#paragraph19)
 * [Anmärkningar om instansen/manifestationen](#paragraph14)
+* [Teckengrad](#paragraph19)
 * [Identifikator för instansen/manifestationen](#paragraph13)
 ---
 
