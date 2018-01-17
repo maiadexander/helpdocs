@@ -1,6 +1,6 @@
 ---
 section: Arbetsflöden
-title: Tryckt monografi RDA
+title: Tryckt monografi
 order: 30
 tags:
 - editor
@@ -9,7 +9,7 @@ tags:
 - print-monograph
 ---
 
-# Tryckt monografi RDA
+# Tryckt monografi
 
 _Arbetsflödet är under arbete._
 
