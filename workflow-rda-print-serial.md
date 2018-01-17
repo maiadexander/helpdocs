@@ -21,26 +21,26 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 
 **Element tillhörande instans/manifestation**
 * [Källa för resursen som helhet](#paragraph1)
-* [Föredragen källa] (#paragraph2)
-* [Huvudtitel] (#paragraph3)
-* [Parallell huvudtitel] (#paragraph4)
-* [Övrig titelinformation] (#paragraph5)
-* [Parallell övrig titelinformation ] (#paragraph6)
-* [Nyckeltitel] (#paragraph7)
-* [Upphovsuppgift] (#paragraph8)
-* [Upplageuppgift] (#paragraph9)
-* [Numrering av seriella resurser] Numrering av seriella resurser (#paragraph10)
-* [Utgivningsuppgifter] (#paragraph11)
-* [Distributionsuppgifter] (#paragraph12)
-* [Tillverkningsuppgifter] (#paragraph13)
-* [Frekvens] (#paragraph14)
-* [Identifikator för manifestationen] (#paragraph15)
-* [Anmärkningar om manifestationen] (#paragraph16)
-* [Medietyp] (#paragraph17)
-* [Bärartyp] (#paragraph18)
-* [Omfång] (#paragraph19)
-* [Mått] (#paragraph20)
-* [Teckenstorlek] (#paragraph21)
+* [Föredragen källa](#paragraph2)
+* [Huvudtitel](#paragraph3)
+* [Parallell huvudtitel](#paragraph4)
+* [Övrig titelinformation](#paragraph5)
+* [Parallell övrig titelinformation ](#paragraph6)
+* [Nyckeltitel](#paragraph7)
+* [Upphovsuppgift](#paragraph8)
+* [Upplageuppgift](#paragraph9)
+* [Numrering av seriella resurser]Numrering av seriella resurser (#paragraph10)
+* [Utgivningsuppgifter](#paragraph11)
+* [Distributionsuppgifter](#paragraph12)
+* [Tillverkningsuppgifter](#paragraph13)
+* [Frekvens](#paragraph14)
+* [Identifikator för manifestationen](#paragraph15)
+* [Anmärkningar om manifestationen](#paragraph16)
+* [Medietyp](#paragraph17)
+* [Bärartyp](#paragraph18)
+* [Omfång](#paragraph19)
+* [Mått](#paragraph20)
+* [Teckenstorlek](#paragraph21)
 
 # Element tillhörande manifestationen  
 
@@ -120,8 +120,6 @@ Om det sker en större förändring i huvudtiteln ska en ny beskrivning göras f
 
 Om det sker en mindre förändring i huvudtiteln hos en seriell resurs anges den efterföljande titeln (RDA 2.3.8) om den är viktigt för identifikation eller åtkomst (RDA 2.3.8.3). För riktlinjer om vad som är en större och en mindre förändring i huvudtiteln hos en seriell resurs, se RDA 2.3.2.13.
 
-Ange den efterföljande titeln som en varianttitel i fält 246. Ange tidsbegränsning i delfält #f. 
-
 **Exempel**
 `text`
 
@@ -135,35 +133,37 @@ För monografiserier med huvudpost anges inte mindre förändringar i huvudtitel
 ## Parallell huvudtitel (RDA 2.3.3) <a name="paragraph4"></a>
 
 Parallell huvudtitel är huvudtiteln på ett annat språk eller i en annan skriftart. Enligt Librispraxis är den första parallella huvudtiteln i den föredragna källan obligatorisk. Därefter redovisas en påföljande parallell huvudtitel på svenska. Övriga parallella huvudtitlar är valfria. 
+
 NB-praxis: Ange alla parallella huvudtitlar som är framhävda.
+
 En parallell huvudtitel får hämtas från hela resursen (RDA 2.3.3.2). Om huvudtiteln hämtas utanför resursen ska parallelltiteln hämtas från samma källa. 
-Parallell huvudtitel anges i delfält #b och upprepas i fält 246 #a.
-245	1	0	#a Bank of Canada Review = #b Revue de la Banque du Canada
-246	1	1	#a Revue de la Banque du Canada
 
-Delfält 245 #b är inte repeterbart. Om flera parallella huvudtitlar anges eller om det finns annan information i delfält 245 #b, t.ex. övrig titelinformation, åtskiljs de olika elementen med hjälp av lämplig interpunktion.
-245	1	0	#a Suomen kirjallisuus = #b Finlands litteratur = The Finnish national bibliography
+**Exempel**
+`text`
 
-245	1	0	#a Maskrosor : #b en tidskrift om maskrosodling = Dandelions
+### Förändring i parallell huvudtitel 
 
-Förändring i parallell huvudtitel 
 Om en parallell huvudtitel läggs till eller ändras i ett påföljande nummer eller i en påföljande del (och det är av betydelse för identifikation eller åtkomst), ange den nya parallella huvudtiteln som en varianttitel i fält 246 (RDA 2.3.5.4.2). Ange tidsbegränsning i delfält #f.
-245	1	0	#a Zeitschrift für Medienpsychologie
-246	1	1	#a Journal of media psychology #f 19 Jarg., Heft 2 (2007)-
- 
+
+**Exempel**
+`text`
+
 Om en parallell huvudtitel tas bort i ett påföljande nummer eller i en påföljande del, ange detta i en anmärkning om det är av betydelse för identifikation eller åtkomst (RDA 2.3.5.4.2).
-500	_	_	#a Nummer efter 2001 saknar fransk parallelltitel
 
-Upp
+**Exempel**
+`text`
 
+Övrig titelinformation (RDA 2.3.4) <a name="paragraph5"></a>
 
-Övrig titelinformation (RDA 2.3.4)
 Övrig titelinformation är inte ett kärnelement men obligatoriskt enligt Librispraxis. Övrig titelinformation anges i delfält 245 #b och hämtas från samma källa som huvudtiteln (RDA 2.3.4.2). 
-Librispraxis: Övrig titelinformation som återfinns i annan källa än huvudtiteln återges som en varianttitel om den är viktig för identifikation. Det gäller dock endast övrig titelinformation som tillför ytterligare information och som inte är reklam, slogans etc. Ange alltid källan som den hämtats från med en andraindikator. Om ingen lämplig kod finns, gör en anmärkning i delfält #i.
-245	1	0	#a Sångsvanen
-246	1	_	#i Undertitel från redaktionsruta: #a Sångsvanen : #b medlemsblad för Sveriges förenade körer
-  
+
+Librispraxis: Övrig titelinformation som återfinns i annan källa än huvudtiteln återges som en varianttitel om den är viktig för identifikation. Det gäller dock endast övrig titelinformation som tillför ytterligare information och som inte är reklam, slogans etc.   
+
+**Exempel**
+`text`
+
 Om övrig titelinformation förekommer på mer än ett språk eller i mer än en skriftart anges den övriga titelinformation som är på huvudtitelns språk eller i dess skriftart (RDA 2.3.4.4).
+
 Om det finns flera undertitlar anges de i den ordning som markeras av ordningsföljd, layout och typografi i källan (RDA 2.3.4.3). Eftersom delfält #b inte är repeterbart anges alla undertitlar i samma delfält åtskilda med kolon.
 Förändring i övrig titelinformation 
 Om övrig titelinformation läggs till eller ändras i ett påföljande nummer eller i en påföljande del (och det är av betydelse för identifikation eller åtkomst), ange denna som en varianttitel (RDA 2.3.4.7.2). Lägg hela titeln (huvudtitel samt övrig titelinformation) i fält 246. 
