@@ -839,7 +839,7 @@ För instruktioner om hur man anger distributionstid, se RDA 2.9.6.3. Följ äve
 
 Om distributionstiden angivits i källan i form av ett kronogram, RDA 2.9.6.4, tillämpa alternativet och ange uppgiften med arabiska siffror enligt den gregorianska eller julianska kalendern. Klamra. Ange kronogrammet i en anmärkning om det är viktigt för identifiering.
 
-### Tillverkning (RDA 2.10)
+## Tillverkning (RDA 2.10) <a name="paragraph10"></a>
 
 ### Tillverkningsort
 
