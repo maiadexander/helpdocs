@@ -27,7 +27,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Parallell huvudtitel](#paragraph4)
 * [Upphovsuppgift](#paragraph6)
 * [Upplageuppgift](#paragraph7)
-* [Utgivningsuppgifter](#paragraph8)
+* [Utgivning](#paragraph8)
 * [Distributionsuppgifter](#paragraph9)
 * [Tillverkning](#paragraph10)
 * [Copyrightår](#paragraph11)
