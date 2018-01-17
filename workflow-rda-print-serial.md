@@ -719,7 +719,7 @@ ISSN Sverige lägger inte ISSN-L i svenska poster men bibliotek som så önskar 
 **Exempel**
 `text`
 
-## Anmärkningar om manifestationen (RDA 2.17) <a name="paragraph1"></a>
+## Anmärkningar om manifestationen (RDA 2.17) <a name="paragraph16"></a>
 
 _Anmärkningar om manifestationen är inte kärnelement._
 
