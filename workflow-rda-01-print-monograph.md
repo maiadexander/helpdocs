@@ -20,8 +20,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 
 ## Innehåll
 
-# Element tillhörande instans/manifestation
-
+**Element tillhörande instans/manifestation**
 * [Föredragen källa för beskrivningen](#paragraph2)
 * [Huvudtitel](#paragraph3)
 * [Övrig titelinformation](#paragraph5)
