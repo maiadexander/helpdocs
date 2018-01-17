@@ -17,7 +17,6 @@ _Arbetsflödet är under arbete._
 
 För generella riktlinjer om hur man återger element som de förekommer i källan, se ”Transcription” – RDA 1.7.
 
-
 ## Innehåll
 
 **Element tillhörande instans/manifestation**
@@ -82,56 +81,59 @@ NB-praxis: Förkorta aldrig en huvudtitel.
 
 Librispraxis: Generellt förkortas aldrig en huvudtitel (se valfritt alternativ under RDA 2.3.1.4).
 
-Anvisningar för Importerade poster.
-Se även arbetsflödet Tryckta monografier för anvisningar om:
-Alternativtitel som är en del av huvudtiteln
-Inledande artiklar
-Namn på personer, familjer och institutioner i titeln
-Inledande ord etc., 
-Flera titlar i olika former
-Resurs som saknar titel
-Konstruerad titel
-Undantag som gäller seriella resurser:
-Felaktigheter
-Tidsuppgift, namn, numrering etc. som varierar från nummer till nummer eller del till del
-Akronymer och fullständig form
-Separat utgivna sektioner och supplement
-Felaktigheter 
+## Undantag som gäller seriella resurser
+
+### Felaktigheter 
+
 Rätta uppenbara felaktigheter i huvudtiteln för en seriell resurs. Ange den felaktiga titeln som en varianttitel (RDA 2.3.1.4).
-245	1	0	#a Housing starts
-246	1	_	#i Titel felstavad i nummer 1 (2006): #a Housing sarts
+
+**Exempel**
 Tidsuppgift, namn, numrering etc. som varierar från nummer till nummer eller del till del  
-Tidsuppgift, namn, numrering etc. som varierar från nummer till nummer eller från del till del ska uteslutas. Uppgifterna ersätts med uteslutningstecken (RDA 2.13.1.4).
+`text`
+
+### Tidsuppgift, namn, numrering etc. som varierar från nummer till nummer eller från del till del ska uteslutas. 
+
+Uppgifterna ersätts med uteslutningstecken (RDA 2.13.1.4).
  
-245	1	0	#a Skattefrågor kring ... års bokslut
+**Exempel**
+`text`
  
-245	1	4	#a ... Annual report
-Akronymer och fullständig form
+### Akronymer och fullständig form
+
 Om huvudtiteln i den föredragna källan förekommer både i fullständig form och i form av en akronym eller i förkortad form, välj den fullständiga formen som huvudtitel (RDA 2.3.2.5). 
+
 Om akronymen anses viktig för identifikation eller åtkomst anges den antingen som a) övrig titelinformation (RDA 2.3.4), eller som en varianttitel (RDA 2.3.6). ISSN Sverige följer ISSN Manual och anger akronymen som en varianttitel. 
-245	1	0	#a Advances in cellular and molecular otolaryngology
-246	1	0	#a ACMO
-Separat utgivna sektioner och supplement  
+
+**Exempel**
+`text`
+
+### Separat utgivna sektioner och supplement  
+
 Om en seriell resurs utgör en separat  utgiven sektion av, eller ett supplement till, en annan seriell resurs och både den för samtliga sektioner/supplement gemensamma titeln och sektionens/supplementets titel anges i samma källa, ange båda titlarna. Den gemensamma titeln anges först och därefter sektionens eller supplementets titel (RDA 2.3.1.7.2).
  
-245	1	0	#a Acta Universitatis Carolinae. #p Philologica
+**Exempel**
+`text`
   
-245	1	0	#a Journal of polymer science. #n Part A, #p General papers
-Förändring i huvudtiteln 
+### Förändring i huvudtiteln 
+
 Om det sker en större förändring i huvudtiteln ska en ny beskrivning göras för den nya titeln. De två beskrivningarna är beskrivningar av relaterade verk (RDA 2.3.2.12). För anvisningar om hur man anger relationer mellan verk, se Relaterade verk, uttryck m.m. nedan.
+
 Om det sker en mindre förändring i huvudtiteln hos en seriell resurs anges den efterföljande titeln (RDA 2.3.8) om den är viktigt för identifikation eller åtkomst (RDA 2.3.8.3). För riktlinjer om vad som är en större och en mindre förändring i huvudtiteln hos en seriell resurs, se RDA 2.3.2.13.
+
 Ange den efterföljande titeln som en varianttitel i fält 246. Ange tidsbegränsning i delfält #f. 
-245	1	0	#a Hushållningssällskapets medlemsmagasin : #b för Hushållningssällskapet Östergötland och Hushållningssällskapet Kalmar-Kronoberg-Blekinge
-246	1	2	#a HS medlemsmagasin #f 2010, nr 3
-246	1	2	#a Hushållningssällskapets magasin #f 2011, nr 4-2012, nr 1
+
+**Exempel**
+`text`
 
 Librispraxis: Obligatoriskt att ange efterföljande titel för tidskrifter och årsböcker. Om förändringarna är många, kan dock alternativet i (RDA 2.3.8.3) följas och en generell anmärkning göras. 
-500	_	_	#a Mindre variationer i huvudtiteln
+
+**Exempel**
+`text`
 
 För monografiserier med huvudpost anges inte mindre förändringar i huvudtiteln. 
-Upp
 
-Parallell huvudtitel (RDA 2.3.3)
+## Parallell huvudtitel (RDA 2.3.3) <a name="paragraph4"></a>
+
 Parallell huvudtitel är huvudtiteln på ett annat språk eller i en annan skriftart. Enligt Librispraxis är den första parallella huvudtiteln i den föredragna källan obligatorisk. Därefter redovisas en påföljande parallell huvudtitel på svenska. Övriga parallella huvudtitlar är valfria. 
 NB-praxis: Ange alla parallella huvudtitlar som är framhävda.
 En parallell huvudtitel får hämtas från hela resursen (RDA 2.3.3.2). Om huvudtiteln hämtas utanför resursen ska parallelltiteln hämtas från samma källa. 
