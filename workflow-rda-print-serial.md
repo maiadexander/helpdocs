@@ -29,7 +29,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Nyckeltitel](#paragraph7)
 * [Upphovsuppgift](#paragraph8)
 * [Upplageuppgift](#paragraph9)
-* [Numrering av seriella resurser]Numrering av seriella resurser (#paragraph10)
+* [Numrering av seriella resurser](#paragraph10)
 * [Utgivningsuppgifter](#paragraph11)
 * [Distributionsuppgifter](#paragraph12)
 * [Tillverkningsuppgifter](#paragraph13)
@@ -153,7 +153,7 @@ Om en parallell huvudtitel tas bort i ett påföljande nummer eller i en påföl
 **Exempel**
 `text`
 
-Övrig titelinformation (RDA 2.3.4) <a name="paragraph5"></a>
+## Övrig titelinformation (RDA 2.3.4) <a name="paragraph5"></a>
 
 Övrig titelinformation är inte ett kärnelement men obligatoriskt enligt Librispraxis. Övrig titelinformation anges i delfält 245 #b och hämtas från samma källa som huvudtiteln (RDA 2.3.4.2). 
 
@@ -165,24 +165,31 @@ Librispraxis: Övrig titelinformation som återfinns i annan källa än huvudtit
 Om övrig titelinformation förekommer på mer än ett språk eller i mer än en skriftart anges den övriga titelinformation som är på huvudtitelns språk eller i dess skriftart (RDA 2.3.4.4).
 
 Om det finns flera undertitlar anges de i den ordning som markeras av ordningsföljd, layout och typografi i källan (RDA 2.3.4.3). Eftersom delfält #b inte är repeterbart anges alla undertitlar i samma delfält åtskilda med kolon.
-Förändring i övrig titelinformation 
+
+### Förändring i övrig titelinformation 
+
 Om övrig titelinformation läggs till eller ändras i ett påföljande nummer eller i en påföljande del (och det är av betydelse för identifikation eller åtkomst), ange denna som en varianttitel (RDA 2.3.4.7.2). Lägg hela titeln (huvudtitel samt övrig titelinformation) i fält 246. 
+
 Redovisa endast viktiga varierande undertitlar. Det kan vara förändringar gällande t.ex. målgrupp, ämne, inriktning och utgivare/institution. Här behöver man inte ange tidsbegränsning i delfält #f.
-245	1	0	#a Angerman : #b organ för Ångermanlands hembygdsförbund
-246	1	0	#a Angerman : #b Ångermanlands & Medelpads hembygdsförbunds tidning
+
+**Exempel**
+`text`
 
 Om övrig titelinformation saknas i ett påföljande nummer eller i en påföljande del, ange detta i en anmärkning om det är av betydelse för identifikation eller åtkomst (RDA 2.17.2.4).
-Upp
 
-Parallell övrig titelinformation (RDA 2.3.5 )
+## Parallell övrig titelinformation (RDA 2.3.5 ) <a name="paragraph6"></a>
+
 Parallell övrig titelinformation är inte ett kärnelement men obligatoriskt enligt NB-praxis. Parallell övrig titelinformation är övrig titelinformation som är på ett annat språk eller i en annan skriftart än den som angivits i elementet för övrig titelinformation. 
+
 Parallell övrig titelinformation hämtas från samma källa som motsvarande parallella huvudtitel. Om det inte finns någon motsvarande parallell huvudtitel, hämta parallell övrig titelinformation från samma källa som huvudtiteln.
-Parallell övrig titelinformation anges i delfält 245 #b.
+
 Om parallell övrig titelinformation förekommer på mer än ett språk eller i mer än en skriftart anges parallell övrig titelinformation i samma ordning som motsvarande parallella huvudtitlar. Om det inte är tillämpbart, ange dem i samma ordning som är i resursen (RDA 2.3.5.3).
-245	1	0	#a Building-Forum : #b magazine for municipal and co-operative housing = Bau-Forum : Zeitschrift für gemeinnützigen und wohnrechtsgenossenschaftlichen Wohnbau
- 
-245	1	0	#a Cartaditalia : #b rivista di cultura italiana contemporanea = en tidskrift tillägnad italiensk samtidskultur / #c Italienska kulturinstitutet
-Nyckeltitel (RDA 2.3.9)
+
+**Exempel**
+`text`
+
+## Nyckeltitel (RDA 2.3.9) <a name="paragraph7"></a>
+
 Nyckeltitel är en unik titel för en seriell resurs med ISSN. Nyckeltitel är inte ett kärnelement men obligatoriskt enligt Librispraxis för resurser med ISSN. 
 Läs mer om hur man anger ISSN under Identifikator för manifestationen.
 Det är respektive lands ISSN-central som tilldelar resurser nyckeltitlar och i Sverige görs det av ISSN Sverige på Kungliga biblioteket. Övriga Libriskatalogisatörer ska inte ange nyckeltitel för svenska resurser men det är bra att känna till hur de konstrueras. Större förändringar i nyckeltiteln kräver ny post och nytt ISSN. 
