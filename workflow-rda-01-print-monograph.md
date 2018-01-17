@@ -23,6 +23,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Element tillhörande instans/manifestation](#paragraph1)
 * [Föredragen källa för beskrivningen](#paragraph2)
 * [Huvudtitel](#paragraph3)
+* [Övrig titelinformation](#paragraph5)
 * [Parallell huvudtitel](#paragraph4)
 * [Upphovsuppgift](#paragraph6)
 * [Upplageuppgift](#paragraph7)
@@ -150,6 +151,7 @@ Om det i den föredragna källan förekommer flera titlar i olika former (men p�
 Om resursen saknar titel men titeln kan hämtas från en källa utanför resursen, ange titeln inom klammer. Gör en anmärkning om varifrån titeln hämtats (RDA 2.3.2.10 och RDA 2.17.2.3).
 
 ### Konstruerad titel
+
 Om det inte går att fastställa en huvudtitel, konstruera en huvudtitel på svenska enligt anvisningarna i RDA 2.3.2.10. En konstruerad huvudtitel anges inom klammer. Ange i en anmärkning att huvudtiteln är konstruerad (RDA 2.17.2.3).
 
 **Anmärkning**
@@ -174,7 +176,7 @@ Om titeln på delen, sektionen eller supplementet förekommer i källan tillsamm
 **Serieuppgift**
 `Nordisk kvinnolitteraturhistoria ; band 2`
 
-### Övrig titelinformation (RDA 2.3.4)
+## Övrig titelinformation (RDA 2.3.4) <a name="paragraph5"></a>
 
 Övrig titelinformation är inte ett kärnelement men obligatorisk enligt Librispraxis. 
 
@@ -209,7 +211,7 @@ Parallell huvudtitel anges i titeltyp _Parallelltitel_.
 
 Titeltypen _Parallelltitel_ är repeterbar.
 
-### Upphovsuppgift (RDA 2.4)
+## Upphov (RDA 2.4) <a name="paragraph6"></a>
 
 Upphovsuppgift som hänför sig till huvudtiteln är ett kärnelement. Om det finns mer än en, är endast den första ett kärnelement.
 
@@ -541,7 +543,7 @@ Anmärkning: tillsammans med 2 andra böcker i skyddskasett`
 
 Om det inte finns ett ISBN, ange någon annan identifikator från valfri källa. Föredra identifikatorer från internationellt erkända system. Sådana identifikatorer kan även anges utöver ISBN om det bedöms viktigt för identifikation eller åtkomst. Följ instruktionerna i RDA 2.15. 
 
-### Upplageuppgift, RDA 2.5
+## Upplaga, RDA 2.5 <a name="paragraph7"></a>
 
 Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga underelement är valfria. Samtliga underelement anges i fältet för upplageuppgift med lämplig ISBD-interpunktion.
 
