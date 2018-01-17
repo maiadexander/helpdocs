@@ -24,21 +24,21 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Föredragen källa för beskrivningen](#paragraph2)
 * [Huvudtitel](#paragraph3)
 * [Parallell huvudtitel](#paragraph4)
-* [Övrig titelinformation](#paragraph5)
+m * [Övrig titelinformation](#paragraph5)
 * [Upphovsuppgift](#paragraph6)
 * [Upplageuppgift](#paragraph7)
-* [Utgivning](#paragraph8)
-* [Distribution](#paragraph9)
-* [Tillverkningsuppgifter](#paragraph10)
+* [Utgivningsuppgifter](#paragraph8)
+* [Distributionsuppgifter](#paragraph9)
+* [Tillverkning](#paragraph10)
 * [Copyrightår](#paragraph11)
 * [Serieuppgift](#paragraph12)
 * [Identifikator för manifestationen (t.ex. ISBN)](#paragraph13)
-* [Anmärkningar om manifestationen](#paragraph14)
+* [Anmärkningar om instansen/manifestationen](#paragraph14)
 * [Medietyp](#paragraph15)
 * [Bärartyp](#paragraph16)
 * [Omfång](#paragraph17)
 * [Mått](#paragraph18)
-* [Teckenstorlek (t.ex. stor stil)](#paragraph19)
+* [Teckengrad](#paragraph19)
 
 ---
 
@@ -175,7 +175,7 @@ Om titeln på delen, sektionen eller supplementet förekommer i källan tillsamm
 **Serieuppgift**
 `Nordisk kvinnolitteraturhistoria ; band 2`
 
-### Övrig titelinformation (RDA 2.3.4) a name="paragraph5"></a>
+### Övrig titelinformation (RDA 2.3.4)
 
 Övrig titelinformation är inte ett kärnelement men obligatorisk enligt Librispraxis. 
 
@@ -210,7 +210,7 @@ Parallell huvudtitel anges i titeltyp _Parallelltitel_.
 
 Titeltypen _Parallelltitel_ är repeterbar.
 
-## Upphovsuppgift (RDA 2.4) <a name="paragraph6"></a>
+### Upphovsuppgift (RDA 2.4)
 
 Upphovsuppgift som hänför sig till huvudtiteln är ett kärnelement. Om det finns mer än en, är endast den första ett kärnelement.
 
@@ -283,7 +283,7 @@ Om en upphovsuppgift som hänför sig till huvudtiteln förekommer på mer än e
 
 NB-praxis: Obligatoriskt att ange parallell upphovsuppgift som hänför sig till huvudtiteln (RDA 2.4.3).
 
-## Identifikator för instansen/manifestationen (RDA 2.15) <a name="paragraph13"></a>
+### Identifikator för instansen/manifestationen (RDA 2.15)
 
 Identifikator för instansen/manifestationen är ett kärnelement. Uppgift om identifikator hämtas från valfri källa. 
 
@@ -542,7 +542,7 @@ Anmärkning: tillsammans med 2 andra böcker i skyddskasett`
 
 Om det inte finns ett ISBN, ange någon annan identifikator från valfri källa. Föredra identifikatorer från internationellt erkända system. Sådana identifikatorer kan även anges utöver ISBN om det bedöms viktigt för identifikation eller åtkomst. Följ instruktionerna i RDA 2.15. 
 
-### Upplageuppgift, RDA 2.5 <a name="paragraph7"></a>
+### Upplageuppgift, RDA 2.5
 
 Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga underelement är valfria. Samtliga underelement anges i fältet för upplageuppgift med lämplig ISBD-interpunktion.
 
@@ -623,8 +623,7 @@ _Ej kärnelement._
 
 NB-praxis: Obligatoriskt att ange upphovsuppgifter som hänför sig till påföljande upplagebeteckning (RDA 2.5.8).
 
-### Utgivning (RDA 2.8) <a name="paragraph8"></a>
-
+### Utgivning (RDA 2.8)
 _Utgivningsort, utgivare och är kärnelement._ 
 
 RDA har separata element för utgivnings-, distributions- och tillverkningsuppgifter och dessa anges i separata fält. Om uppgifterna hämtas utanför resursen ska varje element klamras för sig, RDA Appendix D. 1.
@@ -764,7 +763,7 @@ Om varken distributionstid/tillverkningstid/copyrightår kan identifieras, ange 
 **Datum**
 `2015`
 
-### Tillverkning <a name="paragraph10"></a>
+### Tillverkning
 
 Endast tillverkningstid finns i resursen. Den anges dels inom klammer i fältet för datum under utgivning och dels i fältet för datum under tillverkning.
 
@@ -797,7 +796,7 @@ Känt att utgivningsåret är felaktigt
 Korrekt tillverkningstid finns i resursen
 `2006`
 
-### Distribution (RDA 2.9) <a name="paragraph9"></a>
+### Distribution (RDA 2.9)
 
 ### Distributionsort
 
@@ -821,10 +820,8 @@ För instruktioner om hur man anger distributörsnamn, se RDA 2.9.4.3. Tillämpa
 Tillämpa inte det valfria tillägget i RDA 2.9.4.4 om det inte behövs en mer specifik funktionsuppgift.
 
 ### Distribution
-
 **Plats**
 `Benämning: Stockholm`
-
 **Agent**
 `Benämning: Avanco`
 
@@ -840,7 +837,7 @@ För instruktioner om hur man anger distributionstid, se RDA 2.9.6.3. Följ äve
 
 Om distributionstiden angivits i källan i form av ett kronogram, RDA 2.9.6.4, tillämpa alternativet och ange uppgiften med arabiska siffror enligt den gregorianska eller julianska kalendern. Klamra. Ange kronogrammet i en anmärkning om det är viktigt för identifiering.
 
-## Tillverkning (RDA 2.10) <a name="paragraph10"></a>
+### Tillverkning (RDA 2.10)
 
 ### Tillverkningsort
 
@@ -878,8 +875,7 @@ Om tillverkningstiden angivits i källan i form av ett kronogram, RDA 2.10.6.4, 
 
 Om både utgivningstid och tillverkningstid finns i resursen och åren skiljer sig från varandra anges båda, i fältet för datum under utgivning respektive i fältet för datum under tillverkning. 
 
-## Copyrightår (RDA 2.11) <a name="paragraph11"></a>
-
+### Copyrightår (RDA 2.11)
 _Copyrightår är inte ett kärnelement._
 
 Librispraxis är att ange copyrightår i fältet för datum under copyright när uppgift om utgivningstid, distributionstid och tillverkningstid saknas i resursen (eller när utgivningstiden i resursen är fiktiv/felaktig). Det gäller endast copyrightår som hör till den manifestation som katalogiseras. Om copyrightåret kan antas vara samma år som utgivningsåret anges copyrightåret inom klammer i fältet för datum under utgivning. I annat fall suppleras utgivningstid enligt anvisningarna i dokumentet Tidsangivelser - RDA 1.9.
@@ -904,7 +900,7 @@ Utgivningstiden är känd och suppleras enligt anvisningar i dokumentet Tidsangi
 **Datum**
 `©2001`
 
-## Serieuppgift (RDA 2.12) <a name="paragraph12"></a>
+### Serieuppgift (RDA 2.12)
 
 En serieuppgift är en uppgift som identifierar serien till vilken resursen hör och numreringen av resursen i serien. 
 Elementet serieuppgift har ett antal underlement. Huvudtitel till serie, Numrering inom serie, Huvudtitel till underserie och Numrering inom underserie är kärnelement. Series ISSN och Underseries ISSN är obligatoriska element enligt Librispraxis. 
@@ -914,7 +910,6 @@ Om resursen ingår i en serie, återge serieuppgiften som den förekommer i käl
 **Serieuppgift**
 Huvudtitel till serie, Series ISSN ; Numrering inom serie
 `Basic readings in culture and aestetics, 2002-6463 ; 1`
-
 **Serieuppgift**
 Huvudtitel till serie ; Numrering inom serie. Huvudtitel till underserie ; Numrering inom underserie 
 `Department of State publication ; 7846. Department and Foreign Service series ; 128`
@@ -1121,7 +1116,7 @@ Tillämpa inte den valfria uteslutningen i RDA 2.12.16.3, dvs ange även huvudse
 **Serieuppgift**
 `Progress in monecular and subcellular biology, 0079-6484 ; 46. Marine molecular biotechnology, 1611-6119`
 
-## Medietyp (RDA 3.2) <a name="paragraph15"></a>
+### Medietyp (RDA 3.2)
 
 Obligatoriskt enligt Librispraxis.
 
@@ -1132,7 +1127,7 @@ Om resursen består av mer än en medietyp är Librispraxis att ange den mediety
 
 Om resursen består av flera likvärdiga delar (kombinerat material) ange medietyp för alla delarna.
 
-## Bärartyp (RDA 3.3) <a name="paragraph16"></a>
+### Bärartyp (RDA 3.3)
 
 _Bärartyp är ett kärnelement._
 
@@ -1148,7 +1143,7 @@ Librispraxis: Katalogisatören avgör om det valfria tillägget ska tillämpas.
 
 NB-praxis: Tillämpa det valfria tillägget.
 
-## Omfång (RDA 3.4) <a name="paragraph17"></a>
+### Omfång (RDA 3.4)
 
 Omfång är ett kärnelement om resursen är komplett eller om det totala antalet fysiska enheter är känt.
 
@@ -1165,7 +1160,7 @@ eller
 Librispraxis: Tillämpa alternativ a) och använd en vanligt förekommande term om bäraren inte finns i listan. För fysiska digitala resurser ska alternativ 2.) tillämpas. Använd t.ex. CD, CD-ROM, DVD, DVD-ROM och diskett i stället för term från listan.
 RDA har särskilda instruktioner för bland annat textresurser, se RDA 3.4.5 och nästa stycke.
 
-### Omfång för text (RDA 3.4.5) 
+### Omfång för text (RDA 3.4.5)
 
 Riktlinjerna är uppdelade på resurser som består av en enhet och resurser som består av flera enheter. 
 Texten nedan gäller för resurser som består av en enhet.
@@ -1310,7 +1305,7 @@ Librispraxis: Katalogisatören avgör om det valfria tillägget att ange typ och
 **Omfång**
 `Benämning: 1 mapp (2 ark)`
 
-## Mått (RDA 3.5) <a name="paragraph18"></a>
+### Mått (RDA 3.5)
 
 Enligt Librispraxis är det inte obligatoriskt att ange mått. Mått som är standard för bäraren anges inte.
 
@@ -1328,7 +1323,7 @@ Om mått anges, och om instruktionerna inte säger något annat, ange mått i ce
 **Mått**
 `Benämning: 27 cm i skyddskassett 28 x 25 x 5 cm`
 
-### Anmärkningar om instansen/manifestationen (RDA 2.17)
+## Anmärkningar om instansen/manifestationen (RDA 2.17) <a name="paragraph14"></a>
 
 _Anmärkningar om manifestationen är inte ett kärnelement._
 
@@ -1371,7 +1366,7 @@ Om det bedöms viktigt för identifikation eller åtkomst, gör en anmärkning o
 
 Gör vid behov anmärkningar om upphovsuppgiften. En anmärkning kan innehålla information om att en person, familj/släkt eller institution som inte nämns i upphovsuppgiften tillskrivs ansvaret för det intellektuella eller konstnärliga innehållet i resursen, om olika namnformer som förekommer i resursen eller andra detaljer som rör upphovsansvaret. Zvapp!
 
-## Teckengrad (RDA 3.13) <a name="paragraph19"></a>
+### Teckengrad (RDA 3.13)
 
 För resurser med typsnitt anpassat för personer med synnedsättning, ange storleken på typsnittet med termen stor stil.
 
