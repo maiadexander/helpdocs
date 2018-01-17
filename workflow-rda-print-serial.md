@@ -191,146 +191,212 @@ Om parallell övrig titelinformation förekommer på mer än ett språk eller i 
 ## Nyckeltitel (RDA 2.3.9) <a name="paragraph7"></a>
 
 Nyckeltitel är en unik titel för en seriell resurs med ISSN. Nyckeltitel är inte ett kärnelement men obligatoriskt enligt Librispraxis för resurser med ISSN. 
-Läs mer om hur man anger ISSN under Identifikator för manifestationen.
+
 Det är respektive lands ISSN-central som tilldelar resurser nyckeltitlar och i Sverige görs det av ISSN Sverige på Kungliga biblioteket. Övriga Libriskatalogisatörer ska inte ange nyckeltitel för svenska resurser men det är bra att känna till hur de konstrueras. Större förändringar i nyckeltiteln kräver ny post och nytt ISSN. 
+
 För att ta reda på vilken nyckeltitel som har tilldelats en seriell resurs med utländskt ISSN kan man söka i utgivningslandets nationella katalog. Det går också bra att vända sig till ISSN Sverige som kan stå till tjänst med sökningar i den internationella ISSN-portalen. 
+
 Nyckeltitel anges i fält 222 och konstrueras med hjälp av huvudtiteln. Eftersom en nyckeltitel måste vara unik kräver likalydande huvudtitlar särskiljande tillägg. Särskiljande tillägg anges inom parentes i delfält #b och väljs så att nyckeltiteln blir unik med så få termer som möjligt. 
-222	_	0	#a Rapport #b (Institutionen för konstruktion och mekanik, Chalmers tekniska högskola)
 
-222	_	0	#a Cinema #b (Stockholm)
-
-222	_	0	#a Resemagasinet #b (Stockholm. 1992)
+**Exempel**
+`text`
  
-Upp
+## Upphovsuppgift (RDA 2.4) <a name="paragraph8"></a>
 
-Upphovsuppgift (RDA 2.4) 
 Upphovsuppgift som hänför sig till huvudtiteln är ett kärnelement och anges i delfält 245 #c. Om det finns mer än en, är endast den första kärnelement. 
+
 Hämta upphovsuppgifter som hänför sig till huvudtiteln från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4. Denna prioritetsordning ska följas även om en påföljande källa har en mer fullständig upphovsuppgift för samma person, familj/släkt eller institution med samma funktion. Endast upphovsuppgifter som hämtas från en källa utanför resursen ska klamras. 
+
 Upphovsuppgiften återges som den förekommer i källan (RDA 2.4.1.4). Inkludera ord och fraser som talar om sambandet mellan titeln och den eller de personer etc.  som nämns i upphovsuppgiften. Tillämpa generellt inte den valfria uteslutningen som gör det möjligt att förkorta en upphovsuppgift.
-245	1	0	#a Årsstatistik för Stockholms län och landsting / #c sammanställd av Statistiska centralbyrån, på uppdrag av Stockholms läns landsting, Regionplane- och trafikkontoret
+
+**Exempel**
+`text`
 
 Återge en upphovsuppgift även om den inte namnger specifika personer eller institutioner (RDA 2.4.1.9).
  
-245	1	0	#a ... / #c av elever på Bergs folkhögskola
- 
-Undantag som gäller seriella resurser
-Återge en upphovsuppgift som identifierar en redaktör endast om personen är viktig för att kunna identifiera resursen, t.ex. om personen varit resursens redaktör under större delen av utgivningen (RDA 2.4.1.4).
-245	1	0	#a Patrick Moore's yearbook of astronomy / #c edited by Patrick Moore and John Mason
+**Exempel**
+`text`
 
-Anvisningar för Importerade poster.
-Upp
-Upphovsuppgift med fler än en namngiven person, familj/släkt eller institution 
+### Undantag som gäller seriella resurser
+
+Återge en upphovsuppgift som identifierar en redaktör endast om personen är viktig för att kunna identifiera resursen, t.ex. om personen varit resursens redaktör under större delen av utgivningen (RDA 2.4.1.4).
+
+**Exempel**
+`text`
+
+### Upphovsuppgift med fler än en namngiven person, familj/släkt eller institution 
+
 Återge varje enskild upphovsuppgift som ett element oavsett om två eller flera personer etc. som omnämns har samma eller olika funktioner (RDA 2.4.1.5).
+
 Valfri uteslutning: Om en enskild upphovsuppgift namnger fler än tre personer, familjer/släkter eller institutioner, uteslut alla utom den första personen etc. Uteslutningen markeras med en klamrad summering av vad som uteslutits.
-245	1	0	#a ... / #c utgiven av Institutionen för omvårdnad, Institutionen för vård och omsorg, Institutionen för psykisk hälsa och Institutionen för socialt arbete
+
+**Exempel**
+`text`
 
 eller
-245	1	0	#a ... / #c utgiven av Institutionen för omvårdnad [och tre andra]
+
+**Exempel**
+`text`
  
 Librispraxis är att det är katalogisatören som avgör om den valfria uteslutningen ska tillämpas. När kunskap finns, ska summeringen vara på resursen språk.
-245	1	0	#a ... / #c by Department of Health [and three others]
-Mer än en upphovsuppgift 
-Om det finns mer än en upphovsuppgift kan även övriga upphovsuppgifter återges om de är viktiga för identifikation. Librispraxis uppmanar katalogisatören att ta med alla upphovsuppgifter som är av betydelse. Uppgifterna återges i den ordning som markeras av ordningsföljd, layout eller typografi i källan. Om detta är oklart, återge dem i den ordning som framstår som rimligast, RDA 2.4.1.6.
-Om inte alla upphovsuppgifter tas med ska förtur ges åt dem som identifierar skaparna av det intellektuella eller konstnärliga innehållet (RDA 2.4.2.3). Om det är tveksamt, ange den första upphovsuppgiften.
-Antalet personer etc. man tar med i upphovsuppgiften behöver inte motsvara antalet personer etc. man anger i sökingångar. Katalogisatören måste här använda sitt omdöme.
-Förändringar i upphovsuppgiften 
-Om en upphovsuppgift som bedöms vara viktig för identifikation eller åtkomst tillkommer eller ändras i ett påföljande nummer eller i en påföljande del av en seriell resurs (och det inte innebär att en ny post måste göras) ska sökingång/sökingångar för det nya namnet/de nya namnen läggas till. 
-245	1	0	#a Allt om jobbet / #c utgiven av Sveriges kommunaltjänstemannaförbund (SKTF)
-264	_	1	#a Stockholm : #b Sveriges kommunaltjänstemannaförbund (SKTF), #c 2008-
-264	3	1	#a Stockholm : #b Vision
-710	2	_	#a SKTF #4 isb
-710	2	_	#a Vision #4 isb
-Upphovsuppgift som hänför sig till huvudtiteln på mer än ett språk eller i mer än en skriftart 
-Om en upphovsuppgift som hänför sig till huvudtiteln förekommer på mer än ett språk eller i mer än en skriftart återges den upphovsuppgift som är på huvudtitelns språk eller dess skriftart (RDA 2.4.2.4).
-NB-praxis: Obligatoriskt att ange parallell upphovsuppgift som hänför sig till huvudtiteln (RDA 2.4.3).
-Upp
 
-Upplageuppgift (RDA 2.5)
+**Exempel**
+`text`
+
+### Mer än en upphovsuppgift 
+
+Om det finns mer än en upphovsuppgift kan även övriga upphovsuppgifter återges om de är viktiga för identifikation. Librispraxis uppmanar katalogisatören att ta med alla upphovsuppgifter som är av betydelse. Uppgifterna återges i den ordning som markeras av ordningsföljd, layout eller typografi i källan. Om detta är oklart, återge dem i den ordning som framstår som rimligast, RDA 2.4.1.6.
+
+Om inte alla upphovsuppgifter tas med ska förtur ges åt dem som identifierar skaparna av det intellektuella eller konstnärliga innehållet (RDA 2.4.2.3). Om det är tveksamt, ange den första upphovsuppgiften.
+
+Antalet personer etc. man tar med i upphovsuppgiften behöver inte motsvara antalet personer etc. man anger i sökingångar. Katalogisatören måste här använda sitt omdöme.
+
+### Förändringar i upphovsuppgiften 
+
+Om en upphovsuppgift som bedöms vara viktig för identifikation eller åtkomst tillkommer eller ändras i ett påföljande nummer eller i en påföljande del av en seriell resurs (och det inte innebär att en ny post måste göras) ska sökingång/sökingångar för det nya namnet/de nya namnen läggas till. 
+
+**Exempel**
+`text`
+
+### Upphovsuppgift som hänför sig till huvudtiteln på mer än ett språk eller i mer än en skriftart 
+
+Om en upphovsuppgift som hänför sig till huvudtiteln förekommer på mer än ett språk eller i mer än en skriftart återges den upphovsuppgift som är på huvudtitelns språk eller dess skriftart (RDA 2.4.2.4).
+
+NB-praxis: Obligatoriskt att ange parallell upphovsuppgift som hänför sig till huvudtiteln (RDA 2.4.3).
+
+## Upplageuppgift (RDA 2.5) <a name="paragraph9"></a>
+
 Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga element är valfria. För seriella resurser är det vanligtvis endast upplagebeteckning som är aktuellt.
-Upplageuppgiften återges som den förekommer i resursen, dock inte nödvändigtvis när det gäller stora och små bokstäver eller interpunktion, se dokumentet "Transcription" - RDA 1.7.
-Förkortningar används endast om de förekommer i källan som uppgiften hämtas från.
+
+Upplageuppgiften återges som den förekommer i resursen, dock inte nödvändigtvis när det gäller stora och små bokstäver eller interpunktion, se dokumentet "Transcription" - RDA 1.7. Förkortningar används endast om de förekommer i källan som uppgiften hämtas från.
+
 Återge inte en uppgift som är relaterad till tryckning eller antal exemplar av en viss upplaga som upplageuppgift eller en uppgift som endast hör till ett särskilt nummer eller en särskild del av resursen. Då det är tveksamt om en uppgift är att betrakta som upplageuppgift, ska ord som utgåva, upplaga, nummer, version (eller deras motsvarigheter på andra språk) uppfattas som tecken på att uppgiften är en upplageuppgift, och då behandlas som en sådan.
+
 Om en resurs saknar upplagebeteckning men det är känt att den skiljer sig från andra upplagor, tillämpa det valfria tillägget och lägg till en upplageuppgift om det är av betydelse för identifikation eller åtkomst (RDA 2.5.1.4). Ange uppgiften inom klammer på huvudtitelns språk. För resurser med huvudtitel på svenska, följ Svenska skrivreglers rekommendation och använd termen "upplaga" för förändrat/annat innehåll.
-250	_	_	#a [Upplaga B] 
-Upplagebeteckning
+
+**Exempel**
+`text`
+
+### Upplagebeteckning
+
 Upplagebeteckning är ett kärnelement och anges i delfält 250 #a. Hämta uppgiften från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4. 
 Om upplageuppgiften består av en bokstav eller bokstäver och/eller en siffra eller siffror utan påföljande ord, tilläggs tillämpligt ord (RDA 2.5.2.3).
-250	_	_	#a [Version] 1.1
+
+**Exempel**
+`text`
 
 Återge tal angivna med siffror eller med bokstäver som de återfinns i resursen. Eftersom upplageuppgift inte är med i listan i RDA 1.8.1 gäller inte specialreglerna i RDA 1.8.2-1.8.5. Även romerska siffror återges alltså som de återfinns i resursen.
-250	_	_	#a Version IV
-Upplagebeteckning på mer än ett språk eller i mer än en skriftart
+
+**Exempel**
+`text`
+
+## Upplagebeteckning på mer än ett språk eller i mer än en skriftart
+
 Om upplagebeteckningen förekommer i källan på mer än ett språk eller i mer än en skriftart, återge den uppgift som är på huvudtitelns språk eller i dess skriftart. Om detta kriterium inte går att tillämpa, återge den upplagebeteckning som kommer först i källan (RDA 2.5.2.4).
-Upplagebeteckning som är en del av huvudtitel, etc.
+
+### Upplagebeteckning som är en del av huvudtitel, etc.
+
 Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformation eller upphovsuppgift, eller grammatiskt sammanhängande med något av dessa element ska anges tillsammans med det element som det är en del av. Ange det inte igen som en upplagebeteckning (RDA 2.5.2.6).
-245	1	0	#a DSI special edition
 
-Upp
+**Exempel**
+`text`
 
-Numrering av seriella resurser (RDA 2.6)
+## Numrering av seriella resurser (RDA 2.6) <a name="paragraph10"></a>
+
 Elementet innehåller flera underelement. Kärnelement är numerisk och/eller alfabetisk beteckning för första numret/delen i första eller enda sviten, kronologisk beteckning för första numret/delen i första eller enda sviten, numerisk och/eller alfabetisk beteckning för sista numret/delen i sista eller enda sviten, kronologisk beteckning för sista numret/delen i sista eller enda sviten.
-Källor 
+
+### Källor 
+
 Uppgift om numrering av en seriell resurs hämtas från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4. 
+
 Om varken första numret eller information om första numret är tillgänglig vid katalogiseringstillfället, ska elementet uteslutas och en anmärkning ska göras om vilket nummer som använts som grund för beskrivningen. 
-500	_	_	#a Beskrivningen grundad på 1988, nr 3
+
+**Exempel**
+`text`
 
 Om beskrivningen av resursen inte grundar sig på första numret men numreringen kan hämtas från en källa utanför resursen (t.ex. från webben) är Librispraxis att klamra in uppgiften. 
-362	0	_	#a [1988, nr 1]-
+
+**Exempel**
+`text`
 
 Samma sak gäller om resursen upphör och sista numret inte finns tillgängligt. Kan numreringen hämtas från en källa utanför resursen anges uppgiften inom klammer.
-362	0	_	#a 1988, nr 1-[1991, nr 2]
+
+**Exempel**
+`text`
+
 Första numret är tillgängligt men inte sista. Information om numreringen i sista numret har hämtats från en källa utanför resursen. 
-  
-362	0	_	#a [1988, nr 1]-[1991, nr 2]
+
+**Exempel**
+`text`
+
 Varken första eller sista numret är tillgängligt men information om numreringen i första och sista numret har hämtats från en källa utanför resursen.
+
 Om det första numret eller delen saknar numrering men påföljande nummer/delar har det, kan numrering baserad på numreringen i påföljande nummer/delar läggas till inom klammer.
- 
-362	0	_	#a [Del 1]-
+
+**Exempel**
+`text`
+
 Påföljande delar har numreringen: Del 2, Del 3, etc.
 
 Det är inte tillåtet att ange en trolig numrering följd av frågetecken, t. ex. [1987, nummer 1?]-. Ungefärlig utgivningstid anges i elementet för utgivningstid, se nedan under Uppgift om utgivningstid saknas.
  
-Upp
-Ange numrering av seriella resurser 
+### Ange numrering av seriella resurser 
+
 RDA säger inget om hur de olika underelementen i numreringen ska sättas samman, varken när de står tillsammans eller på olika ställen i resursen, utan ger instruktioner för varje underelement för sig.
 
 I MARC21 anges samtliga underelement i ett enda fält, 362 #a. ISBD (International Standard Bibliographic Description), paragraf 3.3, ger följande instruktioner för hur de olika underelementen ska anges tillsammans:
 
 Numerisk och/eller alfabetisk beteckning och/eller kronologisk beteckning för första numret av en seriell resurs ska följas av ett bindestreck.
-362	0	_	#a 1998-
+
+**Exempel**
+`text`
 
 När den seriella resursen upphör anges numerisk och/eller alfabetisk beteckning och/eller kronologisk beteckning för sista numret efter bindestrecket.
-362	0	_	#a 1998-1999
+
+**Exempel**
+`text`
 
 Om endast numerisk och/eller alfabetisk och/eller kronologisk beteckning för sista numret av en seriell resurs anges ska denna föregås av ett bindestreck.
-362	0	_	#a -1999, nr 1
+
+**Exempel**
+`text`
 
 Om ett nummer av en seriell resurs identifieras med både numerisk och/eller alfabetisk och kronologisk beteckning anges den kronologiska beteckningen inom parentes efter den numeriska och/eller alfabetiska beteckningen.
-362	0	_	#a No. 1(Jan. 1971)-
+
+**Exempel**
+`text`
  
 Om numret bara avser en del av den kronologiska perioden utan att denna specificeras, och varje årgång börjar med nummer ett eller motsvarande, anges den numerisk och/eller alfabetiska beteckningen efter den kronologiska beteckningen.
-362	0	_	#a 1999, nr 1-
- 
-362	0	_	#a Årg. 1(1988), nr 1-
 
-362	0	_	#a Årgång 1(april 1999), nummer 1-
+**Exempel**
+`text`
+ 
 Om den numerisk och/eller alfabetiska beteckningen består av flera nivåer ska dessa anges i hierarkisk ordning.
-362	0	_	#a Vol. 1, nr 1-
+
+**Exempel**
+`text`
 
 Om en seriell resurs påbörjar en ny nummersvit utan att förändra huvudtiteln anges beteckningen på det första och sista numret av varje svit. I fält 362 ska en ny nummersvit föregås av mellanslag, semikolon, mellanslag:
-362	0	_	#a Volume 1, number 1-volume 10, number 12 ; No. 1-no. 3
+
+**Exempel**
+`text`
  
 NB-praxis: Numrering anges endast för första och sista numret av en seriell resurs:
-362	0	_	#a Volume 1, number 1-no. 3
+
+**Exempel**
+`text`
 
 Tal angivna med siffror eller bokstäver ska anges enligt de generella riktlinjerna i RDA 1.8. Librispraxis är att ersätta romerska siffror med arabiska. Övriga ord, bokstäver eller grupper av ord och/eller tecken återges som de förekommer i källan enligt RDA 1.7. Återge interpunktion som den förekommer i källan om det inte blir otydligt, se alternativet samt undantagen i RDA 1.7.3. Observera dock undantaget i RDA 2.6.1.4 som innebär att bindestreck alltid ska ersättas med snedstreck för ökad tydlighet.
-362	0	_	#a 1999/2000
+
+**Exempel**
+`text`
 I källan: 1999-2000 
 
 Om en kronologisk beteckning omfattar tidsuppgifter som inte angivits enligt den gregorianska eller julianska kalendern (RDA 2.6.3.3 och RDA 2.6.5.3), följs det valfria tillägget och motsvarande uppgifter tilläggs enligt den gregorianska eller julianska kalendern:
-362	0	_	#a 5722 [2012]-
 
-Upp
+**Exempel**
+`text`
+
 Utgivningsuppgifter (RDA 2.8)
 Utgivningsort, utgivarnamn och utgivningstid är kärnelement. RDA har separata element för utgivnings-, distributions- och tillverkningsuppgifter och dessa anges i separata 264-fält. Med andraindikatorn anger man vilken typ av uppgift fältet innehåller. För utgivningsuppgifter anges 1. Om uppgifterna hämtas utanför resursen ska varje underelement klamras för sig enligt ISBD (International Standard Bibliographic Description), paragraf A.3.2.8.
  
