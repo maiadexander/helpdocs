@@ -903,7 +903,7 @@ Utgivningstiden är känd och suppleras enligt anvisningar i dokumentet Tidsangi
 **Datum**
 `©2001`
 
-### Serieuppgift (RDA 2.12)
+## Serieuppgift (RDA 2.12) <a name="paragraph12"></a>
 
 En serieuppgift är en uppgift som identifierar serien till vilken resursen hör och numreringen av resursen i serien. 
 Elementet serieuppgift har ett antal underlement. Huvudtitel till serie, Numrering inom serie, Huvudtitel till underserie och Numrering inom underserie är kärnelement. Series ISSN och Underseries ISSN är obligatoriska element enligt Librispraxis. 
