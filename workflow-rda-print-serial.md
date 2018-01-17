@@ -623,7 +623,7 @@ Om posten från början innehåller distributörsuppgifter angivna i fält 260, 
 **Exempel**
 `text`
 
-## Tillverkningsuppgifter (RDA 2.10) <a name="paragraph1"></a>
+## Tillverkningsuppgifter (RDA 2.10) <a name="paragraph13"></a>
 
 Tillverkningsuppgifter anges i fält 264 med andraindikator 3. 
 
