@@ -1145,7 +1145,7 @@ Librispraxis: Katalogisatören avgör om det valfria tillägget ska tillämpas.
 
 NB-praxis: Tillämpa det valfria tillägget.
 
-### Omfång (RDA 3.4)
+## Omfång (RDA 3.4) <a name="paragraph17"></a>
 
 Omfång är ett kärnelement om resursen är komplett eller om det totala antalet fysiska enheter är känt.
 
@@ -1307,7 +1307,7 @@ Librispraxis: Katalogisatören avgör om det valfria tillägget att ange typ och
 **Omfång**
 `Benämning: 1 mapp (2 ark)`
 
-### Mått (RDA 3.5)
+## Mått (RDA 3.5) <a name="paragraph18"></a>
 
 Enligt Librispraxis är det inte obligatoriskt att ange mått. Mått som är standard för bäraren anges inte.
 
@@ -1368,7 +1368,7 @@ Om det bedöms viktigt för identifikation eller åtkomst, gör en anmärkning o
 
 Gör vid behov anmärkningar om upphovsuppgiften. En anmärkning kan innehålla information om att en person, familj/släkt eller institution som inte nämns i upphovsuppgiften tillskrivs ansvaret för det intellektuella eller konstnärliga innehållet i resursen, om olika namnformer som förekommer i resursen eller andra detaljer som rör upphovsansvaret. Zvapp!
 
-### Teckengrad (RDA 3.13)
+## Teckengrad (RDA 3.13) <a name="paragraph19"></a>
 
 För resurser med typsnitt anpassat för personer med synnedsättning, ange storleken på typsnittet med termen stor stil.
 
