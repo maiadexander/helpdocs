@@ -390,165 +390,257 @@ Tal angivna med siffror eller bokstäver ska anges enligt de generella riktlinje
 
 **Exempel**
 `text`
-I källan: 1999-2000 
 
 Om en kronologisk beteckning omfattar tidsuppgifter som inte angivits enligt den gregorianska eller julianska kalendern (RDA 2.6.3.3 och RDA 2.6.5.3), följs det valfria tillägget och motsvarande uppgifter tilläggs enligt den gregorianska eller julianska kalendern:
 
 **Exempel**
 `text`
 
-Utgivningsuppgifter (RDA 2.8)
+## Utgivningsuppgifter (RDA 2.8) <a name="paragraph11"></a>
+
 Utgivningsort, utgivarnamn och utgivningstid är kärnelement. RDA har separata element för utgivnings-, distributions- och tillverkningsuppgifter och dessa anges i separata 264-fält. Med andraindikatorn anger man vilken typ av uppgift fältet innehåller. För utgivningsuppgifter anges 1. Om uppgifterna hämtas utanför resursen ska varje underelement klamras för sig enligt ISBD (International Standard Bibliographic Description), paragraf A.3.2.8.
  
-264	_	1	#a [Storstad] : #b [Förlaget], #c [1989]-
+**Exempel**
+`text`
 
 I många befintliga poster kommer utgivningsuppgifterna att ligga i fält 260. Dessa ska inte flyttas till fält 264 men om utgivarnamnet ändras i ett påföljande nummer ska den nya informationen anges i ett 264-fält, se Förändringar i utgivningsuppgifter.
 Anvisningar för Importerade poster.
-Utgivningsort  
+
+### Utgivningsort  
+
 Hämta uppgift om utgivningsort från följande källor (i denna ordning): samma källa som utgivarens namn, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4. 
+
 Ange utgivningsort som den förekommer i källan, följ de generella riktlinjerna i dokumentet "Transcription" - RDA 1.7. Librispraxis är att följa det andra valfria tillägget i RDA 2.8.2.3, d.v.s. att lägga till namn på land, delstat, provins etc.om det behövs för identifikation eller åtkomst. Om uppgiften hämtas utanför resursen ska den klamras. 
+
 Använd svensk namnform om en sådan finns, annars den officiella inhemska formen. Använd förkortningarna av namn på delstater, provinser och territorier etc. i Australien, Förenta staterna och Kanada enligt RDA Appendix B.11. Förkorta inte namn på länder (se Librispraxis, KBSP, vid Appendix B.11).
-264	_	1	#a Dublin, Ohio
- 
-264	_	1	#a London [Ontario]
+
+**Exempel**
+`text`
 
 Om fler än en utgivningsort förekommer i källan är endast den första kärnelement enligt RDA. Librispraxis är att om en utgivare har avdelningar på flera orter, och dessa redovisas i resursen, ska den först nämnda anges. Utöver det anges därpå följande ort som särskilt framhålls genom källans layout eller typografi. 
 264	_	1	#a Stockholm ; #a Malmö : #b Förlaget, #c [2009]-
 
+**Exempel**
+`text`
+
 Om den först nämnda orten och den särskilt framhävda orten inte är svensk, anges även den första av alla därpå följande svenska orter.
 Om en resurs har flera utgivare återges den först nämnda utgivarens ort. Dessutom anges påföljande utgivares orter (om de avviker från den redan nämnda orten):
-•	när en påföljande institution klart framhävs som huvudutgivare genom layout eller typografi, anges även orten för den särskild framhävda utgivaren 
-•	när påföljande utgivare är svensk men inte den först nämnda 
-Utgivningsort på mer än ett språk eller i mer än en skriftart 
+
+*	när en påföljande institution klart framhävs som huvudutgivare genom layout eller typografi, anges även orten för den särskild framhävda utgivaren 
+*	när påföljande utgivare är svensk men inte den först nämnda 
+
+### Utgivningsort på mer än ett språk eller i mer än en skriftart 
+
 Om namnet på utgivningsorten förekommer i källan på mer än ett språk eller i mer än en skriftart, ange den uppgift som är på huvudtitelns språk. Om detta kriterium inte kan tillämpas, återge den uppgift som kommer först i källan (RDA 2.8.2.5).
-Uppgift om utgivningsort saknas i resursen 
+
+### Uppgift om utgivningsort saknas i resursen 
+
 Om ingen utgivningsort är angiven i resursen (RDA 2.8.2.6), lägg till utgivningsorten eller den troliga utgivningsorten inom klammer enligt följande prioriteringsordning:
-a) Känd ort [Stockholm]
-b) Trolig ort [Stockholm?]
-c) Känt land, känd stat, provins etc. [Sverige]
-d) Troligt land, stat, provins etc. [Sverige?]
-e) Okänd ort [Utgivningsort okänd]
-Upp
-Utgivarnamn
+
+1. Känd ort [Stockholm]
+2. Trolig ort [Stockholm?]
+3. Känt land, känd stat, provins etc. [Sverige]
+4. Troligt land, stat, provins etc. [Sverige?]
+5. Okänd ort [Utgivningsort okänd]
+
+### Utgivarnamn
+
 Hämta uppgift om utgivarens namn från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
+
 Om fler än en utgivare förekommer i källan är endast den första kärnelement i RDA. Librispraxis är att dessutom ange påföljande utgivare när en påföljande institution klart framhävs som huvudutgivare genom layout eller typografi eller när påföljande utgivare är svensk men inte den först nämnda. 
+
 NB-praxis: Följ ovanstående Libris-praxis men ange även påföljande utgivare när denna (men inte den första utgivaren) utgörs av ett förlag som står i klartext i resursen. Påföljande utgivare kan vid behov anges även i andra fall. Katalogisatören avgör.  
+
 Återge utgivarens namn som det förekommer i källan, följ de generella riktlinjerna i dokumentet ”Transcription" - RDA 1.7. Om första och påföljande utgivare är förenade till en enda uppgift, ange dem så. 
-264	_	1	#a Stockholm : #b Almqvist & Wicksell i samarbete med fortbildningsavdelningarna vid universiteten i Linköping och Lund
+
+**Exempel**
+`text`
 
 Tillämpa generellt inte det valfria tillägget att lägga till en term som anger en utgivares funktion om det inte behövs en mer specifik funktionsuppgift än den som redan angetts i fält 264, andra indikatorn.
 
 Tillämpa generellt inte den valfria uteslutningen i RDA 2.8.4.3, att utesluta hierarkiska nivåer i utgivarens organisation.
-264	_	1	#a Uppsala : #b Avdelningen för forskning och utbildning i modern svenska, Institutionen för nordiska språk, Uppsala universitet
-Utgivarens namn på mer än ett språk eller i mer än en skriftart
+
+**Exempel**
+`text`
+
+### Utgivarens namn på mer än ett språk eller i mer än en skriftart
+
 Om namnet på utgivaren förekommer i källan på mer än ett språk eller i mer än en skriftart, ange det namn som är på huvudtitelns språk. Om detta kriterium inte kan tillämpas, återge den uppgift som kommer först i källan, RDA 2.8.4.6.
-Utgivarens namn felstavat på titelsidan
+
+### Utgivarens namn felstavat på titelsidan
+
 Titelsidan är föredragen källa för utgivarnamn. Om det finns en titelsida och utgivarens namn är felstavat där, återge utgivarnamnet som det förekommer på titelsidan och gör en anmärkning om det korrekta namnet, se Anmärkning om utgivningsuppgift i arbetsflödet Tryckta monografier.
-Uppgift om utgivare saknas i resursen
+
+### Uppgift om utgivare saknas i resursen
+
 Om uppgift om utgivare saknas i resursen och inte kan hämtas från någon annan källa ange [utgivare okänd], RDA 2.8.4.7.
-Upp
-Utgivningstid
+
+### Utgivningstid
+
 Utgivningstid är ett kärnelement. Librispraxis är att tillämpa det valfria tillägget i RDA 2.8.6.3 om uppgiften inte är angiven enligt gregoriansk eller juliansk kalender.
+
 Hämta uppgift om utgivningstid från första och/eller sista numret eller delen av en seriell resurs i följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4. Följ riktlinjerna i dokumenten Tal (siffror och bokstäver) - RDA 1.8 och Tidsangivelser - RDA 1.9. För seriella resurser följs även RDA 2.8.6.5. 
+
 Vid pågående utgivning ska den seriella resursens startår följas av ett bindestreck:
-264	_	1	#a Uppsala : #b Förlaget, #c 1988-
+
+**Exempel**
+`text`
 
 När utgivningen upphör anges slutår efter bindestrecket:
-264	_	1	#a Uppsala : #b Förlaget, #c 1988-2007
+
+**Exempel**
+`text`
 
 Om den seriella resursen upphör men startår är okänt, ange slutår föregånget av bindestreck:
-264	_	1	#a Uppsala : #b Förlaget, #c -2007
+
+**Exempel**
+`text`
 
 Om en seriell resurs upphör inom ett år, ange endast ett årtal:
-264	_	1	#a Uppsala : #b Förlaget, #c 2007
-Uppgift om utgivningstid saknas 
+
+**Exempel**
+`text`
+
+### Uppgift om utgivningstid saknas 
+
 Om uppgift om utgivningstid saknas, lägg till utgivningstid enligt instruktionerna i RDA 1.9.2.
-•	Om första numret/delen och/eller sista numret/delen inte är tillgängligt vid katalogiseringstillfället men uppgift om utgivningstid kan hämtas från en källa utanför resursen, lägg till utgivningstiden. Uppgiften ska klamras. 
-•	Om första numret/delen och/eller sista numret/delen saknar uppgift om utgivningstid men distributionstid, tillverkningstid, copyrightår eller kronologisk beteckning finns i resursen, lägg till en utgivningstid baserad på någon/några av dessa uppgifter. Uppgiften ska klamras.
-•	Om första numret/delen och/eller sista numret/delen saknar uppgift om utgivningstid, distributionstid, tillverkningstid, copyrightår eller kronologisk beteckning men uppgift om utgivningstid kan hämtas från en källa utanför resursen, lägg till en utgivningstid. Uppgiften ska klamras.
+
+* Om första numret/delen och/eller sista numret/delen inte är tillgängligt vid katalogiseringstillfället men uppgift om utgivningstid kan hämtas från en källa utanför resursen, lägg till utgivningstiden. Uppgiften ska klamras. 
+* Om första numret/delen och/eller sista numret/delen saknar uppgift om utgivningstid men distributionstid, tillverkningstid, copyrightår eller kronologisk beteckning finns i resursen, lägg till en utgivningstid baserad på någon/några av dessa uppgifter. Uppgiften ska klamras.
+* Om första numret/delen och/eller sista numret/delen saknar uppgift om utgivningstid, distributionstid, tillverkningstid, copyrightår eller kronologisk beteckning men uppgift om utgivningstid kan hämtas från en källa utanför resursen, lägg till en utgivningstid. Uppgiften ska klamras.
+
 Startåret är känt:
-264	_	1	#a Uppsala : #b Förlaget, #c [1988]-
+
+**Exempel**
+`text`
 
 Det är känt att resursen upphörde 2007:
-264	_	1	#a Uppsala : #b Förlaget, #c 1988-[2007]
+
+**Exempel**
+`text`
 
 Utgivningstiden är känd:
-264	_	1	#a Uppsala : #b Förlaget, #c [1988]-[2007]
+
+**Exempel**
+`text`
  
 Det är känt att startåret är ett av två på varandra följande år:
-264	_	1	#a Uppsala : #b Förlaget, #c [1988 eller 1989]-
+
+**Exempel**
+`text`
 
 Det är troligt att startåret faller inom ett visst tidsintervall:
-264	_	1	#a Uppsala : #b Förlaget, #c [mellan 1999 och 2001?]-
+
+**Exempel**
+`text`
 
 Troligt startår:
-264	_	1	#a Uppsala : #b Förlaget, #c [1999?]-
+
+**Exempel**
+`text`
 
 Tidigast möjliga startår är känt:
-264	_	1	#a Uppsala : #b Förlaget, #c [ej före 1997]-
+
+**Exempel**
+`text`
  
 Senast möjliga startår är känt:
-264	_	1	#a Uppsala : #b Förlaget, #c [ej efter 1997]-
-Utgivningstid okänd
+
+**Exempel**
+`text`
+
+### Utgivningstid okänd
+
 Om utgivningstiden för en seriell resurs är okänd och ingen ungefärlig utgivningstid kan anges, ska ingen utgivningstid alls anges. Ange inte [utgivningstid okänd].
-Fiktiv eller felaktig utgivningstid
+
+### Fiktiv eller felaktig utgivningstid
+
 Om det är känt att utgivningstiden som är angiven i resursen är fiktiv eller felaktig, ange den utgivningstid som står i resursen i elementet för utgivningstid och gör en anmärkning om den korrekta eller troliga utgivningstiden, RDA 2.8.6.3. I fält 008 anges den korrekta utgivningstiden hämtad från anmärkningen.
 Läs mer om hur man anger utgivningstid i fält 008 under Typ av utgivningsdatum och Årtal/tid. 
-008/07_10	_	_	1988
-264	_	1	#a Uppsala : #b Förlaget, #c 1888-
-500	_	_	#a Felaktigt utgivningsår i första numret, ska vara 1988
+
+**Exempel**
+`text`
+
 Känt att utgivningsåret är felaktigt.
-Upp
-Förändringar i utgivningsuppgifter
+
+### Förändringar i utgivningsuppgifter
+
 Librispraxis är att inte redovisa växlande utgivningsort (RDA 2.8.1.5.2).  Däremot ska förändringar i utgivaruppgifter som inte enbart består i hur utgivarnamnet presenteras redovisas. Librispraxis är att ange första och nuvarande utgivare men inte mellanliggande utgivare. 
+
 I MARC21 anges förändringarna genom att fält 264 upprepas och att olika värden i förstaindikatorn anges.
 Förstaindikator 3 anger nuvarande/senaste utgivare.
-264	_	1	#a Stockholm : #b Scandecor trading, #c [1998]-
-264	3	1	#a Stockholm : #b Rosenudde
+
+**Exempel**
+`text`
 
 Om posten från början innehåller utgivaruppgifter angivna i fält 260, behålls dessa men ny utgivarinformation anges i ett 264-fält.
-260	_	_	#a Stockholm : #b Scandecor trading, #c [1998]-
-264	3	1	#a Stockholm : #b Rosenudde
+
+**Exempel**
+`text`
 
 Librispraxis är att ange relationen mellan manifestationen och en institution som är utgivare, se Personer, familjer/släkter och institutioner knutna till en manifestation. Om en institution som är utgivare ändras eller tillkommer i ett påföljande nummer eller en påföljande del av en seriell resurs så ska en auktoriserad sökingång för den nya institutionen läggas till.
-Upp
-Distributörsuppgift (RDA 2.9)
+
+## Distributörsuppgift (RDA 2.9) <a name="paragraph12"></a>
+
 Distributörsuppgifter anges i fält 264 med andraindikator 2.
-Distributionsort
+
+### Distributionsort
+
 Distributionsort är inte ett kärnelement. Librispraxis är att endast ange distributionsort om den framgår av resursen. För källor, se RDA 2.9.2.2. För instruktioner om hur man anger distributionsort, se RDA 2.9.2.3. Tillämpa det andra valfria tillägget men inte det första.
-Distributörsnamn
+
+### Distributörsnamn
+
 Distributörsnamn är inte ett kärnelement. Librispraxis är att endast ange distributörens namn om det framgår av resursen. För val av källa, se RDA 2.9.4.2. För instruktioner om hur man anger distributörsnamn, se RDA 2.9.4.3. Tillämpa generellt inte den valfria uteslutningen. Tillämpa inte det valfria tillägget i RDA 2.9.4.4 om det inte behövs en mer specifik funktionsuppgift än den som angivits i fält 264, andra indikatorn.
-264	_	1	#a Uppsala : #b Förlaget, #c [1998]-
-264	_	2	#a Uppsala : #b Akademiska bokhandeln, #c 1998-
-Distributionstid
+
+**Exempel**
+`text`
+
+### Distributionstid
+
 Distributionstid är inte ett kärnelement. För val av källa, se RDA 2.9.6.2.
+
 För instruktioner om hur man anger distributionstid, se RDA 2.9.6.3. Följ även riktlinjerna i dokumentet: Tal (siffror och bokstäver) - RDA 1.8. Tillämpa det valfria tillägget.
 
 Om distributionstiden angivits i källan i form av ett kronogram, RDA 2.9.6.4, tillämpa alternativet och ange uppgiften med arabiska siffror enligt den gregorianska eller julianska kalendern. Klamra. Ange kronogrammet i en anmärkning om det är viktigt för identifiering.
-Distributionstid okänd
+
+### Distributionstid okänd
+
 Om distributionstiden för en seriell resurs är okänd och ingen ungefärlig distributionstid kan anges, ska ingen distributionstid alls anges. Ange inte [distributionstid okänd].
-Förändringar i distributionsuppgifter
+
+### Förändringar i distributionsuppgifter
+
 Librispraxis är att inte redovisa växlande distributionsort (RDA 2.9.1.5.2).  Däremot ska förändringar som inte enbart består i hur distributörsnamnet presenteras redovisas. Librispraxis är att ange första och nuvarande distributör men inte mellanliggande distributör. 
+
 I MARC21 anges förändringarna genom att fält 264 upprepas och att olika värden i förstaindikatorn anges.
+
 Förstaindikator 3 anger nuvarande/senaste distributör.
-264	_	2	#a Uppsala : #b Akademiska bokhandeln [distributör], #c [1998]-
-264	3	2	#a Uppsala : #b Swedish Science Press
+
+**Exempel**
+`text`
 
 Om posten från början innehåller distributörsuppgifter angivna i fält 260, behålls dessa men ny distributörsinformation anges i ett 264-fält.
-260	_	_	#a Uppsala : #b Akademiska bokhandeln [distributör], #c [1998]-
-264	3	2	#a Uppsala : #b Swedish Science Press
- 
-Upp
-Tillverkningsuppgifter (RDA 2.10)
+
+**Exempel**
+`text`
+
+## Tillverkningsuppgifter (RDA 2.10) <a name="paragraph1"></a>
+
 Tillverkningsuppgifter anges i fält 264 med andraindikator 3. 
-Tillverkningsort
-Tillverkningort är inte ett kärnelement. För val av källa, se RDA 2.10.2.2.
-För instruktioner om hur man anger tillverkningsort, se RDA 2.10.2.3. Tillämpa det andra valfria tillägget men inte det första.  
-Tillverkarnamn
-Tillverkarnamn är inte ett kärnelement. För val av källa, se RDA 2.10.4.2.
-För instruktioner om hur man anger tillverkarnamn, se RDA 2.10.4.3. Tillämpa generellt inte den valfria uteslutningen.
+
+### Tillverkningsort
+
+Tillverkningort är inte ett kärnelement. För val av källa, se RDA 2.10.2.2. För instruktioner om hur man anger tillverkningsort, se RDA 2.10.2.3. Tillämpa det andra valfria tillägget men inte det första.  
+
+### Tillverkarnamn
+
+_Tillverkarnamn är inte ett kärnelement._ 
+
+För val av källa, se RDA 2.10.4.2. För instruktioner om hur man anger tillverkarnamn, se RDA 2.10.4.3. Tillämpa generellt inte den valfria uteslutningen.
+
 Tillämpa inte det valfria tillägget i RDA 2.10.4.4 om det inte behövs en mer specifik funktionsuppgift än den som angivits i fält 264, andra indikatorn. 
-Tillverkningstid
+
+### Tillverkningstid
+
 Tillverkningstid är inte ett kärnelement. För val av källa, se RDA 2.10.6.2.
 För instruktioner om hur man anger tillverkningstid, se RDA 2.10.6.3. Följ även riktlinjerna i dokumentet: ”Tal (siffror och bokstäver) - RDA 1.8”. Tillämpa det valfria tillägget.
 Om tillverkningstiden angivits i källan i form av ett kronogram, RDA 2.10.6.4, tillämpa alternativet och ange uppgiften med arabiska siffror enligt den gregorianska eller julianska kalendern. Klamra. Ange kronogrammet i en anmärkning om det är viktigt för identifiering. 
@@ -680,4 +772,3 @@ NB-praxis: Mått anges inte för tidskrifter.
 För anvisningar om hur man anger mått, se arbetsflödet Tryckta monografier.
 Teckenstorlek (RDA 3.13)
 För anvisningar om hur man anger teckenstorlek, se arbetsflödet Tryckta monografier.
-Upp
