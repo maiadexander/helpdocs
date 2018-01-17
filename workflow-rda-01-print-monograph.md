@@ -32,13 +32,13 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Tillverkning](#paragraph10)
 * [Copyrightår](#paragraph11)
 * [Serieuppgift](#paragraph12)
-* [Identifikator för instansen/manifestationen](#paragraph13)
 * [Medietyp](#paragraph15)
 * [Bärartyp](#paragraph16)
 * [Omfång](#paragraph17)
 * [Mått](#paragraph18)
 * [Teckengrad](#paragraph19)
 * [Anmärkningar om instansen/manifestationen](#paragraph14)
+* [Identifikator för instansen/manifestationen](#paragraph13)
 ---
 
 ---
