@@ -28,7 +28,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Upphovsuppgift](#paragraph6)
 * [Upplageuppgift](#paragraph7)
 * [Utgivning](#paragraph8)
-* [Distributionsuppgifter](#paragraph9)
+* [Distribution](#paragraph9)
 * [Tillverkning](#paragraph10)
 * [Copyrightår](#paragraph11)
 * [Serieuppgift](#paragraph12)
@@ -798,7 +798,7 @@ Känt att utgivningsåret är felaktigt
 Korrekt tillverkningstid finns i resursen
 `2006`
 
-### Distribution (RDA 2.9)
+## Distribution (RDA 2.9) <a name="paragraph9"></a>
 
 ### Distributionsort
 
