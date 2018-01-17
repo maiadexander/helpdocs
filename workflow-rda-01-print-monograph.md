@@ -26,6 +26,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Övrig titelinformation](#paragraph5)
 * [Parallell huvudtitel](#paragraph4)
 * [Upphovsuppgift](#paragraph6)
+* [Identifikator för instansen/manifestationen](#paragraph13)
 * [Upplageuppgift](#paragraph7)
 * [Utgivning](#paragraph8)
 * [Distribution](#paragraph9)
@@ -38,7 +39,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Mått](#paragraph18)
 * [Anmärkningar om instansen/manifestationen](#paragraph14)
 * [Teckengrad](#paragraph19)
-* [Identifikator för instansen/manifestationen](#paragraph13)
+
 ---
 
 ---
@@ -283,9 +284,11 @@ Om en upphovsuppgift som hänför sig till huvudtiteln förekommer på mer än e
 
 NB-praxis: Obligatoriskt att ange parallell upphovsuppgift som hänför sig till huvudtiteln (RDA 2.4.3).
 
-### Identifikator för instansen/manifestationen (RDA 2.15)
+## Identifikator för instansen/manifestationen (RDA 2.15) <a name="paragraph13"></a>
 
-Identifikator för instansen/manifestationen är ett kärnelement. Uppgift om identifikator hämtas från valfri källa. 
+_Identifikator för instansen/manifestationen är ett kärnelement. _
+
+Uppgift om identifikator hämtas från valfri källa. 
 
 ### ISBN
 
