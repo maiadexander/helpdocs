@@ -20,7 +20,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 
 ## Innehåll
 
-* [Element tillhörande instans/manifestation](#paragraph1)
+**Element tillhörande instans/manifestation**
 * [Föredragen källa för beskrivningen](#paragraph2)
 * [Huvudtitel](#paragraph3)
 * [Övrig titelinformation](#paragraph5)
@@ -43,7 +43,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 ---
 
 ---
-# Element tillhörande instans/manifestation <a name="paragraph1"></a>
+# Element tillhörande instans/manifestation
 
 ## Föredragen källa (RDA 2.2)  <a name="paragraph2"></a>
 
