@@ -1232,6 +1232,7 @@ Om sidorna etc. numrerats som del i en större svit , ange sidornas etc. första
 ### Komplicerad och oregelbunden paginering
 
 RDA 3.4.5.8 ger tre alternativ:
+
 1. Ange det totala antalet sidor etc., följt av ”med varierande paginering/bladnumrering”
 2. Ange den komplicerade pagineringen etc. exakt som den är
 3. Ange 1 volym (varierande paginering)
@@ -1254,89 +1255,103 @@ När onumrerade sviter anges, uppge antingen:
 
 Librispraxis: Om en resurs har onumrerade planschsidor/blad men antalet lätt kan fastställas tillämpa alternativ 1. Om sidantalet inte lätt kan fastställas, tillämpa alternativ 2.
 
-Planschblad eller planschsidor 
+### Planschblad eller planschsidor 
+
 Om planschbladen eller planschsidorna i en resurs inte ingår i numreringen av en eller flera sviter av blad eller sidor med text etc., ange antalet planschblad eller planschsidor sist i sviten av pagineringar. Ange antalet planschblad eller planschsidor efter de paginerade sviterna oavsett om planscherna återfinns samlade eller utspridda i resursen (RDA 3.4.5.9).
+
 Numrerade planschblad eller planschsidor:
-Omfång
-Benämning: 246 sidor, 32 planschsidor
-Omfång
-Benämning: xiv, 145 sidor, 10 planschblad, xii planschsidor
+
+**Omfång**
+`Benämning: 246 sidor, 32 planschsidor`
+
+**Omfång**
+`Benämning: xiv, 145 sidor, 10 planschblad, xii planschsidor`
+
 Onumrerade planschblad eller planschsidor:
-Omfång
-Benämning: 10 onumrerade sidor, 16 onumrerade planschsidor
-Omfång
-Benämning: xiv, 249 sidor, 12 onumrerade planschblad
+
+**Omfång**
+`Benämning: 10 onumrerade sidor, 16 onumrerade planschsidor`
+
+**Omfång**
+`Benämning: xiv, 249 sidor, 12 onumrerade planschblad`
+
 Läs mer i RDA 3.4.5.9.
 
-Portfölj, fodral eller mapp 
+### Portfölj, fodral eller mapp 
+
 För en resurs som består av ett eller flera ark i en portfölj, fodral eller mapp, ange omfånget som 1 mapp, 1 fodral eller 1 mapp (RDA 3.4.5.15).
-Omfång
-Benämning: 1 mapp
+
+**Omfång**
+`Benämning: 1 mapp`
+
 Librispraxis: Katalogisatören avgör om det valfria tillägget att ange typ och antal underenheter ska tillämpas.
-Omfång
-Benämning: 1 mapp (2 ark)
 
-Mått (RDA 3.5)
+**Omfång**
+`Benämning: 1 mapp (2 ark)`
+
+## Mått (RDA 3.5)
+
 Enligt Librispraxis är det inte obligatoriskt att ange mått. Mått som är standard för bäraren anges inte.
+
 Om mått anges, och om instruktionerna inte säger något annat, ange mått i centimeter, avrundat uppåt till närmaste hela centimetertal. Ange måttet i cm (om en volym mäter 17,2 cm, anges måttet som 18 cm).
-Mått
-Benämning: 25 cm
 
-Mått
-Benämning: 50 mm
+**Mått**
+`Benämning: 25 cm`
 
-Mått
-Benämning: 21 x 37 cm
+**Mått**
+`Benämning: 50 mm`
 
-Mått
-Benämning: 27 cm i skyddskassett 28 x 25 x 5 cm
+**Mått**
+`Benämning: 21 x 37 cm`
 
-Anmärkningar om instansen/manifestationen (RDA 2.17)
+**Mått**
+`Benämning: 27 cm i skyddskassett 28 x 25 x 5 cm`
+
+## Anmärkningar om instansen/manifestationen (RDA 2.17)
 
 _Anmärkningar om manifestationen är inte ett kärnelement._
 
 Gör anmärkning när det bedöms viktigt för identifikation, urval eller åtkomst.
 
-Citat (RDA 1.10.3)
+### Citat (RDA 1.10.3)
 
 Ange källhänvisning för citat ur resursen, såvida det inte är hämtat från den föredragna källan. Citatet ska anges inom citationstecken. Librispraxis är att ange källan före citatet.
 
-Anmärkning
-Benämning: Omslag: ”Tryck, lyssna och sjung med”
+**Anmärkning**
+`Benämning: Omslag: ”Tryck, lyssna och sjung med”`
 
-Anmärkning om titel (RDA 2.17.2)
+### Anmärkning om titel (RDA 2.17.2)
 
-Gör en anmärkning om källan för huvudtiteln om den inte tagits från någon av dessa källor (för resurs som består av flera sidor, blad, ark eller kort (eller en bild av dessa)): 
-titelsidan, titelblad eller titelkort (eller en bild av dessa).
+Gör en anmärkning om källan för huvudtiteln om den inte tagits från någon av dessa källor (för resurs som består av flera sidor, blad, ark eller kort (eller en bild av dessa)): titelsidan, titelblad eller titelkort (eller en bild av dessa).
 
 Om resursen bara har en titel och titeln förekommer i resursen, behöver inte anmärkning om titelns källa anges (Librispraxis är att tillämpa den valfria uteslutningen).
 
-Anmärkning
-Benämning: Titel från rygg
+**Anmärkning**
+`Benämning: Titel från rygg`
 
-Anmärkning
-Benämning: Titel från omslag
+**Anmärkning**
+`Benämning: Titel från omslag`
 
-Anmärkning
-Benämning: Titel från kolofon
+**Anmärkning**
+`Benämning: Titel från kolofon`
 
-Anmärkning
-Benämning: Titel konstruerad av katalogisatör
+**Anmärkning**
+`Benämning: Titel konstruerad av katalogisatör`
 
-Om det bedöms viktigt för identifikation eller åtkomst, gör en anmärkning om källan för varianttitel (se RDA 2.3.6.3). Ange källan med hjälp av andraindikator eller anmärkningstext i fält 246, tillsammans med varianttiteln.
+Om det bedöms viktigt för identifikation eller åtkomst, gör en anmärkning om källan för varianttitel (se RDA 2.3.6.3). 
 
-Titel
-Huvudtitel: Sanvikens IF 75 år
-Omslagstitel
-Benämning?: Sandvikens IF 1918-1993
+**Titel**
+`Huvudtitel: Sanvikens IF 75 år`
 
-Anmärkning om upphovsuppgift (RDA 2.17.3)
+**Omslagstitel**
+`Benämning?: Sandvikens IF 1918-1993`
+
+### Anmärkning om upphovsuppgift (RDA 2.17.3)
 
 Gör vid behov anmärkningar om upphovsuppgiften. En anmärkning kan innehålla information om att en person, familj/släkt eller institution som inte nämns i upphovsuppgiften tillskrivs ansvaret för det intellektuella eller konstnärliga innehållet i resursen, om olika namnformer som förekommer i resursen eller andra detaljer som rör upphovsansvaret. Zvapp!
 
-Teckengrad (RDA 3.13)
+### Teckengrad (RDA 3.13)
 
 För resurser med typsnitt anpassat för personer med synnedsättning, ange storleken på typsnittet med termen stor stil.
 
 Katalogisatören avgör om det valfria tillägget att ange storleken på typsnittet i antal punkter inom parentes ska tillämpas.
-
