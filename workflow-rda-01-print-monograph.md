@@ -543,7 +543,7 @@ Anmärkning: tillsammans med 2 andra böcker i skyddskasett`
 
 Om det inte finns ett ISBN, ange någon annan identifikator från valfri källa. Föredra identifikatorer från internationellt erkända system. Sådana identifikatorer kan även anges utöver ISBN om det bedöms viktigt för identifikation eller åtkomst. Följ instruktionerna i RDA 2.15. 
 
-## Upplaga, RDA 2.5 <a name="paragraph7"></a>
+## Upplageuppgift, RDA 2.5 <a name="paragraph7"></a>
 
 Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga underelement är valfria. Samtliga underelement anges i fältet för upplageuppgift med lämplig ISBD-interpunktion.
 
