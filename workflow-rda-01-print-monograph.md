@@ -210,7 +210,7 @@ Parallell huvudtitel anges i titeltyp _Parallelltitel_.
 
 Titeltypen _Parallelltitel_ är repeterbar.
 
-### Upphovsuppgift (RDA 2.4) a name="paragraph6"></a>
+## Upphovsuppgift (RDA 2.4) <a name="paragraph6"></a>
 
 Upphovsuppgift som hänför sig till huvudtiteln är ett kärnelement. Om det finns mer än en, är endast den första ett kärnelement.
 
