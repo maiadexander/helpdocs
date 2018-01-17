@@ -32,14 +32,13 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Tillverkning](#paragraph10)
 * [Copyrightår](#paragraph11)
 * [Serieuppgift](#paragraph12)
-* [Identifikator för manifestationen (t.ex. ISBN)](#paragraph13)
-* [Anmärkningar om instansen/manifestationen](#paragraph14)
+* [Identifikator för instansen/manifestationen](#paragraph13)
 * [Medietyp](#paragraph15)
 * [Bärartyp](#paragraph16)
 * [Omfång](#paragraph17)
 * [Mått](#paragraph18)
 * [Teckengrad](#paragraph19)
-
+* [Anmärkningar om instansen/manifestationen](#paragraph14)
 ---
 
 ---
@@ -1119,7 +1118,7 @@ Tillämpa inte den valfria uteslutningen i RDA 2.12.16.3, dvs ange även huvudse
 **Serieuppgift**
 `Progress in monecular and subcellular biology, 0079-6484 ; 46. Marine molecular biotechnology, 1611-6119`
 
-### Medietyp (RDA 3.2)
+## Medietyp (RDA 3.2) <a name="paragraph15"></a>
 
 Obligatoriskt enligt Librispraxis.
 
@@ -1130,7 +1129,7 @@ Om resursen består av mer än en medietyp är Librispraxis att ange den mediety
 
 Om resursen består av flera likvärdiga delar (kombinerat material) ange medietyp för alla delarna.
 
-### Bärartyp (RDA 3.3)
+## Bärartyp (RDA 3.3) <a name="paragraph16"></a>
 
 _Bärartyp är ett kärnelement._
 
