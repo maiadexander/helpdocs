@@ -624,7 +624,8 @@ _Ej kärnelement._
 
 NB-praxis: Obligatoriskt att ange upphovsuppgifter som hänför sig till påföljande upplagebeteckning (RDA 2.5.8).
 
-### Utgivning (RDA 2.8)
+## Utgivning (RDA 2.8) <a name="paragraph8"></a>
+
 _Utgivningsort, utgivare och är kärnelement._ 
 
 RDA har separata element för utgivnings-, distributions- och tillverkningsuppgifter och dessa anges i separata fält. Om uppgifterna hämtas utanför resursen ska varje element klamras för sig, RDA Appendix D. 1.
