@@ -43,28 +43,45 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Mått] (#paragraph20)
 * [Teckenstorlek] (#paragraph21)
 
-För generella riktlinjer om hur man återger element som de förekommer i källan, se dokumentet "Transcription" - RDA 1.7.
-Element tillhörande manifestationen  
-Källa för resursen som helhet (RDA 2.1)
+# Element tillhörande manifestationen  
+
+## Källa för resursen som helhet (RDA 2.1) <a name="paragraph1"></a>
+
 Beskrivningen av en seriell resurs baseras på första numret eller första delen. Om första numret saknas, använd det första tillgängliga numret eller den första tillgängliga delen (RDA 2.1.2.3).
+
 Om numret/delen som används för beskrivningen inte är det/den första, gör en anmärkning om vilket nummer eller vilken del som använts (RDA 2.17.13.3).
-500	_	_	#a Beskrivningen grundad på: nummer 2 (2006)
+
+**Exempel**
+`text`
 
 Om fler än ett nummer/fler än en del har använts för att beskriva resursen (d.v.s. ett senare nummer/senare del), ange det i en anmärkning, (RDA 2.17.13.3.1). 
-500	_	_	#a Senast kontrollerat: nummer 6 (2009)
-Föredragen källa (RDA 2.2)
-Börja med den information som finns på titelsidan (RDA 2.2.2.2). 
-Uppgifter som saknas på titelsidan hämtas i första hand från valfri källa inom resursen. Det finns ingen prioriteringsordning bland övriga källor inom resursen.
-Om det finns flera titelsidor eller olika källor med olika datum, använd i första hand den information som finns i källan med det senaste datumet (RDA 2.2.3.2).
-Om resursen saknar titelsida eller annan källa som identifierar den, använd information som finns på (i denna ordning): medföljande material som inte är en del av resursen själv, annan publicerad beskrivning av resursen, en förpackning, annan tillgänglig källa. Klamra information hämtad utanför resursen (RDA 2.2.4). 
-Upp
 
-Huvudtitel (RDA 2.3.2)
-Huvudtitel är ett kärnelement och anges i fält 245 #a. 
+**Exempel**
+`text`
+
+## Föredragen källa (RDA 2.2) <a name="paragraph2"></a>
+
+Börja med den information som finns på titelsidan (RDA 2.2.2.2). 
+
+Uppgifter som saknas på titelsidan hämtas i första hand från valfri källa inom resursen. Det finns ingen prioriteringsordning bland övriga källor inom resursen.
+
+Om det finns flera titelsidor eller olika källor med olika datum, använd i första hand den information som finns i källan med det senaste datumet (RDA 2.2.3.2).
+
+Om resursen saknar titelsida eller annan källa som identifierar den, använd information som finns på (i denna ordning): medföljande material som inte är en del av resursen själv, annan publicerad beskrivning av resursen, en förpackning, annan tillgänglig källa. 
+Klamra information hämtad utanför resursen (RDA 2.2.4). 
+
+## Huvudtitel (RDA 2.3.2) <a name="paragraph3"></a>
+
+_Huvudtitel är ett kärnelement._
+
 Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan (RDA 1.7). 
+
 NB-praxis: För monografiska serier som saknar titelsida, hämtas huvudtiteln i första hand från monografins titelsida, om det finns en sådan. Därefter följs prioriteringsordningen i RDA 2.2.2.2.
-Librispraxis: Generellt förkortas aldrig en huvudtitel (se valfritt alternativ under RDA 2.3.1.4).
+
 NB-praxis: Förkorta aldrig en huvudtitel.
+
+Librispraxis: Generellt förkortas aldrig en huvudtitel (se valfritt alternativ under RDA 2.3.1.4).
+
 Anvisningar för Importerade poster.
 Se även arbetsflödet Tryckta monografier för anvisningar om:
 Alternativtitel som är en del av huvudtiteln
