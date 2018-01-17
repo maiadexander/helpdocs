@@ -1,6 +1,6 @@
 ---
 section: Arbetsflöden
-title: Tryckt seriell resurs RDA
+title: Tryckt seriell resurs
 order: 36
 tags:
 - editor
@@ -9,7 +9,7 @@ tags:
 - seriell
 ---
 
-# Tryckt seriell resurs RDA
+# Tryckt seriell resurs
 
 _Arbetsflödet är under arbete._
 
