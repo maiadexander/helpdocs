@@ -24,7 +24,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Föredragen källa för beskrivningen](#paragraph2)
 * [Huvudtitel](#paragraph3)
 * [Parallell huvudtitel](#paragraph4)
-m * [Övrig titelinformation](#paragraph5)
+* [Övrig titelinformation](#paragraph5)
 * [Upphovsuppgift](#paragraph6)
 * [Upplageuppgift](#paragraph7)
 * [Utgivningsuppgifter](#paragraph8)
