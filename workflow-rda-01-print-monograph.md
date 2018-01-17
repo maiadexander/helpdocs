@@ -27,6 +27,14 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Huvudtitel (RDA 2.3.2)](#paragraph2)
     * [Alternativtitel som är en del av huvudtiteln](#subparagraph4)
     * [Felaktigheter](#subparagraph5)
+* [Namn på personer, familjer/släkter och institutioner i titeln](#paragraph3)
+* [Inledande ord etc.](#paragraph4)
+* [Varianttitlar](#paragraph5)
+* [Flera titlar i olika former](#paragraph6)
+* [Namn på personer, familjer/släkter och institutioner i titeln](#paragraph7)
+* [Namn på personer, familjer/släkter och institutioner i titeln](#paragraph8)
+* [Namn på personer, familjer/släkter och institutioner i titeln](#paragraph9)
+* [Namn på personer, familjer/släkter och institutioner i titeln](#paragraph10)
 ---
 
 ---
@@ -90,7 +98,7 @@ Rätta inte felaktigheter. Om en korrekt form av huvudtiteln är viktig för ide
 
 Den rättstavade titeln anges vanligen som Föredragen titel för verket under Instans av verk.
 
-## Namn på personer, familjer/släkter och institutioner i titeln
+## Namn på personer, familjer/släkter och institutioner i titeln (#paragraph3)
 
 Om en huvudtitel innehåller namn som normalt skulle behandlas som en del av upphovsuppgiften eller utgivaruppgiften etc. och namnet utgör en integrerad del av huvudtiteln, ange hela huvudtiteln i titeltypen Huvudtitel och allt utom i namnet i titeltypen Del av huvudtiteln (RDA 2.3.1.5).
 
