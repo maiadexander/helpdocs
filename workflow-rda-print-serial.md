@@ -20,37 +20,29 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 
 ## Innehåll
 
-* [Element tillhörande instans/manifestation](#paragraph1)
-    * [Föredragen källa (RDA 2.2)](#subparagraph1)
-    * [Utgivningssätt (RDA 2.13)](#subparagraph2)
-    * [Titelinformation](#subparagraph3)
-* [Huvudtitel (RDA 2.3.2)](#paragraph2)
-    * [Alternativtitel som är en del av huvudtiteln](#subparagraph4)
-    * [Felaktigheter](#subparagraph5)
+**Element tillhörande instans/manifestation**
+Källa för resursen som helhet (#paragraph1)
+Föredragen källa (#paragraph2)
+Huvudtitel (#paragraph3)
+Parallell huvudtitel (#paragraph4)
+Övrig titelinformation (#paragraph5)
+Parallell övrig titelinformation (#paragraph6)
+Nyckeltitel (#paragraph7)
+Upphovsuppgift (#paragraph8)
+Upplageuppgift (#paragraph9)
+Numrering av seriella resurser (#paragraph10)
+Utgivningsuppgifter (#paragraph11)
+Distributionsuppgifter (#paragraph12)
+Tillverkningsuppgifter (#paragraph13)
+Frekvens (#paragraph14)
+Identifikator för manifestationen (#paragraph15)
+Anmärkningar om manifestationen (#paragraph16)
+Medietyp (#paragraph17)
+Bärartyp (#paragraph18)
+Omfång (#paragraph19)
+Mått (#paragraph20)
+Teckenstorlek (#paragraph21)
 
-
-Element tillhörande manifestationen <a name="paragraph1"></a> 
-Källa för resursen som helhet
-Föredragen källa 
-Huvudtitel
-Parallell huvudtitel
-Övrig titelinformation
-Parallell övrig titelinformation
-Nyckeltitel
-Upphovsuppgift
-Upplageuppgift
-Numrering av seriella resurser
-Utgivningsuppgifter
-Distributionsuppgifter
-Tillverkningsuppgifter
-Frekvens
-Identifikator för manifestationen
-Anmärkningar om manifestationen
-Medietyp
-Bärartyp
-Omfång
-Mått
-Teckenstorlek
 För generella riktlinjer om hur man återger element som de förekommer i källan, se dokumentet "Transcription" - RDA 1.7.
 Element tillhörande manifestationen  
 Källa för resursen som helhet (RDA 2.1)
