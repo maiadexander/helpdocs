@@ -877,7 +877,8 @@ Om tillverkningstiden angivits i källan i form av ett kronogram, RDA 2.10.6.4, 
 
 Om både utgivningstid och tillverkningstid finns i resursen och åren skiljer sig från varandra anges båda, i fältet för datum under utgivning respektive i fältet för datum under tillverkning. 
 
-### Copyrightår (RDA 2.11)
+## Copyrightår (RDA 2.11) <a name="paragraph11"></a>
+
 _Copyrightår är inte ett kärnelement._
 
 Librispraxis är att ange copyrightår i fältet för datum under copyright när uppgift om utgivningstid, distributionstid och tillverkningstid saknas i resursen (eller när utgivningstiden i resursen är fiktiv/felaktig). Det gäller endast copyrightår som hör till den manifestation som katalogiseras. Om copyrightåret kan antas vara samma år som utgivningsåret anges copyrightåret inom klammer i fältet för datum under utgivning. I annat fall suppleras utgivningstid enligt anvisningarna i dokumentet Tidsangivelser - RDA 1.9.
