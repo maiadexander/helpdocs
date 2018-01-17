@@ -43,9 +43,9 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 ---
 
 ---
-## Element tillhörande instans/manifestation <a name="paragraph1"></a>
+# Element tillhörande instans/manifestation <a name="paragraph1"></a>
 
-### Föredragen källa (RDA 2.2) <a name="subparagraph1"></a>
+## Föredragen källa (RDA 2.2)  <a name="paragraph2"></a>
 
 Börja med den information som finns på titelsidan (RDA 2.1.2.2 och RDA 2.2.2.2).
 
@@ -59,11 +59,11 @@ Om det finns flera titelsidor eller olika källor med olika datum, använd i fö
 
 Om resursen saknar titelsida eller annan källa med information som är nödvändig för att identifiera resursen, använd information som finns på (i denna ordning): medföljande material som inte är en del av resursen själv, annan publicerad beskrivning av resursen, en förpackning, annan tillgänglig källa. Klamra information som hämtats utanför resursen (RDA 2.2.4).
 
-### Utgivningssätt (RDA 2.13) <a name="subparagraph2"></a>
+### Utgivningssätt (RDA 2.13) 
 
 Ange utgivningssätt för den beskrivna resursen. För en tryckt monografi anges ”resurs bestående av en enhet”.
 
-### Titelinformation <a name="subparagraph3"></a>
+### Titelinformation
 
 _Arbetsflödet är under arbete._
 
@@ -77,21 +77,21 @@ Under huvudelementet Title (Titel) kan flera titeltyper anges:
 
 Huvudtitel och Övrig titelinformation är förvalda i mallen _Tryckt monografi – RDA_.
 
-## Huvudtitel (RDA 2.3.2)  <a name="paragraph2"></a>
+## Huvudtitel (RDA 2.3.2)  <a name="paragraph3"></a>
 
 Huvudtitel är ett kärnelement. 
 
 Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan (se RDA 1.7). 
 Librispraxis: Generellt förkortas aldrig en huvudtitel (se valfritt alternativ under RDA 2.3.1.4).
 
-### Alternativtitel som är en del av huvudtiteln <a name="subparagraph4"></a>
+### Alternativtitel som är en del av huvudtiteln
 
 Inkludera en alternativtitel som är en del av huvudtiteln.
 
 **Titel**
 `Huvudtitel: Bilbo eller En Hobs äventyr`
 
-### Felaktigheter <a name="subparagraph5"></a>
+### Felaktigheter
 
 Rätta inte felaktigheter. Om en korrekt form av huvudtiteln är viktig för identifikation och åtkomst anges den i titeltypen Varianttitel (RDA 1.7.9).
 
@@ -103,7 +103,7 @@ Rätta inte felaktigheter. Om en korrekt form av huvudtiteln är viktig för ide
 
 Den rättstavade titeln anges vanligen som Föredragen titel för verket under Instans av verk.
 
-## Namn på personer, familjer/släkter och institutioner i titeln (#paragraph3)
+### Namn på personer, familjer/släkter och institutioner i titeln
 
 Om en huvudtitel innehåller namn som normalt skulle behandlas som en del av upphovsuppgiften eller utgivaruppgiften etc. och namnet utgör en integrerad del av huvudtiteln, ange hela huvudtiteln i titeltypen Huvudtitel och allt utom i namnet i titeltypen Del av huvudtiteln (RDA 2.3.1.5).
 
@@ -115,7 +115,7 @@ Om en huvudtitel innehåller namn som normalt skulle behandlas som en del av upp
 
 Genitivformen "Disney's" inleder huvudtiteln. Upphovsuppgift ska inte anges såvida den inte förekommer som en separat uppgift i resursen. 
 
-## Inledande ord etc.
+### Inledande ord etc.
 
 Återge inte inledande ord som inte är en del av huvudtiteln (RDA 2.3.1.6). 
 
@@ -127,7 +127,7 @@ Librispraxis: Tillämpa det valfria alternativet och ange hela huvudtiteln i tit
 **Även med titel**
 `Benämning?: Disney presenterar Törnrosa`
 
-## Varianttitlar
+### Varianttitlar
 
 Ange varianttitlar om det bedöms viktigt för identifikation eller åtkomst, se RDA 2.3.6.3. 
 
@@ -142,21 +142,21 @@ Varianttitel hämtad från källa som inte kan anges med hjälp av andraindikato
 **Varianttitel**
 `Benämning?: Titel på spikblad: Between humans and things : #b an interactionistic analysis of collecting`
 
-## Flera titlar i olika former
+### Flera titlar i olika former
 
 Om det i den föredragna källan förekommer flera titlar i olika former (men på samma språk och i samma skriftart), välj huvudtitel utifrån den ordning som markeras av ordningsföljd, layout eller typografi. Om ordningsföljd etc. är oklara eller otillräckliga för att bestämma den inbördes ordningen, välj den huvudtitel som är mest fullständig (RDA 2.3.2.5).
 
-## Resurs som saknar titel
+### Resurs som saknar titel
 
 Om resursen saknar titel men titeln kan hämtas från en källa utanför resursen, ange titeln inom klammer. Gör en anmärkning om varifrån titeln hämtats (RDA 2.3.2.10 och RDA 2.17.2.3).
 
-## Konstruerad titel
+### Konstruerad titel
 Om det inte går att fastställa en huvudtitel, konstruera en huvudtitel på svenska enligt anvisningarna i RDA 2.3.2.10. En konstruerad huvudtitel anges inom klammer. Ange i en anmärkning att huvudtiteln är konstruerad (RDA 2.17.2.3).
 
 **Anmärkning**
 `Benämning: Titel konstruerad av katalogisatör`
 
-## Titlar på delar, sektioner eller supplement
+### Titlar på delar, sektioner eller supplement
 
 Om titeln på delen, sektionen eller supplementet förekommer i källan utan den titel som är gemensam för alla delar återges titeln på delen etc. som huvudtitel. Ange den titel som är gemensam för alla delar som serieuppgift och som titeln på ett relaterat verk.
 
@@ -175,7 +175,7 @@ Om titeln på delen, sektionen eller supplementet förekommer i källan tillsamm
 **Serieuppgift**
 `Nordisk kvinnolitteraturhistoria ; band 2`
 
-## Övrig titelinformation (RDA 2.3.4)
+### Övrig titelinformation (RDA 2.3.4)
 
 Övrig titelinformation är inte ett kärnelement men obligatorisk enligt Librispraxis. 
 
@@ -195,7 +195,7 @@ Om det finns flera undertitlar anges de i den ordning som markeras av ordningsf�
 `Huvudtitel: En arbetsdag i skriftsamhället
 Övrig titelinformation: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet`
 
-## Parallell huvudtitel (RDA 2.3.3)
+## Parallell huvudtitel (RDA 2.3.3)  <a name="paragraph4"></a>
 
 Parallell huvudtitel är huvudtiteln på ett annat språk eller i en annan skriftart. Parallell huvudtitel är inte ett kärnelement men enligt Librispraxis är den första parallella huvudtiteln i den föredragna källan obligatorisk. Därutöver redovisas en påföljande parallell huvudtitel på svenska. Övriga parallella huvudtitlar är valfria. 
 
@@ -210,7 +210,7 @@ Parallell huvudtitel anges i titeltyp _Parallelltitel_.
 
 Titeltypen _Parallelltitel_ är repeterbar.
 
-## Upphovsuppgift (RDA 2.4)
+### Upphovsuppgift (RDA 2.4)
 
 Upphovsuppgift som hänför sig till huvudtiteln är ett kärnelement. Om det finns mer än en, är endast den första ett kärnelement.
 
@@ -242,7 +242,7 @@ NB-praxis: Generellt, tillämpa inte den valfria uteslutningen.
 När kunskap finns, ska summeringen vara på resursens språk.
 `Knut Sydsæter [and three others]`
 
-## Mer än en upphovsuppgift
+### Mer än en upphovsuppgift
 
 Om det finns mer än en upphovsuppgift kan även övriga upphovsuppgifter återges om de är viktiga för identifikation. Librispraxis uppmanar katalogisatören att ta med alla upphovsuppgifter som är av betydelse.
 
@@ -262,17 +262,17 @@ Om inte alla upphovsuppgifter tas med ska förtur ges åt dem som identifierar s
 
 Antalet agenter man tar med i upphovsuppgiften behöver inte motsvara antalet relaterade agenter som man anger. Katalogisatören måste här använda sitt omdöme. 
 
-## Klargörande av roll
+### Klargörande av roll
 
 Om sambandet mellan titeln och den(de) agenter som nämns i upphovsuppgiften är oklart, lägg till ett ord eller en kort fras inom klammer, RDA 2.4.1.7.
 `[sammanställda av] Said Mahmoudi`
 
-## Substantivfraser som förekommer tillsammans med en upphovsuppgift
+### Substantivfraser som förekommer tillsammans med en upphovsuppgift
 
 Om ordning, layout eller typografi i källan indikerar att ett substantiv eller en substantivfras är en del av upphovsuppgiften och substantivfrasen talar om vilken roll agenten i upphovsuppgiften har, behandla den som en del av upphovsuppgiften, RDA 2.4.1.8.
 `maps by Rand McNally ; photographs by Davis Muench`
 
-## Ingen namngiven agent i upphovsuppgiften
+### Ingen namngiven agent i upphovsuppgiften
 
 Återge en upphovsuppgift även om ingen person etc. är namngiven i uppgiften, RDA 2.4.1.9
 `av en mellanstadieklass i Sigtuna`
@@ -283,7 +283,7 @@ Om en upphovsuppgift som hänför sig till huvudtiteln förekommer på mer än e
 
 NB-praxis: Obligatoriskt att ange parallell upphovsuppgift som hänför sig till huvudtiteln (RDA 2.4.3).
 
-## Identifikator för instansen/manifestationen (RDA 2.15)
+### Identifikator för instansen/manifestationen (RDA 2.15)
 
 Identifikator för instansen/manifestationen är ett kärnelement. Uppgift om identifikator hämtas från valfri källa. 
 
@@ -307,11 +307,12 @@ Vanligen anges endast ett giltigt ISBN, men i de fall när separata poster inte 
 **ISBN** (giltigt, utgivare 1)
 `Värde: 9172092556
 Anmärkning: Riksantikvarieämbetet`
+
 **ISBN** (giltigt, utgivare 2)
 `Värde: 9152007073
 Anmärkning: Svenska Institutet`
 
-## Bestämningar
+### Bestämningar
 
 Om mer än ett ISBN finns i resursen (till exempel ISBN för andra instanser/manifestationer) anges en kort bestämning för varje ISBN i Anmärkning. 
 
@@ -322,7 +323,7 @@ Anmärkning: häftad`
 `Värde: 9789188185181 
 Anmärkning: e-bok`
 
-## Bandtyper
+### Bandtyper
 
 Om resursen endast har en identifikator, ange bandtyp om det bedöms viktigt för identifikation. Bandtyp kan anges med en överordnad eller en mer detaljerad term. Överordnade termer, med definition:
 
@@ -370,7 +371,7 @@ Om katalogisatören bedömer det viktigt att ange bandtyp, och resursen inte har
 
 Ange bestämningar som hämtas från resursen i den form de har där och bestämningar som hämtas utanför resursen i utskriven form. Ange till exempel kart. om det står så i resursen, och annars den utskrivna formen kartonnage.
 
-## Ogiltiga ISBN och ISBN som hör till en annan version
+### Ogiltiga ISBN och ISBN som hör till en annan version
 
 Ange ISBN i fältet för ogiltigt ISBN om det är ogiltigt eller om det representerar en annan manifestation än den resurs som katalogiseras och den manifestationen skulle kräva en egen post. Texten "ogiltigt nummer/annan version" genereras då automatiskt i Libris. Exempel är ISBN som hör till en version i storstil, en e-bok eller en utgåva på ett annat språk:
 
@@ -425,6 +426,7 @@ Om resursen består av två eller flera delar och det finns en identifikator fö
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
 `Värde: 9789197841214
 Anmärkning: inbunden`
+
 **ISBN** (ogiltigt, tillhörande hela resursen) 
 `Värde: 9789197841207
 Anmärkning: del 1-2`
@@ -435,7 +437,7 @@ För resurser med enbart gemensamt ISBN läggs det gemensamma numret i alla dela
 `Värde: 9140635422
 Anmärkning: tillsammans med 3 andra böcker`
 
-## ISBN på inklistrad etikett
+### ISBN på inklistrad etikett
 Det finns två olika fall av ISBN på inklistrad etikett:  
 
 1. När ISBN endast finns på en inklistrad etikett (och inte tryckt i resursen) anges ISBN som korrekt. Komplettera med en Anmärkning.
@@ -460,7 +462,7 @@ Anmärkning: ID föslag`
 **Anmärkning**
 `Benämning: Senare tilldelat ISBN från annat förlag, på inklistrad etikett: ISBN 9789198251005`
 
-## Förpackningar och ISBN
+### Förpackningar och ISBN
 
 ### Olika ISBN i publikation och på förpackning
 
@@ -486,7 +488,7 @@ Anmärkning: tillsammans med tygkatt i låda`
 
 Om lådan/skyddskasetten har en egen titel, redovisa denna titel som en Varianttitel.
 
-## Tidigare utgiven publikation i ny förpackning
+### Tidigare utgiven publikation i ny förpackning
 
 Ibland händer det att en redan katalogiserad manifestation ges ut på nytt sätt vid ett senare tillfälle. Ofta handlar det om att publikationen förpackas med tillbehör i en låda eller tillsammans med andra publikationer i en skyddskassett. Lägg i sådana fall till den nya förpackningens ISBN med bestämning i ett nytt ISBN-fält (ogiltigt), i den befintliga bibliografiska posten för manifestationen och lägg till en bestämning. Formulera bestämningen för förpackningen med innehåll enligt konstruktionen: ”tillsammans med x i låda/skyddskassett”.  Komplettera med en förklarande 500-anmärkning.
 
@@ -500,7 +502,7 @@ Anmärkning: inbunden`
 `Värde: 9789129689884
 Anmärkning: tillsammans med 3 plastfigurer i låda`
 
-## Utgivning
+### Utgivning
 
 **Plats**
 `Benämning: Stockholm`
@@ -536,11 +538,11 @@ Anmärkning: tillsammans med 2 andra böcker i skyddskasett`
 **Anmärkning**
 `Benämning: Skyddskasett, med titel: Sunes bästisar! :presentbox med tre Suneböcker, utgiven 2013 av Egmont Kids media.`
 
-## Andra identifikatorer för manifestationen än ISBN
+### Andra identifikatorer för manifestationen än ISBN
 
 Om det inte finns ett ISBN, ange någon annan identifikator från valfri källa. Föredra identifikatorer från internationellt erkända system. Sådana identifikatorer kan även anges utöver ISBN om det bedöms viktigt för identifikation eller åtkomst. Följ instruktionerna i RDA 2.15. 
 
-## Upplageuppgift, RDA 2.5
+### Upplageuppgift, RDA 2.5
 
 Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga underelement är valfria. Samtliga underelement anges i fältet för upplageuppgift med lämplig ISBD-interpunktion.
 
@@ -551,7 +553,7 @@ Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga u
 Om en resurs saknar upplageuppgift men det är känt att betydliga ändringar från tidigare upplagor gjorts, tillämpa det valfria tillägget och lägg till en upplageuppgift, om det är viktigt för identifikation och åtkomst, RDA 2.5.1.2. Ange uppgiften inom klammer på huvudtitelns språk. För resurser med huvudtitel på svenska, följ Svenska skrivreglers rekommendation och använd termen “upplaga” för förändrat innehåll.
 `[Utökad upplaga]`
 
-## Upplagebeteckning
+### Upplagebeteckning
 
 Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): 
 1. samma källa som huvudtiteln
@@ -596,7 +598,7 @@ Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformati
 
 Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformation eller upphovsuppgift, eller grammatiskt sammanhängande med något av dessa element ska anges tillsammans med det element som det är en del av.
 
-## Upplagespecifik upphovsuppgift
+### Upplagespecifik upphovsuppgift
 _Ej kärnelement._
 
 NB-praxis: Obligatoriskt att ange upplagespecifik upphovsuppgift (RDA 2.5.4).
@@ -606,7 +608,7 @@ Upplagespecifika upphovsuppgifter består av en upplagebeteckning och en upphovs
 I källan, på insidan av bakre omslag: ”Tredje upplagan, reviderad och korrigerad av Maja Lindblad”
 `Tredje upplagan / reviderad och korrigerad av Maja Lindblad`
 
-## Påföljande upplagebeteckning
+### Påföljande upplagebeteckning
 _Påföljande upplagebeteckning är ett kärnelement._
 
 Om en resurs betecknas som en återutgivning som innehåller förändringar i förhållande till en viss upplaga, anges denna uppgift efter upplagebeteckningen, RDA 2.5.6.3. Hämta påföljande upplagebeteckning från följande källor (i denna ordning): samma källa som upplagebeteckningen, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
@@ -621,7 +623,7 @@ _Ej kärnelement._
 
 NB-praxis: Obligatoriskt att ange upphovsuppgifter som hänför sig till påföljande upplagebeteckning (RDA 2.5.8).
 
-## Utgivning (RDA 2.8)
+### Utgivning (RDA 2.8)
 _Utgivningsort, utgivare och är kärnelement._ 
 
 RDA har separata element för utgivnings-, distributions- och tillverkningsuppgifter och dessa anges i separata fält. Om uppgifterna hämtas utanför resursen ska varje element klamras för sig, RDA Appendix D. 1.
@@ -634,7 +636,7 @@ RDA har separata element för utgivnings-, distributions- och tillverkningsuppgi
 **Datum**
 `[1989]`
 
-## Utgivningsort
+### Utgivningsort
 
 Hämta uppgift om utgivningsort från följande källor (i denna ordning): samma källa som utgivarens namn, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
 
@@ -710,7 +712,7 @@ Om ingen utgivningsplats är angiven i resursen, RDA 2.8.2.6, lägg till utgivni
 4. Troligt land, stat, provins etc. [Sverige?]
 5. Okänd ort [Utgivningsort okänd]
 
-## Utgivarnamn
+### Utgivarnamn
 
 Hämta uppgift om utgivarens namn från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
 
@@ -741,7 +743,7 @@ Titelsidan är föredragen källa för utgivarnamn. Om det finns en titelsida oc
 
 Om uppgift om utgivare saknas i resursen och inte kan hämtas från någon annan källa ange [utgivare okänd], RDA 2.8.4.7.
 
-## Utgivningstid
+### Utgivningstid
 Utgivningstid är ett kärnelement. Librispraxis är att tillämpa det valfria tillägget i RDA 2.8.6.3 om uppgiften inte är angiven enligt gregoriansk eller juliansk kalender.
 
 Hämta uppgift om utgivningstid från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
@@ -770,7 +772,7 @@ Endast tillverkningstid finns i resursen. Den anges dels inom klammer i fältet 
 
 _Producerad år ..._ i tryckta monografier betraktas som tillverkningstid.
 
-## Fiktiv eller felaktig utgivningstid
+### Fiktiv eller felaktig utgivningstid
 
 Om det är känt att utgivningstiden som är angiven i resursen är fiktiv eller felaktig, ange den utgivningstid som står i resursen fältet för datum och gör en anmärkning om den korrekta eller troliga utgivningstiden, RDA 2.8.6.3. Om korrekt uppgift om distributionstid/tillverkningstid/copyrightår finns i resursen anges denna i fältet för datum med tillämplig andraindikator. I fält 008 anges den korrekta utgivningstiden hämtad från anmärkning eller distributionstid/tillverkningstid/copyrightår. 
 
@@ -794,7 +796,7 @@ Känt att utgivningsåret är felaktigt
 Korrekt tillverkningstid finns i resursen
 `2006`
 
-## Distribution (RDA 2.9)
+### Distribution (RDA 2.9)
 
 ### Distributionsort
 
@@ -835,7 +837,7 @@ För instruktioner om hur man anger distributionstid, se RDA 2.9.6.3. Följ äve
 
 Om distributionstiden angivits i källan i form av ett kronogram, RDA 2.9.6.4, tillämpa alternativet och ange uppgiften med arabiska siffror enligt den gregorianska eller julianska kalendern. Klamra. Ange kronogrammet i en anmärkning om det är viktigt för identifiering.
 
-## Tillverkning (RDA 2.10)
+### Tillverkning (RDA 2.10)
 
 ### Tillverkningsort
 
@@ -892,12 +894,13 @@ Endast copyrightår finns i resursen
 ### Utgivning
 **Datum**
 `[2015]`
+
 ### Copyright
 Utgivningstiden är känd och suppleras enligt anvisningar i dokumentet Tidsangivelser – RDA 1.9. Copyrightår är det enda som finns i resursen.
 **Datum**
 `©2001`
 
-## Serieuppgift (RDA 2.12)
+### Serieuppgift (RDA 2.12)
 
 En serieuppgift är en uppgift som identifierar serien till vilken resursen hör och numreringen av resursen i serien. 
 Elementet serieuppgift har ett antal underlement. Huvudtitel till serie, Numrering inom serie, Huvudtitel till underserie och Numrering inom underserie är kärnelement. Series ISSN och Underseries ISSN är obligatoriska element enligt Librispraxis. 
@@ -919,7 +922,7 @@ Vid osäkerhet om en uppgift är en serieuppgift eller ej kan uppgiften citeras 
 Om varje titel i en serie verk inleds med samma fras (till exempel Lätta fakta om ..., Allt du behöver veta om ...) betraktas inte frasen som en serieuppgift såvida inte frasen även förekommer separat, som en serieuppgift, i en annan källa i resursen.
 `Benämning: ”An Evangelical Theological Society publication”`
 
-## Huvudtitel till serie
+### Huvudtitel till serie
 
 _Huvudtitel till serie är ett kärnelement._
 
@@ -953,7 +956,7 @@ Ange huvudtitel till serie genom att följa instruktionerna för att ange titlar
 
 Om serietiteln i resursen anges på mer än ett språk eller i mer än en skriftart, välj som huvudtitel titeln på språket eller i skriftarten för huvuddelen av resursens innehåll.
 
-## Parallell huvudtitel till serie
+### Parallell huvudtitel till serie
 
 Parallell huvudtitel till serie är huvudtiteln till serien på ett annat språk eller i en annan skriftart. Uppgift om parallell huvudtitel till serie hämtas från valfri källa i resursen (RDA 2.12.3.2).
 
@@ -991,7 +994,7 @@ Upphovsuppgift till serie ska föregås av ISBD-interpunktion (snedstreck).
 **Serieuppgift**
 `Meddelande / Lövskogens vänner`
 
-## Series ISSN
+### Series ISSN
 
 _Enligt Librispraxis är uppgiften obligatorisk._
 
@@ -1011,7 +1014,7 @@ Om en monografi innehållet ett ISSN som hör till en annan serie kan det citera
 **Anmärkning**
 `Benämning: Titelbladets baksida: ”ISSN 2042-8057 (online)”`
 
-## Numrering inom serie
+### Numrering inom serie
 
 Numrering inom serie är ett kärnelement (RDA 2.12.9). Uppgiften ska föregås av ISBD-interpunktion (mellanslag semikolon mellanslag).
 
@@ -1096,7 +1099,7 @@ Om det är känt att flera nummersviter i serien har samma numrering och resurse
 **Serieuppgift**
 `... ; [ny serie], nr 1`
 
-## Underserie (RDA 2.12.10-2.12.17)
+### Underserie (RDA 2.12.10-2.12.17)
 
 _Huvudtitel till underserie och numrering inom underserie är kärnelement._
 
@@ -1113,7 +1116,7 @@ Tillämpa inte den valfria uteslutningen i RDA 2.12.16.3, dvs ange även huvudse
 **Serieuppgift**
 `Progress in monecular and subcellular biology, 0079-6484 ; 46. Marine molecular biotechnology, 1611-6119`
 
-## Medietyp (RDA 3.2)
+### Medietyp (RDA 3.2)
 
 Obligatoriskt enligt Librispraxis.
 
@@ -1124,7 +1127,7 @@ Om resursen består av mer än en medietyp är Librispraxis att ange den mediety
 
 Om resursen består av flera likvärdiga delar (kombinerat material) ange medietyp för alla delarna.
 
-## Bärartyp (RDA 3.3)
+### Bärartyp (RDA 3.3)
 
 _Bärartyp är ett kärnelement._
 
@@ -1140,7 +1143,7 @@ Librispraxis: Katalogisatören avgör om det valfria tillägget ska tillämpas.
 
 NB-praxis: Tillämpa det valfria tillägget.
 
-## Omfång (RDA 3.4)
+### Omfång (RDA 3.4)
 
 Omfång är ett kärnelement om resursen är komplett eller om det totala antalet fysiska enheter är känt.
 
@@ -1157,12 +1160,12 @@ eller
 Librispraxis: Tillämpa alternativ a) och använd en vanligt förekommande term om bäraren inte finns i listan. För fysiska digitala resurser ska alternativ 2.) tillämpas. Använd t.ex. CD, CD-ROM, DVD, DVD-ROM och diskett i stället för term från listan.
 RDA har särskilda instruktioner för bland annat textresurser, se RDA 3.4.5 och nästa stycke.
 
-## Omfång för text (RDA 3.4.5)
+### Omfång för text (RDA 3.4.5)
 
 Riktlinjerna är uppdelade på resurser som består av en enhet och resurser som består av flera enheter. 
 Texten nedan gäller för resurser som består av en enhet.
 
-## Enstaka volym med numrerade sidor, blad eller spalter 
+### Enstaka volym med numrerade sidor, blad eller spalter 
 
 För en resurs som består av en volym, ange omfång i antal sidor, blad eller spalter i enlighet med de numeriska eller alfabetiska sviterna i volymen (RDA 3.4.5.2). 
 
@@ -1190,7 +1193,7 @@ Vissa undantag från regeln finns. För lösbladspublikationer som uppdateras, _
 **Omfång**
 `Benämning: 1 volym (lösblad)`
 
-###Enstaka volym med onumrerade sidor, blad eller spalter 
+### Enstaka volym med onumrerade sidor, blad eller spalter 
 
 RDA 3.4.5.3 ger tre alternativ:
 * Räkna alla sidor, blad, spalter och ange t.ex. ”8 onumrerade sidor”. Använd ”blad” om de har tryck endast  på ena sidan.
@@ -1302,7 +1305,7 @@ Librispraxis: Katalogisatören avgör om det valfria tillägget att ange typ och
 **Omfång**
 `Benämning: 1 mapp (2 ark)`
 
-## Mått (RDA 3.5)
+### Mått (RDA 3.5)
 
 Enligt Librispraxis är det inte obligatoriskt att ange mått. Mått som är standard för bäraren anges inte.
 
@@ -1320,7 +1323,7 @@ Om mått anges, och om instruktionerna inte säger något annat, ange mått i ce
 **Mått**
 `Benämning: 27 cm i skyddskassett 28 x 25 x 5 cm`
 
-## Anmärkningar om instansen/manifestationen (RDA 2.17)
+### Anmärkningar om instansen/manifestationen (RDA 2.17)
 
 _Anmärkningar om manifestationen är inte ett kärnelement._
 
