@@ -644,131 +644,188 @@ Tillämpa inte det valfria tillägget i RDA 2.10.4.4 om det inte behövs en mer 
 Tillverkningstid är inte ett kärnelement. För val av källa, se RDA 2.10.6.2.
 För instruktioner om hur man anger tillverkningstid, se RDA 2.10.6.3. Följ även riktlinjerna i dokumentet: ”Tal (siffror och bokstäver) - RDA 1.8”. Tillämpa det valfria tillägget.
 Om tillverkningstiden angivits i källan i form av ett kronogram, RDA 2.10.6.4, tillämpa alternativet och ange uppgiften med arabiska siffror enligt den gregorianska eller julianska kalendern. Klamra. Ange kronogrammet i en anmärkning om det är viktigt för identifiering. 
-Tillverkningstid okänd
-Om tillverkningstiden för en seriell resurs är okänd och ingen ungefärlig tillverkningstid kan anges, ska ingen tillverkningstid alls anges. Ange inte [tillverkningstid okänd].
-Förändringar i tillverkningsuppgifter
-Librispraxis är att inte redovisa växlande tillverkningsuppgifter (RDA 2.10.1.5.2).
-Upp
 
-Frekvens (RDA 2.14)
+### Tillverkningstid okänd
+
+Om tillverkningstiden för en seriell resurs är okänd och ingen ungefärlig tillverkningstid kan anges, ska ingen tillverkningstid alls anges. Ange inte [tillverkningstid okänd].
+
+### Förändringar i tillverkningsuppgifter
+
+Librispraxis är att inte redovisa växlande tillverkningsuppgifter (RDA 2.10.1.5.2).
+
+## Frekvens (RDA 2.14) <a name="paragraph14"></a>
+
 Frekvens är inte ett kärnelement. Uppgiften kan hämtas från valfri källa. Frekvens kan kodas i 008 och anges i fält 310. Om frekvens anges i fält 310 är Librispraxis att ange enligt följande:
  
-1 nr/kvartal 
+* 1 nr/kvartal 
+* 1 nr/vecka 
+* 1 nr/månad 
+* Ca 1 nr/månad (när t.ex. 13 nr/år = 1 nr/månad i 008) 
+* 1 nr/år 
+* Årlig (endast för årsböcker) 
+* Varannan månad 
+* 2 nr/vecka 
+* Daglig 
+* Varannan vecka (föredras framför 2 nr/månad) 
+* 2 nr/månad (används endast när det uttryckligen står så i tidskriften) 
+* 2 nr/år 
+* Vartannat år 
+* Vart tredje år 
+* 3 nr/vecka 
+* 3 nr/månad 
+* Oregelbunden 
+* 3 nr/år 
+* Ca 5 nr/år  
 
-1 nr/vecka 
-
-1 nr/månad 
-Ca 1 nr/månad (när t.ex. 13 nr/år = 1 nr/månad i 008) 
-1 nr/år 
-Årlig (endast för årsböcker) 
-Varannan månad 
-2 nr/vecka 
-Daglig 
-Varannan vecka (föredras framför 2 nr/månad) 
-2 nr/månad (används endast när det uttryckligen står så i tidskriften) 
-2 nr/år 
-Vartannat år 
-Vart tredje år 
-3 nr/vecka 
-3 nr/månad 
-Oregelbunden 
-3 nr/år 
-Ca 5 nr/år  
 NB-praxis: Frekvens anges generellt enbart i fält 008 och inte i fält 310. I de fall man kodar z (= Annan frekvens) i fält 008 anges dock den korrekta frekvensen i fält 310.
-Upp
  
-Identifikator för manifestationen (RDA 2.15)
+## Identifikator för manifestationen (RDA 2.15) <a name="paragraph15"></a>
+
 Identifikator för manifestationen är ett kärnelement. En identifikator är en teckensträng som är knuten till manifestationen, till exempel ISSN. Uppgift om identifikator kan hämtas från valfri källa. 
-Anvisningar för Importerade poster.
-ISSN (Internationellt standardserienummer)
+
+### ISSN (Internationellt standardserienummer)
+
 ISSN är ett internationellt standardnummer för seriella och integrerande resurser. Resurser utgivna av svenska utgivare tilldelas ISSN av ISSN Sverige på Kungliga biblioteket.
+
 Ett ISSN-nummer är alltid knutet till en nyckeltitel som är unik, se nedan under Nyckeltitel. 
+
 ISSN anges i fält 022. Ange bindestreck enligt modellen 1122-3344.
+
 Vid katalogisering av svenska resurser anges första indikator 0 (Internationellt intresse; fullständig post registrerad med ISSN) och följande delfält används aktivt:
-022 0/_ #a Korrekt ISSN
-022 0/_ #2 f (= kod för ISSN Sverige, dvs. svenskt nummer)
+
+**Exempel**
+`text`
+
 Vid behov används även följande delfält:
-022 0/_ #y Felaktigt ISSN
-022 0/_ #z Annullerat ISSN
+
+**Exempel**
+`text`
+
 Om ISSN för e-resursen står i den tryckta manifestationen (eller tvärtom) lägger man detta nummer i delfält 022 #y i posten för den tryckta manifestationen.
 Observera att alla delfält placeras i samma 022-fält.
-022	0	_	#a 1653-736X #y 1122-3344 #2 f
+
+**Exempel**
+`text`
 
 Följande delfält kan förekomma men används inte aktivt (låt vara kvar om de är korrekta):
-022 0/_ #l ISSN-L
-022 0/_ #m Annullerat ISSN-L
-Delfält 022 #l används för att ange ISSN-L (ISSN-Link). ISSN-L är ett standardnummer tilldelat av ISSN-nätverket för att samla olika manifestationer av samma fortlöpande resurs. Det är alltså en identifikator för uttrycket men den nämns inte i RDA. Det ISSN som först tilldelas en fortlöpande resurs blir ISSN-L. 
-ISSN Sverige lägger inte ISSN-L i svenska poster men bibliotek som så önskar kan använda delfältet om ISSN-L står angivet i resursen. Det är dock viktigt att numret är korrekt. Ett annullerat ISSN-L hamnar i delfält 022 #m. För att kontrollera om ett angivet ISSN-L är riktigt kan man söka i en tabell (ISSN-L table) på ISSN International Centres webbplats.
-022	0	_	#a 1654-1529 #l 1654-1529 #y 1651-0798 #z 1653-6770 #2 f
 
-Upp
- 
-Anmärkningar om manifestationen (RDA 2.17)
-Anmärkningar om manifestationen är inte kärnelement.
+**Exempel**
+`text`
+
+Delfält 022 #l används för att ange ISSN-L (ISSN-Link). ISSN-L är ett standardnummer tilldelat av ISSN-nätverket för att samla olika manifestationer av samma fortlöpande resurs. Det är alltså en identifikator för uttrycket men den nämns inte i RDA. Det ISSN som först tilldelas en fortlöpande resurs blir ISSN-L. 
+
+ISSN Sverige lägger inte ISSN-L i svenska poster men bibliotek som så önskar kan använda delfältet om ISSN-L står angivet i resursen. Det är dock viktigt att numret är korrekt. Ett annullerat ISSN-L hamnar i delfält 022 #m. För att kontrollera om ett angivet ISSN-L är riktigt kan man söka i en tabell (ISSN-L table) på ISSN International Centres webbplats.
+
+**Exempel**
+`text`
+
+## Anmärkningar om manifestationen (RDA 2.17) <a name="paragraph1"></a>
+
+_Anmärkningar om manifestationen är inte kärnelement._
+
 Gör anmärkning när det bedöms viktigt för identifikation, urval eller åtkomst.
-Anvisningar för Importerade poster.
-Citat
+
+### Citat
+
 Ange källhänvisning för citat ur resursen såvida det inte är hämtat från den föredragna källan. Citatet ska anges inom citationstecken (RDA 1.10.3). Librispraxis är att ange källan före citatet. 
-500	_	_	#a I redaktionsruta: "det folkliga boulevardbladet"
-Anmärkning om källa för resursen som helhet
+
+**Exempel**
+`text`
+
+### Anmärkning om källa för resursen som helhet
+
 Om numret/delen som används för beskrivningen inte är det/den första, gör en anmärkning om vilket nummer eller vilken del som använts (RDA 2.17.13.3). För exempel, se Källa för resursen som helhet.
-Anmärkning om titel 
-Resurs som saknar titel
+
+### Anmärkning om titel 
+
+**Resurs som saknar titel**
+
 Om resursen saknar titel men titeln kan hämtas från en källa utanför resursen anges titeln inom klammer. Gör en anmärkning om varifrån titeln hämtats (RDA 2.3.2.10 och RDA 2.17.2.3)
-Konstruerad titel
+
+**Konstruerad titel**
+
 Om det inte går att fastställa en huvudtitel konstrueras en huvudtitel på svenska enligt anvisningarna i RDA 2.3.2.10. En konstruerad titel anges inom klammer. Gör en anmärkning om att titeln är konstruerad (RDA 2.17.2.3).
-Felaktigheter
+
+**Felaktigheter**
+
 Felaktigheter i titeln för en seriell resurs rättas om det inte är ett medvetet fel som används i varje nummer eller del (RDA 2.3.1.4). Gör en anmärkning om den felaktiga titel (RDA 2.17.2.4). För exempel, se Felaktigheter under elementet Huvudtitel.
-Källa för varianttitlar
+
+**Källa för varianttitlar**
+
 Gör en anmärkning om källan för en varianttitel om det är viktigt för identifikation eller åtkomst (RDA 2.17.2.3). För exempel, se Övrig titelinformation. 
-Förändring i huvudtitel
+
+**Förändring i huvudtitel**
+
 Om det sker en mindre förändring i huvudtiteln anges den efterföljande titeln som en varianttitel i fält 246 (RDA 2.3.2.12). Enligt Librispraxis är det obligatoriskt att ange efterföljande titel för tidskrifter och årsböcker. Om förändringarna är många kan dock alternativet tillämpas som är att göra generell anmärkning (RDA 2.17.2.4). För exempel, se Förändringar i huvudtiteln.
-Förändring i parallell huvudtitel
+
+**Förändring i parallell huvudtitel**
+
 Om en parallell huvudtitel tas bort i ett påföljande nummer eller i en påföljande del, ange detta i en anmärkning om det är av betydelse för identifikation eller åtkomst (RDA 2.17.2.4). För exempel, se Förändring i parallell huvudtitel.
-Förändring i övrig titelinformation
+
+**Förändring i övrig titelinformation**
+
 Om övrig titelinformation tas bort i ett påföljande nummer eller i en påföljande del, ange detta i en anmärkning om det är av betydelse för identifikation och åtkomst (RDA 2.17.2.4). För exempel, se Förändring i övrig titelinformation.
-Upp
-Medietyp (RDA 3.2)
+
+## Medietyp (RDA 3.2)  <a name="paragraph17"></a>
+
 Medietyp är obligatoriskt enligt Librispraxis och anges i fält 337.
+
 Medietyp anger vilken typ av enhet som behövs för att se, spela eller visa innehållet i resursen. 
 Källor för beskrivningen av medietyp är resursen, medföljande material eller förpackning/behållare. Uppgifter kan även hämtas utanför resursen
-I RDA 3.2.1.3 finns en lista med termer för medietyp. Listan, ”Term and Code List for RDA Media Types” finns översatt till svenska. Vid katalogisering i Libris, ange medietyp i kodad form i delfält #b. Ange även att koden/koderna hämtats från godkänd lista genom att ange "rdamedia" i delfält #2.
-För textresurser används koden n (omedierad). 
-337	_	 _	#b n #2 rdamedia
 
-Om ingen av termerna i listan är lämplig, välj "annan" (x).
-Om medietypen/medietyperna inte lätt kan bestämmas, välj "ospecificerad" (z).
+I RDA 3.2.1.3 finns en lista med termer för medietyp. Listan, ”Term and Code List for RDA Media Types” finns översatt till svenska. Vid katalogisering i Libris, ange medietyp i kodad form i delfält #b. Ange även att koden/koderna hämtats från godkänd lista genom att ange "rdamedia" i delfält #2.
+
+För textresurser används koden n (omedierad). 
+
+**Exemplel**
+`Text`
+
+Om ingen av termerna i listan är lämplig, välj "annan" (x). Om medietypen/medietyperna inte lätt kan bestämmas, välj "ospecificerad" (z). 
+
 Om resursen består av mer än en medietyp är Librispraxis att ange den medietyp som är tillämplig på den huvudsakliga delen av resursen. Ange inte medietyp för medföljande material av uppenbart underordnad karaktär.
-245	1	0	#a CD-ROM & multimedia : #b den första kompletta CD-ROM-tidskriften för Mac & PC
-337	_	 _	#b n #2 rdamedia
-500	_	_	#a Varje nummer med CD-ROM som bilaga
+
+**Exemplel**
+`Text`
 
 Om resursen består av flera likvärdiga delar (kombinerat material) ange medietyp för alla delarna. 
-Anvisningar för Importerade poster. 
-Upp
-Bärartyp, RDA 3.3
+
+## Bärartyp, RDA 3.3 <a name="paragraph18"></a>
+
 Bärartyp är ett kärnelement och anges i fält 338.
 Bärartyp anger fysiskt medium för lagring samt den enhet som behövs för att se, spela eller visa innehållet i resursen. Bärartyperna korrelerar till medietyperna och kan ses som underindelningar till dessa. 
 Källor för beskrivningen av bärare är resursen, medföljande material eller förpackning/behållare. Uppgifter kan även hämtas utanför resursen.
 
 I RDA 3.3.1.3 finns en lista med termer för bärartyp. Listan, ”Term and Code List for RDA Carrier Types”, finns översatt till svenska. Vid katalogisering i Libris, ange bärartyp i kodad form i delfält #b. Ange även att koden/koderna hämtats från godkänd lista genom att ange "rdacarrier" i delfält #2. 
+
 För tryckta seriella resurser är den vanligaste koden nc (volym). 
-338	_	 _	#b nc #2 rdacarrier
+
+**Exemplel**
+`Text`
 
 Om ingen av termerna i listan är lämplig, välj "annan" (nz).
 Om bärartypen/bärartyperna inte lätt kan bestämmas, välj "ospecificerad" (zu).
+
 Om resursen består av mer än en bärartyp är Librispraxis att ange den bärartyp som är tillämplig på den huvudsakliga delen av resursen. Ange inte bärartyp för medföljande material av uppenbart underordnad karaktär.
-245	1	0	#a CD-ROM & multimedia : #b den första kompletta CD-ROM-tidskriften för Mac & PC
-338	_	 _	#b nc #2 rdacarrier
-500	_	_	#a Varje nummer med CD-ROM som bilaga
+
+**Exemplel**
+`Text`
 
 Om resursen består av flera likvärdiga delar (kombinerat material) ange medietyp för alla delarna. 
-Anvisningar för Importerade poster.
-Omfång (RDA 3.4)
+
+## Omfång (RDA 3.4) <a name="paragraph19"></a>
+
 Omfång är ett kärnelement om resursen är komplett eller om det totala antalet fysiska enheter är känt. Librispraxis är dock att inte ange omfång för seriella resurser.
-Mått (RDA 3.5)
-Mått är inte ett kärnelement. Librispraxis är att inte ange mått som är standard för bäraren. 
+
+## Mått (RDA 3.5) <a name="paragraph20"></a>
+
+_Mått är inte ett kärnelement._ 
+
+Librispraxis är att inte ange mått som är standard för bäraren. 
+
 NB-praxis: Mått anges inte för tidskrifter.
+
 För anvisningar om hur man anger mått, se arbetsflödet Tryckta monografier.
-Teckenstorlek (RDA 3.13)
+
+## Teckenstorlek (RDA 3.13) <a name="paragraph21"></a>
+
 För anvisningar om hur man anger teckenstorlek, se arbetsflödet Tryckta monografier.
