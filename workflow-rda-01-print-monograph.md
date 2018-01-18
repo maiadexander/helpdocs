@@ -42,10 +42,9 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 
 ---
 
----
 # Element tillhörande instans/manifestation
 
-## Föredragen källa [(RDA 2.2)](http://access.rdatoolkit.org/2.1.2.2.html)) <a name="paragraph2"></a>
+## Föredragen källa (RDA 2.2) <a name="paragraph2"></a>
 
 Börja med den information som finns på titelsidan (RDA 2.1.2.2 och RDA 2.2.2.2).
 
@@ -70,6 +69,7 @@ _Arbetsflödet är under arbete._
 Alla titlar som är en del av den beskrivna resursens samlas i en gruppen kallad hasTitle (Har titel).
 
 Under huvudelementet Title (Titel) kan flera titeltyper anges:
+
 * Huvudtitel
 * Deltitel
 * Delbeteckning
@@ -77,9 +77,9 @@ Under huvudelementet Title (Titel) kan flera titeltyper anges:
 
 Huvudtitel och Övrig titelinformation är förvalda i mallen _Tryckt monografi – RDA_.
 
-## Huvudtitel [(RDA 2.3.2)](http://access.rdatoolkit.org/2.1.2.2.html) <a name="paragraph3"></a>
+## Huvudtitel (RDA 2.3.2) <a name="paragraph3"></a>
 
-Huvudtitel är ett kärnelement. 
+_Huvudtitel är ett kärnelement._
 
 Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan (se RDA 1.7). 
 Librispraxis: Generellt förkortas aldrig en huvudtitel (se valfritt alternativ under RDA 2.3.1.4).
@@ -176,9 +176,9 @@ Om titeln på delen, sektionen eller supplementet förekommer i källan tillsamm
 **Serieuppgift**
 `Nordisk kvinnolitteraturhistoria ; band 2`
 
-## Övrig titelinformation [(RDA 2.3.4)](http://access.rdatoolkit.org/2.1.2.2.html) <a name="paragraph5"></a>
+## Övrig titelinformation (RDA 2.3.4) <a name="paragraph5"></a>
 
-Övrig titelinformation är inte ett kärnelement men obligatorisk enligt Librispraxis. 
+_Övrig titelinformation är inte ett kärnelement men obligatorisk enligt Librispraxis._ 
 
 Hämta övrig titelinformation från samma källa som huvudtiteln, RDA 2.3.4.2.
 
@@ -196,7 +196,7 @@ Om det finns flera undertitlar anges de i den ordning som markeras av ordningsf�
 `Huvudtitel: En arbetsdag i skriftsamhället
 Övrig titelinformation: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet`
 
-## Parallell huvudtitel (RDA 2.3.3)  <a name="paragraph4"></a>
+## Parallell huvudtitel (RDA 2.3.3) <a name="paragraph4"></a>
 
 Parallell huvudtitel är huvudtiteln på ett annat språk eller i en annan skriftart. Parallell huvudtitel är inte ett kärnelement men enligt Librispraxis är den första parallella huvudtiteln i den föredragna källan obligatorisk. Därutöver redovisas en påföljande parallell huvudtitel på svenska. Övriga parallella huvudtitlar är valfria. 
 
@@ -213,7 +213,9 @@ Titeltypen _Parallelltitel_ är repeterbar.
 
 ## Upphov (RDA 2.4) <a name="paragraph6"></a>
 
-Upphovsuppgift som hänför sig till huvudtiteln är ett kärnelement. Om det finns mer än en, är endast den första ett kärnelement.
+_Upphovsuppgift som hänför sig till huvudtiteln är ett kärnelement._
+
+Om det finns mer än en, är endast den första ett kärnelement.
 
 Hämta upphovsuppgift som hänför sig till huvudtiteln från följande källor (i denna ordning):
 1. Samma källa som huvudtiteln
@@ -245,7 +247,9 @@ När kunskap finns, ska summeringen vara på resursens språk.
 
 ### Mer än en upphovsuppgift
 
-Om det finns mer än en upphovsuppgift kan även övriga upphovsuppgifter återges om de är viktiga för identifikation. Librispraxis uppmanar katalogisatören att ta med alla upphovsuppgifter som är av betydelse.
+Om det finns mer än en upphovsuppgift kan även övriga upphovsuppgifter återges om de är viktiga för identifikation. 
+
+Librispraxis uppmanar katalogisatören att ta med alla upphovsuppgifter som är av betydelse.
 
 NB-praxis: Ta alltid med uppgifter om skapare (se RDA 19.2) och de upphovsuppgifter som återfinns i samma källa som huvudtiteln (vanligtvis titelsidan). Ta med upphovsuppgifter för översättare även från andra källor i resursen. För skönlitteratur, ta även med upphovsuppgifter för illustratörer från andra källor i resursen. Var i övrigt restriktiv med att hämta upphovsuppgifter från andra källor i resursen. 
 
@@ -322,6 +326,7 @@ Om mer än ett ISBN finns i resursen (till exempel ISBN för andra instanser/man
 **ISBN** (giltigt, tillhörande instansen/manifestationen som katalogiseras)
 `Värde: 9789188185174 
 Anmärkning: häftad`
+
 **ISBN** (ogiltigt, tillhörande annan instans/manifestation av samma verk)
 `Värde: 9789188185181 
 Anmärkning: e-bok`
@@ -338,32 +343,19 @@ Om resursen endast har en identifikator, ange bandtyp om det bedöms viktigt fö
 NB-praxis: Från och med juni 2016 anger NB bandtyper med mer detaljerade termer, anpassade utifrån den standard som används av den svenska förlagsbranschen. Det innebär att fler bandtyper än ovan nämnda anges i posterna. Andra bibliotek som vill använda termerna kan göra det. Nedan följer de bandtyper som används:
 
 * inbunden
-  
   * board book
-  
   * halvfranskt band
-  
   * halvklotband
-  
   * kartonnage
-  
   * klotband
-
 * häftad
-  
   * danskt band
-  
   * flipback-bok
-  
   * flexband
-  
   * pocket
-  
   * storpocket
-
 * spiralhäftad
-  
-  * spiralbunden
+    * spiralbunden
 
 Kommentar: Vid osäkerhet om bandtyp välj det överordnade begreppet, t.ex. vid osäkerhet om ett band är ett halvfranskt band välj då istället inbunden.
 
@@ -441,6 +433,7 @@ För resurser med enbart gemensamt ISBN läggs det gemensamma numret i alla dela
 Anmärkning: tillsammans med 3 andra böcker`
 
 ### ISBN på inklistrad etikett
+
 Det finns två olika fall av ISBN på inklistrad etikett:  
 
 1. När ISBN endast finns på en inklistrad etikett (och inte tryckt i resursen) anges ISBN som korrekt. Komplettera med en Anmärkning.
@@ -547,7 +540,9 @@ Om det inte finns ett ISBN, ange någon annan identifikator från valfri källa.
 
 ## Upplageuppgift (RDA 2.5) <a name="paragraph7"></a>
 
-Upplagebeteckning och påföljande upplagebeteckning är kärnelement. Övriga underelement är valfria. Samtliga underelement anges i fältet för upplageuppgift med lämplig ISBD-interpunktion.
+_Upplagebeteckning och påföljande upplagebeteckning är kärnelement._ 
+
+Övriga underelement är valfria. Samtliga underelement anges i fältet för upplageuppgift med lämplig ISBD-interpunktion.
 
 Återge upplageuppgiften så som den förekommer i resursen, dock inte nödvändigtvis när det gäller stora och små bokstäver eller interpunktion, se dokumentet ”Transcription” - RDA 1.7. Förkortningar används endast om de förekommer i källan som uppgiften hämtas från.
 
@@ -558,7 +553,9 @@ Om en resurs saknar upplageuppgift men det är känt att betydliga ändringar fr
 
 ### Upplagebeteckning
 
-Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): 
+_Upplagebeteckning är ett kärnelement._ 
+
+Hämta uppgiften från följande källor (i denna ordning): 
 1. samma källa som huvudtiteln
 2. en annan källa inom resursen
 3. en annan av de källor som specificeras i RDA 2.2.4
@@ -602,7 +599,8 @@ Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformati
 Upplagebeteckning som är en integrerad del av huvudtitel, övrig titelinformation eller upphovsuppgift, eller grammatiskt sammanhängande med något av dessa element ska anges tillsammans med det element som det är en del av.
 
 ### Upplagespecifik upphovsuppgift
-_Ej kärnelement._
+
+_Upplagespecifik upphovsuppgift är ej ett kärnelement._
 
 NB-praxis: Obligatoriskt att ange upplagespecifik upphovsuppgift (RDA 2.5.4).
 
@@ -612,6 +610,7 @@ I källan, på insidan av bakre omslag: ”Tredje upplagan, reviderad och korrig
 `Tredje upplagan / reviderad och korrigerad av Maja Lindblad`
 
 ### Påföljande upplagebeteckning
+
 _Påföljande upplagebeteckning är ett kärnelement._
 
 Om en resurs betecknas som en återutgivning som innehåller förändringar i förhållande till en viss upplaga, anges denna uppgift efter upplagebeteckningen, RDA 2.5.6.3. Hämta påföljande upplagebeteckning från följande källor (i denna ordning): samma källa som upplagebeteckningen, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
@@ -622,13 +621,14 @@ Om en resurs betecknas som en återutgivning som innehåller förändringar i f�
 Om påföljande upplagebeteckning förekommer i källan på mer än ett språk eller i mer än en skriftart, återge den uppgift som är på huvudtitelns språk eller i dess skriftart. Om detta kriterium inte går att tillämpa, återge den påföljande upplagebeteckning som kommer först i källan, RDA 2.5.6.4.
 
 ### Upphovsuppgifter som hänför sig till påföljande upplagebeteckning
-_Ej kärnelement._
+
+_Upphovsuppgifter som hänför sig till påföljande upplagebeteckning är ej ett kärnelement._
 
 NB-praxis: Obligatoriskt att ange upphovsuppgifter som hänför sig till påföljande upplagebeteckning (RDA 2.5.8).
 
 ## Utgivning (RDA 2.8) <a name="paragraph8"></a>
 
-_Utgivningsort, utgivare och är kärnelement._ 
+_Utgivningsort, utgivare och är ett kärnelement._ 
 
 RDA har separata element för utgivnings-, distributions- och tillverkningsuppgifter och dessa anges i separata fält. Om uppgifterna hämtas utanför resursen ska varje element klamras för sig, RDA Appendix D. 1.
 
@@ -741,6 +741,7 @@ Tillämpa generellt inte den valfria uteslutningen i RDA 2.8.4.3, att utesluta h
 Om namnet på utgivaren förekommer i källan på mer än ett språk eller i mer än en skriftart, ange det namn som är på huvudtitelns språk. Om detta kriterium inte kan tillämpas, återge den uppgift som kommer först i källan, RDA 2.8.4.6.
 
 ### Utgivarens namn felstavat på titelsidan
+
 Titelsidan är föredragen källa för utgivarnamn. Om det finns en titelsida och utgivarens namn är felstavat där, återge utgivarnamnet som det förekommer på titelsidan och gör en anmärkning om det korrekta namnet, se Anmärkning om utgivningsuppgift.
 
 ### Uppgift om utgivare saknas i resursen
@@ -748,7 +749,10 @@ Titelsidan är föredragen källa för utgivarnamn. Om det finns en titelsida oc
 Om uppgift om utgivare saknas i resursen och inte kan hämtas från någon annan källa ange [utgivare okänd], RDA 2.8.4.7.
 
 ### Utgivningstid
-Utgivningstid är ett kärnelement. Librispraxis är att tillämpa det valfria tillägget i RDA 2.8.6.3 om uppgiften inte är angiven enligt gregoriansk eller juliansk kalender.
+
+_Utgivningstid är ett kärnelement._ 
+
+Librispraxis är att tillämpa det valfria tillägget i RDA 2.8.6.3 om uppgiften inte är angiven enligt gregoriansk eller juliansk kalender.
 
 Hämta uppgift om utgivningstid från följande källor (i denna ordning): samma källa som huvudtiteln, en annan källa inom resursen, en annan av de källor som specificeras i RDA 2.2.4.
 
@@ -915,6 +919,7 @@ Om resursen ingår i en serie, återge serieuppgiften som den förekommer i käl
 **Serieuppgift**
 Huvudtitel till serie, Series ISSN ; Numrering inom serie
 `Basic readings in culture and aestetics, 2002-6463 ; 1`
+
 **Serieuppgift**
 Huvudtitel till serie ; Numrering inom serie. Huvudtitel till underserie ; Numrering inom underserie 
 `Department of State publication ; 7846. Department and Foreign Service series ; 128`
@@ -1125,8 +1130,7 @@ Tillämpa inte den valfria uteslutningen i RDA 2.12.16.3, dvs ange även huvudse
 
 Obligatoriskt enligt Librispraxis.
 
-Källor för beskrivningen av medietyp är resursen, medföljande material eller förpackning/behållare. Uppgifter kan även hämtas utanför resursen.
-Om ingen av termerna i listan är lämplig, välj “annan” (x). Om medietypen/medietyperna inte lätt kan bestämmas, välj “ospecificerad” (z).
+Källor för beskrivningen av medietyp är resursen, medföljande material eller förpackning/behållare. Uppgifter kan även hämtas utanför resursen. 
 
 Om resursen består av mer än en medietyp är Librispraxis att ange den medietyp som är tillämplig på den huvudsakliga delen av resursen. Ange inte medietyp för medföljande material av uppenbart underordnad karaktär.
 
@@ -1150,11 +1154,9 @@ NB-praxis: Tillämpa det valfria tillägget.
 
 ## Omfång (RDA 3.4) <a name="paragraph17"></a>
 
-Omfång är ett kärnelement om resursen är komplett eller om det totala antalet fysiska enheter är känt.
+_Omfång är ett kärnelement om resursen är komplett eller om det totala antalet fysiska enheter är känt._
 
-Omfång är antalet och typen av enheter (t.ex. volym) och underenheter (t.ex. sidor) en resurs består av.
-
-Använd hela resursen (eller medföljande material eller behållare) som källa. Om det behövs kan kompletterande information hämtas utanför resursen.
+Omfång är antalet och typen av enheter (t.ex. volym) och underenheter (t.ex. sidor) en resurs består av. Använd hela resursen (eller medföljande material eller behållare) som källa. Om det behövs kan kompletterande information hämtas utanför resursen.
 
 Ange resursens omfång genom att ange antalet och typen av enheter den består av. För typen kan en passande term från listan för bärartyper i RDA 3.3.1.3 (bärartyperna på svenska) användas. Alternativ: Använd en vanligt förekommande term (inklusive varumärken, om det är tillämpligt):
 
@@ -1167,14 +1169,14 @@ RDA har särskilda instruktioner för bland annat textresurser, se RDA 3.4.5 och
 
 ### Omfång för text (RDA 3.4.5)
 
-Riktlinjerna är uppdelade på resurser som består av en enhet och resurser som består av flera enheter. 
-Texten nedan gäller för resurser som består av en enhet.
+Riktlinjerna är uppdelade på resurser som består av en enhet och resurser som består av flera enheter. Texten nedan gäller för resurser som består av en enhet.
 
 ### Enstaka volym med numrerade sidor, blad eller spalter 
 
 För en resurs som består av en volym, ange omfång i antal sidor, blad eller spalter i enlighet med de numeriska eller alfabetiska sviterna i volymen (RDA 3.4.5.2). 
 
 Tillämpa följande generella riktlinjer:
+
 * Om volymen är numrerad i termer av sidor, ange antal sidor.
 * Om volymen är numrerad i termer av blad, ange antal blad.
 * Om volymen består av sidor med mer än en spalt per sida och spalterna är numrerade, ange antal spalter.
@@ -1312,9 +1314,7 @@ Librispraxis: Katalogisatören avgör om det valfria tillägget att ange typ och
 
 ## Mått (RDA 3.5) <a name="paragraph18"></a>
 
-Enligt Librispraxis är det inte obligatoriskt att ange mått. Mått som är standard för bäraren anges inte.
-
-Om mått anges, och om instruktionerna inte säger något annat, ange mått i centimeter, avrundat uppåt till närmaste hela centimetertal. Ange måttet i cm (om en volym mäter 17,2 cm, anges måttet som 18 cm).
+Enligt Librispraxis är det inte obligatoriskt att ange mått. Mått som är standard för bäraren anges inte. Om mått anges, och om instruktionerna inte säger något annat, ange mått i centimeter, avrundat uppåt till närmaste hela centimetertal. Ange måttet i cm (om en volym mäter 17,2 cm, anges måttet som 18 cm).
 
 **Mått**
 `Benämning: 25 cm`
