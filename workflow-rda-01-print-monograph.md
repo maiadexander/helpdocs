@@ -290,7 +290,7 @@ NB-praxis: Obligatoriskt att ange parallell upphovsuppgift som hänför sig till
 
 ## Identifikator för instansen/manifestationen (RDA 2.15) <a name="paragraph13"></a>
 
-_Identifikator för instansen/manifestationen är ett kärnelement. _
+_Identifikator för instansen/manifestationen är ett kärnelement._
 
 Uppgift om identifikator hämtas från valfri källa. 
 
