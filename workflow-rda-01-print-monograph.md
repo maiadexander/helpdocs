@@ -45,7 +45,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 ---
 # Element tillhörande instans/manifestation
 
-## Föredragen källa ([RDA 2.2](http://access.rdatoolkit.org/2.1.2.2.html))  <a name="paragraph2"></a>
+## Föredragen källa [(RDA 2.2)](http://access.rdatoolkit.org/2.1.2.2.html)) <a name="paragraph2"></a>
 
 Börja med den information som finns på titelsidan (RDA 2.1.2.2 och RDA 2.2.2.2).
 
@@ -77,7 +77,7 @@ Under huvudelementet Title (Titel) kan flera titeltyper anges:
 
 Huvudtitel och Övrig titelinformation är förvalda i mallen _Tryckt monografi – RDA_.
 
-## Huvudtitel (RDA 2.3.2)  <a name="paragraph3"></a>
+## Huvudtitel [(RDA 2.3.2)](http://access.rdatoolkit.org/2.1.2.2.html) <a name="paragraph3"></a>
 
 Huvudtitel är ett kärnelement. 
 
@@ -176,7 +176,7 @@ Om titeln på delen, sektionen eller supplementet förekommer i källan tillsamm
 **Serieuppgift**
 `Nordisk kvinnolitteraturhistoria ; band 2`
 
-## Övrig titelinformation (RDA 2.3.4) <a name="paragraph5"></a>
+## Övrig titelinformation [(RDA 2.3.4)](http://access.rdatoolkit.org/2.1.2.2.html) <a name="paragraph5"></a>
 
 Övrig titelinformation är inte ett kärnelement men obligatorisk enligt Librispraxis. 
 
