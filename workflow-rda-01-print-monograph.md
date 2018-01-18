@@ -45,7 +45,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 ---
 # Element tillhörande instans/manifestation
 
-## Föredragen källa (RDA 2.2)  <a name="paragraph2"></a>
+## Föredragen källa ([RDA 2.2](http://access.rdatoolkit.org/2.1.2.2.html))  <a name="paragraph2"></a>
 
 Börja med den information som finns på titelsidan (RDA 2.1.2.2 och RDA 2.2.2.2).
 
