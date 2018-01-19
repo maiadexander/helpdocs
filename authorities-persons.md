@@ -70,3 +70,21 @@ Gör alltid auktoritetspost, för både svenska och utländska personer, när:
 
 I Libris tillämpas praxisen att om inget passande tillägg finns, används samma sökingång för flera personer med samma namn. Upprätta inte någon auktoritetspost i sådana fall.
 
+### Val av föredraget namn <a name="paragraph4"></a>
+
+Föredraget namn är det namn eller den namnform som väljs som grund för den auktoriserade sökingången. (I den auktoriserade sökingången kompletterar man sedan det föredragna namnet med andra element, till exempel födelsetid, kunglig titel eller yrke.)
+
+Det namn under vilket personen är mest känd väljs som föredraget namn (RDA 9.2.2.3).
+
+För att bestämma under vilket namn en person är mest känd används följande källor (i prioriteringsordning):
+1. de föredragna källorna, se RDA 2.2.2, i resurser knutna till personen
+2. andra formella uppgifter som förekommer i resurser knutna till personen
+3. övriga källor (till exempel referenskällor)
+
+Men observera att:
+* vissa namn har en vedertagen svensk form. Det gäller till exempel helgon, kungligheter, påvar, biskopar etc., klassiska grekiska, romerska och bysantinska personer samt personer verksamma före år 1400.
+* för utländska personer verksamma efter år 1400 hämtas namnformen oftast från respektive lands nationalbibliografi (många finns i VIAF) eller konstrueras med hjälp av Names of persons. Läs mer under Källor.
+* för personer som byter namn gäller i princip att det senaste namnet väljs som föredraget namn, se Namnbyte.
+* en person kan ha mer än en identitet och då upprättas flera auktoritetsposter. Läs mer under Se även-hänvisningar.
+
+Följ de generella riktlinjerna för att ange namn (till exempel för namn som innehåller initialer eller förkortningar) i RDA 8.5. 
