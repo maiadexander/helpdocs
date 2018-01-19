@@ -58,8 +58,6 @@ För att avgöra om namnet ska auktoriseras som person, institution eller ämnes
 
 Auktoritetspost upprättas när man har behov av att hänvisa från alternativa sökingångar eller när man har biografiska uppgifter om en person som är viktiga att dokumentera.
 
-När en auktoritetspost upprättas anges den auktoriserade sökingången i fält 100.
-
 Gör alltid auktoritetspost, för både svenska och utländska personer, när:
 
 * en person har varierande namnformer som förs samman till ett föredraget namn. Gör se-hänvisningar från varianterna.
@@ -127,6 +125,7 @@ Gör en auktoritetspost och hänvisa till variantformer av namnet under vilken p
 Latinska namnformer ska anges i nominativ. Om man är osäker får man ofta hjälp av Deutsche Nationalbibliothek (sök i VIAF) eller CERL Thesaurus:
 
 För en utländsk person verksam efter år 1400 använder man normalt den form som personens lands nationalbibliotek använder.
+
 Nederländernas nationalbibliotek har valt den latinska formen:
 
 **Exempel** 
