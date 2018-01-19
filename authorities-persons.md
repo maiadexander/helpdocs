@@ -63,5 +63,5 @@ Gör alltid auktoritetspost, för både svenska och utländska personer, när:
 
 I Libris tillämpas praxisen att om inget passande tillägg finns, används samma sökingång för flera personer med samma namn. Upprätta inte någon auktoritetspost i sådana fall.
 
-Se även  Riktlinjer för det löpande auktoritetsarbetet i Libris
+Se även _Riktlinjer för det löpande auktoritetsarbetet i Libris_.
 
