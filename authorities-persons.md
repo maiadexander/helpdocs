@@ -88,3 +88,55 @@ Men observera att:
 * en person kan ha mer än en identitet och då upprättas flera auktoritetsposter. Läs mer under Se även-hänvisningar.
 
 Följ de generella riktlinjerna för att ange namn (till exempel för namn som innehåller initialer eller förkortningar) i RDA 8.5. 
+
+### Val mellan olika former av samma namn <a name="paragraph1"></a>
+
+Om en person är känd under mer än en form av samma namn, välj föredraget namn genom att följa anvisningarna i RDA 9.2.2.5 angående:
+
+* fullständighet
+* språk. Läs bland annat om Grekiska och latinska former kontra former på personens eget språk och om Klassiska grekiska, romerska och bysantinska personer
+* namn skrivna i icke latinsk skriftart. Läs bland annat om Namn skrivna med kyrillisk skrift - som translittererats i den deskriptiva katalogiseringen
+* stavning
+
+### Fullständighet
+
+Om formerna för en persons namn varierar i fullständighet, välj som föredraget namn den vanligaste formen (RDA 9.2.2.5.1).
+Om ingen form dominerar, välj den senaste formen som föredraget namn. Vid tvekan, välj den mer fullständiga formen.
+
+**Exempel** 
+`Text`
+
+### Språk
+
+Om en persons namn förekommer på olika språk i resurser som är knutna till personen, välj som föredraget namn den namnform som förekommer i flest resurser (RDA 9.2.2.5.2).
+
+Om namnet inte förekommer i resurser som är knutna till personen, eller vid tveksamhet, välj den form som är vanligast förekommande i referenskällor från den personens hemland eller det land personen är verksam i. Denna paragraf har två undantag: Grekiska och latinska former kontra former på personens eget språk och Vedertagen svensk namnform.
+
+För Libris har utarbetats praktiska anvisningar för klassiska grekiska, romerska och bysantinska personer. Grekiska och latinska former kontra former på personens eget språk
+
+Olika namnformer återfinns ibland i referenskällor och i resurser knutna till en person. Om namnet på personen återfinns både i en grekisk eller latinsk form och i en form på personens eget språk, välj som föredragen form den form som är mest förekommande i referenskällor i det land personen verkade. 
+
+Vid tveksamhet, välj den grekiska eller latinska formen för personer verksamma före år 1400 och en form på personens eget språk för personer verksamma efter 1400.
+
+För utländska personer verksamma efter år 1400 betyder det i allmänhet att man använder den nationella namnformen, som hämtas från VIAF eller respektive lands nationalbibliotek.
+
+Se även nedan om Vedertagen svensk namnform.
+
+Gör en auktoritetspost och hänvisa till variantformer av namnet under vilken personen också är känd. Hänvisa till den namnform LC eller respektive nationalbibliotek använder (sök i VIAF).
+
+Latinska namnformer ska anges i nominativ. Om man är osäker får man ofta hjälp av Deutsche Nationalbibliothek (sök i VIAF) eller CERL Thesaurus:
+
+För en utländsk person verksam efter år 1400 använder man normalt den form som personens lands nationalbibliotek använder.
+Nederländernas nationalbibliotek har valt den latinska formen:
+
+**Exempel** 
+`Text`
+
+Det är vanligt att svenska namnformer förekommer i latinsk form in på 1700-talet. Välj den svenska namnformen som föredraget namn. Den latinska namnformen ska finnas med som hänvisning i auktoritetsposten:
+
+**Exempel** 
+`Text`
+ 
+### Vedertagen svensk namnform
+
+Om det första elementet i en persons föredragna namn består av ett förnamn och/eller ett ord eller en fras knutet/knuten till personen, se RDA 9.2.2.18, bestäm namnform med hjälp av referenskällor. Om det finns en väletablerad namnform på svenska, välj den som föredraget namn. Vid tveksamhet, välj en form på personens språk eller den latinska formen.
