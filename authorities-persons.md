@@ -18,7 +18,6 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Definition av person](#paragraph1)
 * [Anvisningar för personer - var i RDA?](#paragraph2)
 * [Auktoritetspost - när behövs det?](#paragraph3)
-
 * [Val av föredraget namn](#paragraph4)
 * [Val mellan olika former av samma namn (fullständighet, språk, icke latinsk skriftart och stavning)](#paragraph5)
 * [Klassiska grekiska, romerska och bysantinska personer](#paragraph6)
