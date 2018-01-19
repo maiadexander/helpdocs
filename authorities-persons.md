@@ -19,6 +19,14 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Anvisningar för personer - var i RDA?](#paragraph2)
 * [Auktoritetspost - när behövs det?](#paragraph3)
 
+* [Val av föredraget namn](#paragraph4)
+* [Val mellan olika former av samma namn (fullständighet, språk, icke latinsk skriftart och stavning)](#paragraph5)
+* [Klassiska grekiska, romerska och bysantinska personer](#paragraph6)
+* [Namn skrivna med kyrillisk skrift - som translittererats](#paragraph7)
+* [Namnbyte](#paragraph8)
+* [Pseudonymer](#paragraph9)
+* [Ordningselement (hur namnet sorteras)](#paragraph10)
+
 ### Definition av person  <a name="paragraph1"></a>
 
 Med person avses i RDA en individ eller en identitet etablerad av en individ (antingen ensam eller i samarbete med en eller flera andra individer). Termen inkluderar även personer i heliga skrifter, fiktiva gestalter och ickemänskliga entiteter, till exempel djurskådespelare (RDA 8.1.2, RDA 9.0).
@@ -62,6 +70,4 @@ Gör alltid auktoritetspost, för både svenska och utländska personer, när:
 * två eller flera personer har samma namnform och därför behöver särskiljas.
 
 I Libris tillämpas praxisen att om inget passande tillägg finns, används samma sökingång för flera personer med samma namn. Upprätta inte någon auktoritetspost i sådana fall.
-
-Se även _Riktlinjer för det löpande auktoritetsarbetet i Libris_.
 
