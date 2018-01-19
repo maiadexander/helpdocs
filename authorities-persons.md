@@ -10,6 +10,7 @@ tags:
 # Personer
 
 Val av föredraget namn, konstruktion av sökingångar och utformning av auktoritetsposter
+
 [Extern länk till MARC21-anpassad information](http://www.kb.se/rdakatalogisering/personer/) 
 
 ## Innehåll
