@@ -19,12 +19,34 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Anvisningar för personer - var i RDA?](#paragraph2)
 * [Auktoritetspost - när behövs det?](#paragraph3)
 * [Val av föredraget namn](#paragraph4)
+
+Föredraget namn 
 * [Val mellan olika former av samma namn (fullständighet, språk, icke latinsk skriftart och stavning)](#paragraph5)
 * [Klassiska grekiska, romerska och bysantinska personer](#paragraph6)
 * [Namn skrivna med kyrillisk skrift - som translittererats](#paragraph7)
 * [Namnbyte](#paragraph8)
 * [Pseudonymer](#paragraph9)
 * [Ordningselement (hur namnet sorteras)](#paragraph10)
+
+Sökinggång för personer: 
+* Födelsetid och/eller dödstid (vanligt tillägg när man konstruerar sökingångar)
+* Titel eller övrig beteckning förknippad med personen (vanligt tillägg när man konstruerar sökingångar)
+* Kungligheter
+* Påvar, biskopar etc. och andra personer med religiös verksamhet
+* Helgon
+* Fiktiva gestalter
+* Att särskilja sökingångar för personer (genom tillägg av fullständig namnform, verksamhetstid, yrke eller sysselsättning, övriga termer för grad, titulatur, övrig beteckning)
+
+Övriga uppgifter i auktoritetsposten:
+* Några kodfält vid MARC 21-katalogisering
+* Variantnamn och alternativa sökingångar för personen (se-hänvisningar)
+* Se även-hänvisningar
+* Biografiska uppgifter (nationalitet, orter, adresser, verksamhetsområde, organisatorisk tillhörighet, kön, språk, biografisk information) 
+* Källor
+* DDK-klassifikation
+* Allmän offentlig anmärkning 
+* Katalogisatörens arbetsnoteringar 
+* Identifikator
 
 ## Definition av person <a name="paragraph1"></a>
 
