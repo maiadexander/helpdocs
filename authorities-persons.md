@@ -20,7 +20,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Auktoritetspost - när behövs det?](#paragraph3)
 * [Val av föredraget namn](#paragraph4)
 
-**Föredraget namn**
+[**Föredraget namn**](#paragraph28)
 * [Val mellan olika former av samma namn](#paragraph5) (fullständighet, språk, icke latinsk skriftart och stavning)
 * [Klassiska grekiska, romerska och bysantinska personer](#paragraph6)
 * [Namn skrivna med kyrillisk skrift - som translittererats](#paragraph7)
@@ -28,7 +28,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Pseudonymer](#paragraph9)
 * [Ordningselement](#paragraph10) (hur namnet sorteras)
 
-**Sökinggång för personer**
+[**Sökinggång för personer**](#paragraph29)
 * [Födelsetid och/eller dödstid](#paragraph11) (vanligt tillägg när man konstruerar sökingångar)
 * [Titel eller övrig beteckning förknippad med personen](#paragraph12) (vanligt tillägg när man konstruerar sökingångar)
 * [Kungligheter](#paragraph13)
@@ -37,7 +37,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Fiktiva gestalter](#paragraph16)
 * [Att särskilja sökingångar för personer](#paragraph17) (genom tillägg av fullständig namnform, verksamhetstid, yrke eller sysselsättning, övriga termer för grad, titulatur, övrig beteckning)
 
-**Övriga uppgifter i auktoritetsposten**
+[**Övriga uppgifter i auktoritetsposten**](#paragraph30)
 * [Variantnamn och alternativa sökingångar för personen](#paragraph19) (se-hänvisningar)
 * [Se även-hänvisningar](#paragraph20)
 * [Biografiska uppgifter](#paragraph21) (nationalitet, orter, adresser, verksamhetsområde, organisatorisk tillhörighet, kön, språk, biografisk information)
