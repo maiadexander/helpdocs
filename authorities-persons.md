@@ -1,5 +1,3 @@
-:rocket 
-
 ---
 section: Auktoritetsarbete
 title: Personer
@@ -37,7 +35,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Påvar, biskopar etc. och andra personer med religiös verksamhet](#paragraph14)
 * [Helgon](#paragraph15)
 * [Fiktiva gestalter](#paragraph16)
-* [Att särskilja sökingångar för personer (genom tillägg av fullständig namnform, verksamhetstid, yrke eller sysselsättning, övriga termer för grad, titulatur, övrig beteckning)](#paragraph17)
+* [Att särskilja sökingångar för personer](#paragraph17) (genom tillägg av fullständig namnform, verksamhetstid, yrke eller sysselsättning, övriga termer för grad, titulatur, övrig beteckning)
 
 **Övriga uppgifter i auktoritetsposten**
 * [Variantnamn och alternativa sökingångar för personen](#paragraph19) (se-hänvisningar)
@@ -434,241 +432,215 @@ För osäkra och ungefärliga uppgifter anges födelsetid och dödstid enligt st
 `Text` 
 
 Källorna uppger ett säkert födelseår och ett ungefärligt dödsår.
-Ungefärligt år anges med cirka i sökingången och med ~ i fält 046 då koden edtf används. 
-Det säkra året anges i fält 046 utan kod:
-046			#f 1837
-046			#g 1896~ #2 edtf
-100	1		#a Smith, John, #d 1837-cirka 1896 
+
+**Exempel** 
+`Text` 
 
 Källorna uppger två möjliga födelseår och ett säkert dödsår.
-Uppge de möjliga födelseåren inom hakparentes med ett kommatecken mellan varje år. Avsluta med #2 edtf
-Det säkra dödsåret anges i ett separat 046-fält utan kod:
-046			#f [-0470, -0469] #2 edtf
-046			#g -0399
-100	1		#a Sokrates, #d 470 eller 469 f.Kr-399 f.Kr.
 
+**Exempel** 
+`Text` 
 
 Källorna uppger ungefärliga födelse- och dödsår:
-046			#f 1337~ #g 1404~ #2 edtf
-100	1		#a Froissart, Jean, #d cirka 1337-cirka 1404 
- 
+
+**Exempel** 
+`Text` 
+
 Källorna uppger ett ungefärligt födelseår:
-I fält 046 anges årtal före Kristus även enligt EDTF föregånget av -.
-046			#f -0630~ #2 edtf
-100	0		#a Sapfo, #d cirka 630 f.Kr.-
- 
+
+**Exempel** 
+`Text` 
+
 Födelseår och dödsår är endast kända till århundraden: 
-Ospecificerad tid anges med ett eller flera u i fält 046 då koden edtf används. 
-046			#f 13uu #g 14uu #2 edtf
-100	0		#a Johannes de Hese, #d 1300-talet-1400-talet 
- 
-Olika utförlighet i den auktoriserade sökingången och i fält 046
-Uppgifterna i den auktoriserade sökingången och fält 046 behöver inte vara av samma utförlighet.
-För svenska personer, och om uppgiften är lätt att få fram, tillämpa det valfria tillägget i RDA 9.3.1.3 och lägg till månad eller månad och dag i fält 046, även när endast årtal angetts i den auktoriserade sökingången:
-046			#f 19250525       
-100	1		#a Andersson, Eva, #d 1925-
- 
-Födelseår och dödsår kan anges i delfält 046 #f respektive #g även om inte tillägg av födelseår och dödsår görs i den auktoriserade sökingången:
-046			#f 1926 #g 2016
-100	1		#a Fo, Dario 
- 
+
+**Exempel** 
+`Text` 
+
 Läs även nedan om verksamhetstid, som används för att skilja sökingångar från varandra.
-Titel eller övrig beteckning förknippad med personen
+
+### Titel eller övrig beteckning förknippad med personen <a name="paragraph2"></a>
+
 Följande titlar och övriga beteckningar ska alltid läggas till i den auktoriserade sökingången när det är tillämpligt: 
-•	kunglig titel (RDA 9.19.1.2.1 och RDA 9.4.1.4)
-•	adelstitel (RDA 9.19.1.2.2 och RDA 9.4.1.5)
-•	religiös titel (RDA 9.19.1.2.3 och RDA 9.4.1.6, RDA 9.4.1.7)
-•	termen ”helgon” (RDA 9.19.1.2.4 och RDA 9.6.1.4)
-•	termen ”ande” (RDA 9.19.1.2.5 och RDA 9.6.1.5)
-•	annan beteckning förknippad med personen i följande fall (Librispraxis är att tillämpa det valfria alternativet i RDA 9.19.1.2.6): 
-- en term för en person namngiven i religiösa urkunder eller en apokryfisk bok, se även RDA 9.6.1.6
-- termen ”fiktiv gestalt”, ”legendarisk gestalt”, eller en annan passande beteckning, se även RDA 9.6.1.7 
-- en term för typ, art eller sort för en icke-mänsklig entitet, se även RDA 9.6.1.8 
-•	för personer vars namn består av en fras som inte talar om vad personen är/gör:
+
+* kunglig titel (RDA 9.19.1.2.1 och RDA 9.4.1.4)
+* adelstitel (RDA 9.19.1.2.2 och RDA 9.4.1.5)
+* religiös titel (RDA 9.19.1.2.3 och RDA 9.4.1.6, RDA 9.4.1.7)
+* termen ”helgon” (RDA 9.19.1.2.4 och RDA 9.6.1.4)
+* termen ”ande” (RDA 9.19.1.2.5 och RDA 9.6.1.5)
+* annan beteckning förknippad med personen i följande fall (Librispraxis är att tillämpa det valfria alternativet i RDA 9.19.1.2.6): 
+   * en term för en person namngiven i religiösa urkunder eller en apokryfisk bok, se även RDA 9.6.1.6
+   * termen ”fiktiv gestalt”, ”legendarisk gestalt”, eller en annan passande beteckning, se även RDA 9.6.1.7 
+   * en term för typ, art eller sort för en icke-mänsklig entitet, se även RDA 9.6.1.8 
+* för personer vars namn består av en fras som inte talar om vad personen är/gör:
 yrke eller sysselsättning (RDA 9.19.1.1 och RDA 9.16)
-Lägg titlar och övriga beteckningar i delfält #c i den auktoriserade sökingången. 
-Kungliga titlar, adelstitlar, religiösa titlar och termen ”helgon” föregås av kommatecken.
-Termen ”ande”, andra beteckningar samt yrke eller sysselsättning omsluts av parentes. 
-Lägg alla dessa tillägg utom ”ande” före födelsetid och/eller dödstid eller verksamhetstid. 
-Läs mer om interpunktion i sökingångar i RDA appendix E.
-Titel eller övrig beteckning i fält 368 eller 374
-Det är önskvärt (men inte obligatoriskt) att även ange titel eller övrig beteckning förknippad med personen i auktoritetsposten. 
-Titel eller övrig beteckning anges i fält 368, delfält #c (Annan beteckning) eller #d (Titel/officiell rang för kunglig, adlig eller religiös person). 
-Yrke eller sysselsättning anges i delfält 374 #a. Hämta gärna termen för annan beteckning (i 368 #c) och yrke eller sysselsättning (i 374) från en kontrollerad vokabulär, till exempel Svenska ämnesord. Ange ordet i singular i sökingången.
+
+Lägg titlar och övriga beteckningar i den auktoriserade sökingången. Kungliga titlar, adelstitlar, religiösa titlar och termen ”helgon” föregås av kommatecken. Termen ”ande”, andra beteckningar samt yrke eller sysselsättning omsluts av parentes. Lägg alla dessa tillägg utom ”ande” före födelsetid och/eller dödstid eller verksamhetstid. Läs mer om interpunktion i sökingångar i RDA appendix E.
+
+### Titel eller övrig beteckning
+
+Det är önskvärt (men inte obligatoriskt) att även ange titel eller övrig beteckning förknippad med personen i auktoritetsposten. Hämta gärna termen för annan beteckning och yrke eller sysselsättning från en kontrollerad vokabulär, till exempel Svenska ämnesord. Ange ordet i singular i sökingången.
  
-Exempel:
 Kunglig titel:
-100	0	_	#a Gustav #b I, #c kung av Sverige, #d 1496-1560
-368			#d Kung av Sverige  
-Läs mer om kungligheter.
+
+**Exempel** 
+`Text`
 
 Adelstitel:
-Översätt inte adelstitlar. 
-Observera att för personer som använder adelstitel istället för förnamn följs anvisningarna i RDA 9.2.2.14. 
-Librispraxis: Ange inte adelstitlar för svenska personer.
-100	1	_	#a Dragonetti de Torres, Alfonso, #c marchese, #d 1864-
-368			#d Marchese 
+Översätt inte adelstitlar. Observera att för personer som använder adelstitel istället för förnamn följs anvisningarna i RDA 9.2.2.14. 
+Librispraxis: Ange inte adelstitlar för svenska personer. 
+
+**Exempel** 
+`Text`
  
 Religiös titel:
-100	0	_	#a Johannes Paulus #b I, #c påve, #d 1912-1978
-368			#d Påve 
-Läs mer om påvar, biskopar etc. och andra personer med religiösa yrken. 
+**Exempel** 
+`Text`
 
 Helgon:
-100	0	_	#a Birgitta, #c helgon, #d cirka 1303-1373
-368			#c Helgon #2 sao
-Läs mer om helgon.
+
+**Exempel** 
+`Text`
 
 Ande:
 Termen ”Ande” läggs alltid som sista element i den auktoriserade ingången (RDA 9.19.1.2.5).
-100	0	_	#a Diana, #c prinsessa av Wales, #d 1961-1997 #c (ande)
-368			#c Andar #2 sao
-670			#a Channeled letters from Princess Diana / by Velera Kurleto, 1997
- 
-Person namngiven i en religiös urkund:
-100	0	_	#a Mose #c (biblisk person)
-368			#c Profeter #2 sao 
- 
-Fiktiv gestalt:
-100	1	_	#a Sventon, Ture #c (fiktiv gestalt)
-368			#c Fiktiva gestalter #2 sao
 
- 
-100	0	_	#a Venus #c (romersk gudinna)
-368			#c Romerska gudinnor #2 sao
-Läs mer om fiktiva gestalter.
+**Exempel** 
+`Text`
+
+Person namngiven i en religiös urkund:
+
+**Exempel** 
+`Text`
+
+Fiktiv gestalt:
+
+**Exempel** 
+`Text`
 
 Icke-mänsklig entitet:
-100	0	_	#a Lassie #c (border collie)
-368			#c Border collie #2 sao
+
+**Exempel** 
+`Text`
 
 Person vars namn består av en fras som inte talar om vad personen är/gör:
-100	0	_	#a Hello Saferide #c (musiker)
-374			#a Musiker #2 sao
+
+**Exempel** 
+`Text`
 
 Om flera andra beteckningar förknippade med personen anges, omslut varje term med parentes.
-Kungligheter
+
+### Kungligheter  <a name="paragraph13"></a>
+
 Ange namn på kungligheter genom att tillämpa de allmänna riktlinjerna för namn som varken innehåller släktnamn eller adelstitel och inordna namnet på förnamn (RDA 9.2.2.18 och RDA 9.2.2.20). Kungliga personer som är avlidna får i princip sina namn normaliserade till vedertagen svensk form och stavning: Charles och Carl blir Karl, Gustaf blir Gustav. Nu levande kungligheter behåller sin namnform: Elizabeth II, ej Elisabet II.
+
 Ange ordningstal för regenter med romerska siffror (RDA 9.2.2.18). Ordningstal anges i den auktoriserade sökingången i delfält #b.
 Kunglig titel är ett kärnelement (RDA 9.4.1.4) för: 
-• personen med den högsta kungliga statusen i ett land etc. 
-• makar till kungliga personer (Librispraxis: men lägg inte till frasen ”make till”/”maka till” för kungliga personer (dvs tillämpa inte RDA 9.4.1.4.2)
-• barn och barnbarn till kungliga personer
-Ange kunglighetens titel och namnet på den stat eller det folk som vederbörande regerar eller regerat över. Ange dessa på svenska om det finns en tillfredsställande svensk motsvarighet. Frasen med titeln och namnet på den stat eller det folk som vederbörande etc. regerar över anges i den auktoriserade sökingången i delfält #c, direkt efter delfält #a/#b. Att ange den kungliga titeln i den auktoriserade sökingången är tillräckligt för att uppfylla obligatoriet, men den kungliga titeln kan även anges i delfält 368 #d i auktoritetsposten. Läs mer i Titel eller övrig beteckning förknippad med personen. 
 
-Levnadstiden anges sist i den auktoriserade sökingången, i delfält #d. 
+* personen med den högsta kungliga statusen i ett land etc. 
+* makar till kungliga personer (Librispraxis: men lägg inte till frasen ”make till”/”maka till” för kungliga personer (dvs tillämpa inte RDA 9.4.1.4.2)
+* barn och barnbarn till kungliga personer
+
+Ange kunglighetens titel och namnet på den stat eller det folk som vederbörande regerar eller regerat över. Ange dessa på svenska om det finns en tillfredsställande svensk motsvarighet. Läs mer i Titel eller övrig beteckning förknippad med personen. 
+
+Levnadstiden anges sist i den auktoriserade sökingången. 
 
 Lägg inte till ordet ”helgon” för kungligheter (RDA 9.19.1.2.4).
+
 Läs mer om kungliga titlar i auktoriserade sökingångar i RDA 9.19.1.2.1.
+
 När en auktoritetspost görs, hänvisa till den namnform LC respektive aktuell utländsk nationalbibliografi använder (sök till exempel i VIAF). Läs mer i Variantnamn och alternativa sökingångar för personen (se-hänvisningar) och Källor.
 
 Avlidna kungligheter:
-100	0	_	#a Gustav #b II Adolf, #c kung av Sverige, #d 1594-1632
-400	0	_	#a Gustaf #b II Adolf, #c King of Sweden, #d 1594-1632 
-670			#a NE (2009-12-11) #b (Gustav II Adolf)
-670			#a LC i VIAF (2009-12-11) #b (Gustaf II Adolf, King of Sweden, 1594-1632)
 
- 
-100	0	_	#a Filip #b V, #c kung av Spanien, #d 1683-1746
-400	0	_	#a Philip #b V, #c King of Spain, #d 1683-1746
-400	0	_	#a Felipe #b V, #c Rey de España #d 1683-1746
-670			#a NE (2009-12-03) #b (Filip V)
-670			#a Biblioteca Nacional de España i VIAF (2009-12-03) #b (Felipe V, Rey de España)
-670			#a LC i VIAF (2009-12-03) #b (Philip V, King of Spain, 1683-1746)
+**Exempel** 
+`Text`
 
 Levande kungligheter: 
-100	0	_	#a Felipe, #b VI, #c kung av Spanien, #d 1968-
-400	0	_	#a Filip #b VI, #c kung av Spanien, #d 1968-
-400	0	_	#a Felipe #b VI, #c Rey de España, #d 1968-
-400	0	_	#a Felipe, #c Rey de España, #d 1968-
-400	0	_	#a Felipe, #c kung av Spanien, #d 1968-
-670			#a Felipe y Letizia, 2014: #b t.p. (Felipe)
-670			#a NE (2016-11-01) #b (Felipe VI)
-670			#a National Library of Spain i VIAF (2016-11-01) #b (Felipe VI, Rey de España)
+
+**Exempel** 
+`Text`
  
 Make/maka till kunglig person:
 I Libris lägger man inte till "maka till"/"make till" i den auktoriserade sökingången.
-100	0		#a Lovisa Ulrika, #c drottning av Sverige, #d 1720-1782
-400	0		#a Lovisa Ulrika, #c Queen, consort of Adolf Fredrik, King of Sweden, #d 1720-1782 
-670			#a NE (2016-06-28) #b (Lovisa Ulrika)
-670			#a LC i VIAF (2016-06-28) #b (Lovisa Ulrika, Queen, consort of Adolf Fredrik, King of Sweden, 1720-1782)
- 
-Påvar, biskopar etc. och andra personer med religiösa yrken
-Anvisningarna i detta stycke gäller påvar, motpåvar, biskopar, kardinaler, ärkebiskopar, metropoliter, abbottar, abbedissor och andra personer med religiösa yrken som inordnas på förnamn.
-För påvars namn används vedertagen svensk form. Ange ordningstal för påvar med romerska siffror (RDA 9.2.2.18). Ordningstal anges i den auktoriserade sökingången i delfält #b.
-Religiös titel är ett kärnelement för påvar, biskopar etc. och andra personer med religiösa yrken (RDA 9.4.1.6-9.4.1.8). Titeln skrivs på svenska i de fall då personen har en svensk titel i svenska referenskällor. Frasen placeras i delfält #c, direkt efter delfält #a/#b. Att ange den religiösa titeln i den auktoriserade sökingången är tillräckligt för att uppfylla obligatoriet, men den religiösa titeln kan även anges i delfält 368 #d i auktoritetsposten. Läs mer i Titel eller övrig beteckning förknippad med personen.
 
-Levnadstiden anges sist i den auktoriserade sökingången, i delfält #d. 
+**Exempel** 
+`Text`
+ 
+### Påvar, biskopar etc. och andra personer med religiösa yrken <a name="paragraph14"></a>
+
+Anvisningarna i detta stycke gäller påvar, motpåvar, biskopar, kardinaler, ärkebiskopar, metropoliter, abbottar, abbedissor och andra personer med religiösa yrken som inordnas på förnamn.
+
+För påvars namn används vedertagen svensk form. Ange ordningstal för påvar med romerska siffror (RDA 9.2.2.18). Ordningstal anges i den auktoriserade sökingången.
+
+Religiös titel är ett kärnelement för påvar, biskopar etc. och andra personer med religiösa yrken (RDA 9.4.1.6-9.4.1.8). Titeln skrivs på svenska i de fall då personen har en svensk titel i svenska referenskällor. Att ange den religiösa titeln i den auktoriserade sökingången är tillräckligt för att uppfylla obligatoriet, men den religiösa titeln kan även anges i auktoritetsposten. Läs mer i Titel eller övrig beteckning förknippad med personen.
+
+Levnadstiden anges sist i den auktoriserade sökingången. 
 
 Läs mer om religiösa titlar i auktoriserade sökingångar i RDA 9.19.1.2.3.
+
 När en auktoritetspost görs, hänvisa till den namnform LC respektive aktuell utländsk nationalbibliografi använder (sök till exempel i VIAF). Läs mer i Variantnamn och alternativa sökingångar för personen (se-hänvisningar) och Källor.
-100	0		#a Franciskus, #c påve, #d 1936-
-400	0		#a Francis, #c påve, #d 1936-
-400	1		#a Bergoglio, Jorge Mario, #d 1936-
-670			#a NE (2016-06-28) #b (Franciskus)
-670			#a LC i VIAF (2016-06-28) #b (Francis, Pope, 1936-)
+
+**Exempel** 
+`Text`
  
 Läs även om påvar och andra religiösa ämbetsmän som publicerar sig som innehavare av ett ämbete och inordnas under institutionen de företräder, se Regeringstjänstemän och religiösa ämbetsmän.
-Helgon
-Helgon är kanoniserade (helgonförklarade) personer. För helgon används vedertagen svensk namnform.
-Ange termen ”helgon”, se RDA 9.6.1.4, till det föredragna namnet om inte ingången representerar en påve eller en kejsare, kejsarinna, kung eller drottning. Lägg termen efter den fullständiga namnformen, se RDA 9.19.1.4, och efter en adelstitel, se RDA 9.19.1.2.2 eller en religiös titel, se RDA 9.19.1.2.3 i den auktoriserade sökingången. Se även Titel eller övrig beteckning förknippad med personen.
 
-När en auktoritetspost görs, hänvisa till den namnform LC respektive aktuell utländsk nationalbibliografi använder (sök till exempel i VIAF). Läs mer i Variantnamn och alternativa sökingångar för personen (se-hänvisningar) och Källor.
-100	0		#a Birgitta, #c helgon, #d cirka 1303-1373                
-400	0		#a Bridget, #c of Sweden, Saint, #d cirka 1303-1373
-670			#a NE (2009-12-11) #b (Birgitta)
-670			#a LC i VIAF (2016-08-25) #b (Bridget, of Sweden, Saint, approximately 1303-1373)
-Fiktiva gestalter
-Fiktiva gestalter behandlas som personer enligt RDA. Före februari 2015 behandlades fiktiva gestalter som allmänna ämnesord i Libris. I Libris är det obligatoriskt att lägga till termen ”fiktiv gestalt” för denna typ av personer. Termen skrivs på svenska. Att ange termen i den auktoriserade sökingången är tillräckligt för att uppfylla obligatoriet, men termen kan även anges i delfält 368 #c i auktoritetsposten. Läs mer i Titel eller övrig beteckning förknippad med personen.
+### Helgon <a name="paragraph15"></a>
 
-100	1		#a Holmes, Sherlock #c (fiktiv gestalt)             
-400	0		#a Sherlock Holmes #c (fiktiv gestalt)
-670			#a LC i VIAF (2016-06-28) #b (Holmes, Sherlock)
-670			#a NE (2015-01-15) #b (Litterär figur skapad av Arthur Conan Doyle. Sherlock Holmes, med adressen 221B Baker Street i London, är arketypen för den skarpsynte och excentriske privatdetektiven, som med obönhörlig logik löser brottsfall och mysterier.)
-Att särskilja sökingångar för personer
+Helgon är kanoniserade (helgonförklarade) personer. För helgon används vedertagen svensk namnform. Ange termen ”helgon”, se RDA 9.6.1.4, till det föredragna namnet om inte ingången representerar en påve eller en kejsare, kejsarinna, kung eller drottning. Lägg termen efter den fullständiga namnformen, se RDA 9.19.1.4, och efter en adelstitel, se RDA 9.19.1.2.2 eller en religiös titel, se RDA 9.19.1.2.3 i den auktoriserade sökingången. Se även Titel eller övrig beteckning förknippad med personen.
+
+När en auktoritetspost görs, hänvisa till den namnform LC respektive aktuell utländsk nationalbibliografi använder (sök till exempel i VIAF). Läs mer i Variantnamn och alternativa sökingångar för personen (se-hänvisningar) och Källor. 
+
+**Exempel** 
+`Text`
+ 
+### Fiktiva gestalter <a name="paragraph16"></a>
+
+Fiktiva gestalter behandlas som personer enligt RDA. Före februari 2015 behandlades fiktiva gestalter som allmänna ämnesord i Libris. I Libris är det obligatoriskt att lägga till termen ”fiktiv gestalt” för denna typ av personer. Termen skrivs på svenska. Att ange termen i den auktoriserade sökingången är tillräckligt för att uppfylla obligatoriet, men termen kan även anges i auktoritetsposten. Läs mer i Titel eller övrig beteckning förknippad med personen.
+
+**Exempel** 
+`Text`
+ 
+### Att särskilja sökingångar för personer <a name="paragraph17"></a>
+
 Auktoriserade sökingångar ska vara unika. Lägg till ett av följande tillägg för att särskilja sökingångar för personer. 
-Fullständig namnform 
-Verksamhetstid för personen
-Yrke eller sysselsättning
-Övriga termer för grad, titulatur
-Övrig beteckning
+
 I Libris tillämpas praxisen att om inget passande tillägg finns, används samma sökingång för flera personer med samma namn. Upprätta inte någon auktoritetspost i sådana fall.
-Fullständig namnform
-Lägg till en fullständig namnform om det behövs för att skilja sökingångar åt (se RDA 9.19.1.4 och RDA 9.5). Lägg till fullständig namnform när födelsetid eller dödstid inte är tillgängligt.
-Fullständig namnform anges i den auktoriserade sökingången inom parentes i delfält #q.
-Det är önskvärt (men inte obligatoriskt) att även ange fullständig namnform i auktoritetspostens delfält 378 #q.
-100	1	_	#a Hunter, Milton R. #q (Milton Reed)
-378			#q Milton Reed
 
+**Fullständig namnform**
+
+Lägg till en fullständig namnform om det behövs för att skilja sökingångar åt (se RDA 9.19.1.4 och RDA 9.5). Lägg till fullständig namnform när födelsetid eller dödstid inte är tillgängligt. Fullständig namnform anges i den auktoriserade sökingången inom parentes.
+
+**Exempel** 
+`Text`
+ 
 Om det finns flera personer med samma föredragna namn och födelse- och/eller dödstid, kan fullständig namnform användas för att särskilja personerna:
-100	1		#a Smith, A. D. #q (Adam David), #d 1950-
-378			#q Adam David
-400	1		#a Smith, Adam David, #d 1950-
 
-  
-100	1		#a Smith, A. D. #q (Arnold Daniel), #d 1950-
-378			#q Arnold Daniel
-400	1		#a Smith, Arnold Daniel, #d 1950-
+**Exempel** 
+`Text`
  
 Observera att LC ibland använder fullständig namnform för angloamerikanska personer även om det inte finns behov av särskiljning. Följ LC:s val av namnform för dessa personer:
-100	1		#a Eliot, T. S. #q (Thomas Stearns), #d 1888-1965
-378			#q Thomas Stearns
-400	1		#a Eliot, Thomas Stearns, #d 1888-1965
+
+**Exempel** 
+`Text`
  
 För svenska personer används fullständig namnform enbart som särskiljande tillägg, d.v.s. när det finns flera personer med samma namn och levnadstid saknas eller är densamma.
-Verksamhetstid för personen
-Lägg till verksamhetstid för en person om det behövs för att skilja en sökingång från en annan (RDA 9.19.1.5 och RDA 9.3.4). Gör detta tillägg när en persons födelsetid eller dödstid inte är tillgängligt. RDA appendix H innehåller anvisningar för hur man anger tid i den kristna kalendern, se Appendix H i svensk översättning.
-Verksamhetstid anges i den auktoriserade sökingången i delfält #d.
-Det är önskvärt (men inte obligatoriskt) att även ange verksamhetstid i auktoritetspostens delfält 046 #s (Startår/-datum) och #t (Slutår/-datum). För osäkra och ungefärliga uppgifter anges verksamhetstid i fält 046 enligt standarden EDTF (Extended Date/Time Format). Läs mer om EDTF och osäkra uppgifter.
-Födelse- och dödsår är okända, men verksamhetstiden är känd:
-046			#s 1670 #t 1690
-100	1	_	#a Smith, James, #d verksam 1670-1690
 
-046			#s 1578~ #2 edtf
-046			#t 1585
-100	1	_	#a Csókás, Péter Laskai, #d verksam cirka 1578-1585
+**Verksamhetstid för personen**
+
+Lägg till verksamhetstid för en person om det behövs för att skilja en sökingång från en annan (RDA 9.19.1.5 och RDA 9.3.4). Gör detta tillägg när en persons födelsetid eller dödstid inte är tillgängligt. RDA appendix H innehåller anvisningar för hur man anger tid i den kristna kalendern, se Appendix H i svensk översättning.
+
+Verksamhetstid anges i den auktoriserade sökingången.
+
+Det är önskvärt (men inte obligatoriskt) att även ange verksamhetstid i auktoritetsposten.
+
+Födelse- och dödsår är okända, men verksamhetstiden är känd:
+
+**Exempel** 
+`Text`
  
-Yrke eller sysselsättning
+**Yrke eller sysselsättning**
+
 Yrke eller sysselsättning är kärnelement för personer vars namn består av en fras som inte talar om vad personen är/gör (RDA 9.16). 
 Lägg även till yrke eller sysselsättning för en person om det behövs för att skilja en sökingång från en annan (RDA 9.19.1.6). Gör detta tillägg när en persons födelsetid eller dödstid inte är tillgängligt.
 
@@ -676,14 +648,11 @@ Ord eller fraser som beskriver en persons yrke eller sysselsättning kan till ex
 
 Hämta i första hand termen från en kontrollerad vokabulär, till exempel Svenska ämnesord. Om den eftersökta termen saknas i Svenska ämnesord, föreslå en ny term.
 
-Att ange beteckningen i den auktoriserade sökingången är tillräckligt för att uppfylla obligatoriet, men yrke eller sysselsättning kan även anges i auktoritetspostens fält 374 #a.
-Yrke eller sysselsättning anges i den auktoriserade sökingången inom parentes i delfält #c. Ange ordet i singular i sökingången. 
-100	1	_	#a Andersson, Christer #c (poet)
-374			#a Poeter #2 sao
+Att ange beteckningen i den auktoriserade sökingången är tillräckligt för att uppfylla obligatoriet, men yrke eller sysselsättning kan även anges i auktoritetsposten. Yrke eller sysselsättning anges i den auktoriserade sökingången inom parentes. Ange ordet i singular i sökingången. 
 
-100	1	_	#a Svensson, Johan, #d 1983- #c (tonsättare)
-374			#a Tonsättare #2 sao
-
+**Exempel** 
+`Text`
+ 
 Även termer som inte finns i en kontrollerad vokabulär kan användas: 
 100	0	_	#a Johannes #c (notarie)
 374			#a Notarie
