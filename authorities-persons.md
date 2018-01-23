@@ -400,9 +400,7 @@ Följ anvisningarna i RDA i följande fall:
 * Namn som innehåller initialer, bokstäver eller siffror (RDA 9.2.2.21)
 * Namn som består av fraser (RDA 9.2.2.22-9.2.2.26). Uteslut inledande artiklar (tillämpa alternativen i RDA 9.2.2.25 och RDA 9.2.2.26).
 
-<a name="paragraph11"></a>
-
-## Att konstruera sökingångar för personer 
+## Att konstruera sökingångar för personer <a name="paragraph11"></a>
 
 När man konstruerar den auktoriserade sökingången för personen använder man det föredragna namnet som grund. Gör tillägg till namnet enligt instruktionerna i RDA 9.19.1.2-9.19.1.6. Obligatoriska tillägg (om det är tillgängligt och tillämpligt) är födelse och/eller dödstid samt titel eller annan beteckning för personen.
 Vid behov upprättar man en auktoritetspost (eller ändrar i/kompletterar en befintlig auktoritetspost). Läs om när auktoritetspost behövs.
@@ -830,7 +828,7 @@ Källor som kontrollerats men inte innehöll någon användbar information kan a
 **Exempel** 
 `Text`
  
-DDK-klassifikation <a name="paragraph23"></a>
+## DDK-klassifikation <a name="paragraph23"></a>
 
 Lägg gärna till klassifikation enligt Dewey för personen i auktoritetsposten. Detta för att underlätta vid klassificeringen av enskilda verk. 
 
