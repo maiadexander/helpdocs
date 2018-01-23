@@ -46,6 +46,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Allmän offentlig anmärkning](#paragraph24)
 * [Katalogisatörens arbetsnoteringar](#paragraph25)
 * [Identifikator](#paragraph26)
+* [Lathund Personer](#paragraph27)
 
 ## Definition av person <a name="paragraph1"></a>
 
@@ -681,3 +682,208 @@ Det är önskvärt (men inte obligatoriskt) att även ange termer för övrig be
 `Text`
  
 För pseudonymer som ska särskiljas kan tillägget pseudonym användas om inga andra tillägg finns. Läs mer om Pseudonymer.
+
+## Övriga uppgifter i auktoritetsposten
+
+Auktoritetsposter kan innehålla många uppgifter. Här beskrivs de element som aldrig ingår i auktoriserade sökingångar, utan endast anges i auktoritetsposter.
+
+### Variantnamn och alternativa sökingångar för personen <a name="paragraph19"></a> (se-hänvisningar) 
+
+När man konstruerar en alternativ sökingång för personen (RDA 9.19.2) använder man variantnamn som grund (RDA 9.2.3). Gör tillägg till namnet i sökingången enligt instruktionerna i RDA 9.19.1.2-9.19.1.8, om tillämpligt. Alternativa sökingångar anges i auktoritetsposten.
+
+I Libris är det obligatoriskt att ange alla variantnamn som man kan tänkas söka på. Variantnamn kan till exempel finnas i referenskällor eller i de bibliografiska posterna. 
+
+**Exempel** 
+`Text`
+ 
+I RDA 9.2.3 listas olika typer av variantnamn, till exempel sekulära och religiösa namn. Smärre variationer eller vacklande bruk i detaljer behöver sällan resultera i en ändring av den auktoriserade namnformen. Dessa varianter registreras i stället som se-hänvisningar i auktoritetsposten. Man brukar så långt det är möjligt försöka tillgodose personens eget önskemål om val av namnform.
+När en person byter namn ändras ofta den auktoriserade namnformen, se exempel under Namnbyte.
+
+Hänvisa från LC:s form i VIAF (respektive aktuell utländsk nationalbibliografis form) för namn som har en vedertagen svensk form eller om LC:s form i VIAF avviker från den föredragna formen i Libris. Tilläggen till namnet skrivs i första hand på samma sätt som i den auktoriserade sökingången, till exempel helgon, f.Kr. (inte Saint, B.C). Vid behov kan dock även alternativa sökingångar med utländska tillägg anges i auktoritetsposten:
+
+**Exempel** 
+`Text`
+ 
+### Se även-hänvisningar <a name="paragraph20"></a>
+
+Om en person har mer än en identitet, upprättas en auktoritetspost för varje identitet, med se även-hänvisningar mellan auktoritetsposterna. Behandla en person som använder en eller flera pseudonymer eller sitt verkliga namn och en eller flera pseudonymer som en person med mer än en identitet.
+
+Hänvisa mellan personer, familjer/släkter och institutioner i auktoritetsposter. Använd tillsvidare inte relationsbeteckningarna i RDA appendix K.
+
+Exempel på en person som även ingår i en grupp:
+
+**Exempel** 
+`Text`
+ 
+Biografiska uppgifter <a name="paragraph21"></a>
+
+Till de biografiska uppgifterna hör:
+
+**Nationalitet samt orter och adresser förknippade med personen**
+
+Varken födelseort, dödsort, bostadsort eller adress är obligatoriska i Libris (RDA 9.8-9.12). 
+
+För land förknippat med personen är det obligatoriskt att ange nationalitet (när det går att få fram uppgiften). Det är däremot inte obligatoriskt att även ange detta. 
+
+Koden för nationalitet/verksamhetsland anges enligt MARC Code List for Geographical Areas (GAC). Se även den förkortade listan Koder för nationalitet/verksamhetsland (urval). Om nationalitet/verksamhetsland är okänt ange koden xx. 
+
+**Exempel** 
+`Text`
+ 
+**Personens verksamhetsområde**
+
+Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt (RDA 9.15). Det behöver inte ha med yrkesutövning att göra. Verksamhetsområden kan vara både abstrakta (till exempel poesi och musikkritik) och konkreta (till exempel träd). Jämför även med Yrke eller sysselsättning.
+
+Det är önskvärt (men inte obligatoriskt) att personens verksamhetsområde anges i auktoritetsposten när sådan upprättas. Hämta i första hand termen från en kontrollerad vokabulär som t.ex. Svenska ämnesord. Om den eftersökta termen saknas i Svenska ämnesord, föreslå en ny term. 
+
+**Exempel** 
+`Text`
+ 
+**Organisatorisk tillhörighet**
+
+Med organisatorisk tillhörighet avses en organisation som en person tillhör eller har tillhört genom anställning, medlemskap, kulturell identitet etc. (RDA 9.13). Uppgiften är inte obligatorisk i Libris. 
+
+**Personens språk**
+
+Personens språk är ett språk som personen använder för att publicera sig på, göra utsändningar på etc. (RDA 9.14). 
+
+Det är önskvärt (men inte obligatoriskt) att personens språk anges i auktoritetsposten när sådan upprättas. Ange kod enligt Library of Congress MARC Code List for Languages. För mer information, se Verktygslådan: http://www.kb.se/katalogisering/Formathandboken/Sprakkoder/.
+ 
+**Exempel** 
+`Text`                                                      
+ 
+**Biografisk information**
+
+Biografisk information är information om personens liv eller historia (RDA 9.17). Informationen ska normalt vara kortfattad. Omfattande biografisk information anges endast i de fall personen inte finns i referenskällor utan den enda källa man har är den resurs man har i handen.
+
+**Exempel** 
+`Text`
+ 
+För hembygdsforskare gäller att personens geografiska intresseinriktning är av stort värde för identifikation och särskiljande:
+
+**Exempel** 
+`Text`
+ 
+Undvik helst uppgifter om anställningar. Om uppgiften anges komplettera med det år som man säkert vet att anställningen pågick:
+
+**Exempel** 
+`Text`
+ 
+## Källor  <a name="paragraph22"></a>
+
+En konsulterad källa är en resurs som använts för att bestämma namn, titel eller andra identifierande attribut för en person eller annan entitet (RDA 8.12).I Libris är det obligatoriskt att ange konsulterad källa för föredraget namn och för relationer mellan personer, familjer/släkter och institutioner. 
+
+### Källa vid belagd uppgift
+
+Ange de källor som använts för att bestämma ett föredraget namn följt av kort information om uppgiften. Precisera var i källan uppgiften är hämtad när ett uppslagsverk eller liknande används som källa. Det är önskvärt, men inte obligatoriskt att även ange källa för övriga element som är en del av den auktoriserade sökingången samt för variantnamn. Om relationer mellan personer, familjer/släkter och institutioner anges, är det i Libris obligatoriskt att ange de källor som använts för att bestämma relationen följt av en kort redovisning av informationen (RDA 29.6.1.3).
+
+Den resurs som föranleder auktoriseringen är obligatorisk källa i auktoritetsposten. Utöver denna kan man ange andra källor ur vilka man hämtat uppgifter till auktoritetsposten. Det kan till exempel röra sig om uppslagsverk, matriklar, databaser eller webbplatser. Man bör undvika att förkorta källorna. Läs mer om förkortningar.
+
+**Exempel** 
+`Text`
+ 
+Uppslagsverk som källa:
+
+**Exempel** 
+`Text`
+ 
+Personlig kontakt och webbresurser som källa: 
+
+**Exempel** 
+`Text`
+ 
+För Wikipedia anges från vilket språks Wikipedia informationen hämtats följt av datum för besöket.
+
+**Exempel** 
+`Text`
+ 
+URL för webbresurser, t.ex. för personers och institutioners webbplatser, anges sparsamt.  
+
+**Exempel** 
+`Text`
+ 
+### VIAF
+
+VIAF (Virtual International Authority File) är från och med hösten 2009 en ny källa för auktoritetsarbete när det gäller personnamn. VIAF är en gemensam databas där auktoritetsposter från ett antal nationalbibliotek över hela världen (bland andra LC, BnF och Deutsche Nationalbibliothek) kan samsökas. I databasen länkas auktoritetsposterna från de olika länderna samman. De bibliografiska posterna som är knutna till respektive lands auktoritetspost finns också med, vilket gör VIAF till en mycket säker källa. 
+
+I auktoritetsarbetet i Libris används VIAF som första källa för utländska personer verksamma efter år 1400 (och som inte har vedertagen svensk form) från alla länder som deltar i samarbetet i VIAF. Man följer den nationella formen i VIAF, det vill säga använder till exempel Australiens nationalbiblioteks namnform i VIAF för personer från Australien:
+
+**Exempel** 
+`Text`
+ 
+För utländska personer verksamma efter år 1400 (och som inte har vedertagen svensk form) från övriga länder hämtas namnformen i första hand från respektive nationalbibliotek eller konstrueras med hjälp av IFLA:s Names of persons. Är namnformen svår att belägga/konstruera kan man söka personen i VIAF och hämta namnformen därifrån. I första hand används då LC:s form om namnformerna skiljer sig åt mellan VIAF-länderna.
+
+**Exempel** 
+`Text`
+
+Kom ihåg att vissa namn har en vedertagen svensk form. Det gäller till exempel helgon, kungligheter, påvar, biskopar etc., klassiska grekiska, romerska och bysantinska personer.
+
+För utländska personer verksamma före år 1400 gäller i princip följande prioriteringsordning av källorna:
+1. Svensk vedertagen form (NE etc.)
+2. Nationell form (VIAF, respektive nationalbibliotek)
+3. LC i VIAF
+
+## Källa vid ej belagd uppgift
+
+Källor som kontrollerats men inte innehöll någon användbar information kan anges. Denna information gör att andra katalogisatörer inte behöver upprepa sökningen i samma källor. I RDA 8.12.1.3 föreslås en något annorlunda lösning, nämligen att notera källan som vanligt och lägga till ”(ingen information funnen). Den konstruktionen tillämpas inte i Libris.
+
+**Exempel** 
+`Text`
+ 
+DDK-klassifikation <a name="paragraph23"></a>
+
+Lägg gärna till klassifikation enligt Dewey för personen i auktoritetsposten. Detta för att underlätta vid klassificeringen av enskilda verk. 
+
+**Exempel** 
+`Text`
+
+För skönlitterära författare väljs koden normalt utifrån den tidsperiod då författaren debuterar. För skönlitterära författare som publicerar sig inom flera genrer (t.ex. romaner, poesi, dramatik) väljs den genre som författaren främst förknippas med. (Klassificeringen av enskilda skönlitterära verk i annan genre kommer därmed att skilja sig från den klassning som finns i auktoritetsposten. Tidsperioden ska dock överensstämma.)
+
+**Exempel** 
+`Text`
+
+### Allmän offentlig anmärkning
+
+Varningar för sammanblandning med andra personer med samma namn och ämnesinriktning kan anges.
+
+**Exempel** 
+`Text`
+
+### Katalogisatörens arbetsnoteringar
+
+Interna anmärkningar, det vill säga information som bara är tänkt för kollegor, registreras för sig så att informationen kan hållas dold för allmän publik. Ange datum, sigel, enhet och signatur. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade sökingången. Motivera gärna ändringen:
+
+**Exempel** 
+`Text`
+ 
+Vissa uppgifter kan vara nyttiga upplysningar för andra katalogisatörer:
+
+**Exempel** 
+`Text`
+
+### Identifikator
+
+Identifikator är ett kärnelement i RDA (RDA 9.18). ID-numret för auktoritetsposten automatgenereras i Libris.
+
+Det finns även utvecklade system med unika ID-nummer för personer, t.ex. ISNI (International Standard Name Identifier) och ORCID (Open Researcher and Contributor ID). Att ange sådana ID-nummer i auktoritetsposten är valfritt men önskvärt om tillgängligt. 
+
+**Exempel** 
+`Text`
+
+## Lathund Personer <a name="paragraph27"></a>
+Här finns exempel på auktoritetsposter för personer.
+
+Auktoritetspost utan hänvisningar:
+
+**Exempel** 
+`Text`
+
+Auktoritetspost med hänvisningar:
+
+**Exempel** 
+`Text`
+
+Auktoritetspost med hänvisningar och flera källor:
+
+**Exempel** 
+`Text`
