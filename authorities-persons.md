@@ -20,7 +20,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Auktoritetspost - när behövs det?](#paragraph3)
 * [Val av föredraget namn](#paragraph4)
 
-[**Föredraget namn**](#paragraph28)
+**Föredraget namn**
 * [Val mellan olika former av samma namn](#paragraph5) (fullständighet, språk, icke latinsk skriftart och stavning)
 * [Klassiska grekiska, romerska och bysantinska personer](#paragraph6)
 * [Namn skrivna med kyrillisk skrift - som translittererats](#paragraph7)
@@ -28,7 +28,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Pseudonymer](#paragraph9)
 * [Ordningselement](#paragraph10) (hur namnet sorteras)
 
-[**Sökinggång för personer**](#paragraph29)
+**Sökinggång för personer**
 * [Födelsetid och/eller dödstid](#paragraph11) (vanligt tillägg när man konstruerar sökingångar)
 * [Titel eller övrig beteckning förknippad med personen](#paragraph12) (vanligt tillägg när man konstruerar sökingångar)
 * [Kungligheter](#paragraph13)
@@ -37,7 +37,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Fiktiva gestalter](#paragraph16)
 * [Att särskilja sökingångar för personer](#paragraph17) (genom tillägg av fullständig namnform, verksamhetstid, yrke eller sysselsättning, övriga termer för grad, titulatur, övrig beteckning)
 
-[**Övriga uppgifter i auktoritetsposten**](#paragraph30)
+**Övriga uppgifter i auktoritetsposten**
 * [Variantnamn och alternativa sökingångar för personen](#paragraph19) (se-hänvisningar)
 * [Se även-hänvisningar](#paragraph20)
 * [Biografiska uppgifter](#paragraph21) (nationalitet, orter, adresser, verksamhetsområde, organisatorisk tillhörighet, kön, språk, biografisk information)
@@ -90,7 +90,7 @@ Gör alltid auktoritetspost, för både svenska och utländska personer, när:
 
 I Libris tillämpas praxisen att om inget passande tillägg finns, används samma sökingång för flera personer med samma namn. Upprätta inte någon auktoritetspost i sådana fall.
 
-## Val av föredraget namn <a name="paragraph4"></a>
+### Val av föredraget namn <a name="paragraph4"></a>
 
 Föredraget namn är det namn eller den namnform som väljs som grund för den auktoriserade sökingången. (I den auktoriserade sökingången kompletterar man sedan det föredragna namnet med andra element, till exempel födelsetid, kunglig titel eller yrke.)
 
@@ -109,7 +109,7 @@ Men observera att:
 
 Följ de generella riktlinjerna för att ange namn (till exempel för namn som innehåller initialer eller förkortningar) i RDA 8.5. 
 
-## Val mellan olika former av samma namn <a name="paragraph5"></a>
+### Val mellan olika former av samma namn <a name="paragraph5"></a>
 
 Om en person är känd under mer än en form av samma namn, välj föredraget namn genom att följa anvisningarna i RDA 9.2.2.5 angående:
 
