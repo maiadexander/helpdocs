@@ -21,7 +21,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Val av föredraget namn](#paragraph4)
 
 **Föredraget namn**
-* [Val mellan olika former av samma namn (fullständighet, språk, icke latinsk skriftart och stavning)](#paragraph5)
+* [Val mellan olika former av samma namn](#paragraph5) (fullständighet, språk, icke latinsk skriftart och stavning)
 * [Klassiska grekiska, romerska och bysantinska personer](#paragraph6)
 * [Namn skrivna med kyrillisk skrift - som translittererats](#paragraph7)
 * [Namnbyte](#paragraph8)
