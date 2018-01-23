@@ -458,7 +458,7 @@ Födelseår och dödsår är endast kända till århundraden:
 
 Läs även nedan om verksamhetstid, som används för att skilja sökingångar från varandra.
 
-### Titel eller övrig beteckning förknippad med personen <a name="paragraph2"></a>
+### Titel eller övrig beteckning förknippad med personen <a name="paragraph12"></a>
 
 Följande titlar och övriga beteckningar ska alltid läggas till i den auktoriserade sökingången när det är tillämpligt: 
 
@@ -654,25 +654,30 @@ Att ange beteckningen i den auktoriserade sökingången är tillräckligt för a
 `Text`
  
 Även termer som inte finns i en kontrollerad vokabulär kan användas: 
-100	0	_	#a Johannes #c (notarie)
-374			#a Notarie
-  
-Övriga termer för grad, titulatur
+
+**Exempel** 
+`Text`
+ 
+**Övriga termer för grad, titulatur**
+
 Lägg till en term som anger grad eller titulatur för en person om termen förekommer tillsammans med namnet, om det behövs för att skilja en sökingång från en annan (RDA 9.19.1.7, RDA 9.4.1.9). Gör detta tillägg när personens födelsetid eller dödstid inte är tillgängligt.
 
 Till denna typ av termer hör akademiska titlar (till exempel professor, Ph. D.), kyrkliga ämbeten, militära tjänstegrader (till exempel kapten) och hederstitlar (till exempel Sir, Lady).
 Översätt inte termer som anger grad eller titulatur.
 
-Termer för grad, titulatur anges i den auktoriserade sökingången i delfält #c, föregånget av kommatecken.
-Det är önskvärt (men inte obligatoriskt) att även ange termer för grad, titulatur i auktoritetspostens delfält 368 #c. Eftersom det oftast inte är termer från någon kontrollerad vokabulär som används så anges termen här i samma form som i sökingången.
-100	1	_	#a Lindström, Stefan, #c kapten
-368			#c Kapten
- 
-Övrig beteckning
-Lägg till lämplig övrig beteckning om det behövs för att skilja en sökingång från en annan (RDA 9.19.1.8, RDA 9.6.1.9). Gör detta tillägg när personens födelsetid eller dödstid inte är tillgängligt och när det inte finns någon annan beteckning som passar personen.
-Övrig beteckning är ett brett element som är avsett att användas när sökingångar annars inte kan göras unika. Nästan vilken beteckning som helst kan läggas till. Gör tillägget på svenska. Övrig beteckning anges i den auktoriserade sökingången inom parentes i delfält #c.
-Det är önskvärt (men inte obligatoriskt) att även ange termer för övrig beteckning i auktoritetspostens delfält 368 #c.
-100	1	_	#a Carlsson, Hedvig #c (syster till Carin Carlsson)
-368			#c Syster till Carin Carlsson
+Termer för grad, titulatur anges i den auktoriserade sökingången. Det är önskvärt (men inte obligatoriskt) att även ange termer för grad, titulatur i auktoritetsposten. Eftersom det oftast inte är termer från någon kontrollerad vokabulär som används så anges termen här i samma form som i sökingången.
 
+**Exempel** 
+`Text`
+ 
+**Övrig beteckning**
+
+Lägg till lämplig övrig beteckning om det behövs för att skilja en sökingång från en annan (RDA 9.19.1.8, RDA 9.6.1.9). Gör detta tillägg när personens födelsetid eller dödstid inte är tillgängligt och när det inte finns någon annan beteckning som passar personen.
+Övrig beteckning är ett brett element som är avsett att användas när sökingångar annars inte kan göras unika. Nästan vilken beteckning som helst kan läggas till. Gör tillägget på svenska. Övrig beteckning anges i den auktoriserade sökingången inom parentes.
+
+Det är önskvärt (men inte obligatoriskt) att även ange termer för övrig beteckning i auktoritetsposten.
+
+**Exempel** 
+`Text`
+ 
 För pseudonymer som ska särskiljas kan tillägget pseudonym användas om inga andra tillägg finns. Läs mer om Pseudonymer.
