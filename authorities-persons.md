@@ -20,7 +20,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Auktoritetspost - när behövs det?](#paragraph3)
 * [Val av föredraget namn](#paragraph4)
 
-Föredraget namn 
+**Föredraget namn**
 * [Val mellan olika former av samma namn (fullständighet, språk, icke latinsk skriftart och stavning)](#paragraph5)
 * [Klassiska grekiska, romerska och bysantinska personer](#paragraph6)
 * [Namn skrivna med kyrillisk skrift - som translittererats](#paragraph7)
@@ -28,16 +28,16 @@ Föredraget namn
 * [Pseudonymer](#paragraph9)
 * [Ordningselement (hur namnet sorteras)](#paragraph10)
 
-Sökinggång för personer: 
-* Födelsetid och/eller dödstid (vanligt tillägg när man konstruerar sökingångar)
-* Titel eller övrig beteckning förknippad med personen (vanligt tillägg när man konstruerar sökingångar)
-* Kungligheter
-* Påvar, biskopar etc. och andra personer med religiös verksamhet
-* Helgon
-* Fiktiva gestalter
+**Sökinggång för personer**
+* [Födelsetid och/eller dödstid](#paragraph11) (vanligt tillägg när man konstruerar sökingångar)
+* [Titel eller övrig beteckning förknippad med personen](#paragraph12) (vanligt tillägg när man konstruerar sökingångar)
+* [Kungligheter](#paragraph13)
+* [Påvar, biskopar etc. och andra personer med religiös verksamhet](#paragraph14)
+* [Helgon](#paragraph15)
+* [Fiktiva gestalter](#paragraph16)
 * Att särskilja sökingångar för personer (genom tillägg av fullständig namnform, verksamhetstid, yrke eller sysselsättning, övriga termer för grad, titulatur, övrig beteckning)
 
-Övriga uppgifter i auktoritetsposten:
+**Övriga uppgifter i auktoritetsposten**
 * Några kodfält vid MARC 21-katalogisering
 * Variantnamn och alternativa sökingångar för personen (se-hänvisningar)
 * Se även-hänvisningar
