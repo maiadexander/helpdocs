@@ -26,7 +26,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Namn skrivna med kyrillisk skrift - som translittererats](#paragraph7)
 * [Namnbyte](#paragraph8)
 * [Pseudonymer](#paragraph9)
-* [Ordningselement (hur namnet sorteras)](#paragraph10)
+* [Ordningselement](#paragraph10) (hur namnet sorteras)
 
 **Sökinggång för personer**
 * [Födelsetid och/eller dödstid](#paragraph11) (vanligt tillägg när man konstruerar sökingångar)
