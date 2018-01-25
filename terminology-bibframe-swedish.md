@@ -19,7 +19,7 @@ Vid katalogisering av en resurs, till exempel en bok, beskrivs resursen med info
 I BIBFRAME 2.0 organiseras den här typen av information i tre huvudsakliga abstraktionsnivåer, så kallade kärnklasser: **Verk**, **Instans** och **Exemplar**.
 
 * **Verk**. Den högsta abstraktionsnivån, ett Verk, återspeglar i BIBFRAME den katalogiserade resursens konceptuella väsen: författare, språk och vad det handlar om (ämnen).
-   * _Not till Verk:_ Uttrycksnivån, som finns i FRBR och RDA, innefattas i BIBFRAME:s Verk. Det innebär att ett nytt uttryck av ett Verk, t. ex en översättning, i BIBFRAME:s betraktas som ett nytt Verk.
+   * _Not till Verk:_ Uttrycksnivån, som finns i FRBR och RDA, innefattas i BIBFRAME:s Verk. Det innebär att ett nytt uttryck av ett Verk, t. ex en översättning, i BIBFRAME betraktas som ett nytt Verk.
 
 * **Instans**. Ett verk kan ges en eller flera fysiska gestalter, t.ex. en särskild utgåva. Dessa är Instanser av Verket. En Instans återspeglar information som dess utgivningsplats, utgivare och utgivningsår, samt bärartyp (t.ex. volym, videoskiva).
    * _Not till Instans:_ Instans kallas i RDA för Manifestation.
