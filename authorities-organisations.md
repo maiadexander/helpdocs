@@ -1038,7 +1038,9 @@ Ange bibliotekssigel, katalogiseringsspråk och katalogiseringsregler enligt anv
 040			#a S #b swe #e rda
 
 RDA-poster kännetecknas av att de innehåller koden rda i delfält 040 #e.
-Variantnamn och alternativa sökingångar för institutionen (se-hänvisningar) (4XX)
+
+## Variantnamn och alternativa sökingångar för institutionen<a name="paragraph24"></a> (se-hänvisningar)
+
 När man konstruerar en alternativ sökingång för institutionen (RDA 11.13.2) använder man variantnamn som grund (RDA 11.2.3). Gör tillägg till namnet i sökingången enligt instruktionerna i RDA 11.13.1.2-11.13.1.8, om tillämpligt. Alternativa sökingångar anges i fält 410 eller 411 i auktoritetsposten.
 I Libris är det obligatoriskt att ange alla variantnamn som man kan tänkas söka på. Det kan till exempel röra sig om förkortningar, andra språkformer, mindre vanliga former och underordnad led.
 Hänvisa från LC:s form i VIAF (respektive aktuell utländsk nationalbibliografis form) för namn som har en vedertagen svensk form eller om LC:s form i VIAF avviker från den föredragna formen i Libris. Tilläggen till namnet skrivs i första hand på samma sätt som i den auktoriserade sökingången, till exempel konferens, f.Kr. (inte Conference, B.C). Vid behov kan dock även alternativa sökingångar med utländska tillägg anges i auktoritetsposten. 
@@ -1067,8 +1069,7 @@ Hänvisning från överordnat led behövs i vissa fall göras, till exempel frå
 110	2		#a Statens kulturråd
 410	1		#a Sverige. #b Statens kulturråd
  
-Upp
-Se-även-hänvisningar (5XX)
+## Se även-hänvisningar<a name="paragraph24"></a>
 Se även-hänvisning till tidigare och senare namn
 Librispraxis: Det är obligatoriskt att ange relaterade institutioner, direkt sammanhängande med föregående eller efterföljande institution (RDA 32.1). 
 Koda relationer mellan institutioner i fält 510 och 511. Använd tills vidare inte relationsbeteckningarna från RDA Appendix K för att beskriva relationen. Den vanligaste formen av relaterade hänvisningar är den som görs mellan tidigare respektive senare namn vid namnbyte. Vanligt är också att flera institutioner går samman till en, eller en institution splittras upp på flera. En ny auktoritetspost för den nybildade konstellationen hänvisar till föregående namnform(er). I den gamla posten registreras motsvarande hänvisning till efterföljande namnform(er).
@@ -1097,7 +1098,7 @@ Gör vid behov se även-hänvisningar till de enskilda medlemmarna i en grupp so
 678	0		#a Reportrarna och fotograferna Staffan Ekegren, Sten Lundberg, Lasse Persson, Clas Thor och Magnus Westerborn skriver under gruppnamnet Five Pieces.
  
 Upp
-Biografiska, administrativa och historiska uppgifter
+## Biografiska, administrativa och historiska uppgifter<a name="paragraph25"></a>
 Till de biografiska, administrativa och historiska uppgifterna hör:
 nationalitet och adress
 tid
@@ -1155,7 +1156,7 @@ Etnografiska museet och Statens museer för världskultur:
  
 Upp
  
-Källor (670 och 675)
+## Källor<a name="paragraph26"></a>
 En konsulterad källa är en resurs som använts för att bestämma namn, titel eller andra identifierande attribut för en familj/släkt eller annan entitet (RDA 8.12).
 I Libris är det obligatoriskt att ange konsulterad källa för föredraget namn och för relationer mellan personer, familjer/släkter och institutioner. I Libris används fält 670 för källor vid belagda uppgifter och fält 675 för källor vid ej belagda uppgifter. 
 
@@ -1182,7 +1183,7 @@ URL för webbresurser, till exempel för institutioners webbplatser, anges spars
 
 Läs även om VIAF som källa och Källa vid ej belagd uppgift (675).
   
-Allmän offentlig anmärkning (680) 
+## Allmän offentlig anmärkning<a name="paragraph27"></a> 
 Allmänna anmärkningar om det auktoriserade namnet görs vid behov i fält 680, till exempel när man vill upplysa om att det finns likalydande namn som kan förväxlas med varandra:
 110	2		#a Svenska frälsningsarmén
 678	1		#a Svensk frikyrka uppkommen genom en utbrytning från den internationella Frälsningsarméns svenska gren 1905
@@ -1193,14 +1194,14 @@ samt i den andra posten:
 680			#i Ej att förväxla med: #a Svenska frälsningsarmén
 
 I Voyager blir rubriktexten "Scope note".  
-Katalogisatörens arbetsnoteringar (667)
+## Katalogisatörens arbetsnoteringar<a name="paragraph28"></a>
 Interna anmärkningar, det vill säga information som bara är tänkt för kollegor, registreras för sig i fält 667 så att informationen kan hållas dold för allmän publik. Ange datum, sigel och signatur. 
 Uppgifter som rör ändring av den auktoriserade namnformen:
 667			#a Ändrat auktoriserad namnform från Xxx till Yyy /2010-01-03/S/UL/marjan         
  
 667			#a Uppdaterad 2010-12-15/S/NB/berhel       
  
-Identifikator
+## Identifikator<a name="paragraph29"></a>
 Identifikator är ett kärnelement i RDA (RDA 11.12). ID-numret för auktoritetsposten automatgenereras i Libris.
 Det finns även utvecklade system med unika ID-nummer för personer, t.ex. ISNI (International Standard Name Identifier). Att ange sådana ID-nummer i auktoritetsposten är valfritt men önskvärt om tillgängligt. Ange i fält 024 med kod specificerad i #2.
 
