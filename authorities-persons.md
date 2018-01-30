@@ -5,6 +5,7 @@ order: 51
 tags:
 - editor
 - rda
+- authorities
 ---
 
 # Personer
