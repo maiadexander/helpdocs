@@ -10,12 +10,11 @@ tags:
 
 ## Operatorer för frågespråk
 
-   `+` används för OCH 
-   `"` används för frassökning i exakt ordning
-   `|` används för ELLER 
-   `-` utesluter term
-   ´(´ och ´)´ grupperar termer och operatorer
-   `*` trunkerar term
+   `+` betyder AND  
+   `|` betyder OR  
+   `-` innebär uteslutning  
+   `"` används för frassökning  
+   `*` innebär trunkering av en term  
 
 ### Standardsökning
 
