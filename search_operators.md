@@ -19,7 +19,7 @@ tags:
 
 ### Standardsökning
 
-En standardsökning ger träff på sammanslagen sökterm, `AND`. En sökning på `Astrid Lindgren` kommer matcha poster innehållandes `Astrid` och `Lindgren`, `Astrid Lindgren`. Sökningen ger även träff på ´Lindgren Astrid.´ Båda sökorden måste finnas i posten. 
+En standardsökning ger träff på sammanslagen sökterm. En sökning på `Astrid Lindgren` kommer matcha poster innehållandes `Astrid` och `Lindgren`, `Astrid Lindgren`. Sökningen ger även träff på ´Lindgren Astrid.´ Båda sökorden måste finnas i posten. 
 
 ### Exakt sökning
 
