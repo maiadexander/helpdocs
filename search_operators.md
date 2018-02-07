@@ -18,11 +18,11 @@ tags:
 
 ### Standardsökning
 
-En standardsökning ger träff på sammanslagen sökterm. En sökning på `Astrid Lindgren` kommer matcha poster innehållandes `Astrid` och `Lindgren`, `Astrid Lindgren`. Sökningen ger även träff på `Lindgren Astrid`. Båda sökorden kommer att finnas med i posten. 
+En standardsökning ger träff på sammanslagen sökterm. En sökning på Astrid Lindgren kommer matcha poster innehållandes Astrid och Lindgren, oavsett ordning och oavsett var i posten orden finns. Sökningen kommer alltså även matcha `Lindgren Astrid`, `Astrid heter i efternamn Lindgren` och liknande.
 
 ### Exakt sökning
 
-Om du vill söka på en exakt fras, använd `"`. En sökning på `"Emil i Lönneberga"` ger träff på fras i angiven ordning. 
+Om du vill söka på en exakt fras, använd `"`. En sökning på `"Emil i Lönneberga"` ger träff på fras i angiven ordning. Sökningen kommer alltså inte matcha till exempel `Emil som bor i Lönneberga`.
 
 ### Eller
 
