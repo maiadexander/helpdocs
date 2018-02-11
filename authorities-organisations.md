@@ -110,8 +110,9 @@ Om olika former av namnet förekommer i resurser knutna till institutionen, väl
 
 Om olika namnformer förekommer i de föredragna källorna, välj den form som är formellt presenterad. Om ingen form är formellt presenterad, eller alla former är formellt presenterade, välj den vanligast förekommande formen. Om det inte finns någon vanligast förekommande form, välj en kort form av namnet. 
 Den korta namnformen kan bestå av initialer eller vara en akronym. Den måste vara så specifik att den inte kan förväxlas med andra institutioners namn:
-110	2		#a Sida
-410 	2		#a Styrelsen för internationellt utvecklingssamarbete
+
+**Exempel** 
+`Text`
 
 Om det inte finns någon kort form som är tillräckligt specifik, föredra en form som förekommer i referenskällor.
 Ange övriga former av namnet som variantnamn.
@@ -119,16 +120,9 @@ Stavning
 Om olika stavning förekommer i resurser knutna till institutionen, välj den form som förekommer i den först mottagna resursen (RDA 11.2.2.5.1).
 Språk
 Om ett institutionsnamn förekommer på flera språk, välj som föredraget namn det namn som är på institutionens officiella språk:
- 
-110	2		#a Library of Congress
- 
-110	2		#a Kunstakademiet
 
-  
-110	2		#a Société mathématique de France
-
-  
-110	2		#a Biennale di Venezia
+**Exempel** 
+`Text`
 
 Om institutionen har mer än ett officiellt språk och ett av dem är svenska, välj den svenska namnformen som föredraget namn.
 
@@ -138,50 +132,31 @@ Internationella organisationer
 Om namnet på en internationell organisation förekommer på svenska i resurser knutna till organisationen, välj den namnformen som föredraget namn (RDA 11.2.2.5.3). Läs mer om Vedertagen svensk namnform och se exempel. I övriga fall, tillämpa instruktionerna i RDA 11.2.2.5.2 och välj som föredraget namn det namn som är på institutionens officiella språk.
 Konventionellt namn
 Ett konventionellt namn är ett namn, annat än det riktiga eller officiella namnet, det namn som en institution blivit känd under. Om en institution ofta identifieras med ett konventionellt namn i referenskällor på institutionens språk, välj det konventionella namnet som föredraget namn (RDA 11.2.2.5.4).
-110	2		#a Dramaten
-410	2		#a Kungliga dramatiska teatern AB
+
+**Exempel** 
+`Text`
  
 I paragrafen om konventionellt namn finns ett antal undantag som gäller äldre institutioner och internationella institutioner, autokefala patriarkat, religiösa ordnar och samfund, administrativa enheter, konferenser etc. och lokala helgedomar, se RDA 11.2.2.5.4. Läs om Vedertagen svensk namnform för äldre institutioner och internationella institutioner samt religiösa ordnar och samfund.
 Vedertagen svensk namnform
 Om det för äldre institutioner och internationella institutioner och religiösa ordnar och samfund finns en allmänt vedertagen svensk namnform (till exempel i NE), välj i första hand denna (RDA 11.2.2.5.4). Hänvisa från andra namnformer.
-110	2		#a Romersk-katolska kyrkan
-410	2		#a Roman Catholic Church
- 
-110	2		#a Malteserorden
-410	2		#a Sovrano Militare Ordine (Gerosolimitano) di Malta
-410	2		#a Knights of Malta
- 
-110	2		#a Nordiska ministerrådet
-410	2		#a Nordisk ministerråd
-410	2		#a Nordic Council of Ministers
- 
-110	2		#a Frälsningsarmén
-410	2		#a Salvation Army
- 
-110	2		#a Läkare utan gränser
-410	2		#a Médecins sans frontières
+
+**Exempel** 
+`Text`
  
 Undantag: För äldre institutioner som inte är internationella till sin karaktär används namnformen på institutionens officiella språk, även om den har en svensk namnform i NE:
-110	2		#a Conservative Party (Storbritannien)
-410	2		#a Konservativa partiet (Storbritannien)
- 
+
+**Exempel** 
+`Text`
+
 Europeiska unionen (EU)
 Samtliga EU-organ har i princip svenska namnformer. Användbar källa är Sveriges statskalender och EU:s publikationshandbok, se Länkar och litteratur specifikt för institutionsnamn. 
 Auktorisera på eget namn om sådant finns men gör då alltid hänvisning från det överordnade ledet Europeiska unionen. Om över- och underordning av institutionsnamn, se Underordnade och relaterade institutioner.
-110	2		#a Europeiska unionen 
-410	2		#a EU
- 
-110	2		#a Europeiska unionen. #b Regionkommittén 
- 
-110	2		#a Europaparlamentet 
-410	2		#a Europeiska unionen. #b Europaparlamentet
- 
-110	2		#a Europeiska kommissionen
-410	2		#a Europeiska unionen. #b Kommissionen
- 
+
+**Exempel** 
+`Text`
+
 Administrativa enheter
 Det konventionella namnet på en administrativ enhet är namnet på det område över vilket den administrativa enheten utövar jurisdiktion. Det kan vara ett land, en provins, stat, län, kommun, etc. Se RDA kapitel 16 för instruktioner om hur man väljer och anger namn på orter. Om det officiella namnet är i allmänt bruk, välj det som föredraget namn (RDA 11.2.2.5.4). Läs mer om administrativa enheter under Officiella organ.
-Upp
 
 ## Namnbyte<a name="paragraph8"></a>
 När en institution byter namn och namnbytet kan betraktas som väsentligt upprättas i regel en ny auktoritetspost på det nya namnet. Det förklaras av att när en institution uppträder under ett förändrat namn kan man misstänka att det bakom namnändringen också förekommit förändringar i institutionens organisation och/eller verksamhet. Om en institution har genomgått en omfattande omorganisation, gått samman med andra, upplöst sig i flera, eller om verksamheten har ändrat inriktning väsentligt, bör man betrakta institutionen som en ny individ.
@@ -191,151 +166,125 @@ En kortfattad historik i fält 678 som förklarar hänvisningarna är mycket vä
 Det kan finnas fall då det är lämpligt att samla ihop olika namnformer under ett föredraget namn, se Namnbyte - en auktoritetspost.
 a)  1 namnbyte blir 2 poster
 Auktoritetspost på det nya namnet, med se även-hänvisning till det tidigare namnet:
-046			#q 1973 #r 1992
-110	2		#a Svenska tryckeriföreningen
-510	2		#w a #a Svenska boktryckareföreningen
-678	1		#a Bildades 1893. Namnet var från början Allmänna Svenska Boktryckareföreningen, men ändrades 1911 till Svenska Boktryckareföreningen. 1973 ändrades namnet till Svenska tryckeriföreningen. Föreningen uppgick 1993 i Grafiska företagens förbund.
+
+**Exempel** 
+`Text`
  
 Auktoritetspost på det gamla namnet, med se även-hänvisning till det senare namnet:
-046			#q 1911 #r 1972
-110	2		#a Svenska boktryckareföreningen
-510	2		#w b #a Svenska tryckeriföreningen  
-678	1		#a Bildades 1893. Namnet var från början Allmänna Svenska Boktryckareföreningen, men ändrades 1911 till Svenska Boktryckareföreningen. 1973 ändrades namnet till Svenska tryckeriföreningen. Föreningen uppgick 1993 i Grafiska företagens förbund.
- 
+
+**Exempel** 
+`Text`
+
 b)  2 namnbyten blir 3 poster
 Auktoritetspost på det nya namnet, med se även-hänvisning till det tidigare namnet:
-046			#q 1994
-110	2		#a Finansförbundet
-510	2		#w a #a Svenska bankmannaförbundet
- 
+
+**Exempel** 
+`Text`
+
 Auktoritetspost på det mellanliggande namnet, med se även-hänvisningar till det både det tidigare och det senare namnet:
-046			#q 1943 #r 1993
-110	2		#a Svenska bankmannaförbundet
-510	2		#w a #a Svenska bankmannaföreningen
-510	2		#w b #a Finansförbundet
- 
+
+**Exempel** 
+`Text`
+
 Auktoritetspost på det äldsta namnet, med se även-hänvisning till det senare namnet: 
-046			#q 1887 #r 1942
-110	2		#a Svenska bankmannaföreningen
-510	2		#w b #a Svenska bankmannaförbundet
- 
+
+**Exempel** 
+`Text`
+
 c)  Två institutioner går samman
 Auktoritetspost på den nya institutionen, med se även-hänvisning till de tidigare institutionerna:
-046			#q 1972
-110	2		#a Skandinaviska enskilda banken
-510	2		#w a #a Skandinaviska banken
-510	2		#w a #a Stockholms enskilda bank
-678	1		#a Stockholms Enskilda Bank grundas 1856. 1972 gick Stockholms enskilda bank samman med Skandinaviska banken, grundad 1864. Det nya namnet blir Skandinaviska enskilda banken (S-E-banken). 1997 bytte S-E banken namn till varumärket SEB. Firmanamnet förblir dock Skandinaviska enskilda banken AB.
- 
+
+**Exempel** 
+`Text`
+
 Auktoritetspost på den ena tidigare institutionen, med se även-hänvisning till den senare institutionen:
-046			#q 1856 #r 1971
-110	2		#a Stockholms enskilda bank
-510	2		#w b #a Skandinaviska enskilda banken
-678	1		#a Stockholms Enskilda Bank grundas 1856. 1972 gick Stockholms enskilda bank samman med Skandinaviska banken, grundad 1864. Det nya namnet blir Skandinaviska enskilda banken (S-E-banken). 1997 bytte S-E banken namn till varumärket SEB. Firmanamnet förblir dock Skandinaviska enskilda banken AB.
- 
+
+**Exempel** 
+`Text`
+
 Auktoritetspost på den andra tidigare institutionen, med se även-hänvisning till den senare institutionen:
-046			#q 1939 #r 1971
-110	2		#a Skandinaviska banken
-510	2		#w b #a Skandinaviska enskilda banken
-678	1		#a Skandinaviska Banken, svensk affärsbank verksam 1864-1971, 1864-1938 under namnet Skandinaviska Kreditaktiebolaget. 1972 gick Stockholms enskilda bank samman med Skandinaviska banken. Det nya namnet blir Skandinaviska enskilda banken (S-E-banken). 1997 bytte S-E banken namn till varumärket SEB. Firmanamnet förblir dock Skandinaviska enskilda banken AB.
- 
-Upp
+
+**Exempel** 
+`Text`
+
 Namnbyte - en auktoritetspost
 Det finns fall då det kan vara mer lämpligt att samla olika namnformer i en auktoritetspost, se exempel nedan. Vid tveksamhet gör man dock alltid en ny auktoritetspost för en ny namnform.
 a)  Små skillnader mellan namnformerna
 Olika namn förekommer med små förändringar i stavning:
-110	2		#a Westinsons
-410	2		#a Firma O. Westinson
 
+**Exempel** 
+`Text`
 
 b) Institutionen växlar mellan olika namnformer
 Institutionen kanske också växlar mellan olika namnformer eller har bytt namn för en kortare period och sedan tillbaka till det gamla igen, etc. I sådana fall är det bra med en anmärkning som förklarar sambandet mellan namnformerna:
-110	2		#a Etnografiska museet
-410	2		#a Etnografiska museet (Stockholm)
-410	2		#a Folkens museum – etnografiska
-410	2		#a Statens etnografiska museum
-678	1		#a Bildades 1935 med namnet Etnografiska museet (Statens etnografiska museum). Ingick dessförinnan i Naturhistoriska riksmuseet. Namnet ändrades 1988 till Folkens museum - etnografiska. 2001 ändrades namnet tillbaka till Etnografiska museet.
- 
+
+**Exempel** 
+`Text`
+
 c)  Retrospektiv auktoritetskontroll
 Ibland kan det finnas behov av att i en retrospektiv översyn samla ihop alla olika namnformer. Ett typiskt exempel på detta är en äldre institution som funnits en längre tid under lite olika namnformer men som är mest känd under ett namn.
-110	2		#a Brio
-410	2		#a BRIO AB
-410	2		#a Bröderna Ivarsson
-410	2		#a Brio-bolagen
-410	2		#a Bröderna Ivarsson i Osby
-678	1		#a Grundades 1884 och är idag moderbolag i en internationell koncern som tillverkar och säljer leksaker, spel och barnvagnar. Namnet är en förkortning för Bröderna Ivarsson, Osby.
+
+**Exempel** 
+`Text`
  
 ## Namn som består av eller innehåller initialer<a name="paragraph9"></a>
 
 Om namnet på en institution består av eller innehåller initialer, uteslut eller ta med punkter och övrig interpunktion i enlighet med det förhärskande bruket inom institutionen. I tveksamma fall, uteslut punkter etc. (RDA 11.2.2.7). Lämna inte mellanrum mellan en punkt etc. och en därpå följande initial. Lämna inte mellanrum mellan bokstäverna i en initialförkortning (RDA 8.5.6).
 110	2		#a DIK
 
-  
-110	2		#a S.J. Berwin & Co.
- 
-110	2		#a A. Bensons orgelfabrik
- 
-110	2		#a SIS – Swedish Standards Institute
- 
+**Exempel** 
+`Text`
+
 ## Inledande bestämd och obestämd artikel<a name="paragraph10"></a>
 
 Uteslut inledande bestämda och obestämda artiklar, om inte namnet ska vara sökbart under artikel, till exempel ett institutionsnamn som börjar med en artikel som är en del av namnet på en person eller ort (RDA 11.2.2.8, alternativet). Gör auktoritetspost med alternativ sökingång från den andra formen.
-110	2		#a Nordiska kristna buddhistmissionen
-410	2		#a Den nordiska kristna buddhistmissionen
+
+**Exempel** 
+`Text`
  
 För utländska institutioner (som inte har vedertagen svensk namnform) följer man respektive lands nationalbibliografi eller VIAF: 
-110	2		#a Beatles
-410	2		#a The Beatles
+
+**Exempel** 
+`Text`
  
 ## Termer som anger juridisk status samt vissa andra termer<a name="paragraph11"></a>
 
 Uteslut termer eller förkortningar som anger juridisk status eller ägandeförhållande (till exempel Inc., Ltd., AB) om de inte utgör en integrerad del av namnet eller behövs för att det klart ska framgå att det rör sig om namnet på en institution (RDA 11.2.2.10).
-110	2		#a Orrefors glasbruk
-410	2		#a AB Orrefors glasbruk
- 
-110	2		#a Harry Sjögren AB
- 
-110	2		#a Lunds kommuns fastighets AB
+
+**Exempel** 
+`Text`
  
 Librispraxis (avvikelse från RDA 11.2.2.10): Om en term som anger juridisk status etc. behövs för att det klart ska framgå att det rör sig om namnet på en institution och termen förekommer i början av namnet, behåll termen före namnet:
-110	2		#a Aktiebolaget Elektrometall
-410	2		#a Elektrometall, Aktiebolaget
-  
-Upp
+
+**Exempel** 
+`Text`
   
 ## Underordnade och relaterade institutioner<a name="paragraph12"></a>
 
 Följ instruktionerna i RDA 11.2.2.13-11.2.2.29. Uppdelningen mellan officiella organ och övriga institutioner som fanns i instruktionerna i KRS finns inte kvar i RDA. 
 Eget, självständigt namn
 Underordnade och relaterade institutioner som inte hör till någon av typerna som listas under Underordnade och relaterade institutioner som ska anges som en underavdelning auktoriseras på sina egna namn om namnen är självständiga. Välj föredraget namn enligt instruktionerna i RDA 11.2.2. Hänvisa vid behov från det överordnade namnet i hierarkin (RDA 11.2.2.13).
-110	2		#a Högalids församling
-410	2		#a Svenska kyrkan. #b Högalids församling
- 
-110	2		#a Stockholms universitetsbibliotek
-410	2		#a Stockholms universitet. #b Biblioteket
+
+**Exempel** 
+`Text`
  
 Samma sak gäller för officiella organ. De auktoriseras på eget namn om de inte tillhör någon av typerna som listas under Underordnade och relaterade institutioner som ska anges som en underavdelning. Officiella organ som inordnas på sina egna namn ska ha en hänvisning från underordnad form av namnet. När en administrativ enhet anges i delfält #a används förstaindikator 1. Läs mer om Officiella organ och se exempel på svenska officiella organ på olika nivåer.
-110	2		#a Statens väg- och transportforskningsinstitut
-410	1		#a Sverige. #b Statens väg- och transportforskningsinstitut
- 
-110	2		#a Smittskyddsinstitutet
-410	1		#a Sverige. #b Smittskyddsinstitutet
- 
-110	2		#a Riksarkivet
-410	1		#a Sverige. #b Riksarkivet
- 
+
+**Exempel** 
+`Text`
+
 Underordnade och relaterade institutioner som ska anges som en underavdelning
 
 I RDA 11.2.2.14 och nedan uppräknas ett antal olika typer av institutionsnamn och institutioner som ska inordnas som underavdelningar till en överordnad eller relaterad institution. Kännetecknande för de förstnämnda är att de är osjälvständiga, det vill säga det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera institutionen. Formatera i delfält #a och #b. 
 Hänvisa i tillämpliga fall från det underordnade namnet.
 
 Om institutionens namn hör till en eller flera av typerna som listas i RDA 11.2.2.14.1-11.2.2.14.6, d.v.s.:
-•	institution med namn som innefattar ord som anger att institutionen är en del av en annan
-•	institution med namn som innefattar ord som anger administrativ underordning
-•	institution med namn av generell art eller som enbart anger en geografisk, en kronologisk eller en med nummer- eller bokstavsbeteckning försedd underavdelning till en moderinstitution
-•	institution med namn som inte ser ut som ett institutionsnamn och som inte innehåller namnet på en överordnad enhet
-•	universitetsfakultet, institution, laboratorium etc. med namn som endast anger studieområde
-•	icke officiellt organ med namn som innefattar hela namnet på den överordnade eller relaterade institutionen
+* institution med namn som innefattar ord som anger att institutionen är en del av en annan
+* institution med namn som innefattar ord som anger administrativ underordning
+* institution med namn av generell art eller som enbart anger en geografisk, en kronologisk eller en med nummer- eller bokstavsbeteckning försedd underavdelning till en moderinstitution
+* institution med namn som inte ser ut som ett institutionsnamn och som inte innehåller namnet på en överordnad enhet
+* universitetsfakultet, institution, laboratorium etc. med namn som endast anger studieområde
+* icke officiellt organ med namn som innefattar hela namnet på den överordnade eller relaterade institutionen
 eller om det är en typ av institution som listas i RDA 11.2.2.14.7-11.2.2.14.18, d.v.s.: 
 •	departement eller administrativt organ på motsvarande nivå
 •	regeringstjänstemän och religiösa ämbetsmän
