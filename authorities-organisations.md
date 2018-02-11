@@ -39,7 +39,8 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 **Sökingångar för institutioner**
 * [Institutioner vars namn inte ger intryck av att vara institutionsnamn](#paragraph19)
 * [Att särskilja sökingångar för institutioner](#paragraph20) (genom tillägg av typ, ort, samhörande institution, tid, administrativ enhets art, övrig beteckning)
-OBS, var? * [Konferenser etc.](#paragraph21)
+OBS, var? 
+* [Konferenser etc.](#paragraph21)
 * [Geografiska namn och institutioner](#paragraph22)
 
 **Övriga uppgifter i auktoritetsposten**
@@ -101,6 +102,7 @@ Upp
 ## Val mellan olika former av samma namn<a name="paragraph7"></a>
 
 När namnet på en institution varierar i resurser knutna till institutionen, välj föredraget namn genom att följa anvisningarna i RDA 11.2.2.5. Tillämpa vid behov även specialinstruktionerna i RDA 11.2.2.5.1-11.2.2.5.4 angående:
+
 *	stavning 
 *	språk 
 *	internationella institutioner 
@@ -109,15 +111,19 @@ När namnet på en institution varierar i resurser knutna till institutionen, v�
 Om olika former av namnet förekommer i resurser knutna till institutionen, välj det namn som förekommer i den föredragna källan. Variantformer gäller inte namnändringar, d.v.s. namn som institutionen inte längre använder, se RDA 11.2.2.6.
 
 Om olika namnformer förekommer i de föredragna källorna, välj den form som är formellt presenterad. Om ingen form är formellt presenterad, eller alla former är formellt presenterade, välj den vanligast förekommande formen. Om det inte finns någon vanligast förekommande form, välj en kort form av namnet. 
+
 Den korta namnformen kan bestå av initialer eller vara en akronym. Den måste vara så specifik att den inte kan förväxlas med andra institutioners namn:
 
 **Exempel** 
 `Text`
 
 Om det inte finns någon kort form som är tillräckligt specifik, föredra en form som förekommer i referenskällor.
+
 Ange övriga former av namnet som variantnamn.
+
 Stavning
 Om olika stavning förekommer i resurser knutna till institutionen, välj den form som förekommer i den först mottagna resursen (RDA 11.2.2.5.1).
+
 Språk
 Om ett institutionsnamn förekommer på flera språk, välj som föredraget namn det namn som är på institutionens officiella språk:
 
@@ -127,17 +133,24 @@ Om ett institutionsnamn förekommer på flera språk, välj som föredraget namn
 Om institutionen har mer än ett officiellt språk och ett av dem är svenska, välj den svenska namnformen som föredraget namn.
 
 Om institutionen har mer än ett officiellt språk och inget av dem är svenska eller om det officiella språket är okänt, använd formen på det språk som förekommer i resurser utgivna av institutionen (RDA 11.2.2.5.2).
+
 För internationella institutioner, äldre institutioner och religiösa ordnar och samfund med vedertagen svensk namnform, se RDA 11.2.2.5.3-11.2.2.5.4.
+
 Internationella organisationer
+
 Om namnet på en internationell organisation förekommer på svenska i resurser knutna till organisationen, välj den namnformen som föredraget namn (RDA 11.2.2.5.3). Läs mer om Vedertagen svensk namnform och se exempel. I övriga fall, tillämpa instruktionerna i RDA 11.2.2.5.2 och välj som föredraget namn det namn som är på institutionens officiella språk.
+
 Konventionellt namn
+
 Ett konventionellt namn är ett namn, annat än det riktiga eller officiella namnet, det namn som en institution blivit känd under. Om en institution ofta identifieras med ett konventionellt namn i referenskällor på institutionens språk, välj det konventionella namnet som föredraget namn (RDA 11.2.2.5.4).
 
 **Exempel** 
 `Text`
  
 I paragrafen om konventionellt namn finns ett antal undantag som gäller äldre institutioner och internationella institutioner, autokefala patriarkat, religiösa ordnar och samfund, administrativa enheter, konferenser etc. och lokala helgedomar, se RDA 11.2.2.5.4. Läs om Vedertagen svensk namnform för äldre institutioner och internationella institutioner samt religiösa ordnar och samfund.
+
 Vedertagen svensk namnform
+
 Om det för äldre institutioner och internationella institutioner och religiösa ordnar och samfund finns en allmänt vedertagen svensk namnform (till exempel i NE), välj i första hand denna (RDA 11.2.2.5.4). Hänvisa från andra namnformer.
 
 **Exempel** 
@@ -149,7 +162,9 @@ Undantag: För äldre institutioner som inte är internationella till sin karakt
 `Text`
 
 Europeiska unionen (EU)
+
 Samtliga EU-organ har i princip svenska namnformer. Användbar källa är Sveriges statskalender och EU:s publikationshandbok, se Länkar och litteratur specifikt för institutionsnamn. 
+
 Auktorisera på eget namn om sådant finns men gör då alltid hänvisning från det överordnade ledet Europeiska unionen. Om över- och underordning av institutionsnamn, se Underordnade och relaterade institutioner.
 
 **Exempel** 
@@ -159,12 +174,17 @@ Administrativa enheter
 Det konventionella namnet på en administrativ enhet är namnet på det område över vilket den administrativa enheten utövar jurisdiktion. Det kan vara ett land, en provins, stat, län, kommun, etc. Se RDA kapitel 16 för instruktioner om hur man väljer och anger namn på orter. Om det officiella namnet är i allmänt bruk, välj det som föredraget namn (RDA 11.2.2.5.4). Läs mer om administrativa enheter under Officiella organ.
 
 ## Namnbyte<a name="paragraph8"></a>
+
 När en institution byter namn och namnbytet kan betraktas som väsentligt upprättas i regel en ny auktoritetspost på det nya namnet. Det förklaras av att när en institution uppträder under ett förändrat namn kan man misstänka att det bakom namnändringen också förekommit förändringar i institutionens organisation och/eller verksamhet. Om en institution har genomgått en omfattande omorganisation, gått samman med andra, upplöst sig i flera, eller om verksamheten har ändrat inriktning väsentligt, bör man betrakta institutionen som en ny individ.
-Har man en ny individ/institution att behandla ska i regel en ny auktoritetspost upprättas för denna. Det kan vara svårt att alltid avgöra vad som ligger bakom ett namnbyte och hur betydande förändringarna är. Därför blir det i praktiken enklast, i de flesta fall, att göra en ny auktoritetspost för den nya namnformen. I varje post registreras en se-även-hänvisning (510/511) från det tidigare respektive senare namnet, formaterat #w a för tidigare namn och #w b för senare namn.
+
+Har man en ny individ/institution att behandla ska i regel en ny auktoritetspost upprättas för denna. Det kan vara svårt att alltid avgöra vad som ligger bakom ett namnbyte och hur betydande förändringarna är. Därför blir det i praktiken enklast, i de flesta fall, att göra en ny auktoritetspost för den nya namnformen. I varje post registreras en se-även-hänvisning från det tidigare respektive senare namnet, formaterat #w a för tidigare namn och #w b för senare namn.
+
 En kortfattad historik i fält 678 som förklarar hänvisningarna är mycket värdefullt, se exempel c) nedan. Om en tid är förknippad med institutionen anges den i klartext i fält 678 och i kodad form i fält 046. Läs mer om Biografiska, administrativa och historiska uppgifter i fält 678, tid i fält 046 och Se även-hänvisningar i fält 5XX.
 
 Det kan finnas fall då det är lämpligt att samla ihop olika namnformer under ett föredraget namn, se Namnbyte - en auktoritetspost.
-a)  1 namnbyte blir 2 poster
+
+   a)  1 namnbyte blir 2 poster
+
 Auktoritetspost på det nya namnet, med se även-hänvisning till det tidigare namnet:
 
 **Exempel** 
