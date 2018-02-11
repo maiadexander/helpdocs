@@ -76,10 +76,10 @@ Tid i den kristna kalendern: RDA appendix H (Appendix H i svensk översättning)
 
 Auktoritetspost upprättas när man har behov av att hänvisa från eller mellan andra namnformer eller har uppgifter som är viktiga att dokumentera.
 Gör auktoritetspost när:
-•	en institution har varierande namnformer som förs samman till ett föredraget namn. Gör se-hänvisningar från varianterna.
-•	en institution byter namn eller slås samman med en eller flera andra institutioner (i regel upprättas ny auktoritetspost). Gör se även-hänvisningar mellan de olika namnformerna. 
-•	en institution är underordnad eller samhörande med en annan institution (till exempel officiella organ, lokalavdelningar, kommittéer och liknande.). Gör se-hänvisningar från överordnad respektive underordnad namnform.
-•	två eller flera institutioner har samma namn eller så lika namn att de kan förväxlas.
+*	en institution har varierande namnformer som förs samman till ett föredraget namn. Gör se-hänvisningar från varianterna.
+*	en institution byter namn eller slås samman med en eller flera andra institutioner (i regel upprättas ny auktoritetspost). Gör se även-hänvisningar mellan de olika namnformerna. 
+*	en institution är underordnad eller samhörande med en annan institution (till exempel officiella organ, lokalavdelningar, kommittéer och liknande.). Gör se-hänvisningar från överordnad respektive underordnad namnform.
+*	två eller flera institutioner har samma namn eller så lika namn att de kan förväxlas.
 Se även   Riktlinjer för det löpande auktoritetsarbetet i Libris.
  
 ## Val av föredraget namn<a name="paragraph6"></a>
@@ -91,20 +91,20 @@ a) föredragna källor, se RDA 2.2.2, i resurser knutna till institutionen
 b) andra formella uppgifter som förekommer i resurser knutna till institutionen
 c) andra källor (även referenskällor)
 Men observera att:
-•	vissa namn har en vedertagen svensk form. Det gäller till exempel internationella organisationer, äldre institutioner och religiösa ordnar och samfund med vedertagen svensk namnform.
-•	för utländska institutioner som saknar vedertagen svensk namnform hämtas namnformen oftast från respektive lands nationalbibliografi (många finns i VIAF)
-•	vissa institutioner inordnas under en annan enhet, se Underordnade och relaterade institutioner.
-•	institutioner som byter namn vanligen behandlas som nya individer, se Namnbyte.
+*	vissa namn har en vedertagen svensk form. Det gäller till exempel internationella organisationer, äldre institutioner och religiösa ordnar och samfund med vedertagen svensk namnform.
+*	för utländska institutioner som saknar vedertagen svensk namnform hämtas namnformen oftast från respektive lands nationalbibliografi (många finns i VIAF)
+*	vissa institutioner inordnas under en annan enhet, se Underordnade och relaterade institutioner.
+*	institutioner som byter namn vanligen behandlas som nya individer, se Namnbyte.
 Följ de generella riktlinjerna för att ange namn (till exempel för namn som innehåller initialer eller förkortningar) i RDA 8.5.
 Upp
 
 ## Val mellan olika former av samma namn<a name="paragraph7"></a>
 
 När namnet på en institution varierar i resurser knutna till institutionen, välj föredraget namn genom att följa anvisningarna i RDA 11.2.2.5. Tillämpa vid behov även specialinstruktionerna i RDA 11.2.2.5.1-11.2.2.5.4 angående:
-•	stavning 
-•	språk 
-•	internationella institutioner 
-•	konventionellt namn
+*	stavning 
+*	språk 
+*	internationella institutioner 
+*	konventionellt namn
 
 Om olika former av namnet förekommer i resurser knutna till institutionen, välj det namn som förekommer i den föredragna källan. Variantformer gäller inte namnändringar, d.v.s. namn som institutionen inte längre använder, se RDA 11.2.2.6.
 
@@ -381,6 +381,7 @@ Läs mer om Officiella organ och Administrativa enheter.
  
 Regeringstjänstemän och religiösa ämbetsmän
 Motsvarigheten till RDA 11.2.2.14.8 tillämpades inte i KRS (men däremot i AACR2). Enligt RDA (och AACR2) skiljer man på om en regeringstjänsteman eller en religiös ämbetsman publicerar sig som enskild person eller som innehavare av ett ämbete. Om det rör sig om det senare fallet, då hen företräder institutionen officiellt, så tillämpas RDA 11.2.2.18 respektive RDA 11.2.2.26.
+
 Regeringstjänstemän
 Tillämpa instruktionerna för statsöverhuvuden, regeringschefer etc., chefer för internationella mellanstatliga organ och vissa andra tjänstemän (RDA 11.2.2.18).
 Ange titeln för en regent, president, annat statsöverhuvud, regeringschef etc. (se RDA 6.31.1) som en underavdelning till jurisdiktionen. Ange titeln som en underavdelning till den auktoriserade sökingången för jurisdiktionen. Ange titeln på svenska, om det finns en svensk term.
@@ -603,10 +604,10 @@ För allmänna anvisningar och fler exempel se Underordnade och relaterade insti
 Här sammanfattas vad som gäller för svenska officiella organ, både kodning i auktoritetsposter och val av föredraget namn.  
 Nivå för officiellt organ (myndighet)
 Auktoritetsposter för svenska officiella organ kodas i fält 008. Välj mellan följande alternativ i Typ och nivå för officiellt organ:
-•	f = Nationell (statlig)
-•	i = Övernationell (t. ex. EU)
-•	l = Lokal (regional/kommunal)
-•	| : Inget försök att koda (okänd nivå) 
+*	f = Nationell (statlig)
+*	i = Övernationell (t. ex. EU)
+*	l = Lokal (regional/kommunal)
+*	| : Inget försök att koda (okänd nivå) 
 Svenska statliga centrala organ: departement, myndigheter, kommittéer
 För att en svensk institution på statlig central nivå ska räknas som officiellt organ ska den ha en instruktion från regeringen - en SFS. Vilka institutioner som har SFS framgår av institutionernas webbplatser eller av Svensk statskalender. För utredningar gäller att de ska ha ett kommittédirektiv. 
 Som källa används i första hand institutionernas publikationer, webbsidor, Sveriges statskalender och NE. 
@@ -798,8 +799,8 @@ och
  
 Tid förknippad med institution
 Lägg till tid förknippad med institutionen om det behövs för att särskilja en auktoriserad sökingång från en annan och följande element inte är tillgängliga:
-• ort förknippad med institutionen  
-• samhörande institution
+* ort förknippad med institutionen  
+* samhörande institution
 Se RDA 11.13.1.5 och RDA 11.4.
 Librispraxis: Katalogisatören avgör om tid förknippad med institutionen ska läggas till när tillägget hjälper till att identifiera institutionen (valfritt alternativ i RDA 11.13.1.5).
 För konferenser etc. är tid förknippad med institutionen ett kärnelement, se RDA 11.4.2. Läs även nedan om Konferenser etc.
