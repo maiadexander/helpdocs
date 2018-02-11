@@ -37,6 +37,12 @@ Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor
 2. en annan källa inom resursen
 3. en annan av de källor som specificeras i RDA 2.2.4
 
+### Bokstavslista
+Texttexttext
+a. text
+b. text
+c. text
+
 ## Highlight
 
 Inkludera en alternativtitel som är en del av huvudtiteln.
