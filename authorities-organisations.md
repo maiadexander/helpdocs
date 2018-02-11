@@ -286,121 +286,107 @@ Om institutionens namn hör till en eller flera av typerna som listas i RDA 11.2
 * universitetsfakultet, institution, laboratorium etc. med namn som endast anger studieområde
 * icke officiellt organ med namn som innefattar hela namnet på den överordnade eller relaterade institutionen
 eller om det är en typ av institution som listas i RDA 11.2.2.14.7-11.2.2.14.18, d.v.s.: 
-•	departement eller administrativt organ på motsvarande nivå
-•	regeringstjänstemän och religiösa ämbetsmän
-•	lagstiftande församlingar
-•	konstituerande församlingar
-•	domstolar och militärdomstolar
-•	försvarsgrenar inom en stats väpnade styrkor
-•	ambassader, konsulat etc.
-•	delegationer vid internationella och mellanstatliga organisationer
-•	enskilda religiösa samfunds möten
-•	religiösa provinser, stift, synoder etc.
-•	centrala administrativa organ inom den romersk-katolska kyrkan (kurian)
-•	påvliga diplomatiska beskickningar etc.
+* departement eller administrativt organ på motsvarande nivå
+* regeringstjänstemän och religiösa ämbetsmän
+* lagstiftande församlingar
+* konstituerande församlingar
+* domstolar och militärdomstolar
+* försvarsgrenar inom en stats väpnade styrkor
+* ambassader, konsulat etc.
+* delegationer vid internationella och mellanstatliga organisationer
+* enskilda religiösa samfunds möten
+* religiösa provinser, stift, synoder etc.
+*	centrala administrativa organ inom den romersk-katolska kyrkan (kurian)
+*	påvliga diplomatiska beskickningar etc.
 ange namnet på den underordnade eller relaterade institution som en underavdelning till den överordnade eller relaterade institutionen. Gör en direkt eller indirekt underordning enligt instruktionerna i RDA 11.2.2.15. Läs mer om Direkt och indirekt underordning.
+
 Se RDA kapitel 16 för instruktioner om hur man väljer och anger namn på orter. Se även Geografiska namn och institutioner.
-Upp
+
 Institution med namn som innefattar ord som anger att institutionen är en del av en annan
 Underordna en institution med namn som innefattar en term som anger att institutionen är en del av en annan, till exempel avdelning, byrå, enhet, filial, sektion eller motsvarigheterna till dessa termer på andra språk (RDA 11.2.2.14.1).
-110	2		#a Svenska metallindustriarbetareförbundet. #b Avdelning 119
- 
-110	1		#a Förenta staterna. #b National Bureau of Standards
-410	1		#a United States. #b National Bureau of Standards
-410	2		#a National Bureau of Standards (U.S.)
-410	2		#a National Bureau of Standards (Förenta staterna)
+
+**Exempel** 
+`Text`
  
 Institution med namn som innefattar ord som anger administrativ underordning
 Underordna en institution med namn som innefattar ett ord som vanligen anger administrativ underordning, till exempel arbetsgrupp, kommission, kommitté, nämnd samt motsvarigheterna till dessa termer på andra språk. Tillämpa endast om den överordnade institutionen behövs för att identifiera den underordnade institutionen (RDA 11.2.2.14.2). 
 För utländska institutioner av denna typ följer man bibliotekskatalogen i respektive land för att avgöra om institutionen ska underordnas eller ej.
+
 För officiella organ med namn som innefattar administrativ underordning finns en utökad lista över svenska ord som anger administrativ underordning. Listan (som avsåg KRS 24.18A, Kategori 2) togs fram genom beslut av Svensk biblioteksförenings kommitté för katalogisering 2007-12-12 och omfattar dessa ord: 
-•	arbetsgrupp
-•	beredning
-•	delegation
-•	förvaltning
-•	inspektion
-•	kansli
-•	kommission
-•	kommitté
-•	kontor
-•	myndighet
-•	nämnd
-•	ombud
-•	ombudsman
-•	sekretariat
-•	styrelse
-•	utredning
-•	utskott
-•	verk   
-110	2		#a Sveriges mekanförbund. #b Energibesparingskommittén
-410	2		#a Energibesparingskommittén, Sveriges mekanförbund
- 
-110	1		#a Förenta staterna. #b Environmental Protection Agency
-410	1		#a United States. #b Environmental Protection Agency
-410	2		#a Environmental Protection Agency (U.S.)
-410	2		#a Environmental Protection Agency (Förenta staterna)
- 
-110	1		#a Sverige. #b Lagrådsutredningen
-410	2		#a Lagrådsutredningen (Sverige)
-410	2		#a 2000 års lagrådsutredning
- 
-110	1		#a Nässjö kommun (Sverige). #b Kultur- och fritidsnämnden 
-410	2		#a Kultur- och fritidsnämnden, Nässjö kommun 
- 
-Upp
+
+*	arbetsgrupp
+*	beredning
+*	delegation
+*	förvaltning
+*	inspektion
+*	kansli
+*	kommission
+*	kommitté
+*	kontor
+*	myndighet
+*	nämnd
+*	ombud
+*	ombudsman
+*	sekretariat
+*	styrelse
+*	utredning
+*	utskott
+*	verk   
+
+**Exempel** 
+`Text` 
+
 Institution med namn av generell art eller som enbart anger en geografisk, en kronologisk eller en med nummer- eller bokstavsbeteckning försedd underavdelning till en moderinstitution
 Underordna en institution med namn av generell art (d.v.s. som varken innehåller pregnanta egennamn, adjektiv, eller ämnesord) eller som enbart anger en geografisk, en kronologisk eller en med nummer- eller bokstavsbeteckning försedd underavdelning till en moderinstitution (RDA 11.2.2.14.3):
-110	1		#a Förenta staterna. #b General Services Administration. #b Region 5
-410	1		#a United States. #b General Services Administration. #b Region 5
+
+**Exempel** 
+`Text`
+
 Institution med namn som inte ser ut som ett institutionsnamn och som inte innehåller namnet på en överordnad enhet
 Underordna en institution med namn som inte ser ut som ett institutionsnamn och som inte innehåller namnet på en överordnad enhet (RDA 11.2.2.14.4):
-110	1		#a Förenta staterna. #b Naval Oceanography and Meteorology
-410	1		#a United States. #b Naval Oceanography and Meteorology
-410	2		#a Naval Oceanography and Meteorology
- 
-110	2		#a British Library. #b Science, Technology, and Business
-410	2		#a Science, Technology, and Business, British Library
+
+**Exempel** 
+`Text` 
  
 Universitetsfakultet, institution, laboratorium etc. med namn som endast anger studieområde
 Underordna en universitetsfakultet, institution, laboratorium etc. med namn som endast anger studieområde (RDA 11.2.2.14.5): 
-110	2		#a Chalmers tekniska högskola. #b Vatten Miljö Transport
-410	2		#a Vatten Miljö Transport, Chalmers tekniska högskola
- 
-110	2		#a Stockholms universitet. #b Arkeologiska forskningslaboratoriet
-410	2		#a Arkeologiska forskningslaboratoriet, Stockholms universitet
- 
-110	2		#a Uppsala universitet. #b Limnologiska institutionen
-410	2		#a Limnologiska institutionen, Uppsala universitet
- 
+
+**Exempel** 
+`Text` 
+
 Observera även att blandade språkformer är tillåtna:
-110	2		#a Stockholms universitet. #b Addiction Research Group
-410	2		#a Stockholms universitet. #b Institutionen för socialt arbete. #b Addiction Research Group
- 
+
+**Exempel** 
+`Text` 
+
 Icke officiellt organ med namn som innefattar hela namnet på den överordnade eller relaterade institutionen
 Underordna en institution (som inte är ett officiellt organ) med namn som innefattar hela namnet på den överordnade eller relaterade institutionen. Skilj på fallen där den underordnade institutionen innefattar namnet på den överordnade från fallen där namnet på den överordnade institutionen endast förknippas med den underordnade institutionens namn (RDA 11.2.2.14.6):
-110	2		#a Handelshögskolan i Stockholm. #b Biblioteket
-410	2		#a Biblioteket vid Handelshögskolan i Stockholm
+
+
+**Exempel** 
+`Text` 
 
 men:  
-110	2		#a Moderna museets vänner
- 
-Upp
+
+**Exempel** 
+`Text` 
+
 Departement eller administrativt organ på motsvarande nivå
 Underordna ett officiellt organ som är ett departement eller administrativt organ på motsvarande nivå (d.v.s. ett som inte har någon annan myndighet över sig) enligt uppgift i officiella publikationer utgivna av ifrågavarande administrativa enhet (RDA 11.2.2.14.7).
+
 Läs mer om Officiella organ och Administrativa enheter.
-110	1		#a Frankrike. #b Ministère de l’éducation nationale
-410	1		#a France. #b Ministère de l'éducation nationale
-410	2		#a Ministère de l’éducation nationale
- 
-110	1		#a Sverige. #b Jordbruksdepartementet
-410	2		#a Jordbruksdepartementet                
+
+**Exempel** 
+`Text` 
  
 Regeringstjänstemän och religiösa ämbetsmän
 Motsvarigheten till RDA 11.2.2.14.8 tillämpades inte i KRS (men däremot i AACR2). Enligt RDA (och AACR2) skiljer man på om en regeringstjänsteman eller en religiös ämbetsman publicerar sig som enskild person eller som innehavare av ett ämbete. Om det rör sig om det senare fallet, då hen företräder institutionen officiellt, så tillämpas RDA 11.2.2.18 respektive RDA 11.2.2.26.
 Regeringstjänstemän
 Tillämpa instruktionerna för statsöverhuvuden, regeringschefer etc., chefer för internationella mellanstatliga organ och vissa andra tjänstemän (RDA 11.2.2.18).
 Ange titeln för en regent, president, annat statsöverhuvud, regeringschef etc. (se RDA 6.31.1) som en underavdelning till jurisdiktionen. Ange titeln som en underavdelning till den auktoriserade sökingången för jurisdiktionen. Ange titeln på svenska, om det finns en svensk term.
-110	1		#a Thailand. #b Premiärminister
+
+**Exempel** 
+`Text` 
 
 Om regeringstjänstemannen innehar ämbetet under en viss tid, ange inom parentes:
 a) regeringstid eller ämbetstid
@@ -412,111 +398,88 @@ Om titeln varierar med kön, använd en generell term.
 Om det rör sig om två eller flera regeringsperioder för samma ämbete och person, ange varje period som ett separat föredraget namn.
 
 Enligt Librispraxis innebär det att det är önskvärt (men inte obligatoriskt) att göra en se även-hänvisning i auktoritetsposten.
-110	1		#a Sverige. #b Statsminister (2006-2014 : Reinfeldt)
-500	2		#a Reinfeldt, Fredrik, #d 1965-
 
+**Exempel** 
+`Text` 
 
 För utländska stats- och regeringschefer följer man konstruktionen i respektive lands nationalbibliografi, men anger jurisdiktionen och titeln på svenska.
-110	1		#a Förenta staterna. #b President
-410	1		#a United states. #b President
-410	2		#a President of the United States
+
+**Exempel** 
+`Text` 
  
 Läs om Religiösa ämbetsmän (till exempel påvar).
 Lagstiftande församlingar
 Inordna en folkrepresentation (till exempel riksdagen och motsvarande i andra länder) under namnet på den administrativa enhet vars lagstiftning det gäller (RDA 11.2.2.14.9 och RDA 11.2.2.19). 
-110	1		#a Danmark. #b Folketinget
-410	1		#a Danmark. #b Folketing
-410	2		#a Folketinget
- 
-110	1		#a Sverige. #b Riksdagen
-410	2		#a Riksdagen
-410	2		#a Sveriges riksdag
+
+**Exempel** 
+`Text` 
 
 Inordna utskott och andra underordnade enheter som underavdelningar till folkrepresentationen eller i förekommande fall till en särskild kammare (RDA 11.2.2.19.2):
-110	1		#a Sverige. #b Riksdagen. #b Konstitutionsutskottet
-410	2		#a Konstitutionsutskottet
+
+**Exempel** 
+`Text` 
 
 Om folkrepresentationens sammankomster är numrerade i följd, tillägg, inom parentes, nummer (i grundtalsform) och årtal till den auktoriserade sökingången för folkrepresentationen eller en av dess kammare (RDA 11.2.2.19.3).
-110	1		#a Förenta staterna. #b Congress #n (64 : #d 1915-1916)
+
+**Exempel** 
+`Text` 
  
-Upp
 Konstituerande församlingar
 Inordna en konstituerande församling direkt under den auktoriserade sökingången den administrativa enhet som sammankallat den, följt av namnet på den konstituerande församlingen. Tillägg det eller de år församlingen hölls, inom parentes (RDA 11.2.2.14.10 och RDA 11.2.2.20).
-110	1		#a Portugal. #b Assembleia Constituinte #d (1975)
+
+**Exempel** 
+`Text` 
+
 Domstolar och militärdomstolar
 Ange namnet på en internationell domstol genom att tillämpa de generella instruktionerna i RDA 11.2.2.4.
 Inordna en domstol under den auktoriserade sökingången för den administrativa enhet vars domsrätt domstolen utövar (RDA 11.2.2.14.11 och RDA 11.2.2.21.1): 
-110	1		#a Förenta staterna. #b Supreme Court
-410	1		#a United States. #b Supreme Court
-410	2		#a Supreme Court (U.S.)
-410	2		#a Supreme Court (Förenta staterna)
- 
-110	1		#a Sverige. #b Högsta domstolen
-410	2		#a Högsta domstolen                               
+
+**Exempel** 
+`Text`                          
 
 Försvarsgrenar inom en stats väpnade styrkor
 Väpnade styrkor på nationell nivå
 Inordna en försvarsgren inom en stats väpnade styrkor under den auktoriserade sökingången för staten, följt av namnet på försvarsgrenen. Uteslut namnet eller en förkortning av namnet på staten i nominativ, såvida inte en sådan uteslutning skulle göra namnet obegripligt (RDA 11.2.2.14.12 och RDA 11.2.2.22.1) 
-110	1		#a Sverige. #b Försvarsmakten
-410	2		#a Försvarsmakten (Sverige)                                       
- 
-110	1		#a Sverige. #b Armén
-410	2		#a Armén (Sverige)                                        
- 
-110	1		#a Förenta staterna. #b Navy
-410	1		#a United States. #b Navy
-410	2		#a Navy (U.S.)
-410	2		#a Navy (Förenta staterna)
- 
-110	1		#a Australien. #b Royal Australian Air Force
-410	1		#a Australia. #b Royal Australian Air Force                             
-410	2		#a Royal Australian Air Force
+
+**Exempel** 
+`Text` 
 
 Inordna en militärregion, ett militärförband eller en militär enhet, stor eller liten, som en underavdelning till den försvarsgren som enheten tillhör.
-110	1		#a Förenta staterna. #b Army. #b Signal Corps
-410	1		#a United States. #b Army. #b Signal Corps
-410	2		#a Signal Corps (U.S.)
-410	2		#a Signal Corps (Förenta staterna)
- 
-110	1		#a Sverige. #b Armén. #b Dalregementet
-410	2		#a Dalregementet                                       
+
+**Exempel** 
+`Text` 
 
 Om det militära förbandet etc. är numrerat, följ det sätt att numrera som finns i namnet (utskrivet med bokstäver, romerska eller arabiska siffror). Om numret finns i början av namnet på förbandet etc., placera numreringen efter namnet, föregånget av kommatecken.
-110	1		#a Storbritannien. #b Air Force. #b Medical Wing, 79th
-410	1		#a Great Britain. #b Air Force. #b Medical Wing, 79th                               
-410	2		#a 79th Medical Wing (Great Britain)
-410	2		#a 79th Medical Wing (Storbritannien)
+
+
+**Exempel** 
+`Text` 
 
 Om namnet på ett militärförband etc. börjar med eller antyder namnet på försvarsgrenen, inordna det som en underavdelning direkt under staten.
-110	1		#a Sverige. #b Marinstaben
-410	2		#a Marinstaben                                       
+
+**Exempel** 
+`Text` 
   
 Om namnet på ett militärförband etc. innefattar men inte börjar med namnet eller en antydning om namnet på vapenslaget, inordna det som en underavdelning direkt under vapenslaget. Uteslut namnet eller antydningen om namnet, såvida inte en sådan uteslutning skulle göra namnet obegripligt.  
-110	1		#a Sydafrika. #b Army. #b Service Corps
-410	1		#a South Africa. #b Army. #b Service Corps                               
-410	2		#a South African Army Service Corps
+
+**Exempel** 
+`Text` 
 
 Väpnade styrkor under nationell nivå
 Följ anvisningarna i RDA 11.2.2.22.2.
-Upp
+
 Ambassader, konsulat etc.
 Inordna en ambassad, ett konsulat, en legation eller annan stadigvarande institution som representerar ett land i ett annat land som en underavdelning till det representerade landet. 
 Ange namnet i form av en underavdelning till den auktoriserade sökingången för det representerade landet, på det representerade landets språk (se RDA 11.2.2.5.2). Uteslut namnet på det representerade landet från namnet på ambassaden etc. (RDA 11.2.2.14.13, RDA 11.2.2.23).
 För en ambassad eller legation, tillägg namnet på landet för ackrediteringen, inom parentes.
-110	1		#a Italien. #b Ambasciata (Sverige)
-410	2		#a Italienska ambassaden i Sverige
- 
-110	1		#a Sverige. #b Ambassaden (Spanien)
-410	2		#a Sveriges ambassad (Madrid)
-410	2		#a Svenska ambassaden (Madrid)
+
+**Exempel** 
+`Text` 
 
 För ett konsulat eller annan lokal institution, tillägg namnet på den stad där konsulatet är beläget före namnet på landet för ackrediteringen. Separera namnet på staden från namnet på landet med ett kommatecken. Ange namnet på landet och staden enligt instruktionerna i RDA kapitel 16. 
-110	1		#a Sverige. #b Generalkonsulatet (New York, N.Y.)
-410	2		#a Sveriges generalkonsulat i New York
-410	2		#a Sveriges generalkonsulat, New York
-410	2		#a Generalkonsulatet, New York
-410	2		#a Generalkonsulatet (New York)
-410	1		#a Sweden. #b Generalkonsul (New York, N.Y.)
+
+**Exempel** 
+`Text` 
  
 Delegationer vid internationella och mellanstatliga organisationer
 Inordna en delegation, en kommission etc. som representerar ett land i en internationell eller mellanstatlig organisation, konferens, symposium etc. som en underavdelning till det representerade landet. Ange namnet i form av en underavdelning till den auktoriserade sökingången för det representerade landet, på det representerade landets språk (se RDA 11.2.2.5.2). 
