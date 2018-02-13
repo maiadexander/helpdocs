@@ -181,9 +181,9 @@ Det konventionella namnet på en administrativ enhet är namnet på det område 
 
 När en institution byter namn och namnbytet kan betraktas som väsentligt upprättas i regel en ny auktoritetspost på det nya namnet. Det förklaras av att när en institution uppträder under ett förändrat namn kan man misstänka att det bakom namnändringen också förekommit förändringar i institutionens organisation och/eller verksamhet. Om en institution har genomgått en omfattande omorganisation, gått samman med andra, upplöst sig i flera, eller om verksamheten har ändrat inriktning väsentligt, bör man betrakta institutionen som en ny individ.
 
-Har man en ny individ/institution att behandla ska i regel en ny auktoritetspost upprättas för denna. Det kan vara svårt att alltid avgöra vad som ligger bakom ett namnbyte och hur betydande förändringarna är. Därför blir det i praktiken enklast, i de flesta fall, att göra en ny auktoritetspost för den nya namnformen. I varje post registreras en se-även-hänvisning från det tidigare respektive senare namnet, formaterat #w a för tidigare namn och #w b för senare namn.
+Har man en ny individ/institution att behandla ska i regel en ny auktoritetspost upprättas för denna. Det kan vara svårt att alltid avgöra vad som ligger bakom ett namnbyte och hur betydande förändringarna är. Därför blir det i praktiken enklast, i de flesta fall, att göra en ny auktoritetspost för den nya namnformen. I varje post registreras en se-även-hänvisning från det tidigare respektive senare namnet.
 
-En kortfattad historik i fält 678 som förklarar hänvisningarna är mycket värdefullt, se exempel c) nedan. Om en tid är förknippad med institutionen anges den i klartext i fält 678 och i kodad form i fält 046. Läs mer om Biografiska, administrativa och historiska uppgifter i fält 678, tid i fält 046 och Se även-hänvisningar i fält 5XX.
+En kortfattad historik som förklarar hänvisningarna är mycket värdefullt, se exempel c) nedan. Om en tid är förknippad med institutionen anges.
 
 Det kan finnas fall då det är lämpligt att samla ihop olika namnformer under ett föredraget namn, se Namnbyte - en auktoritetspost.
 
@@ -298,14 +298,14 @@ Underordnade och relaterade institutioner som inte hör till någon av typerna s
 **Exempel** 
 `Text`
  
-Samma sak gäller för officiella organ. De auktoriseras på eget namn om de inte tillhör någon av typerna som listas under Underordnade och relaterade institutioner som ska anges som en underavdelning. Officiella organ som inordnas på sina egna namn ska ha en hänvisning från underordnad form av namnet. När en administrativ enhet anges i delfält #a används förstaindikator 1. Läs mer om Officiella organ och se exempel på svenska officiella organ på olika nivåer.
+Samma sak gäller för officiella organ. De auktoriseras på eget namn om de inte tillhör någon av typerna som listas under Underordnade och relaterade institutioner som ska anges som en underavdelning. Officiella organ som inordnas på sina egna namn ska ha en hänvisning från underordnad form av namnet. Läs mer om Officiella organ och se exempel på svenska officiella organ på olika nivåer.
 
 **Exempel** 
 `Text`
 
 Underordnade och relaterade institutioner som ska anges som en underavdelning
 
-I RDA 11.2.2.14 och nedan uppräknas ett antal olika typer av institutionsnamn och institutioner som ska inordnas som underavdelningar till en överordnad eller relaterad institution. Kännetecknande för de förstnämnda är att de är osjälvständiga, det vill säga det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera institutionen. 
+I RDA 11.2.2.14 och nedan uppräknas ett antal olika typer av institutionsnamn och institutioner som ska inordnas som underavdelningar till en överordnad eller relaterad institution. Kännetecknande för de förstnämnda är att de är osjälvständiga, det vill säga det överordnade begreppet behövs för att man med säkerhet ska kunna identifiera organisationen. 
 
 Hänvisa i tillämpliga fall från det underordnade namnet.
 
@@ -432,7 +432,6 @@ Om regeringstjänstemannen innehar ämbetet under en viss tid, ange inom parente
 1. regeringstid eller ämbetstid
 2. namnet på personen i kortform på samma språk som personens föredragna namn är på
 
-Separera tidsperioden från namnet med mellanslag, kolon, mellanslag.
 Om titeln varierar med kön, använd en generell term.
 
 Om det rör sig om två eller flera regeringsperioder för samma ämbete och person, ange varje period som ett separat föredraget namn.
@@ -617,7 +616,7 @@ Ingår tre eller eventuellt flera led i hierarkin utesluts, när så är möjlig
 **Exempel** 
 `Text`
  
-Om däremot det underordnade namnet är av sådant slag att det sannolikt kan användas av en annan enhet inom samma organisation bör det mellanliggande ledet tas med i den auktoriserade sökingången. Formatera de underordnade enheterna i varsitt delfält #b. Typexempel är enheter med administrativ funktion:
+Om däremot det underordnade namnet är av sådant slag att det sannolikt kan användas av en annan enhet inom samma organisation bör det mellanliggande ledet tas med i den auktoriserade sökingången. Typexempel är enheter med administrativ funktion:
 
 **Exempel** 
 `Text`
@@ -662,7 +661,7 @@ Vad är ett officiellt organ?
 Som officiella organ räknas institutioner som är organ för de lagstiftande, verkställande eller dömande myndigheterna i stater och andra administrativa enheter som län, kommuner, delstater, regioner och andra geografiska områden. Ett officiellt organ har som uppgift att bevaka och verkställa de direktiv som ges av den offentliga administrativa enhet man hör till.
 Till officiella organ räknas inte sådana institutioner som enbart bedriver undervisning eller sjukvård, utövar kulturell, vetenskaplig eller religiös verksamhet eller är affärsdrivande verk såsom skolor, universitet, sjukhus, bibliotek, arkiv, museer, teatrar, banker. Om däremot institutionen även har de uppgifter som kännetecknar ett officiellt organ enligt definitionen här ovan ska det också behandlas som ett sådant.
 
-Som allmän regel gäller att ett officiellt organ auktoriseras på eget namn om det inte tillhör någon av typerna av institutionsnamn och institutioner som listas i Underordnade och relaterade institutioner som ska anges som en underavdelning. Vissa kategorier av officiella organ underordnas alltid namnet på den administrativa enheten. Om namnet på den administrativa enheten utgörs av ett geografiskt namn ska man välja svensk namnform när sådan finns. Läs mer i RDA kapitel 16 om hur man väljer och anger namn på orter och se även Geografiska namn och institutioner och Administrativa enheter. När en administrativ enhet registreras i delfält #a används första indikator 1. Ange även namnet på den plats där enheten är belägen om platsen utgör en jurisdiktion. Tillägget anges inom parentes efter det föredragna namnet enligt RDA 16.2.2.12. Det underordnade namnet läggs i delfält #b. Hänvisningar i auktoritetsposten behöver inte vara underordnade. 
+Som allmän regel gäller att ett officiellt organ auktoriseras på eget namn om det inte tillhör någon av typerna av institutionsnamn och institutioner som listas i Underordnade och relaterade institutioner som ska anges som en underavdelning. Vissa kategorier av officiella organ underordnas alltid namnet på den administrativa enheten. Om namnet på den administrativa enheten utgörs av ett geografiskt namn ska man välja svensk namnform när sådan finns. Läs mer i RDA kapitel 16 om hur man väljer och anger namn på orter och se även Geografiska namn och institutioner och Administrativa enheter. Ange även namnet på den plats där enheten är belägen om platsen utgör en jurisdiktion. Tillägget anges inom parentes efter det föredragna namnet enligt RDA 16.2.2.12. Hänvisningar i auktoritetsposten behöver inte vara underordnade. 
 Exempel på alla typer finns under Underordnade och relaterade institutioner. 
 
 ## Svenska officiella organ<a name="paragraph17"></a>
@@ -670,8 +669,7 @@ Exempel på alla typer finns under Underordnade och relaterade institutioner.
 För allmänna anvisningar och fler exempel se Underordnade och relaterade institutioner. 
 
 Här sammanfattas vad som gäller för svenska officiella organ, både kodning i auktoritetsposter och val av föredraget namn.  
-Nivå för officiellt organ (myndighet)
-
+ 
 Svenska statliga centrala organ: departement, myndigheter, kommittéer
 
 För att en svensk institution på statlig central nivå ska räknas som officiellt organ ska den ha en instruktion från regeringen - en SFS. Vilka institutioner som har SFS framgår av institutionernas webbplatser eller av Svensk statskalender. För utredningar gäller att de ska ha ett kommittédirektiv. 
@@ -799,10 +797,6 @@ Lägg till en term för att beskriva typ av institution om det behövs för att 
 
 Ange i första hand typ av institution på svenska. 
 
-Typ av institution anges i den auktoriserade sökingången inom parentes i delfält #a (eller delfält #b om det är en underordnad institution).
-
-Typ av institution kan även anges i auktoritetsposten. Det är inte obligatoriskt. 
-
 Hämta gärna termen för typ från en kontrollerad vokabulär, till exempel Svenska ämnesord. Ange ordet i singular i sökingången.
 
 **Exempel** 
@@ -880,7 +874,7 @@ Om det finns två institutioner med samma namn och typtillägg inom parentes må
 **Exempel** 
 `Text`
  
-Det är möjligt (men inte obligatoriskt) att även ange ort i auktoritetspostens fält 370. Använd delfält #c för associerat land, #e för verksamhets-/bostadsort och #f för övrig associerad ort:
+Det är möjligt (men inte obligatoriskt) att även ange ort i auktoritetsposten. 
 
 Associerat land:
 
@@ -900,7 +894,8 @@ Lägg till namnet på en samhörande institution om det behövs för att särski
 
 Librispraxis: Katalogisatören avgör om samhörande institution ska läggas till när tillägget hjälper till att identifiera institutionen (valfritt tillägg RDA 11.13.1.4).
 
-Ange namnet på en samhörande institution genom att använda det föredragna namnet för institutionen. Samhörande institution anges i den auktoriserade sökingången inom parentes i delfält #a (eller delfält #b om det är en underordnad institution). 
+Ange namnet på en samhörande institution genom att använda det föredragna namnet för institutionen. Samhörande institution anges i den auktoriserade sökingången inom parentes.
+
 Det är möjligt (men inte obligatoriskt) att även ange samhörande institution i auktoritetsposten.
 
 **Exempel** 
@@ -927,11 +922,9 @@ Ange tid enligt den kalender som föredras av den katalogiserande instansen. Fö
 
 Ange tid förknippad med institution genom att ange ett årtal eller en period.
 
-För institutioner som inte är konferenser etc. anges tid förknippad med institution i den auktoriserade sökingången inom parentes sist i samma delfält som institutionen. Läs om Konferenser etc.
+För institutioner som inte är konferenser etc. anges tid förknippad med institution i den auktoriserade sökingången inom parentes. Läs om Konferenser etc.
 
-Det är alltid önskvärt att ange tid förknippad med institution i auktoritetspostens fält 046, formaterat i olika delfält (alltså även när det inte behövs för särskiljning):
-
-Tid för grundande av institution kan anges i delfält 046 #q och tid för upphörande anges i delfält 046 #r. Verksamhetstid för institution anges i delfält 046 #s (starttid) och delfält #t (sluttid). För mer ingående instruktioner om hur man anger tid, se RDA 9.3. (Tidigare har fält 045 använts för institutioners "levnadstid" i Libris.)
+Det är alltid önskvärt att ange tid förknippad med institution i auktoritetsposten (alltså även när det inte behövs för särskiljning). För mer ingående instruktioner om hur man anger tid, se RDA 9.3.
 
 En institution som har förändrats så pass mycket att den måste behandlas som en ny individ, även om namnet är detsamma som förut, måste särskiljas. Det gäller till exempel Luftfartsstyrelsen som upphörde 1967 och återuppstod under 2005-2008, men bara till namnet:
 
@@ -943,7 +936,8 @@ och
 **Exempel** 
 `Text`
  
-Sammanblandning mellan en auktoriserad sökingång (110/111) och alternativ sökingång (410/411) för en annan institution måste också undvikas. Lägg till ett särskiljande tillägg (till exempel tid) i den alternativa sökingången.
+Sammanblandning mellan en auktoriserad sökingång och alternativ sökingång för en annan institution måste också undvikas. Lägg till ett särskiljande tillägg (till exempel tid) i den alternativa sökingången. 
+
 Den alternativa sökingången från Bibliotekshögskolan har kompletterats med tid som särskiljande tillägg:
 
 **Exempel** 
@@ -960,9 +954,9 @@ Administrativ enhets art
 
 Lägg till den administrativa enhetens art (om det inte gäller en stad eller en kommun), om det behövs för att skilja en sökingång från en annan, till exempel när två eller flera institutioner har samma namn eller har namn som är så lika att de kan sammanblandas (RDA 11.13.1.6). Gör tillägget på svenska. Om det inte finns någon med den inhemska jämbördig svensk term, använd den inhemska. I tveksamma fall, använd den inhemska termen. Läs mer i RDA 11.7.1.5.
 
-Administrativ enhets art anges i den auktoriserade sökingången inom parentes i delfält #a.
+Administrativ enhets art anges i den auktoriserade sökingången inom parentes.
 
-Det är möjligt (men inte obligatoriskt) att även ange administrativ enhets art i auktoritetspostens delfält 368 #b.
+Det är möjligt (men inte obligatoriskt) att även ange administrativ enhets art i auktoritetsposten.
 De inhemska termerna på de administrativa enheterna har använts för att skilja de två Darmstadt från varandra:
 
 **Exempel** 
@@ -981,9 +975,10 @@ Ange beteckningen på svenska, när det är tillämpligt.
 För en institution som har ett namn som inte ger intryck av att vara en institution är övrig beteckning eller typ av institution ett kärnelement. Läs mer om Institutioner vars namn inte ger intryck av att vara institutionsnamn.
 Librispraxis: Lägg till övrig beteckning förknippad med institutionen om tillägget hjälper till att identifiera institutionen (valfritt alternativ i RDA 11.13.1.7).
 
-Övrig beteckning förknippad med institution anges i den auktoriserade sökingången inom parentes i delfält #a (eller delfält #b om det är en underordnad institution).
+Övrig beteckning förknippad med institution anges i den auktoriserade sökingången.
 
-Det är möjligt (men inte obligatoriskt) att även ange övrig beteckning i delfält 368 #c. 
+Det är möjligt (men inte obligatoriskt) att även ange övrig beteckning. 
+
 Om en beteckning behövs för att åtskilja sökingångar för två eller flera institutioner med samma namn och förknippade med samma ort, lägg till beteckningen efter ortens namn.
 
 **Exempel** 
@@ -1023,7 +1018,7 @@ Om en konferens etc. hölls på mer än en ort är Librispraxis att katalogisat�
 
 Undantag: Lägg till namnet på samhörande institution istället för orten om namnet på en samhörande institution, se RDA 11.5, ger en bättre identifikation än orten eller om orten inte är känd eller inte omedelbart kan bestämmas.
 
-I den auktoriserade sökingången anges ordningsnummer i delfält #n, tid i delfält #d och ort i delfält #c. Allt anges inom samma parentes.
+I den auktoriserade sökingången anges ordningsnummer.
 
 **Exempel** 
 `Text`
@@ -1096,7 +1091,7 @@ Auktoritetsposter kan innehålla många uppgifter. Här beskrivs de element som 
 
 ## Variantnamn och alternativa sökingångar för institutionen<a name="paragraph24"></a> (se-hänvisningar)
 
-När man konstruerar en alternativ sökingång för institutionen (RDA 11.13.2) använder man variantnamn som grund (RDA 11.2.3). Gör tillägg till namnet i sökingången enligt instruktionerna i RDA 11.13.1.2-11.13.1.8, om tillämpligt. Alternativa sökingångar anges i fält 410 eller 411 i auktoritetsposten.
+När man konstruerar en alternativ sökingång för institutionen (RDA 11.13.2) använder man variantnamn som grund (RDA 11.2.3). Gör tillägg till namnet i sökingången enligt instruktionerna i RDA 11.13.1.2-11.13.1.8, om tillämpligt. Alternativa sökingångar anges i auktoritetsposten.
 
 I Libris är det obligatoriskt att ange alla variantnamn som man kan tänkas söka på. Det kan till exempel röra sig om förkortningar, andra språkformer, mindre vanliga former och underordnad led.
 
@@ -1131,14 +1126,14 @@ Se även-hänvisning till tidigare och senare namn
 
 Librispraxis: Det är obligatoriskt att ange relaterade institutioner, direkt sammanhängande med föregående eller efterföljande institution (RDA 32.1). 
 
-Koda relationer mellan institutioner i fält 510 och 511. Använd tills vidare inte relationsbeteckningarna från RDA Appendix K för att beskriva relationen. Den vanligaste formen av relaterade hänvisningar är den som görs mellan tidigare respektive senare namn vid namnbyte. Vanligt är också att flera institutioner går samman till en, eller en institution splittras upp på flera. En ny auktoritetspost för den nybildade konstellationen hänvisar till föregående namnform(er). I den gamla posten registreras motsvarande hänvisning till efterföljande namnform(er).
+Koda relationer mellan institutioner. Använd tills vidare inte relationsbeteckningarna från RDA Appendix K för att beskriva relationen. Den vanligaste formen av relaterade hänvisningar är den som görs mellan tidigare respektive senare namn vid namnbyte. Vanligt är också att flera institutioner går samman till en, eller en institution splittras upp på flera. En ny auktoritetspost för den nybildade konstellationen hänvisar till föregående namnform(er). I den gamla posten registreras motsvarande hänvisning till efterföljande namnform(er).
 
 Tidigare och senare namn registreras med delfält #w och koden a (tidigare) respektive koden b (senare):
 
 **Exempel** 
 `Text`
 
-I båda posterna bör en kortfattad, förklarande historik läggas till i fält 678. Se även avsnitten Namnbyte och Institutionens historia.
+I båda posterna bör en kortfattad, förklarande historik läggas till. Se även avsnitten Namnbyte och Institutionens historia.
 
 Se även-hänvisning mellan samhörande institutioner
 
@@ -1168,20 +1163,16 @@ Nationalitet samt institutionens ort och adress
 
 Det är obligatoriskt att ange institutionens nationalitet om uppgiften finns tillgänglig. Om institutionen har sin hemvist i fler än ett land anges samtliga länder. Om det är okänt vilket land eller om institutionen är internationell bör även detta anges.
 
-Koden för nationalitet/verksamhetsland anges i fält 043 enligt MARC Code List for Geographical Areas (GAC). Koden ska alltid vara 7 tecken inklusive bindestrecken, t.ex. Sverige e-sw---. Se även den förkortade listan Koder för nationalitet/verksamhetsland (urval).
-
-Om nationalitet/verksamhetsland  är okänt ange koden xx. Om flera nationaliteter behöver anges upprepa delfält a.
-
 **Exempel** 
 `Text`                                                 
 
 Det är inte obligatoriskt att ange varken ort eller adress (postadress, e-postadress eller webbadress) i en auktoritetspost när en sådan upprättas.
 
-Om adress anges, använd fält 371. Lär mer under RDA 11.9.
+Lär mer under RDA 11.9.
 
 Tid förknippad med institution
 
-Det är alltid önskvärt att ange tid förknippad med institution i auktoritetspostens fält 046. Med tid förknippad med institution avses tid för grundande, upphörande och start- och sluttid (d.v.s. verksamhetstid). För institutioner som inte är konferenser etc. anges normalt tid för grundande i delfält 046 #q och tid för upphörande i delfält 046 #r. För konferenser etc. anges normalt starttid i delfält #s och sluttid i delfält #t.
+Det är alltid önskvärt att ange tid förknippad med institution i auktoritetsposten. Med tid förknippad med institution avses tid för grundande, upphörande och start- och sluttid (d.v.s. verksamhetstid). För institutioner som inte är konferenser etc. anges normalt tid för grundande och tid för upphörande. För konferenser etc. anges normalt starttid och sluttid.
 
 Observera att tidigare användes i Libris fält 045 för att koda institutionens levnadstid.
 
@@ -1189,6 +1180,7 @@ Observera att tidigare användes i Libris fält 045 för att koda institutionens
 `Text`
  
 Läs även om Tid förknippad med institution i auktoriserade sökingångar.
+
 Institutionens verksamhetsområde
 
 Med verksamhetsområde avses det område inom vilket en institution har sin verksamhet och/eller kompetens, ansvar, jurisdiktion etc. (RDA 11.10).
@@ -1199,13 +1191,13 @@ Institutionens språk
 
 Institutionens språk är det/de språk som institutionen använder i sin kommunikation (RDA 11.8).
 
-Det är önskvärt (men inte obligatoriskt) att institutionens språk anges i auktoritetsposten när sådan upprättas. Ange kod enligt Library of Congress MARC Code List for Languages. För mer information, se Språkkoder i Katalogisatörens verktygslåda. 
+Det är önskvärt (men inte obligatoriskt) att institutionens språk anges i auktoritetsposten när sådan upprättas. Ange kod enligt Library of Congress MARC Code List for Languages. 
 
 Institutionens historia
 
 Det är obligatoriskt att ange historisk information om institutionen om auktoritetspost upprättas (RDA 11.11).
 Anmärkningen bör ge en sammanfattande, beskrivande bild. Den kan innehålla uppgifter om vilken typ av verksamhet som bedrivs vid institutionen, verksamhetstid med mera. Ta med uppgifter om namnbyten, tidigare och senare namn, sammanslagningar med mera. Om man har gjort flera auktoritetsposter över en institution som bytt namn och gjort se även-hänvisningar mellan posterna ska man i anmärkningen ge en så sammanhängande beskrivning av historiken som möjligt. Skriv kortfattat men tydligt. 
-Institutionens historia anges i fält 678. Använd första indikator 1 för anmärkningar om institutioner och konferenser etc.
+
 Ange källor för uppgifterna (RDA 8.12.1.3). Läs mer om Källor.
 
 Etnografiska museet och Statens museer för världskultur:
@@ -1217,15 +1209,13 @@ Etnografiska museet och Statens museer för världskultur:
 
 En konsulterad källa är en resurs som använts för att bestämma namn, titel eller andra identifierande attribut för en familj/släkt eller annan entitet (RDA 8.12).
 
-I Libris är det obligatoriskt att ange konsulterad källa för föredraget namn och för relationer mellan personer, familjer/släkter och institutioner. I Libris används fält 670 för källor vid belagda uppgifter och fält 675 för källor vid ej belagda uppgifter. 
+I Libris är det obligatoriskt att ange konsulterad källa för föredraget namn och för relationer mellan personer, familjer/släkter och institutioner. 
 
 Ange de källor som använts för att bestämma ett föredraget namn följt av kort information om uppgiften. Precisera var i källan uppgiften är hämtad när ett uppslagsverk eller liknande används som källa. Det är önskvärt, men inte obligatoriskt att även ange källa för övriga element som är en del av den auktoriserade sökingången samt för variantnamn. Om relationer mellan personer, familjer/släkter och institutioner anges, är det i Libris obligatoriskt att ange de källor som använts för att bestämma en relation följt av en kort redovisning av informationen (RDA 29.6.1.3).  
 
-Om man vid auktoriseringstillfället utgår från en resurs som behandlar institutionen eller som institutionen medverkat i anger man den publikationens titel och utgivningsår som källa. När en ny auktoritetspost skapas utifrån en bibliografisk post automatgenereras denna källreferens. 
+Om man vid auktoriseringstillfället utgår från en resurs som behandlar institutionen eller som institutionen medverkat i anger man den publikationens titel och utgivningsår som källa. 
 
 Utöver denna kan man ange andra källor ur vilka man hämtat uppgifter till auktoritetsposten. Det kan till exempel röra sig om uppslagsverk, matriklar, databaser eller webbplatser. Man bör undvika att förkorta källorna. Läs mer om förkortningar.
-I Libris används fält 670 för alla typer av källor och upprepas om flera källor behöver anges.
-Automatgenererad källa:
 
 **Exempel** 
 `Text`
@@ -1245,7 +1235,7 @@ För webbresurser anges sökdatum (inom parentes efter källan).
 **Exempel** 
 `Text`
 
-URL för webbresurser, till exempel för institutioners webbplatser, anges sparsamt. För Wikipedia anges från vilket språks Wikipedia informationen hämtats följt av datum för besöket. Inom parentes i delfält #b läggs faktauppgiften, till exempel föredraget namn: 
+URL för webbresurser, till exempel för institutioners webbplatser, anges sparsamt. För Wikipedia anges från vilket språks Wikipedia informationen hämtats följt av datum för besöket. 
 
 **Exempel** 
 `Text`
@@ -1253,7 +1243,7 @@ URL för webbresurser, till exempel för institutioners webbplatser, anges spars
 Läs även om VIAF som källa och Källa vid ej belagd uppgift (675).
   
 ## Allmän offentlig anmärkning<a name="paragraph27"></a> 
-Allmänna anmärkningar om det auktoriserade namnet görs vid behov i fält 680, till exempel när man vill upplysa om att det finns likalydande namn som kan förväxlas med varandra:
+Allmänna anmärkningar om det auktoriserade namnet görs vid behov, till exempel när man vill upplysa om att det finns likalydande namn som kan förväxlas med varandra:
 
 **Exempel** 
 `Text`
@@ -1266,6 +1256,7 @@ samt i den andra posten:
 ## Katalogisatörens arbetsnoteringar<a name="paragraph28"></a>
 
 Interna anmärkningar, det vill säga information som bara är tänkt för kollegor, registreras för sig i fält 667 så att informationen kan hållas dold för allmän publik. Ange datum, sigel och signatur. 
+
 Uppgifter som rör ändring av den auktoriserade namnformen:
 
 **Exempel** 
@@ -1274,9 +1265,10 @@ Uppgifter som rör ändring av den auktoriserade namnformen:
 ## Identifikator<a name="paragraph29"></a>
 
 Identifikator är ett kärnelement i RDA (RDA 11.12). ID-numret för auktoritetsposten automatgenereras i Libris.
+
 Det finns även utvecklade system med unika ID-nummer för personer, t.ex. ISNI (International Standard Name Identifier). Att ange sådana ID-nummer i auktoritetsposten är valfritt men önskvärt om tillgängligt.
 
-## Lathund Institutioner<a name="paragraph5"></a>
+## Lathund Organisationer <a name="paragraph5"></a>
 
 Här finns exempel på auktoritetsposter för institutioner.
 Auktoritetspost utan hänvisningar:
