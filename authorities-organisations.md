@@ -122,11 +122,11 @@ Om det inte finns någon kort form som är tillräckligt specifik, föredra en f
 
 Ange övriga former av namnet som variantnamn.
 
-Stavning
+### Stavning
 
 Om olika stavning förekommer i resurser knutna till institutionen, välj den form som förekommer i den först mottagna resursen (RDA 11.2.2.5.1).
 
-Språk
+### Språk
 
 Om ett institutionsnamn förekommer på flera språk, välj som föredraget namn det namn som är på institutionens officiella språk:
 
