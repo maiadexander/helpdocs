@@ -28,7 +28,7 @@ Val av föredraget namn, konstruktion av sökingångar och utformning av auktori
 * [Namnbyte](#paragraph8)
 * [Pseudonymer](#paragraph9)
 * [Ordningselement](#paragraph10) (hur namnet sorteras)
-
+ 
 **Sökingång för personer**
 * [Födelsetid och/eller dödstid](#paragraph11) (vanligt tillägg när man konstruerar sökingångar)
 * [Titel eller övrig beteckning förknippad med personen](#paragraph12) (vanligt tillägg när man konstruerar sökingångar)
