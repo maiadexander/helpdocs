@@ -28,5 +28,5 @@ tags:
 |Koncept |6XX |Inte kvar i Bibframetexten - ersattes med "saker" - kanske ändra tillbaka till Koncept! |
 |Benämning |Innehållet i ett fält, t ex ett ämnesord, ett namn, en titel |- |
 |Exemplar | |Exemplar |
-|Bestånd |852 | |
+|Bestånd |852 | | 
 
