@@ -31,7 +31,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Utgivning](#paragraph8)
 * [Distribution](#paragraph9)
 * [Tillverkning](#paragraph10)
-* [Copyrightår](#paragraph11)
+* [Copyrightår](#paragraph11) 
 * [Serieuppgift](#paragraph12)
 * [Medietyp](#paragraph15)
 * [Bärartyp](#paragraph16)
