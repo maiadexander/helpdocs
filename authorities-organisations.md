@@ -9,7 +9,7 @@ tags:
 ---
 
 # Organisationer 
-
+ 
 Val av föredraget namn, konstruktion av sökingångar och utformning av auktoritetsposter.
 
 [Extern länk till MARC21-anpassad information](https://www.kb.se/rdakatalogisering/Auktoritetsarbete/Institutioner/)
