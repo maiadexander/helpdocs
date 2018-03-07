@@ -32,7 +32,7 @@ För generella riktlinjer om hur man återger element som de förekommer i käll
 * [Numrering av seriella resurser](#paragraph10)
 * [Utgivningsuppgifter](#paragraph11)
 * [Distributionsuppgifter](#paragraph12)
-* [Tillverkningsuppgifter](#paragraph13)
+* [Tillverkningsuppgifter](#paragraph13) 
 * [Frekvens](#paragraph14)
 * [Identifikator för manifestationen](#paragraph15)
 * [Anmärkningar om manifestationen](#paragraph16)
