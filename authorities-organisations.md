@@ -8,7 +8,7 @@ tags:
 - authorities
 ---
 
-# Organisationer
+# Organisationer 
 
 Val av föredraget namn, konstruktion av sökingångar och utformning av auktoritetsposter.
 
