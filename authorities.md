@@ -7,7 +7,7 @@ tags:
 - rda
 ---
 
-# Auktoritetsarbete
+# Auktoritetsarbete 
 
 [Extern länk till MARC21-anpassad information](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/) 
 
