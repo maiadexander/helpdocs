@@ -24,7 +24,7 @@ I BIBFRAME 2.0 organiseras den här typen av information i tre huvudsakliga abst
 * **Instans**. Ett verk kan ges en eller flera fysiska gestalter, t.ex. en särskild utgåva. Dessa är Instanser av Verket. En Instans återspeglar information som dess utgivningsplats, utgivare och utgivningsår, samt bärartyp (t.ex. volym, videoskiva).
    * _Not till Instans:_ Instans kallas i RDA för Manifestation.
 
-* **Exemplar**. Ett Exemplar är en kopia (fysisk eller elektronisk) av en Instans. Exemplaret återspeglar information som dess placering (fysiskt eller elektroniskt), hyllkod och lokal identifikator. 
+* **Exemplar**. Ett Exemplar är en kopia (fysisk eller elektronisk) av en Instans. Exemplaret återspeglar information som dess placering (fysiskt eller elektroniskt), hyllkod och lokal identifikator.  
    
    * _Not till Exemplar:_ Ett eller flera exemplar på ett bibliotek kallas för Bestånd.
 
