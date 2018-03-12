@@ -10,7 +10,7 @@ tags:
 # Terminologi
 ## Kort parlör
 
-[Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
+[Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL/BIBFRAME-svensk-terminologi/)
 
 |**XL (etiketter)**|**Voyager (MARC21)**|**Voyager (klartext)**|**RDA**|**RDF**|**Kommentar**|
 |:------------- |:------------- |:----- |:----- |:----- |:----- |
@@ -30,14 +30,12 @@ Mediespecifika koder/Klassifikation/Kronologiska/Allmänna/Geografiska ämnesord
 |Möte |110/610/710, 111/611/711 |Konferensnamn |Konferens | | |
 |Organisation |110/710 i1:2 |Institutionsnamn, Namn i rak följd |Institution | | |
 |Persona? | | |Variantnamn | | |
-|Plats |- |Manifestation |- |- |
-|Primär medverkan |- |Manifestation |- |- |
-|Släkt |- |Manifestation |- |- |
-|Utgivningssätt |- |Manifestation |- |- |
-|Verk |- |Manifestation |- |- |
-|Värde | | | |En instans av en egenskap som kan användas för att beskriva strukturerade värden.
-Exempel: ISBN: 9789185352951, ISSN: 0065-0897, systemnummer: 13457927|
-
+|Plats |260 #a #e, 264 #a, 370 #c #e #f |Utgivningsort, Ort/Plats, Associerad plats/ort |Ort - kommer att ändras till Plats | | |
+|Primär medverkan |1XX |Huvuduppslag personnamn/institutionsnamn/konferensnamn |Skapare: person/institution/konferens | | |
+|Släkt |600 i1:3 |Beteckning för hel släkt |Familj/släkt - kommer att ändras till Släkt | | |
+|Utgivningssätt |000/07 |Bibliografisk nivå |Utgivningssätt | | |
+|Verk | | |Verk, Uttryck | | |
+|Värde | | | |rdf:value |En instans av en egenskap som kan användas för att beskriva strukturerade värden. Exempel: ISBN: 9789185352951, ISSN: 0065-0897, systemnummer: 13457927 |
 # Old:
 
 |**XL**|**Voyager**|**MARC21 (RDA)**|
