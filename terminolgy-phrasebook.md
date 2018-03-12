@@ -12,27 +12,31 @@ tags:
 
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
 
-|**XL (etiketter)**|**Voyager (MARC21)**|**Voyager (klartext)**|**RDA**|**Kommentar**|
+|**XL (etiketter)**|**Voyager (MARC21)**|**Voyager (klartext)**|**RDA**|**RDF**|**Kommentar**|
 |:------------- |:------------- |:----- |:----- |:----- |
 |Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn,
- Ämnesord personnamn/institutionsnamn/konferensnamn|Agent|-|
-|Benämning|- |- |- |En instans av en egenskap som kan användas för en läsbar version av en resurs namn.
+ Ämnesord personnamn/institutionsnamn/konferensnamn |Agent | | |
+|Benämning | | |rdfs:label |En instans av en egenskap som kan användas för en läsbar version av en resurs namn.
 Exempel: ämnesordet: Matlagning eller omfångsuppgiften: 77 sidor |
-|Bestånd |- |Manifestation |- |- |
-|Exakt match? |- |Manifestation |- |- |
-|Funktion |- |Manifestation |- |- |
-|Instans |- |Manifestation |- |- |
-|Jurisdiktion |- |Manifestation |- |- |
-|Kod |- |Manifestation |- |- |
-|Koncept |- |Manifestation |- |- |
-|MEdverkan |- |Manifestation |- |- |
-|Organisation |- |Manifestation |- |- |
+|Bestånd |Hldngs |Bestånd | | | |
+|Exakt match? |Auth: 4XX |Se-hänvisning |Variantnamn och alternativa sökingångar (se-hänvisningar) | | |
+|Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | | |
+|Instans | | |Maniestation | | |
+|Jurisdiktion |110/710 i1:1 |Institutionsnamn, Namn på administrativ enhet |Officiellt organ | | |
+|Kod | | | | |Teckensträng som används för koder som representerar information. Exempel: Dewey-koden: 839.738, språkkoden: fre|
+|Koncept |006-008, 082-084, 648, 650, 651, 653, 655 |Kompletterande mediespecifika koder/Koder för fysiska bäraregenskaper/
+Mediespecifika koder/Klassifikation/Kronologiska/Allmänna/Geografiska ämnesord/Indexterm - kontrollerad/Genre/form |- |- | |skos:concept | |
+|Medverkan |7XX |Biuppslag personnamn/institutionsnamn/konferensnamn |Bidragsgivare: person/institution/konferens, skapare: person/institution/konferens (om fler än en) | |
+|Möte |110/610/710, 111/611/711 |Konferensnamn |Konferens | | |
+|Organisation |110/710 i1:2 |Institutionsnamn, Namn i rak följd |Institution | | |
+|Persona? | | |Variantnamn | | |
 |Plats |- |Manifestation |- |- |
 |Primär medverkan |- |Manifestation |- |- |
 |Släkt |- |Manifestation |- |- |
 |Utgivningssätt |- |Manifestation |- |- |
 |Verk |- |Manifestation |- |- |
-|Värde |- |Manifestation |- |- |
+|Värde | | | |En instans av en egenskap som kan användas för att beskriva strukturerade värden.
+Exempel: ISBN: 9789185352951, ISSN: 0065-0897, systemnummer: 13457927|
 
 # Old:
 
