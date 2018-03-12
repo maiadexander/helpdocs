@@ -28,7 +28,7 @@ I BIBFRAME 2.0 organiseras den här typen av information i tre huvudsakliga abst
    
    * _Not till Exemplar:_ Ett eller flera exemplar på ett bibliotek kallas för Bestånd.
 
-BIBFRAME 2.0 definierar även ytterligare nyckelbegrepp, med relationer till kärnklasserna.
+BIBFRAME 2.0 definierar även ytterligare nyckelbegrepp, med relationer till kärnklasserna. 
 
 * **Agent**. Agenter är personer, organisationer, jurisdiktioner, osv. Dessa är i sin tur förknippade med ett Verk eller en Instans genom funktioner som författare, redaktör, konstnär, fotograf, kompositör, illustratör osv.
 
