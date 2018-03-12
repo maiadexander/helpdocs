@@ -12,7 +12,7 @@ tags:
 
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL/BIBFRAME-svensk-terminologi/)
 
-|**XL**|**Voyager**|**Voyager klartext**|**RDA**|**RDF**|**Kommentar**|
+|**XL**|**Voyager**|**Klartext**|**RDA**|**RDF**|**Kommentar**|
 |:------------- |:------------- |:----- |:----- |:----- |:----- |
 |Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn,
  Ämnesord personnamn/institutionsnamn/konferensnamn |Agent | | |
