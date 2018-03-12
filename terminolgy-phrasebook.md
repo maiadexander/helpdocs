@@ -14,20 +14,25 @@ tags:
 
 |**XL (etiketter)**|**Voyager (MARC21)**|**Voyager (klartext)**|**RDA**|**Kommentar**|
 |:------------- |:------------- |:----- |:----- |:----- |
-|Agent |1XX/7XX, 260/264 #b, 600/610/611 |"Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn,
- Ämnesord personnamn/institutionsnamn/konferensnamn"|Agent|-|
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
-|Instans |- |Manifestation |
+|Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn,
+ Ämnesord personnamn/institutionsnamn/konferensnamn|Agent|-|
+|Benämning|- |- |- |En instans av en egenskap som kan användas för en läsbar version av en resurs namn.
+Exempel: ämnesordet: Matlagning eller omfångsuppgiften: 77 sidor |
+|Bestånd |- |Manifestation |- |- |
+|Exakt match? |- |Manifestation |- |- |
+|Funktion |- |Manifestation |- |- |
+|Instans |- |Manifestation |- |- |
+|Jurisdiktion |- |Manifestation |- |- |
+|Kod |- |Manifestation |- |- |
+|Koncept |- |Manifestation |- |- |
+|MEdverkan |- |Manifestation |- |- |
+|Organisation |- |Manifestation |- |- |
+|Plats |- |Manifestation |- |- |
+|Primär medverkan |- |Manifestation |- |- |
+|Släkt |- |Manifestation |- |- |
+|Utgivningssätt |- |Manifestation |- |- |
+|Verk |- |Manifestation |- |- |
+|Värde |- |Manifestation |- |- |
 
 # Old:
 
