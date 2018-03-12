@@ -13,7 +13,7 @@ tags:
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
 
 |**XL (etiketter)**|**Voyager (MARC21)**|**Voyager (klartext)**|**RDA**|**RDF**|**Kommentar**|
-|:------------- |:------------- |:----- |:----- |:----- |
+|:------------- |:------------- |:----- |:----- |:----- |:----- |
 |Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn,
  Ämnesord personnamn/institutionsnamn/konferensnamn |Agent | | |
 |Benämning | | |rdfs:label |En instans av en egenskap som kan användas för en läsbar version av en resurs namn.
