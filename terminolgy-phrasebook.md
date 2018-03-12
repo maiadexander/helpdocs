@@ -14,7 +14,10 @@ tags:
 
 |**XL**|**Voyager**|**Klartext**|**RDA**|**RDF**|**Kommentar**|
 |:------------- |:------------- |:----- |:----- |:----- |:----- |
-|Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent | | |
+|Agent |
+* 1XX/7XX
+* 260/264 #b
+* 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent | | |
 |Benämning | | | |rdfs:label |En instans av en egenskap som kan användas för en läsbar version av en resurs namn. Exempel: ämnesordet: Matlagning eller omfångsuppgiften: 77 sidor |
 |Bestånd |Hldngs |Bestånd | | | |
 |Exakt match? |Auth: 4XX |Se-hänvisning |Variantnamn och alternativa sökingångar (se-hänvisningar) | | |
