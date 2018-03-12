@@ -12,6 +12,25 @@ tags:
 
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
 
+|**XL (etiketter)**|**Voyager (MARC21)**|**Voyager (klartext)**|**RDA**|**Kommentar**|
+|:------------- |:------------- |:----- |:----- |:----- |
+|Agent |1XX/7XX, 260/264 #b, 600/610/611 |"Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn,
+ Ämnesord personnamn/institutionsnamn/konferensnamn"|Agent|-|
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+|Instans |- |Manifestation |
+
+# Old:
+
 |**XL**|**Voyager**|**MARC21 (RDA)**|
 |:------------- |:------------- |:----- |
 |Verk |Verk, som i Verktitel |Verk, Uttryck |
