@@ -43,7 +43,8 @@ Hur markera exempel?
 Såhär skriver man i MD:
 Inline `code` has `back-ticks around` it.
 
-Såhär visas det:
+Såhär blir ett exempel:
+
 `Benämning: ISBN ej angivet i publikationen`
 
 **Alternativ 2.** "Fenced with three back-ticks" - dvs tre små streck.
@@ -53,5 +54,9 @@ Såhär skriver man i MD: Blocks of code are either fenced by lines with three b
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
-Såhär visas det:
-```Benämning: ISBN ej angivet i publikationen```
+
+Såhär blir ett exempel:
+
+```
+Benämning: ISBN ej angivet i publikationen
+```
