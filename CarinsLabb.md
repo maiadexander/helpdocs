@@ -9,3 +9,6 @@
 * äpplen
 * päron
 * kiwi
+
+http://github.com - automatic!
+[GitHub](http://github.com)
