@@ -43,7 +43,7 @@ Hur markera exempel?
 
 Såhär skriver man i MD:
 
-Inline `code` has `back-ticks around` it.
+```Inline `code` has `back-ticks around` it.```
 
 Såhär blir ett exempel:
 
@@ -52,10 +52,6 @@ Såhär blir ett exempel:
 **Alternativ 2.** "Fenced with three back-ticks" - dvs tre små streck.
 Såhär skriver man i MD: Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
 
 Såhär blir ett exempel:
 
