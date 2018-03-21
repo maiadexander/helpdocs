@@ -30,3 +30,9 @@ http://github.com - automatic!
  :bus: 
  
 :camel:
+
+
+Första kolumnen | Andra kolumnen
+------------ | -------------
+Innehåll i första cellen, första kolumnen | Innehåll i första cellen, andra kolumnen
+Innehåll i andra cellen, första kolumnen | Innehåll i andra cellen, andra kolumnen
