@@ -9,5 +9,3 @@
 * äpplen
 * päron
 * kiwi
-
-[Librisbloggen] (http://librisbloggen.kb.se/)
