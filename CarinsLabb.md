@@ -19,3 +19,14 @@ http://github.com - automatic!
 
 
 [Libris](http://libris.kb.se)
+
+
+ :smile:
+ 
+ :+1:
+  
+ :smile_cat:
+   
+ :bus: 
+ 
+:camel:
