@@ -36,3 +36,15 @@ Första kolumnen | Andra kolumnen
 ------------ | -------------
 Innehåll i första cellen, första kolumnen | Innehåll i första cellen, andra kolumnen
 Innehåll i andra cellen, första kolumnen | Innehåll i andra cellen, andra kolumnen
+
+
+Inline `code` has `back-ticks around` it.
+
+`Benämning: ISBN ej angivet i publikationen`
+
+Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
