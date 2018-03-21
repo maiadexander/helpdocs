@@ -37,13 +37,18 @@ Första kolumnen | Andra kolumnen
 Innehåll i första cellen, första kolumnen | Innehåll i första cellen, andra kolumnen
 Innehåll i andra cellen, första kolumnen | Innehåll i andra cellen, andra kolumnen
 
+Hur markera exempel?
 
+**Alternativ 1. "Back-ticks" - dvs enkla små streck.
+Såhär skriver man i MD:
 Inline `code` has `back-ticks around` it.
-
+Såhär visas det:
 `Benämning: ISBN ej angivet i publikationen`
 
-Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+**Alternativ 2. "Fenced with three back-ticks" - dvs tre små streck.
+Såhär skriver man i MD: Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
 
+Såhär visas det:
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
