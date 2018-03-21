@@ -40,7 +40,9 @@ Innehåll i andra cellen, första kolumnen | Innehåll i andra cellen, andra kol
 Hur markera exempel?
 
 **Alternativ 1.** "Back-ticks" - dvs enkla små streck.
+
 Såhär skriver man i MD:
+
 Inline `code` has `back-ticks around` it.
 
 Såhär blir ett exempel:
