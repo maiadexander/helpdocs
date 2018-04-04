@@ -18,8 +18,7 @@ tags:
 |**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|
 |:------------- |:------------- |:----- |:----- |
 |Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent |
-|Benämning | | | |En instans av en egenskap som kan användas för en läsbar version av en resurs namn.
-Exempel: ämnesordet: Matlagning eller omfångsuppgiften: 77 sidor |
+|Benämning | | | |
 |Bestånd |Hldngs |Bestånd | |
 |Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | 
 |Instans | | |Maniestation | 
