@@ -21,7 +21,6 @@ tags:
 |Benämning | | | |En instans av en egenskap som kan användas för en läsbar version av en resurs namn.
 Exempel: ämnesordet: Matlagning eller omfångsuppgiften: 77 sidor |
 |Bestånd |Hldngs |Bestånd | |
-|Exakt match? |Auth: 4XX |Se-hänvisning |Variantnamn och alternativa sökingångar (se-hänvisningar) | 
 |Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | 
 |Instans | | |Maniestation | 
 |Jurisdiktion |110/710 i1:1 |Institutionsnamn, Namn på administrativ enhet |Officiellt organ | 
@@ -30,7 +29,6 @@ Exempel: ämnesordet: Matlagning eller omfångsuppgiften: 77 sidor |
 |Medverkan |7XX |Biuppslag personnamn/institutionsnamn/konferensnamn |Bidragsgivare: person/institution/konferens, skapare: person/institution/konferens (om fler än en) | |
 |Möte |110/610/710, 111/611/711 |Konferensnamn |Konferens | 
 |Organisation |110/710 i1:2 |Institutionsnamn, Namn i rak följd |Institution | 
-|Persona? | | |Variantnamn | 
 |Plats |260 #a #e, 264 #a, 370 #c #e #f |Utgivningsort, Ort/Plats, Associerad plats/ort |Ort - kommer att ändras till Plats |
 |Primär medverkan |1XX |Huvuduppslag personnamn/institutionsnamn/konferensnamn |Skapare: person/institution/konferens | 
 |Släkt |600 i1:3 |Beteckning för hel släkt |Familj/släkt - kommer att ändras till Släkt | 
