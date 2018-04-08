@@ -36,8 +36,8 @@ tags:
 |Värde | | |  |
 
 
-|**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|**Nya termer**|
-|:------------- |:------------- |:----- |:----- | |:----- |
+|**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|
+|:------------- |:------------- |:----- |:----- |
 |Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent |
 |Benämning | | | |
 |Bestånd |Hldgs |Bestånd | |
