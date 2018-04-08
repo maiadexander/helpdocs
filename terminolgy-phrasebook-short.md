@@ -19,7 +19,7 @@ tags:
 |:------------- |:------------- |:----- |:----- |
 |Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent |
 |Benämning | | | |
-|Bestånd |Hldngs |Bestånd | |
+|Bestånd |Hldgs |Bestånd | |
 |Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | 
 |Instans | | |Maniestation | 
 |Jurisdiktion |110/710 i1:1 |Institutionsnamn, Namn på administrativ enhet |Officiellt organ | 
