@@ -24,7 +24,8 @@ Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarig
 |Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | |
 |Instans | | |Maniestation |  |
 |Jurisdiktion |110/710 i1:1 |Institutionsnamn, Namn på administrativ enhet |Officiellt organ |  |
-|Kod | | | | |Teckensträng som används för koder som representerar information. Exempel: Dewey-koden: 839.738, språkkoden: fre|
+|Kod | | | | Teckensträng som används för koder som representerar information.
+Exempel: Dewey-koden: 839.738, språkkoden: fre|
 |Koncept |006-008, 082-084, 648, 650, 651, 653, 655 |Kompletterande mediespecifika koder/Koder för fysiska bäraregenskaper/Mediespecifika koder/Klassifikation/Kronologiska/Allmänna/Geografiska ämnesord/Indexterm - kontrollerad/Genre/form | | |  |
 |Medverkan |7XX |Biuppslag personnamn/institutionsnamn/konferensnamn |Bidragsgivare: person/institution/konferens, skapare: person/institution/konferens (om fler än en) | | |
 |Möte |110/610/710, 111/611/711 |Konferensnamn |Konferens | |
