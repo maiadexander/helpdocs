@@ -19,7 +19,7 @@ Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarig
 |**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|**Kommentar**|
 |:------------- |:------------- |:----- |:----- | :----- |
 |Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent | |
-|Benämning | | | |ingen motsvarighet i finns MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder. |
+|Benämning | | | |En instans av en egenskap som kan användas för en läsbar version av en resurs namn. Exempel: ämnesordet: Matlagning eller omfångsuppgiften: 77 sidor |
 |Bestånd |Hldgs |Bestånd | | |
 |Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | |
 |Instans | | |Maniestation |  |
@@ -34,7 +34,7 @@ Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarig
 |Släkt |600 i1:3 |Beteckning för hel släkt |Familj/släkt - kommer att ändras till Släkt | |
 |Utgivningssätt |000/07 |Bibliografisk nivå |Utgivningssätt | |
 |Verk | | |Verk, Uttryck | |
-|Värde | | |  |
+|Värde | | |En instans av en egenskap som kan användas för att beskriva strukturerade värden. Exempel: ISBN: 9789185352951, ISSN: 0065-0897, systemnummer: 13457927 |
 
 
 |**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|
