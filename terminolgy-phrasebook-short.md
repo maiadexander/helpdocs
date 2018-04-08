@@ -34,7 +34,7 @@ Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarig
 |Släkt |600 i1:3 |Beteckning för hel släkt |Familj/släkt - kommer att ändras till Släkt | |
 |Utgivningssätt |000/07 |Bibliografisk nivå |Utgivningssätt | |
 |Verk | | |Verk, Uttryck | |
-|Värde | | |En instans av en egenskap som kan användas för att beskriva strukturerade värden. Exempel: ISBN: 9789185352951, ISSN: 0065-0897, systemnummer: 13457927 | 
+|Värde | | | |En instans av en egenskap som kan användas för att beskriva strukturerade värden. Exempel: ISBN: 9789185352951, ISSN: 0065-0897, systemnummer: 13457927| 
 
 
 |**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|
