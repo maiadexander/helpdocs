@@ -14,11 +14,12 @@ tags:
 
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL/BIBFRAME-svensk-terminologi/)
 
+Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarighet i finns MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder.
 
 |**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|**Kommentar**|
 |:------------- |:------------- |:----- |:----- | :----- |
 |Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent | |
-|Benämning | | | |Ingen motsvarighet i finns MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder. |
+|Benämning | | | |ingen motsvarighet i finns MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder. |
 |Bestånd |Hldgs |Bestånd | | |
 |Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | |
 |Instans | | |Maniestation |  |
