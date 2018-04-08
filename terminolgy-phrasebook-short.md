@@ -15,22 +15,22 @@ tags:
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL/BIBFRAME-svensk-terminologi/)
 
 
-|**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|
-|:------------- |:------------- |:----- |:----- |
-|Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent |
-|Benämning | | | |
-|Bestånd |Hldgs |Bestånd | |
-|Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | 
-|Instans | | |Maniestation | 
-|Jurisdiktion |110/710 i1:1 |Institutionsnamn, Namn på administrativ enhet |Officiellt organ | 
+|**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|**Nya termer**|
+|:------------- |:------------- |:----- |:----- | |:----- |
+|Agent |1XX/7XX, 260/264 #b, 600/610/611 |Huvuduppslag/biuppslag personnamn/institutionsnamn/konferensnamn, Ämnesord personnamn/institutionsnamn/konferensnamn |Agent | |
+|Benämning | | | | |
+|Bestånd |Hldgs |Bestånd | | |
+|Funktion |1XX/7XX #4 |Funktionskod |Relationsbeteckning | |
+|Instans | | |Maniestation |  |
+|Jurisdiktion |110/710 i1:1 |Institutionsnamn, Namn på administrativ enhet |Officiellt organ |  |
 |Kod | | | | |Teckensträng som används för koder som representerar information. Exempel: Dewey-koden: 839.738, språkkoden: fre|
-|Koncept |006-008, 082-084, 648, 650, 651, 653, 655 |Kompletterande mediespecifika koder/Koder för fysiska bäraregenskaper/Mediespecifika koder/Klassifikation/Kronologiska/Allmänna/Geografiska ämnesord/Indexterm - kontrollerad/Genre/form | | | 
-|Medverkan |7XX |Biuppslag personnamn/institutionsnamn/konferensnamn |Bidragsgivare: person/institution/konferens, skapare: person/institution/konferens (om fler än en) | |
-|Möte |110/610/710, 111/611/711 |Konferensnamn |Konferens | 
-|Organisation |110/710 i1:2 |Institutionsnamn, Namn i rak följd |Institution | 
+|Koncept |006-008, 082-084, 648, 650, 651, 653, 655 |Kompletterande mediespecifika koder/Koder för fysiska bäraregenskaper/Mediespecifika koder/Klassifikation/Kronologiska/Allmänna/Geografiska ämnesord/Indexterm - kontrollerad/Genre/form | | |  |
+|Medverkan |7XX |Biuppslag personnamn/institutionsnamn/konferensnamn |Bidragsgivare: person/institution/konferens, skapare: person/institution/konferens (om fler än en) | | |
+|Möte |110/610/710, 111/611/711 |Konferensnamn |Konferens | |
+|Organisation |110/710 i1:2 |Institutionsnamn, Namn i rak följd |Institution | |
 |Plats |260 #a #e, 264 #a, 370 #c #e #f |Utgivningsort, Ort/Plats, Associerad plats/ort |Ort - kommer att ändras till Plats |
 |Primär medverkan |1XX |Huvuduppslag personnamn/institutionsnamn/konferensnamn |Skapare: person/institution/konferens | 
-|Släkt |600 i1:3 |Beteckning för hel släkt |Familj/släkt - kommer att ändras till Släkt | 
-|Utgivningssätt |000/07 |Bibliografisk nivå |Utgivningssätt |
-|Verk | | |Verk, Uttryck |
-|Värde | | | 
+|Släkt |600 i1:3 |Beteckning för hel släkt |Familj/släkt - kommer att ändras till Släkt | |
+|Utgivningssätt |000/07 |Bibliografisk nivå |Utgivningssätt | |
+|Verk | | |Verk, Uttryck | |
+|Värde | | |  |
