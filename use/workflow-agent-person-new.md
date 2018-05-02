@@ -22,7 +22,7 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen.
   <br/>```Exempel: Lagerlöf```
 
-* Förnamn (GivenName = 100 ‡a)
+* Förnamn (GivenName = 100 ‡a) 
   <br/>Förnamn som tillsammans med efternamn utgör den auktoriserade namnformen. 
   <br/>```Exempel: Selma```
   <br/>Om flera förnamn ska ingå i den auktoriserade namnformen skrivs de direkt efter varandra.
