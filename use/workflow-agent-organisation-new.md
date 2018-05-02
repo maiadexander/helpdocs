@@ -17,7 +17,7 @@ Exemplet nedan är baserat på Arbetslivscentrum. Tillägg kan vara fiktiva och 
 
 ### Mall för beskrivning av Agent - Organisation
 
-Beskrivning av agenten som ska auktoriseras.
+Beskrivning av agenten som ska auktoriseras. 
 
 * Namn (name) (110 ‡a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen. För namn som består av underordnad eller relaterad organisation används istället fälten Är del av/namn tillsammans med Namn på underordnad enhet. Dessa fält beskrivs under rubriken Valbara fält som inte ingår i mallen.
