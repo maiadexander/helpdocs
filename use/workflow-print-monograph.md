@@ -22,7 +22,7 @@ samt exempel hämtade från andra poster.
 [Verk](#verk)  
 
 
-### Adminmetadata
+### Adminmetadata 
 * Skapad av/Organisation/Namn (040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```
