@@ -8,7 +8,7 @@ tags:
 ---
 
 # Terminologi
-## Kort parlör
+## Kort parlör 
 
 *Parlören är under arbete och uppdateras kontinuerligt.*
 
