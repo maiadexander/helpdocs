@@ -26,7 +26,7 @@ Beskrivning av den auktoriserade agenten.
 * Biografiska uppgifter (hasBiographicalInformation = 678)
   <br/>```Exempel: Väckelsepredikant i Österbotten```
   
-* Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
+* Födelse- och/eller dödstid (lifeSpan = 100 ‡d) 
   <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
   <br/>```Exempel: 1848-1920```
 
