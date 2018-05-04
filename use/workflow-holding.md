@@ -1,7 +1,7 @@
 ---
 section: Arbetsflöden
 title: Beståndsregistrering
-order: 25
+order: 85
 tags:
 - editor
 --- 
