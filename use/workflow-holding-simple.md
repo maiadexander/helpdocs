@@ -30,4 +30,4 @@ Exempel: Institution 140
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
 * Benämning (866 ‡a)
-Här lägger du information om bestånd.
+Här lägger du information om bestånd. 
