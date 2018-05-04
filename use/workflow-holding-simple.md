@@ -18,7 +18,7 @@ Klicka på pilen för *Bestånd*. Du kan då lägga till:
 * Hyllkod (852 ‡h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
 
-```Exempel: 158.1```
+  ```Exempel: 158.1```  
 
 * Hyllplacering (Avdelning,samling) (852 ‡c)
 Om ytterligare information om placering utöver Hyllkod behöver läggas till.
@@ -26,7 +26,7 @@ Exempel: Institution 140
 
 * Hyllsignum: Löpnummer (852 ‡j)
 
-```Exempel: 2694```
+  ```Exempel: 2694```  
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
 * Benämning (866 ‡a)
