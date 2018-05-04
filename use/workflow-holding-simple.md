@@ -1,6 +1,6 @@
 ---
-section: Enkel beståndsregistrering
-title: Tryckt seriell resurs
+section: Arbetsflöden
+title: Enkel beståndsregistrering
 order: 25
 tags:
 - editor
