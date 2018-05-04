@@ -1,7 +1,7 @@
 ---
 section: Arbetsflöden
 title: Enkel beståndsregistrering
-order: 25
+order: 75
 tags:
 - editor
 --- 
