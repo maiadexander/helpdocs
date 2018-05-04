@@ -1,6 +1,6 @@
 ---
 section: Arbetsflöden
-title: Tryckt seriell resurs
+title: Beståndsregistrering
 order: 25
 tags:
 - editor
