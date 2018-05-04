@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden
+section: Enkel beståndsregistrering
 title: Tryckt seriell resurs
 order: 25
 tags:
