@@ -1,0 +1,51 @@
+---
+section: Sök
+title: Andra källor
+order: 3
+tags:
+- search
+- import
+---
+
+# Import av poster från andra källor
+
+
+XL erbjuder sök i andra källor än Libris. Genom att klicka på fliken Andra källor i sökrutan kan användare söka direkt i nationalbiblioteksskataloger, specialinriktade databaser, eller olika samlingar av databaser. 
+
+Samlingarna är benämnda enligt följande: Anglosax 1-4, Metasök Asien, Metasök Latin, Metasök Mellaneuropa och Metasök Norden. 
+
+**Allsök innehåller databaser från anglosaxiska områden:**
+
+* Allsök 1: Anglosaxiska databaser från USA
+* Allsök 2: Anglosaxiska databaser från USA
+* Allsök 3: Anglosaxiska databaser från Kanada
+* Allsök 4: Anglosaxiska databaser från övriga världen
+
+**Metasök erbjuder databaser utanför de engelskspråkiga områdena**
+
+* Metasök Asien
+* Metasök Latin
+* Metasök Norden
+* Metasök Mellaneuropa
+
+>Det är viktigt att sökfrågan alltid är så tydlig och unik som möjligt.
+
+>Försök att i så stor utsträckning som möjligt lägga till ett årtal när du söker på titel.
+
+>Gör sökfrågan så precis som möjligt. En stor sökfråga med för många träffar kan från värdserverns sida uppfattas som spam. Det kan i sin tur leda till att vi blir blockerade från värdservern vilket vi naturligtvis vill undvika.
+
+**ISBN**
+
+>Sök alltid på ISBN i första hand.
+
+>ISBN skrivs utan bindestreck.
+
+**Samsökdatabaserna**
+
+>Välj den grupp av databaser som bäst passar din sökning. Om du till exempel söker en asiatisk källa, använd Metasök Asien. Se databasernas gruppering: Delmängder.
+
+>En sökning i gruppen Metasök Mellaneuropa går tyvärr inte lika snabbt som de andra grupperna.
+
+## Allmänt
+Radera inte fält 599. Genom att fält 599 finns i posten går det i Libris webbsök att ange söktermen spec:imported och få fram vilka och hur många poster som importerats genom Metaproxy.
+Kontrollera den importerade posten! Trots att nya Metaproxy rensar och rättar i större utsträckning än tidigare är det viktigt att se till att varje post är korrekt inför importen till Libris och det lokala systemet. 
