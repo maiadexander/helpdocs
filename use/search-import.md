@@ -7,8 +7,9 @@ tags:
 - import
 ---
 
-# Import av poster från andra källor
+[Extern länk till Libris undersidor](http://www.kb.se/libris/katalogisering/Metaproxy/)
 
+## Import av poster från andra källor
 
 XL erbjuder sök i andra källor än Libris. Genom att klicka på fliken Andra källor i sökrutan kan användare söka direkt i nationalbiblioteksskataloger, specialinriktade databaser, eller olika samlingar av databaser. 
 
