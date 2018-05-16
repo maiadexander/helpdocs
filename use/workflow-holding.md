@@ -13,18 +13,6 @@ Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatis
 
 De mest vanliga fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plusstecknet för bestånd.
 
-[Adminmetadata](#adminmetadata)
-[Agenter](#agenter)
-[Anmärkningar](#anmärkningar)
-[Elektronisk adress](#elektronisk adress)
-[Exemplarinformation](#exemplarinformation)
-[Har komponent](#har komponent)
-[Identifierare](#identifierare)
-[Lokala ämnesord och klassifikation](#lokala ämnesord och klassifikation)
-[Lokalt definierade beståndsfält](#Lokalt definierade beståndsfält)
-[Oformaterad bestådnsuppgift] (#oformaterad beståndsuppgift)
-
-
 ### Har komponent (852)
 Klicka på pilen för *Bestånd*. Du kan då lägga till
 * Hyllkod (852 ‡h)
