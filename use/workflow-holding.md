@@ -26,7 +26,6 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
 * Hyllsignum: Löpnummer (852 ‡j)
   ```Exempel: 2694```
 
-
 Många ytterligare fält kan läggas till *Har komponent* - gå till plusstecknet vid bestånd.
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
@@ -45,7 +44,6 @@ Många ytterligare fält kan läggas till *Har komponent* - gå till plussteckne
 
 För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plusstecknet vid *Har komponent*.
 
-
 ### Adminmetadata
 För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Information om fält som kan läggas till kommer i en senare version av hjälpen.
 
@@ -54,8 +52,6 @@ För enkla monografier behöver vanligen inte Adminmetadata läggas till eller �
   * Värde (024 ‡a)
   * Ogiltigt värde (024 ‡z)
   * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
-
-
 
 ### Anmärkningar
 * Anmärkning/hasNote. Klicka på plusstecknet vid Anmärkning för att lägga till en allmän anmärkning. (500 ‡a)
@@ -131,14 +127,14 @@ För information om vilka delfält som kan läggas till planeras en särskild hj
 
 ### Elektronisk Adress (856)
 * Elektronisk adress / Dokument (val vid Skapa lokal entitet) (856 _/_)
-* Tillhörande resurs (856 _/0)
+* Tillhörande media (856 _/0)
 * Annan relaterad resurs (856 _/1)
-* Annan relaterad resurs (856 _/2)
+* Relaterad till (856 _/2)
 * Är huvudämne för (856 _/8)
   * Värddator (856 ‡a)
   * Elektroniskt namn (856 ‡f)
   * URI (856 ‡u)
-  * Katalogisatörens anmärkning (865 ‡x)
+  * Katalogisatörens anmärkning (856 ‡x)
   * Länktext (856 ‡y)
   * Publik anmärkning (856 ‡z)
 
