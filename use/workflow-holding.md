@@ -5,7 +5,11 @@ order: 85
 tags:
 - editor
 --- 
+
 *UNDER ARBETE - UPPDATERAS KONTINUERLIGT*
+
+OBS! Vi arbetar med Katalogisatörens anmärkning /Intern anmärkning och Offentlig anmärkning/Publik anmärkning - hittar du inte det som beskrivs nedan så prova det andra alternativet.
+
 
 ## Beståndsregistrering
 
@@ -26,6 +30,7 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
 * Hyllsignum: Löpnummer (852 ‡j)
   ```Exempel: 2694```
 
+
 Många ytterligare fält kan läggas till *Har komponent* - gå till plusstecknet vid bestånd.
 * Tidigare hylluppställning (852 ‡d)
 * Precisering av hyllplacering (852 ‡g)
@@ -44,6 +49,7 @@ Många ytterligare fält kan läggas till *Har komponent* - gå till plussteckne
 
 För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plusstecknet vid *Har komponent*.
 
+
 ### Adminmetadata
 För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. Information om fält som kan läggas till kommer i en senare version av hjälpen.
 
@@ -52,6 +58,8 @@ För enkla monografier behöver vanligen inte Adminmetadata läggas till eller �
   * Värde (024 ‡a)
   * Ogiltigt värde (024 ‡z)
   * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
+
+
 
 ### Anmärkningar
 * Anmärkning/hasNote. Klicka på plusstecknet vid Anmärkning för att lägga till en allmän anmärkning. (500 ‡a)
@@ -106,13 +114,13 @@ Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 Hjälp planeras för att skapa ämnesord och genre/form.
 
 * Lokala ämnesor/rubriker (övriga) (698)
-  * Kod (698 a)
-  * Benämning (698 b)
+  * Kod (698 ‡a)
+  * Benämning (698 ‡b)
 
 * Klassifikation/DDK-klassifikation/Kod (082 ‡a)
   * Klassifikationsupplaga (082 ‡2) Skriv in 23/sw
 
-* Klassifikation/Klassifikation/Kod (084 a)
+* Klassifikation/Klassifikation/Kod (084 ‡a)
 
 ### Agenter - Personer och Organisationer
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
@@ -126,17 +134,30 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
 För information om vilka delfält som kan läggas till planeras en särskild hjälp för olika typer av agenter.
 
 ### Elektronisk Adress (856)
-* Elektronisk adress / Dokument (val vid Skapa lokal entitet) (856 _/_)
-* Tillhörande media (856 _/0)
-* Annan relaterad resurs (856 _/1)
-* Relaterad till (856 _/2)
-* Är huvudämne för (856 _/8)
+Defaultvärde för indikator 1 är 4 - http.
+* Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 4/_)
+Ingen information om relation mellan den elektroniska resursen och bibliografiska resurs som beskrivis
+
+* Tillhörande media / Mediaobjekt (val vid Skapa lokal entitet) (856 4/0)
+Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
+
+* Annan relaterad resurs / Elektronisk (val vid Skapa lokal entitet) (856 4/1)
+Länk till elektronisk resurs av en icke elektronisk bibliografisk resurs som beskrivits
+
+* Är huvudämne för / Dokument (val vid Skapa lokal entitet) (856 4/2)
+Länk till relaterad resurs till den bibliografiska resursen, men som inte är en annan resurs. Entiteten Del av materialet som beskrivs ($3) kan användas för att beskriva relationen.
+
+* Relaterad till  / Dokument (val vid Skapa lokal entitet) (856 4/8)
+Ospecificerad relation
+
   * Värddator (856 ‡a)
   * Elektroniskt namn (856 ‡f)
   * URI (856 ‡u)
   * Katalogisatörens anmärkning (856 ‡x)
   * Länktext (856 ‡y)
-  * Publik anmärkning (856 ‡z)
+  * Offentlig anmärkning (856 ‡z)
+  * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (856 ‡3)
+
 
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
