@@ -4,7 +4,7 @@
 1. [Punktlista](#punktlista)
 2. [Numrerad](#numrerad)
 3. [Highlight](#highlight)
-4. [Exempel](#exempel)
+4. [Länkning](#länkning)
 
 ### Punktlista
 
@@ -51,21 +51,6 @@ Inkludera en alternativtitel som är en del av huvudtiteln.
 
 `Huvudtitel: Bilbo eller En Hobs äventyr`
 
-### Exempel 
+### Länkning 
 
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
+Gör såhä för en länk till annan sida. [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
