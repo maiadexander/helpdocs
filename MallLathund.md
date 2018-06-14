@@ -54,12 +54,6 @@ Inkludera en alternativtitel som är en del av huvudtiteln.
 ### Exempel 
 
 **Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
 
 `Huvudtitel: Disney’s 102 dalmatiner`
 
@@ -68,12 +62,6 @@ Inkludera en alternativtitel som är en del av huvudtiteln.
 `Benämning: 102 dalmatiner`
 
 **Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
 
 `Huvudtitel: Disney’s 102 dalmatiner`
 
@@ -81,135 +69,3 @@ Inkludera en alternativtitel som är en del av huvudtiteln.
 
 `Benämning: 102 dalmatiner`
 
-**Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-`Benämning: 102 dalmatiner`
-
-**Titel** 
-
-`Huvudtitel: Disney’s 102 dalmatiner`
-
-**Del av huvudtitel** 
-
-`Benämning: 102 dalmatiner`
-
----
-
-## Table of contents
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
-
-## This is the introduction
-Some introduction text, formatted in heading 2 style
-
-## Some paragraph
-The first paragraph text
-
-### Sub paragraph
-This is a sub paragraph, formatted in heading 3 style
-
-## Another paragraph <a name="paragraph2"></a>
-The second paragraph text
-
----
-
-## Innehåll
-
-* [Element tillhörande instans/manifestation](#paragraph1)
-    * [Föredragen källa](#subparagraph1)
-    
----
-
-## Element tillhörande instans/manifestation <a name="paragraph1"></a>
-
-### Föredragen källa (RDA 2.2) <a name="subparagraph1"></a>
-
-Börja med den information som finns på titelsidan (RDA 2.1.2.2 och RDA 2.2.2.2).
