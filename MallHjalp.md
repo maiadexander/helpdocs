@@ -9,6 +9,14 @@ tags:
 
 ## Titel
 
+Lorem ipsum dolor sit amet, et nec inani ludus noster, te errem molestiae cum. Amet quas ad sea, dico aperiri dissentiunt quo id. Cu tota admodum suscipit nam. Eos ullum appetere ei. Mei ad veri timeam. Laudem inimicus eum no.
+
+Exerci bonorum eligendi ut has. Eum eros tation pertinax an. Ne eum alia porro decore. Ei quem nullam his.
+
+Mei partiendo vulputate te. Ei has primis propriae, no ferri delicatissimi eam, et eam possit labitur invenire. Ponderum recusabo elaboraret mei id. Alii aliquip nam ne, errem oporteat ex usu. Ad per wisi praesent mediocrem, vis ex probo percipit, sea velit comprehensam at. At eos erat prima maiestatis, ut probo ferri commodo usu.
+
+Ne pro purto habemus inciderint. Eu legimus lucilius praesent usu. Nam saperet adolescens temporibus at. Ei eius deleniti accusamus pro. Propriae delectus vis id. Pri at dicat omnium minimum, te sit mentitum persecuti, consulatu consequuntur vix ei. An phaedrum nominati euripidis eos, cu est gloriatur scribentur, sit te porro fabellas recteque.
+
 Quo et audiam molestie complectitur. His omnes nullam patrioque eu, qui ad reprimique disputando. Ex mea zril definitionem, at eum eruditi gubergren. Quo blandit hendrerit eu, ius illud concludaturque ex. Eu eam putent senserit, et mea ornatus detracto oportere.
 
 [Undertitel](#Undertitel)  
@@ -20,60 +28,36 @@ Quo et audiam molestie complectitur. His omnes nullam patrioque eu, qui ad repri
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Highlightat exempel```
 
+Lorem ipsum dolor sit amet, et nec inani ludus noster, te errem molestiae cum. Amet quas ad sea, dico aperiri dissentiunt quo id. Cu tota admodum suscipit nam. Eos ullum appetere ei. Mei ad veri timeam. Laudem inimicus eum no.
+
+Exerci bonorum eligendi ut has. Eum eros tation pertinax an. Ne eum alia porro decore. Ei quem nullam his.
+
+Mei partiendo vulputate te. Ei has primis propriae, no ferri delicatissimi eam, et eam possit labitur invenire. Ponderum recusabo elaboraret mei id. Alii aliquip nam ne, errem oporteat ex usu. Ad per wisi praesent mediocrem, vis ex probo percipit, sea velit comprehensam at. At eos erat prima maiestatis, ut probo ferri commodo usu.
+
+Ne pro purto habemus inciderint. Eu legimus lucilius praesent usu. Nam saperet adolescens temporibus at. Ei eius deleniti accusamus pro. Propriae delectus vis id. Pri at dicat omnium minimum, te sit mentitum persecuti, consulatu consequuntur vix ei. An phaedrum nominati euripidis eos, cu est gloriatur scribentur, sit te porro fabellas recteque.
+
+Quo et audiam molestie complectitur. His omnes nullam patrioque eu, qui ad reprimique disputando. Ex mea zril definitionem, at eum eruditi gubergren. Quo blandit hendrerit eu, ius illud concludaturque ex. Eu eam putent senserit, et mea ornatus detracto oportere.
+
 ### Undertitel2
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
 
-### Undertitel2
+Lorem ipsum dolor sit amet, et nec inani ludus noster, te errem molestiae cum. Amet quas ad sea, dico aperiri dissentiunt quo id. Cu tota admodum suscipit nam. Eos ullum appetere ei. Mei ad veri timeam. Laudem inimicus eum no.
+
+Exerci bonorum eligendi ut has. Eum eros tation pertinax an. Ne eum alia porro decore. Ei quem nullam his.
+
+Mei partiendo vulputate te. Ei has primis propriae, no ferri delicatissimi eam, et eam possit labitur invenire. Ponderum recusabo elaboraret mei id. Alii aliquip nam ne, errem oporteat ex usu. Ad per wisi praesent mediocrem, vis ex probo percipit, sea velit comprehensam at. At eos erat prima maiestatis, ut probo ferri commodo usu.
+
+Ne pro purto habemus inciderint. Eu legimus lucilius praesent usu. Nam saperet adolescens temporibus at. Ei eius deleniti accusamus pro. Propriae delectus vis id. Pri at dicat omnium minimum, te sit mentitum persecuti, consulatu consequuntur vix ei. An phaedrum nominati euripidis eos, cu est gloriatur scribentur, sit te porro fabellas recteque.
+
+Quo et audiam molestie complectitur. His omnes nullam patrioque eu, qui ad reprimique disputando. Ex mea zril definitionem, at eum eruditi gubergren. Quo blandit hendrerit eu, ius illud concludaturque ex. Eu eam putent senserit, et mea ornatus detracto oportere.
+
+### Undertitel3
 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
-  Skriv in uppgiften.    
-  ```Exempel: Under cover```  
-  ```Exempel: En arbetsdag i skriftsamhället```  
-    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
-    
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subTitle = 245 ‡b)  
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-  ```Exempel: livet som underrättelseagent åt MI5```  
-  ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
-  
-  För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
-    
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
-  Skriv in uppgiften.
-  
-* Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subTitle = 246 ‡b)  
-  Skriv in uppgiften.    
-  
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-  Skriv in uppgiften.  
-   
-* Upphovsuppgift (responsibilityStatement = 245 ‡c)  
-  Skriv in uppgiften.  
-  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
-* Identifikator/Typ (identifiedBy)  
-  Välj från lista.  
-  ```Exempel: ISBN```
-
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 9789188107213```
-
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: inbunden```
-  
-* Identifikator/Ogiltigt värde (identifiedBy/marc:hiddenValue = 020 ‡z)  
-  Skriv in uppgiften.  
-  ```Exempel: 97891881072```
-
-* Upplageuppgift (editionStatement = 250 ‡a)  
-  Skriv in upplagebeteckning här.  
-  ```Exempel: Första upplagan```  
-  
 * Utgivning (publication)  
   Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06)  
   Begreppet "Primär utgivning" har infört i Libris, främst för seriella resurser, där det ibland finns upprepade utgivningsavsnitt. Primär utgivning är då det första och sammanfattande utgivningsavsnittet. Primär utgivning används även för monografier, men följs där inte av något ytterligare utgivningsavsnitt.  
@@ -96,198 +80,3 @@ För att ange ett år utan klamrar eller andra tecken, ange det endast här. Fö
   Skriv in uppgiften.  
   ```Exempel: [2017]```  
   ```Exempel: [mellan 1863 och 1866?]```  
-
-* Tillverkning (manufacture)  
-  * Plats/Benämning (place/label = 264 -/3 ‡a)  
-  ```Exempel: Falun```  
-  * Agent/Benämning (agent/label = 264 -/3 ‡b)  
-  Skriv in uppgiften.   
-  ```Exempel: Scandbook```  
-  
-* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram copyrighttecknet, se [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  ```Exempel: ©2017``` 
-  
-* Seriemedlemskap/Ingår i serie (seriesMembership)  
-  (Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.)   
-  Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.   
-   
-* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-    Skriv in uppgiften.  
-  ```Exempel: 0```  
-  ```Exempel: 1```  
-  
-* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
-  Skriv in uppgiften.  
-   ```Exempel: Årstasällskapets skriftserie```  
-  
-* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
-  Skriv in uppgiften.  
-  ```Exempel: 8```  
-  
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
-  Skriv in uppgiften.  
-  ```Exempel: 1103-498X```    
-  
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
-  Skriv in uppgiften.   
-  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
- 
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```Exempel:  n (= omedierad)```
-
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
-```Exempel:  nc (= volym)```
-
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 319 sidor```  
-  
-* Övriga fysiska detaljer (other physical details = 300 ‡b)  
-  Skriv in uppgiften.  
-  ```Exempel: illustrationer```
-
-* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
-  Skriv in uppgiften.  
-  ```Exempel: 24 cm```
-  
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
-  Skriv in uppgiften.  
-  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
-  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
-  Skriv in uppgiften.    
-  ```Exempel: För årskurs 1```   
-
-### Verk
-
-* Instans av Verk/Text (instanceOf/Work/Text)
-
-Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk.
-
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
-  Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
-  För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges. För övriga verk, hoppa över detta fält.  
-  "Originaltitel" anger du här.  
-  Skriv in uppgiften.  
-  ```Exempel:  Soldier spy```  
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
-  
-* Språk (language = 008/35-37)  
-  Ange det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
-  Länka till entitet.  
-  ```Exempel: svenska (swe)```
-  
-  För en översättning, ange även:
-* Språk/Benämning (Language/label = 240 ‡l)  
-  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
-  ```Exempel: Svenska```  
-
-* Anmärkning: Språk (marc:language note = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning. Välj från lista.  
-  ```Exempel: objektet är/innehåller översättning```  
-
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
-  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.  
-  Länka till entitet.  
-  ```Exempel: engelska (eng)```
-
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
-* Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn (contribution/PrimaryContribution/agent/Person/familyName)  
-  ```Exempel: Marcus```
-
-* Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  (contribution/PrimaryContribution/agent/Person/givenName)  
-  ```Exempel: Tom```
-
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
-  Länka till entitet.  
-  ```Exempel: relator/author (= författare)```
-
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
-  ```Exempel: Skoglund, Svante, 1960-```
-
-* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
-  Länka till entitet.  
-  ```Exempel: relator/trl (= översättare)```
-
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 327.12092```
-
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
-  Skriv in uppgiften.  
-  ```Exempel: 23/swe```
-
-* Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: Sei-e```
-
-* Klassifikation/Termlista/Termlista/ID (classification/Classification/inScheme/ConceptScheme = 084 ‡2)  
-  Skriv in uppgiften.  
- ```Exempel: https://id.kb.se/term/kssb/8```
-
-* Ämne/Agent/Person (subject/agent/person = 600 1/- ‡a)  
-  Länka till entitet. 
-  I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
-
-* Ämne/Agent/Person/Familjenamn (subject/agent/person/familyName)  
-  ```Exempel: Marcus```
-
-* Ämne/Agent/Person/Förnamn (subject/agent/person/givenName)  
-  ```Exempel: Tom```
-
-* Ämne/Jurisdiktion/Är del av/Jurisdiktion/Namn (subject/Jurisdiction/isPartof/Jurisdiction/name = 610 1/4 ‡a)  
-    Länka till entitet.  
-    I undantagsfall, skapa lokal entitet. Skriv in uppgiften.  
-    ```Exempel: Storbritannien```
-
-* Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (subject/Jurisdiction/isPartof/Jurisdiction/marc:subordinateUnit = 610 ‡b)  
-  ```Exempel: MI5```  
-  
-* Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet.  
-  ```Exempel: Säkerhetspolitik```
-
-* Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet.  
-  ```Exempel: Spionage```
-
-* Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet.  
-  ```Exempel: Terrorismbekämpning```
-
-* Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
-  ```Exempel: Storbritannien```
-
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
-  Länka till entitet.  
-  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form.   
-  ```Exempel: Självbiografier```
-
-* Genre/form – litterär genre (genreForm = 008/33)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Litterär genre, välj Litterär genre i listan över typer, under Genre/form.  
-  ```Exempel: 0 ( = ej skönlitterärt verk)```
-
-* Genre/form – biografiskt material (genreForm = 008/34)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form.  
-    ```Exempel: a (= självbiografi)```  
-  
- * Målgrupp (intendedAudience = 008/22)  
-  Länka till entitet.  
-  ```Exempel: j (= barn- och ungdom, 0-16 år)```  
-  
-* Innehållstyp (contentType/ContentType = 336 ‡b)  
-  Länka till entitet.  
-  ```Exempel: text (txt)```  
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, ange Har del/Verk/Innehållstyp/Innehållstyp.  
