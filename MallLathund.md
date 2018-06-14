@@ -1,3 +1,12 @@
+---
+section: Sektion, huvudkapitel
+title: Titel
+order: 1
+tags:
+- editor
+--- 
+*Hjälptexterna uppdateras kontinuerligt. Senast uppdaterad xxxx-xx-xx.*
+
 ## Titel
 
 ### Innehållsförteckning
@@ -38,18 +47,18 @@
 
 ### Numrerad
 
-Upplagebeteckning är ett kärnelement. Hämta uppgiften från följande källor (i denna ordning): 
-1. samma källa som huvudtiteln
-2. en annan källa inom resursen
-3. en annan av de källor som specificeras i RDA 2.2.4
+Text, text, text, text, text, text, text, text, text, text: 
+1. Text, text
+2. Text, text
+3. Text, text
 
 ### Highlight
 
-Inkludera en alternativtitel som är en del av huvudtiteln.
+Text, text, text, text, text, text, text, text, text, text.
 
-**Titel**
+**Text**
 
-`Huvudtitel: Bilbo eller En Hobs äventyr`
+`Text, text, text, text, text, text, text, text, text, text`
 
 ### Länkning 
 
