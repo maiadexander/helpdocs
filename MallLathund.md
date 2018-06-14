@@ -47,14 +47,11 @@ tags:
 
 ### Numrerad
 
-Text, text, text, text, text, text, text, text, text, text: 
 1. Text, text
 2. Text, text
 3. Text, text
 
 ### Highlight
-
-Text, text, text, text, text, text, text, text, text, text.
 
 **Text**
 
