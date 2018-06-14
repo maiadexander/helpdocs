@@ -53,4 +53,4 @@ Inkludera en alternativtitel som är en del av huvudtiteln.
 
 ### Länkning 
 
-Gör såhä för en länk till annan sida. [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
+Gör såhär för en länk till annan sida. [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
