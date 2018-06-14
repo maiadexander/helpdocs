@@ -9,51 +9,24 @@ tags:
 
 ## Titel
 
-Quo et audiam molestie complectitur. His omnes nullam patrioque eu, qui ad reprimique disputando. Ex mea zril definitionem, at eum eruditi gubergren. Quo blandit hendrerit eu, ius illud concludaturque ex. Eu eam putent senserit, et mea ornatus detracto oportere.Denna hjälptext beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
+Quo et audiam molestie complectitur. His omnes nullam patrioque eu, qui ad reprimique disputando. Ex mea zril definitionem, at eum eruditi gubergren. Quo blandit hendrerit eu, ius illud concludaturque ex. Eu eam putent senserit, et mea ornatus detracto oportere.
 
-[Adminmetadata](#adminmetadata)  
-[Instans](#instans)  
-[Verk](#verk)  
+[Undertitel](#Undertitel)  
+[Undertitel2](#Undertitel2)  
+[Underitetl3](#ndertitel3)
 
 ### Undertitel
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Highlightat exempel```
 
-* Uppgraderad eller importerad av/Organisation/Namn (descriptionUpgrader/Organization/name = 040 ‡d)  
-  Länka till entitet.  
-  ```Exempel: S```
-
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
-  Länka till entitet.  
-  ```Exempel: NB```
-
-* Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.    
-   ```Exempel: (BOKR)9789188107213```  
- 
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
-  Länka till entitet.  
-  ```Exempel: svenska (swe)```
-
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
-
-* Beskrivningsnivå (000/17)  
-  Välj från lista.   
-  ```Exempel: CIP-post, ändra till biblioteksnivå```
-  
-* Poststatus (000/05)  
-  Uppdateras automatiskt. Ändra inte.   
-  ```Exempel: Ny post```  
-  ```Exempel: Rättad eller reviderad post```
-
-### Instans
+### Undertitel2
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
-  
+
+### Undertitel2
+
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
