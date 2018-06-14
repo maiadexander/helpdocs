@@ -64,9 +64,16 @@ Gör såhär för en länk till annan sida. [Anvisningar för katalogisering - R
 
 ### Tabell
 
-|**XL**|**Voyager**|**MARC21 (RDA)**|
+|**Text**|**Text**|**Text**|
 |:------------- |:------------- |:----- |
-|Verk |Verk, som i Verktitel |Verk, Uttryck |
+|Text |Text |Text |
+|Text |Text |Text |
+|Text |Text |Text |
+|Text |Text |Text |
+|Text |Text |Text |
+|Text |Text |Text |
+|Text |Text |Text |
+
 |Instans |- |Manifestation |
 |Medverkan |1XX/7XX | Skapare, Bidragsgivare? |
 |Primär medverkan |1XX |Skapare? |
