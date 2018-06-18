@@ -5,7 +5,7 @@ order: 1
 tags:
 - editor
 --- 
-*Hjälptexterna uppdateras kontinuerligt. Senast uppdaterad xxxx-xx-xx.*
+*Senast uppdaterad xxxx-xx-xx.*
 
 ## Titel
 
