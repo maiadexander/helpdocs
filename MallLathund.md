@@ -13,6 +13,15 @@ tags:
 1. [Punktlista](#punktlista)
 2. [Numrerad](#numrerad)
 3. [Highlight](#highlight)
+4. [Länkning](#länkning)
+5. [Tabell](#tabell)
+
+### Innehållsförteckning utan siffror
+[Punktlista](#punktlista)
+
+[Numrerad](#numrerad)
+
+[Highlight](#highlight)
 
 [Länkning](#länkning)
 
