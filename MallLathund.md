@@ -13,7 +13,9 @@ tags:
 1. [Punktlista](#punktlista)
 2. [Numrerad](#numrerad)
 3. [Highlight](#highlight)
+
 [Länkning](#länkning)
+
 [Tabell](#tabell)
 
 ### Punktlista
