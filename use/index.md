@@ -16,8 +16,9 @@ Under rubriken Arbetsflöden hittar ni hjälptexter för hur man katalogiserar e
 
 Hjälpsektionen är under arbete och uppdateras kontiruerligt. 
 
-## Nyttiga länkar
+## Vidare information
 
-* Besök [Libris supportforum](https://kundo.se/org/librisxl/) för frågor och svar. 
-* Rapportera fel i [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
-* Föreslå en ändring i [Ändringsförlsag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
+* [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
+* [Librisbloggen](https://librisbloggen.kb.se)
+* [Supportforum för nya Libris](https://kundo.se/org/librisxl/) 
+* [Ändringsförlsag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
