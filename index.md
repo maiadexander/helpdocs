@@ -12,7 +12,7 @@ tags:
 
 Hjälpsektionen innehåller information om kortkommandon och specialtecken. Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
-Under rubriken Arbetsflöden hittar ni hjälptexter för hur man katalogiserar ett antal materialtyper. 
+Under rubriken Arbetsflöden hittar ni hjälptexter för hur man katalogiserar ett antal materialtyper. Arbetsflödena finns även filmatiserade. Filmerna är samlade på KB:s Youtubekanal i spellistan [Intruktionsfilmer för nya Libris och XL](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy). Filmerna visar gränssnittet i rådande läge. 
 
 Hjälpsektionen är under arbete och uppdateras kontiruerligt. 
 
