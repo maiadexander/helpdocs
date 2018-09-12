@@ -19,6 +19,5 @@ Hjälpsektionen är under arbete och uppdateras kontiruerligt.
 ## Nyttiga länkar
 
 * Besök [Libris supportforum](https://kundo.se/org/librisxl/) för frågor och svar. 
-* Rapportera buggar i [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
+* Rapportera fel i [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
 * Föreslå en ändring i [Ändringsförlsag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
-
