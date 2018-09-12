@@ -18,9 +18,7 @@ Hjälpsektionen är under arbete och uppdateras kontiruerligt.
 
 ## Nyttiga länkar
 
-* Om du vill läsa om Formatet (mappning och basvokabulär) så har du det [här](https://id-qa.kb.se/).
-* Är du ute efter instruktionsmaterial hittar du det [här](http://librisbloggen.kb.se/2017/10/31/sjalvstudier-infor-overgangen-till-nya-libris-och-xl/).
-* Vill du komma i kontakt med kundservice gör du det [här](http://www.kb.se/libris/kontakta/).
-* [Här](https://goo.gl/forms/3mL7jTlEpbU3BQM13) kan du rapportera fel.
-* [Här](https://goo.gl/forms/dPxkhMqE10RvKQFE2) kan du ge ändringsförslag.
+* Besök [Libris supportforum](https://kundo.se/org/librisxl/) för frågor och svar. 
+* Rapportera buggar i [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
+* Föreslå en ändring i [Ändringsförlsag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
 
