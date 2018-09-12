@@ -1,3 +1,3 @@
 # helpdocs
 
-Ska laddas upp till: https://github.com/libris/lxlviewer/tree/develop/viewer/helpdocs
+Ska laddas upp till [lxl-helpdocs/docs/](https://github.com/libris/lxl-helpdocs/tree/master/docs)
