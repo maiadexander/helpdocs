@@ -2,6 +2,7 @@
 section: Main
 title: Start
 order: 1
+date: 2018-09-12
 tags:
 - main
 - start
