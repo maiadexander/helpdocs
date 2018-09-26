@@ -55,4 +55,4 @@ Fritextsökning utan bindestreck kan även ge träffar på relaterade resurser.
 
 Fritextsökning på ISBN med bindestreck föredras inte, eftersom XL tar bort bindestrecken vid indexeringen.
 
-För att optimera och rikta sökning på ISBN, ange sökkoden `ISBN:` Vid sökning med sökkoden ISBN: måste katalogisatören för närvarande fälla ut sökrutan och välja `ISBN:`.
+För att optimera och rikta sökning på ISBN, ange sökkoden `ISBN:` Vid sökning med sökkoden ISBN: måste katalogisatören för närvarande fälla ut sökrutan och välja `ISBN:`. 
