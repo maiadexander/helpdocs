@@ -1,8 +1,11 @@
 # Maias
 
-## Testlathund
+## Informationsspridning vid produktionssättning
 
-sd,djhg hlskudhfvskzufhvkz.jxbcvkz jfx  ksdghv kzjfvbkz dfjkbzsjdxbv   zsdskgdh kjdsdgbv kjdsjfvbjj. katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
+Dokumentet beskriver vilken information som ska kommuniceras i samband med produktionssättning av ny version av Libris katalogisering, se [Episerver](http://kb.se/libris/Om-Libris/Driftinformation/ "Episerver").
+
+
+****
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
