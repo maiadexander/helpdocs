@@ -1,13 +1,4 @@
----
-section: Arbetsflöden katalogisering
-title: Tryckt monografi
-order: 16
-date: 2018-10-25
-tags:
-- under arbete
-- tryckt monografi
-- bok
---- 
+# Maias
 
 ## Tryckt monografi - bok
 
